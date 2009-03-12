@@ -1,0 +1,145 @@
+<div style="float: left; border: 1px solid #ccd2d9; background: #f9f9f9; padding: 0.5em 0.5em 0.5em 0.5em; margin-right: 1em;">
+
+{| cellpadding="4" cellspacing="0" width="300px" style="background-color: transparent; font-size:95%;"
+| colspan="2" style="text-align: center; background: #cedaf2;" | <big>'''{{{ܐܬܪܐ}}}'''</big> 
+|-
+| colspan="2" |
+    {| style="text-align: center; margin: 0 auto;"
+    |-
+    | style="border: 0; vertical-align: middle; text-align: center;" | <span style="border: 1px solid #bbbbbb; display: table-cell;">[[Image:{{{ܨܘܪܬܐ ܕܐܬܐ}}}|125px|ܐܬܐ ܕ{{{ܫܡܐ}}}]]</span>
+    | style="border: 0; vertical-align: middle; text-align: center;" | [[Image:{{{ܨܘܪܬܐ ܕܛܘܦܣܐ}}}|110px|ܛܘܦܣܐ ܕ{{{ܫܡܐ}}}]]
+    |- style="font-size: 95%;"
+    | style="border: 0; text-align: center;" | [[ܐܬܐ ܕ{{{ܫܡܐ}}}|ܐܬܐ]]
+    | style="border: 0; text-align: center;" | [[ܛܘܦܣܐ ܕ{{{ܫܡܐ}}}|ܛܘܦܣܐ]]
+    |}
+|- style="display:{{#שווה:{{{ܪܘܫܡܐ}}}|אין|none|{{#שווה:{{{ܪܘܫܡܐ}}}||none|table-row}}}};"
+| colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; text-align: center;" | [[ܪܘܫܡܐ]]: {{{ܪܘܫܡܐ}}} 
+|- 
+| colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; text-align: center;" | [[ܣܘܓܝܬܐ]]: {{{ܣܘܓܝܬܐ}}} 
+|- 
+| colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; text-align: center;" | [[Image:{{{ܨܘܪܬܐ ܡܦ}}}|center|250px|{{{ܫܡܐ}}}]] 
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܝܒܫܬܐ]]'''
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܝܒܫܬܐ}}}
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܠܫܢܐ ܪܘܫܡܝܐ]]'''
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܠܫܢܐ ܪܘܫܡܝܐ}}}
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܐܪܫܟܝܬܐ]]'''
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܐܪܫܟܝܬܐ}}}<br /><small>{{{ܡܛܟܘ̈ܣܐ ܕܐܪܫܟܝܬܐ}}}</small>
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''ܡܕܝܢܬܐ ܓܘܪܬܐ'''
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܡܕܝܢܬܐ ܓܘܪܬܐ}}}
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܡܕܒܪܢܘܬܐ]]'''
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܡܕܒܪܢܘܬܐ}}}
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܡܗܕܝܢܐ]]'''<br />{{{ܫܡܐ ܕܡܗܕܝܢܐ}}}
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܡܗܕܝܢܐ}}}<br />{{{ܫܡܐ ܕܫܡܐ ܕܡܗܕܝܢܐ}}}
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''ܫܘܪܝܐ'''<br />{{{ܓܕܫܐ ܕܫܘܪܝܐ}}}
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܫܘܪܝܐ}}}<br />{{{ܙܒܢܐ ܕܫܘܪܝܐ}}}
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܫܛܝܚܘܬܐ]]'''<br /> - ܟܠܢܝܐ<br /> - % [[ܡܝܐ|ܡܝ̈ܐ]]
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܕܪܓܝܐ ܫܛܝܚܘܬܐ ܒܥܠܡܐ}}}<br />{{{ܟܠܢܝܐ ܫܛܝܚܘܬܐ}}} km²<br />{{{ܡܐܝܐ ܡܝܐ}}}
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܣܘܟܢܐ]]'''<br /> - ܟܠܢܝܐ ({{{ܣܘܟܢܐ ܠܫܢܬܐ}}})<br /> - [[ܥܡܘܪܘܬܐ ܕܣܘܟܢܐ|ܥܡܘܪܘܬܐ]]
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܕܪܓܝܐ ܣܘܟܢܐ ܒܥܠܡܐ}}}<br />{{{ܟܠܢܝܐ ܣܘܟܢܐ}}}<br />{{{ܥܡܘܪܘܬܐ ܕܣܘܟܢܐ}}} ܐܢܫܐ ܠkm²
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[GDP]]'''<br /> - ܟܠܢܝܐ ({{{GDP ܠܫܢܬܐ}}})<br /> - [[GDP ܠܐܢܫܐ]]
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܕܪܓܝܐ GDP ܒܥܠܡܐ}}}<br />{{{ܟܠܢܝܐ GDP}}}<br />{{{GDP ܠܐܢܫܐ}}}
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܙܘܙܐ]]'''
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܙܘܙܐ}}}
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܐܣܪܐ ܕܙܒܢܐ]]'''
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܐܣܪܐ ܕܙܒܢܐ}}}
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܐܢܛܪܢܛ]]'''
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܐܢܛܪܢܛ}}}
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܡܟܬܒܢܘܬܐ ܕܡܢܝܢܐ ܕܛܠܦܘܢ ܕܐܬܪܘܬܐ|ܡܢܝܢܐ ܕܛܠܦܘܢ]]'''
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܡܢܝܢܐ ܕܛܠܦܘܢ}}}+
+|<tr><td colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;"><small>{{{ܦܘܛܢܘܘܛ}}}</small></td></tr>
+|}<includeonly>[[Category:ܡܟܬܒܢܘܬܐ ܕܐܬܪܘܬܐ]]</includeonly></div><noinclude>
+<br clear="all">
+==ܩܠܒܐ==
+<table border="1" cellpadding="8" align="left" width="30%">
+<tr><td>
+<nowiki>{{</nowiki>ܐܬܪܐ|<br>
+| ܫܡܐ = <br>
+| ܐܬܪܐ = <br>
+| ܨܘܪܬܐ ܕܐܬܐ = <br>
+| ܨܘܪܬܐ ܕܛܘܦܣܐ = <br>
+| ܨܘܪܬܐ ܡܦ = <br>
+| ܪܘܫܡܐ = <br>
+| ܣܘܓܝܬܐ = <br>
+| ܝܒܫܬܐ = <br>
+| ܠܫܢܐ ܪܘܫܡܝܐ = <br>
+| ܐܪܫܟܝܬܐ = <br>
+| ܡܛܟܘ̈ܣܐ ܕܐܪܫܟܝܬܐ = <br>
+| ܡܕܝܢܬܐ ܪܒܬܐ = <br>
+| ܡܕܒܪܢܘܬܐ = <br>
+| ܡܗܕܝܢܐ = <br>
+| ܫܡܐ ܕܡܗܕܝܢܐ = <br>
+| ܫܡܐ ܕܫܡܐ ܕܡܗܕܝܢܐ = <br>
+| ܫܘܪܝܐ = <br>
+| ܓܕܫܐ ܕܫܘܪܝܐ = <br>
+| ܙܒܢܐ ܕܫܘܪܝܐ = <br>
+| ܕܪܓܝܐ ܫܛܝܚܘܬܐ ܒܥܠܡܐ = <br>
+| ܟܠܢܝܐ ܫܛܝܚܘܬܐ = <br>
+| ܡܐܝܐ ܡܝܐ = <br>
+| ܕܪܓܝܐ ܣܘܟܢܐ ܒܥܠܡܐ = <br>
+| ܟܠܢܝܐ ܣܘܟܢܐ = <br>
+| ܣܘܟܢܐ ܠܫܢܬܐ = <br>
+| ܥܡܘܪܘܬܐ ܕܣܘܟܢܐ = <br>
+| ܕܪܓܝܐ GDP ܒܥܠܡܐ = <br>
+| ܟܠܢܝܐ GDP = <br>
+| GDP ܠܫܢܬܐ = <br>
+| GDP ܠܐܢܫܐ = <br>
+| ܙܘܙܐ = <br>
+| ܐܣܪܐ ܕܙܒܢܐ = <br>
+| ܐܢܛܪܢܛ = <br>
+| ܡܢܝܢܐ ܕܛܠܦܘܢ = <br>
+| ܦܘܛܢܘܘܛ = <br>
+<nowiki>}}</nowiki>
+</td></tr></table>
+
+[[af:Sjabloon:Landtabel-mini-nl]]
+[[an:Template:Infobox País]]
+[[ar:Template:Infobox Country]]
+[[bg:Шаблон:Държава]]
+[[ca:Template:Taula d'estat]]
+[[cs:Šablona:Infobox stát]]
+[[cy:Nodyn:Gwybodlen Gwlad]]
+[[da:Skabelon:Infoboks land]]
+[[de:Vorlage:Infobox Staat]]
+[[el:Πρότυπο:Πληροφορίες Χώρας]]
+[[en:Template:Infobox Country or territory]]
+[[es:Plantilla:Infobox País]]
+[[fi:Malline:Valtion tiedot]]
+[[fiu-vro:Template:Country Infobox]]
+[[fr:Modèle:Pays]]
+[[he:תבנית:מדינה]]
+[[it:Template:Stato]]
+[[ja:Template:基礎情報 国]]
+[[ka:თარგი:ქვეყანა]]
+[[kn:ಟೆಂಪ್ಲೇಟು:Infobox ದೇಶ]]
+[[ko:Template:나라 정보]]
+[[ln:Template:Infobox Esé]]
+[[nl:Sjabloon:Landtabel]]
+[[nn:Mal:Infoboks land2]]
+[[no:Mal:Infoboks land]]
+[[pl:Szablon:PaństwoX]]
+[[pt:Predefinição:Info País]]
+[[ro:Format:CutieŢări]]
+[[rmy:Format:MoxtonThema]]
+[[ru:Шаблон:Страна]]
+[[sl:Predloga:Infopolje Država]]
+[[sr:Шаблон:Кутијица за државе]]
+[[th:Template:Infobox Country]]
+[[tr:Şablon:Ülkeler]]
+[[ur:سانچہ:خانۂ معلومات ملک]]
+[[vi:Tiêu bản:Tóm tắt về quốc gia]]
+[[zh:Template:Infobox Country]]
+</noinclude>
