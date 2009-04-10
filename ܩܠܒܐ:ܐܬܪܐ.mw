@@ -17,7 +17,7 @@
 |- 
 | colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; text-align: center;" | [[ܣܘܓܝܬܐ]]: {{{ܣܘܓܝܬܐ}}} 
 |- 
-| colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; text-align: center;" | [[Image:{{{ܨܘܪܬܐ ܡܦ}}}|center|250px|{{{ܫܡܐ}}}]] 
+| colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; text-align: center;" | [[Image:{{{ܨܘܪܬܐ ܕܡܦ}}}|center|250px|{{{ܫܡܐ}}}]] 
 |- valign="top"
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܝܒܫܬܐ]]'''
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܝܒܫܬܐ}}}
@@ -26,7 +26,7 @@
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܠܫܢܐ ܪܘܫܡܝܐ}}}
 |- valign="top"
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܐܪܫܟܝܬܐ]]'''
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܐܪܫܟܝܬܐ}}}<br /><small>{{{ܡܛܟܘ̈ܣܐ ܕܐܪܫܟܝܬܐ}}}</small>
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܐܪܫܟܝܬܐ}}}<br /><small>{{{ܛܘܟܣܐ ܕܐܪܫܟܝܬܐ}}}</small>
 |- valign="top"
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܡܕܝܢܬܐ ܪܒܬܐ]]'''
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܡܕܝܢܬܐ ܪܒܬܐ}}}
@@ -34,20 +34,20 @@
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܡܕܒܪܢܘܬܐ]]'''
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܡܕܒܪܢܘܬܐ}}}
 |- valign="top"
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܡܗܕܝܢܐ]]'''<br />{{{ܫܡܐ ܕܡܗܕܝܢܐ}}}
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܡܗܕܝܢܐ}}}<br />{{{ܫܡܐ ܕܫܡܐ ܕܡܗܕܝܢܐ}}}
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܡܕܒܪܢܐ]]'''<br />{{{ܫܡܐ ܕܡܕܒܪܢܐ}}}
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܡܕܒܪܢܐ}}}<br />{{{ܫܡܐ ܕܫܡܐ ܕܡܕܒܪܢܐ}}}
 |- valign="top"
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''ܫܘܪܝܐ'''<br />{{{ܓܕܫܐ ܕܫܘܪܝܐ}}}
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܫܘܪܝܐ}}}<br />{{{ܙܒܢܐ ܕܫܘܪܝܐ}}}
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''ܫܪܝܘܬܐ'''<br />{{{ܓܕܫܐ ܕܫܪܝܘܬܐ}}}
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܫܪܝܘܬܐ}}}<br />{{{ܙܒܢܐ ܕܫܪܝܘܬܐ}}}
 |- valign="top"
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܫܛܝܚܘܬܐ]]'''<br /> - ܟܠܢܝܐ<br /> - % [[ܡܝܐ|ܡܝ̈ܐ]]
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܕܪܓܝܐ ܫܛܝܚܘܬܐ ܒܥܠܡܐ}}}<br />{{{ܟܠܢܝܐ ܫܛܝܚܘܬܐ}}} km²<br />{{{ܡܐܝܐ ܡܝܐ}}}
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܫܛܝܚܘܬܐ]]'''<br /> - ܟܠܢܐܝܬ<br /> - [[ܡܝܐ|ܡܝ̈ܐ]] (%)
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܕܪܓܐ ܕܫܛܝܚܘܬܐ ܒܥܠܡܐ}}}<br />{{{ܟܠܢܐܝܬ ܫܛܝܚܘܬܐ}}} km²<br />{{{ܡܐܝܐ ܡܝܐ}}}
 |- valign="top"
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܣܘܟܢܐ]]'''<br /> - ܟܠܢܝܐ ({{{ܣܘܟܢܐ ܠܫܢܬܐ}}})<br /> - [[ܥܡܘܪܘܬܐ ܕܣܘܟܢܐ|ܥܡܘܪܘܬܐ]]
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܕܪܓܝܐ ܣܘܟܢܐ ܒܥܠܡܐ}}}<br />{{{ܟܠܢܝܐ ܣܘܟܢܐ}}}<br />{{{ܥܡܘܪܘܬܐ ܕܣܘܟܢܐ}}} ܐܢܫܐ ܠkm²
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܥܡܘܪܐ]]'''<br /> - ܟܠܢܐܝܬ ({{{ܥܡܘܪܐ ܠܫܢܬܐ}}})<br /> - [[ܣܒܝܣܘܬܐ ܕܥܡܘܪܐ|ܣܒܝܣܘܬܐ]]
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܕܪܓܐ ܕܥܡܘܪܐ ܒܥܠܡܐ}}}<br />{{{ܟܠܢܐܝܬ ܥܡܘܪܐ}}}<br />{{{ܣܒܝܣܘܬܐ ܕܥܡܘܪܐ}}} ܐܢܫܐ ܠkm²
 |- valign="top"
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[GDP]]'''<br /> - ܟܠܢܝܐ ({{{GDP ܠܫܢܬܐ}}})<br /> - [[GDP ܠܐܢܫܐ]]
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܕܪܓܝܐ GDP ܒܥܠܡܐ}}}<br />{{{ܟܠܢܝܐ GDP}}}<br />{{{GDP ܠܐܢܫܐ}}}
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܡܥܠܬܐ ܐܘܡܬܢܝܬܐ]]'''<br /> - ܟܠܢܐܝܬ ({{{ܡܥܠܬܐ ܐܘܡܬܢܝܬܐ ܠܫܢܬܐ}}})<br /> - [[ܡܥܠܬܐ ܐܘܡܬܢܝܬܐ ܠܦܪܨܘܦܐ]]
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܕܪܓܐ ܕܡܥܠܬܐ ܐܘܡܬܢܝܬܐ ܒܥܠܡܐ}}}<br />{{{ܡܥܠܬܐ ܐܘܡܬܢܝܬܐ ܟܠܢܐܝܬ}}}<br />{{{ܡܥܠܬܐ ܐܘܡܬܢܝܬܐ ܠܦܪܨܘܦܐ}}}
 |- valign="top"
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܙܘܙܐ]]'''
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܙܘܙܐ}}}
@@ -60,7 +60,7 @@
 |- valign="top"
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܡܟܬܒܢܘܬܐ ܕܡܢܝܢܐ ܕܛܠܦܘܢ ܕܐܬܪܘܬܐ|ܡܢܝܢܐ ܕܛܠܦܘܢ]]'''
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܡܢܝܢܐ ܕܛܠܦܘܢ}}}+
-|<tr><td colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;"><small>{{{ܦܘܛܢܘܘܛ}}}</small></td></tr>
+|<tr><td colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;"><small>{{{ܡܬܒܝܢܢܘܬܐ}}}</small></td></tr>
 |}<includeonly>[[Category:ܡܟܬܒܢܘܬܐ ܕܐܬܪܘܬܐ]]</includeonly></div><noinclude>
 <br clear="all">
 ==ܩܠܒܐ==
@@ -71,37 +71,37 @@
 | ܐܬܪܐ = <br>
 | ܨܘܪܬܐ ܕܐܬܐ = <br>
 | ܨܘܪܬܐ ܕܛܘܦܣܐ = <br>
-| ܨܘܪܬܐ ܡܦ = <br>
+| ܨܘܪܬܐ ܕܡܦ = <br>
 | ܪܘܫܡܐ = <br>
 | ܣܘܓܝܬܐ = <br>
 | ܝܒܫܬܐ = <br>
 | ܠܫܢܐ ܪܘܫܡܝܐ = <br>
 | ܐܪܫܟܝܬܐ = <br>
-| ܡܛܟܘ̈ܣܐ ܕܐܪܫܟܝܬܐ = <br>
+| ܛܘܟܣܐ ܕܐܪܫܟܝܬܐ = <br>
 | ܡܕܝܢܬܐ ܪܒܬܐ = <br>
 | ܡܕܒܪܢܘܬܐ = <br>
-| ܡܗܕܝܢܐ = <br>
-| ܫܡܐ ܕܡܗܕܝܢܐ = <br>
-| ܫܡܐ ܕܫܡܐ ܕܡܗܕܝܢܐ = <br>
-| ܫܘܪܝܐ = <br>
-| ܓܕܫܐ ܕܫܘܪܝܐ = <br>
-| ܙܒܢܐ ܕܫܘܪܝܐ = <br>
-| ܕܪܓܝܐ ܫܛܝܚܘܬܐ ܒܥܠܡܐ = <br>
-| ܟܠܢܝܐ ܫܛܝܚܘܬܐ = <br>
+| ܡܕܒܪܢܐ = <br>
+| ܫܡܐ ܕܡܕܒܪܢܐ = <br>
+| ܫܡܐ ܕܫܡܐ ܕܡܕܒܪܢܐ = <br>
+| ܫܪܝܘܬܐ = <br>
+| ܓܕܫܐ ܕܫܪܝܘܬܐ = <br>
+| ܙܒܢܐ ܕܫܪܝܘܬܐ = <br>
+| ܕܪܓܐ ܕܫܛܝܚܘܬܐ ܒܥܠܡܐ = <br>
+| ܫܛܝܚܘܬܐ ܟܠܢܐܝܬ = <br>
 | ܡܐܝܐ ܡܝܐ = <br>
-| ܕܪܓܝܐ ܣܘܟܢܐ ܒܥܠܡܐ = <br>
-| ܟܠܢܝܐ ܣܘܟܢܐ = <br>
-| ܣܘܟܢܐ ܠܫܢܬܐ = <br>
-| ܥܡܘܪܘܬܐ ܕܣܘܟܢܐ = <br>
-| ܕܪܓܝܐ GDP ܒܥܠܡܐ = <br>
-| ܟܠܢܝܐ GDP = <br>
-| GDP ܠܫܢܬܐ = <br>
-| GDP ܠܐܢܫܐ = <br>
+| ܕܪܓܐ ܕܥܡܘܪܐ ܒܥܠܡܐ = <br>
+| ܥܡܘܪܐ ܟܠܢܐܝܬ = <br>
+| ܥܡܘܪܐ ܠܫܢܬܐ = <br>
+| ܣܒܝܣܘܬܐ ܕܥܡܘܪܐ = <br>
+| ܕܪܓܐ ܕܡܥܠܬܐ ܐܘܡܬܢܝܬܐ ܒܥܠܡܐ = <br>
+| ܡܥܠܬܐ ܐܘܡܬܢܝܬܐ ܟܠܢܐܝܬ = <br>
+| ܡܥܠܬܐ ܐܘܡܬܢܝܬܐ ܠܫܢܬܐ = <br>
+| ܡܥܠܬܐ ܐܘܡܬܢܝܬܐ ܠܦܪܨܘܦܐ = <br>
 | ܙܘܙܐ = <br>
 | ܐܣܪܐ ܕܙܒܢܐ = <br>
 | ܐܢܛܪܢܛ = <br>
 | ܡܢܝܢܐ ܕܛܠܦܘܢ = <br>
-| ܦܘܛܢܘܘܛ = <br>
+| ܡܬܒܝܢܢܘܬܐ = <br>
 <nowiki>}}</nowiki>
 </td></tr></table>
 
