@@ -2,10 +2,7 @@
 
 '''ܕܝܐܬܝܩܝ ܥܬܝܩܬܐ''' ([[ܠܫܢܐ ܝܘܢܝܐ ܥܬܝܩܐ|ܝܘܢܝܐ ܥܬܝܩܐ]]: Παλαιὰ Διαθήκη) ܐܝܬܝܗ ܦܠܓܘܬܐ ܩܕܡܝܬܐ ܕ[[ܟܬܒܐ ܩܕܝܫܐ]] ܕ[[ܟܪܣܛܝܢܘܬܐ]] (ܦܠܓܘܬܐ ܬܪܝܢܝܬܐ ܗܝ [[ܕܝܐܬܝܩܝ ܚܕܬܐ]]) ܘܬܘܒ ܟܬܒܐ ܩܕܝܫܐ ܕ[[ܝܗܘܕܝܘܬܐ]]܀
 
-== ܪܬܡܐ ܡܕܢܚܝܐ ==
-<span style="font-family: East Syriac Adiabene;"> ܕܝܼܵܬܹܩܹܐ (ܣܓܝܐܘܬܐ: ܕܝܼܵܬܹܩܵܣ̈)</span>
-== ܪܬܡܐ ܡܥܪܒܝܐ ==
-<span style="font-family: Serto Urhoy;"> ܕܺܝܰܐܬܺܝܩܺܝ (ܣܓܝܐܘܬܐ: ܕܺܝܰܐܬܺܝܩܰܐܣ̈)</span>
+{{ܪܬܡܐ|ܕܝܼܵܬܹܩܹܐ|ܕܝܼܵܬܹܩܵܣ̈|ܕܺܝܰܐܬܺܝܩܺܝ|ܕܺܝܰܐܬܺܝܩܰܐܣ̈}}
 
 == ܐܣܘܪ̈ܐ ܒܪ̈ܝܐ ==
 [http://www.archive.org/details/VetusTestamentumSyriace ܕܝܐܬܝܩܝ ܥܬܝܩܬܐ ܥܠ ܢܘܠܐ (PDF file 36 MB)]
@@ -13,6 +10,7 @@
 [[Category:ܟܪܣܛܝܢܘܬܐ]]
 [[Category:ܝܗܘܕܝܘܬܐ]]
 
+[[en:Old Testament]]
 [[an:Antigo Testamento]]
 [[ar:عهد قديم]]
 [[arz:العهد القديم]]
@@ -29,7 +27,6 @@
 [[da:Det Gamle Testamente]]
 [[de:Altes Testament]]
 [[el:Παλαιά Διαθήκη]]
-[[en:Old Testament]]
 [[eo:Malnova testamento]]
 [[es:Antiguo Testamento]]
 [[et:Vana Testament]]
