@@ -1,6 +1,6 @@
 <div class=toccolours style="float:right;margin-left:2em;width:300px;{{ #ifeq: {{BASEPAGENAME}} | {{SUBPAGENAME}} ||position:relative;top:-1.2em;}}">
 [[ܠܦܦܐ:{{ #if: {{{afbeelding|}}}|{{{afbeelding}}}|File.svg}}|right|50px]]
-<big style="display:block;width:240px;border-bottom:1px solid Silver;">ܪܫܝܦܐ ܕܦܐܬܐ ܪܝܫܝܬܐ</big>
+<big style="display:block;width:240px;border-bottom:1px solid Silver;">ܪܫܝܦܐ ܕܦܐܬܐ ܪܫܝܬܐ</big>
 *[[ܡܡܠܠܐ:ܦܐܬܐ ܪܫܝܬܐ/2009|2006 - 2009]]
 *[[ܡܡܠܠܐ:ܦܐܬܐ ܪܫܝܬܐ/2010|2010]]
 </small>
