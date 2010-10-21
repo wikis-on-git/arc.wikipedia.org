@@ -1,23 +1,60 @@
 __NOTOC__
+<!--        BANNER ACROSS TOP OF PAGE        -->
 <center>
-<font size="5">
-'''ܫܠܡܐ ܠܟ ܡܢ ܘܝܩܝܦܕܝܐ ܕܠܫܢ̈ܐ ܐܪ̈ܡܝܐ!'''
-</font>
-
-'''''Welcome to the Aramaic Wikipedia'''''
-
+{| id="mp-topbanner" style="width:100%; background:#E6F2EF; margin-top:1.2em; border:1px solid #ddd;"
+| style="width:61%; color:#000;" |
+<!--        "WELCOME TO WIKIPEDIA" AND ARTICLE COUNT        -->
+{| style="width:280px; border:none; background:none;"
+| style="width:280px; text-align:center; white-space:nowrap; color:#000;" |
+<div style="font-size:162%; border:none; margin:0; padding:.1em; color:#000;">'''ܫܠܡܐ ܠܟ ܡܢ [[ܘܝܩܝܦܕܝܐ]] ܕܠܫܢ̈ܐ ܐܪ̈ܡܝܐ!'''</div>
+<div style="top:+0.2em; font-size:95%;">'''''Welcome to the Aramaic Wikipedia'''''</div>
+<big>'''ܗܫܐ ܐܝܬ [[Special:Statistics|{{NUMBEROFARTICLES}}]] [[Special:Allpages|ܡܓܠ̈ܝܢ]]'''</big>
+<div style="margin: 0; font-size: 90%;">
+ܒܨܝ ܒܓܘ ܡܓ̈ܠܐ ܕ[[ܘܝܩܝܦܕܝܐ]]
+</div>
+<div style="margin-top: .5em; font-size: 90%;">
+<inputbox>
+type=search2
+buttonlabel=ܒܨܝ
+width=22
+id=MP
+</inputbox>
+</div>
+|}
 {{ܪܫܐ}}
-
-<big>'''ܗܫܐ ܐܝܬ [[Special:Statistics|{{NUMBEROFARTICLES}}]] [[Special:Allpages|ܡܓܠ̈ܐ]]'''</big>
-
+|}
 ----
 '''ܫܘܬܦܢܐ ܝܕܝܕܐ ܚܙܝ [[Wikipedia:%DC%95%DC%98%DC%92%DC%AA%DC%90|ܕܘܒܪܐ]] ܕܘܝܩܝܦܕܝܐ ܕܠܫܢ̈ܐ ܐܪ̈ܡܝܐ ܘܫܪܐ ܫܘܬܦܬܟ'''
+</center>
 ----
-
-[[ܐܠܩܘܫ]] | [[ܡܪܝ ܝܘܣܦ ܚܢܢܝܫܘܥ]] | [[ܫܡܣܕܝܢ]] | [[ܠܫܢܐ ܐܪܡܝܐ]] | [[ܡܪܝ ܕܢܚܐ ܪܒܝܥܝܐ]] | [[ܡܪܝ ܥܡܢܘܐܝܠ ܬܠܝܬܝܐ ܕܠܝ]] | [[ܟܠܕܝܐ]] | [[ܠܫܢܐ ܣܘܪܝܝܐ]] | [[ܝܘܢ]] | [[ܛܘܪܩܝܐ]] | [[ܐܝܪܐܢ]] | [[ܥܝܪܐܩ]] | [[ܪܘܣܝܐ]] | [[ܢܡܣܐ]] | [[ܥܠܡܐ (ܐܪܥܐ)|ܥܠܡܐ]] | [[ܝܒܫܬܐ]] | [[ܕܩܠܬ]] | [[ܦܪܬ]] | [[ܓܘܢܐ]] | [[ܐܘܪܫܠܡ]] | [[ܐܠܦܒܝܬ]]
-
-'''
-[[:ar:لغة آرامية|الآرامية]] • 
+{| class="vatop"
+|
+{| style="margin:4px 0px 0px 0px; background:none"
+| class="MainPageBG" class="border-radius4" style="width:120%; border:1px solid #cedff2; background:#ffffff; vertical-align:top; color:#000; -moz-border-radius:4px" |
+{| style="padding: 2px; width: 100%; vertical-align:top; background:#ffffff"
+! <div style="float:right; margin:2px 2px 0px 0px">[[ܠܦܦܐ:Wikibar2.png|ܕ̈ܘܟܝܬܐ ܐܚܪ̈ܢܝܬܐ ܕܘܝܩܝܦܕܝܐ]]</div><h2 class="border-radius6" style="margin:0; background:#E6ECFF; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:right; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[ܠܦܦܐ:Artículo bueno.svg|20px|ܕ̈ܘܟܝܬܐ ܐܚܪ̈ܢܝܬܐ ܕܘܝܩܝܦܕܝܐ]] ܕ̈ܘܟܝܬܐ ܐܚܪ̈ܢܝܬܐ ܕܘܝܩܝܦܕܝܐ</h2>
+|-
+| style="color:#000; font-size:100%" id="mp-tfa" | {{ܕ̈ܘܟܝܬܐ ܐܚܪ̈ܢܝܬܐ ܕܘܝܩܝܦܕܝܐ}}
+|-
+! <div style="float:right; margin:2px 2px 0px 0px">[[ܠܦܦܐ:Wikibar2.png|ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ]]</div><h2 class="border-radius6" style="margin:0; background:#E6F2EF; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:right; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[ܠܦܦܐ:Commons-logo.svg|15px|ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ]] ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ</h2>
+|-
+| style="color:#000; font-size:100%; padding:5px; padding-top:10px; padding-bottom:10px" id="mp-tfga" | {{ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ}}
+|-
+|}
+| style="border:1px solid transparent" |
+|}
+|
+{| style="margin:4px 0px 0px 0px; background:none"
+| class="MainPageBG" class="border-radius4" style="width:120%; border:1px solid #cedff2; background:#ffffff; vertical-align:top; color:#000; -moz-border-radius:4px" |
+{| style="padding: 2px; width: 100%; vertical-align:top; background:#ffffff"
+! <div style="float:right; margin:2px 2px 0px 0px">[[ܠܦܦܐ:Wikibar2.png|ܕ̈ܘܟܝܬܐ ܐܚܪ̈ܢܝܬܐ ܕܘܝܩܝܦܕܝܐ]]</div><h2 class="border-radius6" style="margin:0; background:#FFFCE6; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:right; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[ܠܦܦܐ:Societe.png|20px|ܡܓܠ̈ܐ ܚܘܝܚ̈ܐ]] ܡܓܠ̈ܐ ܚܘܝܚ̈ܬܐ</h2>
+|-
+| style="color:#000; font-size:100%; padding:5px; padding-top:10px; padding-bottom:10px" id="mp-tfga" | [[ܐܠܩܘܫ]] | [[ܡܪܝ ܝܘܣܦ ܚܢܢܝܫܘܥ]] | [[ܫܡܣܕܝܢ]] | [[ܠܫܢܐ ܐܪܡܝܐ]] | [[ܡܪܝ ܕܢܚܐ ܪܒܝܥܝܐ]] | [[ܡܪܝ ܥܡܢܘܐܝܠ ܬܠܝܬܝܐ ܕܠܝ]] | [[ܟܠܕܝܐ]] | [[ܠܫܢܐ ܣܘܪܝܝܐ]] | [[ܝܘܢ]] | [[ܛܘܪܩܝܐ]] | [[ܐܝܪܐܢ]] | [[ܥܝܪܐܩ]] | [[ܪܘܣܝܐ]] | [[ܢܡܣܐ]] | [[ܥܠܡܐ (ܐܪܥܐ)|ܥܠܡܐ]] | [[ܝܒܫܬܐ]] | [[ܕܩܠܬ]] | [[ܦܪܬ]] | [[ܓܘܢܐ]] | [[ܐܘܪܫܠܡ]] | [[ܐܠܦܒܝܬ]] | [[ܗܘܠܢܕܐ]] | [[ܠܫܢܐ ܐܢܓܠܝܐ]] | [[ܡܪܝ ܐܦܪܝܡ ܣܘܪܝܝܐ]] | [[ܒܝܬ ܛܘܣܐ]]
+|-
+! <div style="float:right; margin:2px 2px 0px 0px">[[ܠܦܦܐ:Wikibar2.png|ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ]]</div><h2 class="border-radius6" style="margin:0; background:#ABCDEF; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:right; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[ܠܦܦܐ:P geography.png|20px|ܠܫܢܐ ܐܪܡܝܐ ܒܠܫܢ̈ܐ ܐܚܪ̈ܢܐ]] ܠܫܢܐ ܐܪܡܝܐ ܒܠܫܢ̈ܐ ܐܚܪ̈ܢܐ</h2>
+|-
+| style="color:#000; font-size:100%; padding:5px; padding-top:10px; padding-bottom:10px" id="mp-tfga" |
+[[:ar:لغة آرامية|الآرامية]] •''' 
 [[:da:Aram%C3%A6isk|Aramæisk]] • 
 [[:de:Aramäische_Sprache|Aramäisch]] •
 [[:el:Αραμαϊκή γλώσσα|Αραμαϊκή γλώσσα]] • 
@@ -33,15 +70,24 @@ __NOTOC__
 [[:pt:Aramaico|aramaica]] • 
 [[:sv:Arameiska|Arameiska]] • 
 [[:yi:אראמיש|אראמיש]] • 
-[http://zh.wikipedia.org/wiki/%E4%BA%9A%E6%8B%89%E5%A7%86%E8%AF%AD 亚拉姆语] • 
-'''</center>
-
-== ܕ̈ܘܟܝܬܐ ܐܚܪ̈ܢܝܬܐ ܕܘܝܩܝܦܕܝܐ ==
-{{ܕ̈ܘܟܝܬܐ ܐܚܪ̈ܢܝܬܐ ܕܘܝܩܝܦܕܝܐ}}
-
-== ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ ==
-{{ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ}}
-
+[[:zh:亚拉姆语|亚拉姆语]] • 
+[[:hu:Arámi nyelv|Arámi nyelv]] •
+[[:hy:Արամեերեն|Արամեերեն]] •
+[[:hr:Aramejski jezik|Aramejski jezik]] •
+'''
+|-
+! <div style="float:right; margin:2px 2px 0px 0px">[[ܠܦܦܐ:Wikibar2.png|ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ]]</div><h2 class="border-radius6" style="margin:0; background:#EDEDED; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:right; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[ܠܦܦܐ:Art alt-2.svg|20px|ܨܘܪܬܐ ܕܝܪܚܐ]] ܨܘܪܬܐ ܕܝܪܚܐ</h2>
+|-
+| style="color:#000; font-size:100%; padding:5px; padding-top:10px; padding-bottom:10px" id="mp-tfga" |
+[[ܠܦܦܐ:Port Vell, Barcelona, Spain - Jan 2007.jpg|350px|center]]
+|}
+|}
+|}
 == ܠܫܢ̈ܐ ܕܘܝܩܝܦܕܝܐ ==
+{| class="rad" padding="0" cellpadding="2" width="100%" align="center" style="font-size:95%; background:#F1FAFF; border:2px solid #C6E4F2; padding:0.5em 1em 0.5em 1em; margin-top: 1em; -moz-border-radius:10px"
+|
+<div style="text-align:center; padding-bottom:0.5em; font-size:110%; font-weight:bold;">[[ܠܦܦܐ:Sciences de la terre.svg|right|50px|Podes atopar a Wikipedia en moitas outras linguas.]] ܠܫܢ̈ܐ ܕܘܝܩܝܦܕܝܐ
+</div>
+
 {{ܠܫܢ̈ܐ ܕܘܝܩܝܦܕܝܐ}}
 {{ܠܫܢ̈ܐ ܝܬܝܪ̈ܐ}}
