@@ -1,0 +1,18 @@
+<center>
+{| style="width:280px; border:none; background:none;"
+| style="width:280px; text-align:center; white-space:nowrap; color:#000;" |
+<div style="font-size:162%; border:none; margin:0; padding:.1em; color:#000;">'''ܫܠܡܐ ܠܟ ܡܢ [[ܘܝܩܝܦܕܝܐ]] ܕܠܫܢ̈ܐ ܐܪ̈ܡܝܐ!'''</div>
+<div style="top:+0.2em; font-size:95%;">'''''Welcome to the Aramaic Wikipedia'''''</div>
+<big>'''ܗܫܐ ܐܝܬ [[Special:Statistics|{{NUMBEROFARTICLES}}]] [[Special:Allpages|ܡܓܠ̈ܝܢ]]'''</big>
+<div style="margin: 0; font-size: 90%;">
+ܒܨܝ ܒܓܘ ܡܓ̈ܠܐ ܕ[[ܘܝܩܝܦܕܝܐ]]
+</div>
+<div style="margin-top: .5em; font-size: 90%;">
+<inputbox>
+type=search2
+buttonlabel=ܒܨܝ
+width=22
+id=MP
+</inputbox>
+</div>
+</center>
