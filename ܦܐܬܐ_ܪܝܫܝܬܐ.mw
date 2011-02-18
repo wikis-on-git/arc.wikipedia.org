@@ -17,11 +17,11 @@ __NOTOC__
 {| style="margin:4px 0px 0px 0px; background:none"
 | class="MainPageBG" class="border-radius4" style="width:120%; border:1px solid #cedff2; background:#ffffff; vertical-align:top; color:#000; -moz-border-radius:4px" |
 {| style="padding: 2px; width: 100%; vertical-align:top; background:#ffffff"
-! <div style="float:right; margin:2px 2px 0px 0px">[[ܠܦܦܐ:Wikibar2.png|ܕ̈ܘܟܝܬܐ ܐܚܪ̈ܢܝܬܐ ܕܘܝܩܝܦܕܝܐ]]</div><h2 class="border-radius6" style="margin:0; background:#E6ECFF; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:right; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[ܠܦܦܐ:Artículo bueno.svg|20px|ܕ̈ܘܟܝܬܐ ܐܚܪ̈ܢܝܬܐ ܕܘܝܩܝܦܕܝܐ]] ܕ̈ܘܟܝܬܐ ܐܚܪ̈ܢܝܬܐ ܕܘܝܩܝܦܕܝܐ</h2>
+! style="background-color: #cedff2; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 100%; border: 1px solid #B1CDEB; text-align: left;  padding-left: 7px;   -moz-border-radius:10px"  | <div style="float:right;">[[ܠܦܦܐ:Wikibar2.png|link=|alt=]]</div><div style="float:right;">[[ܠܦܦܐ:Artículo bueno.svg|15px]] ܕ̈ܘܟܝܬܐ ܐܚܪ̈ܢܝܬܐ ܕܘܝܩܝܦܕܝܐ</div>
 |-
 | style="color:#000; font-size:100%" id="mp-tfa" | {{ܕ̈ܘܟܝܬܐ ܐܚܪ̈ܢܝܬܐ ܕܘܝܩܝܦܕܝܐ}}
 |-
-! <div style="float:right; margin:2px 2px 0px 0px">[[ܠܦܦܐ:Wikibar2.png|ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ]]</div><h2 class="border-radius6" style="margin:0; background:#E6F2EF; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:right; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[ܠܦܦܐ:Commons-logo.svg|15px|ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ]] ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ</h2>
+! style="background-color: #E6F2EF; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 100%; border: 1px solid #cccccc; text-align: left;  padding-left: 7px;   -moz-border-radius:10px"  | <div style="float:right;">[[ܠܦܦܐ:Wikibar2.png|link=|alt=]]</div><div style="float:right;">[[ܠܦܦܐ:Commons-logo.svg|15px]] ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ</div>
 |-
 | style="color:#000; font-size:100%; padding:5px; padding-top:10px; padding-bottom:10px" id="mp-tfga" | {{ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ}}
 |-
@@ -32,17 +32,17 @@ __NOTOC__
 {| style="margin:4px 0px 0px 0px; background:none"
 | class="MainPageBG" class="border-radius4" style="width:120%; border:1px solid #cedff2; background:#ffffff; vertical-align:top; color:#000; -moz-border-radius:4px" |
 {| style="padding: 2px; width: 100%; vertical-align:top; background:#ffffff"
-! <div style="float:right; margin:2px 2px 0px 0px">[[ܠܦܦܐ:Wikibar2.png|ܕ̈ܘܟܝܬܐ ܐܚܪ̈ܢܝܬܐ ܕܘܝܩܝܦܕܝܐ]]</div><h2 class="border-radius6" style="margin:0; background:#FFFCE6; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:right; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[ܠܦܦܐ:Societe.png|20px|ܡܓܠ̈ܐ ܚܘܝܚ̈ܐ]] ܡܓܠ̈ܐ ܚܘܝܚ̈ܬܐ</h2>
+! style="background-color: #FFFCE6; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 100%; border: 1px solid #cccccc; text-align: left;  padding-left: 7px;   -moz-border-radius:10px"  | <div style="float:right;">[[ܠܦܦܐ:Wikibar2.png|link=|alt=]]</div><div style="float:right;">[[ܠܦܦܐ:Societe.png|20px]] ܡܓܠ̈ܐ ܚܘܝܚ̈ܐ</div>
 |-
 | style="color:#000; font-size:100%; padding:5px; padding-top:10px; padding-bottom:10px" id="mp-tfga" |  
 {{ܡܓܠ̈ܐ ܚܘܝܚ̈ܬܐ}}
 |-
-! <div style="float:right; margin:2px 2px 0px 0px">[[ܠܦܦܐ:Wikibar2.png|ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ]]</div><h2 class="border-radius6" style="margin:0; background:#ABCDEF; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:right; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[ܠܦܦܐ:P geography.png|20px|ܠܫܢܐ ܐܪܡܝܐ ܒܠܫܢ̈ܐ ܐܚܪ̈ܢܐ]] ܠܫܢܐ ܐܪܡܝܐ ܒܠܫܢ̈ܐ ܐܚܪ̈ܢܐ</h2>
+! style="background-color: #ABCDEF; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 100%; border: 1px solid #cccccc; text-align: left;  padding-left: 7px;   -moz-border-radius:10px"  | <div style="float:right;">[[ܠܦܦܐ:Wikibar2.png|link=|alt=]]</div><div style="float:right;">[[ܠܦܦܐ:P geography.png|20px]] ܠܫܢܐ ܐܪܡܝܐ ܒܠܫܢ̈ܐ ܐܚܪ̈ܢܐ</div>
 |-
 | style="color:#000; font-size:100%; padding:5px; padding-top:10px; padding-bottom:10px" id="mp-tfga" |
 {{ܠܫܢܐ ܐܪܡܝܐ ܒܠܫܢ̈ܐ ܐܚܪ̈ܢܐ}}
 |-
-! <div style="float:right; margin:2px 2px 0px 0px">[[ܠܦܦܐ:Wikibar2.png|ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ]]</div><h2 class="border-radius6" style="margin:0; background:#EDEDED; font-size:100%; font-weight:bold; border:1px solid #cccccc; text-align:right; color:#000; padding:0.2em 0.4em; -moz-border-radius:6px">[[ܠܦܦܐ:Art alt-2.svg|20px|ܨܘܪܬܐ ܕܝܪܚܐ]] ܨܘܪܬܐ ܕܝܪܚܐ</h2>
+! style="background-color: #EDEDED; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 100%; border: 1px solid #cccccc; text-align: left;  padding-left: 7px;   -moz-border-radius:10px"  | <div style="float:right;">[[ܠܦܦܐ:Wikibar2.png|link=|alt=]]</div><div style="float:right;">[[ܠܦܦܐ: Art alt-2.svg|20px]] ܨܘܪܬܐ ܕܝܪܚܐ</div>
 |-
 | style="color:#000; font-size:100%; padding:5px; padding-top:10px; padding-bottom:10px" id="mp-tfga" |
 {{ܨܘܪܬܐ ܕܝܪܚܐ}}
