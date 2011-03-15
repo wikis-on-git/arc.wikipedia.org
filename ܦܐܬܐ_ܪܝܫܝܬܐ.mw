@@ -15,7 +15,7 @@ __NOTOC__
 {| class="vatop"
 |
 {| style="margin:4px 0px 0px 0px; background:none"
-| class="MainPageBG" class="border-radius4" style="width:120%; border:1px solid #cedff2; background:#ffffff; vertical-align:top; color:#000; -moz-border-radius:4px" |
+| class="MainPageBG" class="border-radius4" style="width:100%; border:1px solid #cedff2; background:#ffffff; vertical-align:top; color:#000; -moz-border-radius:4px" |
 {| style="padding: 2px; width: 100%; vertical-align:top; background:#ffffff"
 ! style="background-color: #cedff2; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 100%; border: 1px solid #B1CDEB; text-align: left;  padding-left: 7px;   -moz-border-radius:10px"  | <div style="float:right;">[[ܠܦܦܐ:Wikibar2.png|link=|alt=]]</div><div style="float:right;">[[ܠܦܦܐ:Artículo bueno.svg|15px]] ܕ̈ܘܟܝܬܐ ܐܚܪ̈ܢܝܬܐ ܕܘܝܩܝܦܕܝܐ</div>
 |-
@@ -24,6 +24,14 @@ __NOTOC__
 ! style="background-color: #E6F2EF; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 100%; border: 1px solid #cccccc; text-align: left;  padding-left: 7px;   -moz-border-radius:10px"  | <div style="float:right;">[[ܠܦܦܐ:Wikibar2.png|link=|alt=]]</div><div style="float:right;">[[ܠܦܦܐ:Commons-logo.svg|15px]] ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ</div>
 |-
 | style="color:#000; font-size:100%; padding:5px; padding-top:10px; padding-bottom:10px" id="mp-tfga" | {{ܐܚ̈ܘܬܐ ܕܘܝܩܝܦܕܝܐ}}
+|-
+! style="background-color: #E6F2EF; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 100%; border: 1px solid #cccccc; text-align: left;  padding-left: 7px;   -moz-border-radius:10px"  | <div style="float:right;">[[ܠܦܦܐ:Wikibar2.png|link=|alt=]]</div><div style="float:right;">[[ܠܦܦܐ:Nuvola apps ktip.png|15px]] ܥܠ ܕܘܝܩܝܦܕܝܐ</div>
+|-
+| style="color:#000; font-size:100%; padding:5px; padding-top:10px; padding-bottom:10px" id="mp-tfga" | ܘܝܩܝܦܕܝܐ ܗܘ ܬܪܡܝܬܐ ܕܡܛܟܣܬܐ ܕܘܝܩܝܡܝܕܝܐ ܘܫܬܐܣ ܒ15 ܟܢܘܢ ܒ 2001 ܒܠܫܢܐ ܐܢܓܠܝܐ ܘܡܩܝܡܢܐ ܕܘܝܩܝܦܕܝܐ ܗܘ ܓܝܡܝ ܘܝܠܙ (Jimmy Wales). ܢܝܫܐ ܕܘܝܩܝܦܕܝܐ ܐܝܬ ܗܘܐ ܕܫܬܐܣ ܘܝܩܝܦܕ̈ܝܬܐ ܒܟܠ ܠܫܢܐ ܒܒܪܝܬܐ. ܒܟܠ ܘܝܩܝܦܕܝܐ ܟܠ ܢܫܐ ܐܝܬ ܠܗ ܡܟܢܘܬܐ ܕܫܚܠܦ ܡܓ̈ܠܐ.
+
+ܒܬܪ ܫܢܬܐ 2001 ܘܝܩܝܦܕܝ̈ܬܐ ܚܕ̈ܬܐ ܫܬܐܣܬ ܒܠܫܢ̈ܐ ܐܚܪ̈ܢܐ. ܒ2005 ܒܪܐ ܘܝܩܝܦܕܝܐ ܒܠܫܢܐ ܐܪܡܝܐ ܘܡܬܚܙܗ ܗܘܐ ܒܐܢܛܪܢܛ ܥܠ arc.wikipedia.org.
+
+ܗܫܐ ܐܝܬ 1131 (ܬܫܪܝܢ ܐ 2010) ܡܓܠܝ̈ܢ ܒܓܘ ܘܝܩܝܦܕܝܐ ܒܠܫܢܐ ܐܪܡܝܐ. ܗܫܐ ܐܦ ܐܝܬ (15 ܟܢܘܢ ܒ 2010) ܝܬܝܪ ܡܢ 14 ܡܠܝܘܢ ܡܓܠܝ̈ܢ ܒ271 ܠܫܢ̈ܐ ܡܫܚܠܦ̈ܐ ܒܟܠܐ ܘܝܩܝܦܕܝܐ.
 |-
 |}
 | style="border:1px solid transparent" |
@@ -42,10 +50,11 @@ __NOTOC__
 | style="color:#000; font-size:100%; padding:5px; padding-top:10px; padding-bottom:10px" id="mp-tfga" |
 {{ܠܫܢܐ ܐܪܡܝܐ ܒܠܫܢ̈ܐ ܐܚܪ̈ܢܐ}}
 |-
-! style="background-color: #EDEDED; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 100%; border: 1px solid #cccccc; text-align: left;  padding-left: 7px;   -moz-border-radius:10px"  | <div style="float:right;">[[ܠܦܦܐ:Wikibar2.png|link=|alt=]]</div><div style="float:right;">[[ܠܦܦܐ: Art alt-2.svg|20px]] ܨܘܪܬܐ ܕܝܪܚܐ</div>
+! style="background-color: #EDEDED; font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 100%; border: 1px solid #cccccc; text-align: left;  padding-left: 7px;   -moz-border-radius:10px"  | <div style="float:right;">[[ܠܦܦܐ:Wikibar2.png|link=|alt=]]</div><div style="float:right;">[[ܠܦܦܐ: Art alt-2.svg|20px]] ܨܘܪܬܐ ܕܝܘܡܐ</div>
 |-
-| style="color:#000; font-size:100%; padding:5px; padding-top:10px; padding-bottom:10px" id="mp-tfga" |
-{{ܨܘܪܬܐ ܕܝܪܚܐ}}
+| style="color:#000; font-size:80%; padding:10px; padding-top:10px; padding-bottom:10px" id="mp-tfga" |
+<center style="padding-top:.9em;">{{POTD}}</center>
+
 |}
 |}
 |}
