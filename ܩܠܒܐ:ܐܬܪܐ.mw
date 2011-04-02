@@ -12,10 +12,10 @@
     | style="border: 0; text-align: center;" | [[ܐܬܐ ܕ{{{ܫܡܐ}}}|ܐܬܐ]]
     | style="border: 0; text-align: center;" | [[ܢܝܫܐ ܕ{{{ܫܡܐ}}}|ܢܝܫܐ]]
     |}
-|- style="display:{{#שווה:{{{ܪܘܫܡܐ}}}|אין|none|{{#שווה:{{{ܪܘܫܡܐ}}}||none|table-row}}}};"
-| colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; text-align: center;" | [[ܪܘܫܡܐ]]: {{{ܪܘܫܡܐ}}} 
+|- style="display:{{#שווה:{{{ܓܢܘܡܐ}}}|אין|none|{{#שווה:{{{ܓܢܘܡܐ}}}||none|table-row}}}};"
+| colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; text-align: center;" | [[ܓܢܘܡܐ]]: {{{ܓܢܘܡܐ}}} 
 |- 
-| colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; text-align: center;" | [[ܣܘܓܝܬܐ]]: {{{ܣܘܓܝܬܐ}}} 
+| colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; text-align: center;" | [[ܣܘܓܝܬܐ ܐܘܡܬܢܝܬܐ]]: {{{ܣܘܓܝܬܐ ܐܘܡܬܢܝܬܐ}}} 
 |- 
 | colspan="2" style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0; text-align: center;" | [[ܠܦܦܐ:{{{ܨܘܪܬܐ ܕܨܘܪܬ ܥܠܡܐ}}}|center|250px|{{{ܫܡܐ}}}]] 
 |- valign="top"
@@ -41,7 +41,8 @@
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܫܘܪܝܐ}}}<br />{{{ܙܒܢܐ ܕܫܘܪܝܐ}}}
 |- valign="top"
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܫܛܝܚܘܬܐ|ܫܛܚܐ]]'''<br /> - ܟܠܢܝܐ<br /> - [[ܡܝܐ|ܡܝ̈ܐ]] (%)
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܕܪܓܐ ܕܫܛܚܐ ܒܥܠܡܐ}}}<br />{{{ܫܛܚܐ ܟܠܢܝܐ}}} km²<br />{{{ܡܐܝܐ ܡܝܐ}}}
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܕܪܓܐ ܕܫܛܚܐ ܒܥܠܡܐ}}}<br />{{{ܫܛܚ
+ ܟܠܢܝܐ}}} km²<br />{{{ܡܐܝܐ ܡܝܐ}}}
 |- valign="top"
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܥܡܘܪܐ]]'''<br /> - ܟܠܢܝܐ ({{{ܥܡܘܪܐ ܠܫܢܬܐ}}})<br /> - [[ܣܒܝܣܘܬܐ ܕܥܡܘܪܐ|ܣܒܝܣܘܬܐ]]
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܕܪܓܐ ܕܥܡܘܪܐ ܒܥܠܡܐ}}}<br />{{{ܥܡܘܪܐ ܟܠܢܝܐ}}}<br />{{{ܣܒܝܣܘܬܐ ܕܥܡܘܪܐ}}} ܐܢܫ̈ܝܢ ܠܟܠ km²
