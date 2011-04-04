@@ -1,6 +1,6 @@
 <center>
 {|align=center class=toccolours width=500 style="margin-top:10px;"
 |align=center|[[ܠܦܦܐ:Crystal Clear action run.png|50px]]
-|align=right|'''ܡܦܠܚܢܐ ܗܢܐ ܗܘ ܒܘܬ (BOT) ܡܢ {{#if: {{{link|}}}|{{{link}}}|{{#if: {{{1|}}}|[[ܡܬܚܫܚܢܐ:{{{1}}}|{{{1}}}]]|???}}}}.'''
-ܠܡܕܒܪ̈ܢܐ: ܐܢ ܒܘܬ ܗܢܐ ܠܐ ܦܠܚ ܛܒܐ܇ ܒܥܘ ܚܪܘܡܗ.
+|align=right|'''ܡܦܠܚܢܐ ܗܢܐ ܗܘ ܒܘܛ (BOT) ܡܢ {{#if: {{{link|}}}|{{{link}}}|{{#if: {{{1|}}}|[[ܡܦܠܚܢܐ:{{{1}}}|{{{1}}}]]|???}}}}.'''
+ܠܡܕܒܪ̈ܢܐ: ܐܢ ܒܘܛ ܗܢܐ ܠܐ ܦܠܚ ܛܒܐ܇ ܒܥܘ [[Special:Blockip/{{PAGENAME}}|ܚܪܘܡܗ]].
 |}</center>
