@@ -1,5 +1,5 @@
 {{{{{subst|}}}#ifeq:{{{{{subst|}}}#expr: {{{1}}} > 4999999}} | 1 |{{{2|N/A}}}|<noinclude>
-</noinclude>{{{{{subst|}}}#ifeq: {{{{{subst|}}}#expr: {{{1}}} > 4999}} | 1 |{{{{{subst|}}}Overline|{{{{{subst|}}}Romeins/2|{{{{{subst|}}}#expr: ({{{1}}} - {{{1}}} mod 5000) div 1000}}|subst={{{subst|}}}}}|subst={{{subst|}}}}}|}}<noinclude>
+</noinclude>{{{{{subst|}}}#ifeq: {{{{{subst|}}}#expr: {{{1}}} > 4999}} | 1 |{{{{{subst|}}}Overline|{{{{{subst|}}}ܪܗܘܡܝܐ/2|{{{{{subst|}}}#expr: ({{{1}}} - {{{1}}} mod 5000) div 1000}}|subst={{{subst|}}}}}|subst={{{subst|}}}}}|}}<noinclude>
 </noinclude>{{{{{subst|}}}#switch:{{{{{subst|}}}#expr: ({{{1}}} div 1000) mod 5}}|0=|4=MMMM|3=MMM|2=MM|1=M}}<noinclude>
 </noinclude>{{{{{subst|}}}#switch:{{{{{subst|}}}#expr: ({{{1}}} div 100) mod 10}}|0=|9=CM|8=DCCC|7=DCC|6=DC|5=D|4=CD|3=CCC|2=CC|1=C}}<noinclude>
 </noinclude>{{{{{subst|}}}#switch:{{{{{subst|}}}#expr: ({{{1}}} div 10) mod 10}}|0=|9=XC|8=LXXX|7=LXX|6=LX|5=L|4=XL|3=XXX|2=XX|1=X}}<noinclude>
