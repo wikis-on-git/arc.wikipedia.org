@@ -1,27 +1,37 @@
-<div style="float: left; border:solid {{{1|#6ef7a7}}} 1px; margin: 1px;">
-{| cellspacing="0" style="width: 238px; background: {{{2|#c5fcdc}}};"
-| style="width: 45px; height: 45px; background: {{{1|#6ef7a7}}}; text-align: center; font-size: {{{5|{{{id-s|14}}}}}}pt; color: {{{id-fc|black}}};" | '''{{{3|[[Çin dili|zh]]}}}'''
-| style="font-size: {{{info-s|8}}}pt; padding: 4pt; line-height: 1.25em; color: {{{info-fc|black}}};" | {{{4|&#36889;&#20491;&#29992;&#25142;&#30340;'''[[:Kateqoriya:User zh-N|&#27597;&#35486;]]'''&#26159;'''[[:Kateqoriya:User zh|&#20013;&#25991;]]'''。<br />&#36825;&#20010;&#29992;&#25143;&#30340;'''[[:Kateqoriya:User zh-N|&#27597;&#35821;]]'''&#26159;'''[[:Kateqoriya:User zh|&#20013;&#25991;]]'''。}}}
-|}</div>[[Category:User zh|{{PAGENAME}}]] [[Category:User zh-N|{{PAGENAME}}]]
-
-<noinclude>
+{{userbox-level
+| level    = 
+| id       = {{{3|[[ܠܫܢܐ ܨܝܢܝܐ|zh]]}}}
+| id-s     = {{{5|{{{id-s|14}}}}}}
+| info     = {{{4|該用戶的'''[[:Category:User zh-N|母語]]'''是'''[[:Category:User zh|中文]]'''。<br /><span lang="zh-Hans" xml:lang="zh-Hans">该用户的'''[[:Category:User zh-N|母语]]'''是'''[[:Category:User zh|中文]]'''。}}}
+| usercategory  = User zh
+| usercategory2 = User zh-N
+| nocat = {{{nocat|}}}
+}}<noinclude>
+{{languages|ܨܝܢܝܐ|zh}}
 [[ceb:Plantilya:User zh]]
 [[cs:Šablona:User zh]]
+[[pdc:Vorlage:User zh]]
 [[de:Vorlage:User zh]]
-[[en:Template:User zh]]
+[[nv:Bee álnééhí:User zh]]
+[[dsb:Pśedłoga:Wužywaŕ zh]]
 [[fr:Modèle:Utilisateur zh]]
 [[gl:Modelo:User zh]]
 [[hy:Կաղապար:User zh]]
+[[hi:साँचा:User zh]]
+[[hsb:Předłoha:User zh]]
 [[id:Templat:User zh]]
 [[lb:Schabloun:Benotzer zh]]
 [[mk:Шаблон:Корисник zh]]
-[[nds-nl:Mal:Gebruker zh]]
 [[nl:Sjabloon:Gebruiker zh]]
+[[nds-nl:Mal:Gebruker zh]]
+[[ja:Template:User zh]]
 [[nn:Mal:Brukar zh]]
 [[pt:Predefinição:User zh]]
 [[ru:Шаблон:User zh]]
-[[wuu:模板:User zh]]
-[[zh:Template:User zh]]
+[[sl:Predloga:Uporabnik zh]]
+[[uk:Шаблон:User zh]]
 [[zh-classical:Template:User zh]]
-[[zh-yue:Template:User zh]]
+[[wuu:模板:User zh]]
+[[zh-yue:模:User zh]]
+[[zh:Template:User zh]]
 </noinclude>
