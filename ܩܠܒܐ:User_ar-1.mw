@@ -1,10 +1,8 @@
-{{userbox-r
-| level    = 1
-| id       = [[ܠܫܢܐ ܥܪܒܝܐ|ar]]-1
-| id-c     = LightSteelBlue
+{{userbox-level
+| level    = 3b
+| id       = [[ܠܫܢܐ ܥܪܒܝܐ|ar]]
 | info     =.هذا المستخدم يعرف '''[[:Category:User ar-1|مبادئ]]''' '''[[:Category:User ar|العربية]]'''
-| info-s   = 11
-| info-c   = AliceBlue
+| info-s   = 9
 | info-op  = text-align:right;
 | usercategory  = User ar
 | nocat = {{{nocat|}}}
