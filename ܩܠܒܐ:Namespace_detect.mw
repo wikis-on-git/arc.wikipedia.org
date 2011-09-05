@@ -21,15 +21,15 @@
 <!-- Respecting empty parameters on purpose -->
 | main        <!--"demospace=main" or {{SUBJECTSPACE}}={{ns:0}}=""-->
 |           = {{{main| {{{other|}}} }}}
-| talk      = {{{talk| {{{other|}}} }}}
-| user      = {{{user| {{{other|}}} }}}
-| wikipedia = {{{wikipedia| {{{other|}}} }}}
-| file
+| ܡܡܠܠܐ     = {{{talk| {{{other|}}} }}}
+| ܡܦܠܚܢܐ    = {{{user| {{{other|}}} }}}
+| ܘܝܩܝܦܕܝܐ   = {{{wikipedia| {{{other|}}} }}}
+| ܠܦܦܐ
 | image     = {{{file| {{{image| {{{other|}}} }}} }}}
 | mediawiki = {{{mediawiki| {{{other|}}} }}}
-| template  = {{{template| {{{other|}}} }}}
+| ܩܠܒܐ      = {{{template| {{{other|}}} }}}
 | help      = {{{help| {{{other|}}} }}}
-| category  = {{{category| {{{other|}}} }}}
+| ܣܕܪܐ      = {{{category| {{{other|}}} }}}
 | portal    = {{{portal| {{{other|}}} }}}
 | book      = {{{book| {{{other|}}} }}}
 | other
