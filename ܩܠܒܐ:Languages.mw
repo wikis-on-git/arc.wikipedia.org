@@ -1,0 +1,22 @@
+{{Navbox
+|name = Languages
+|navbar = plain
+|title = [[{{{1}}}{{{langvoid| language}}}]]
+|list1 = <div>
+[[Wikipedia:Babel|Babel]]: [[Template:User {{{2}}}-0|0]] &#124; [[Template:User {{{2}}}-1|1]] &#124; [[Template:User {{{2}}}-2|2]] &#124; [[Template:User {{{2}}}-3|3]] &#124; [[Template:User {{{2}}}-4|4]] &#124; [[Template:User {{{2}}}|N]] &#124; [[Template:User {{{2}}}-5|5]]
+</div>
+}}<includeonly>
+{{{catvoid|[[Category:User templates {{{catalt|{{{2}}}}}}|{{{sections|}}}{{#switch:{{PAGENAME}}
+ |User {{{2}}}-0 = {{{#|0}}}
+ |User {{{2}}}-1 = {{{#|1}}}
+ |User {{{2}}}-2 = {{{#|2}}}
+ |User {{{2}}}-3 = {{{#|3}}}
+ |User {{{2}}}-4 = {{{#|4}}}
+ |User {{{2}}}   = {{{#|N}}}
+ |User {{{2}}}-N = {{{#|N}}}
+ |User {{{2}}}-5 = {{{#|5}}}
+ |#default       = {{{#| }}}
+}}]]
+}}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>
