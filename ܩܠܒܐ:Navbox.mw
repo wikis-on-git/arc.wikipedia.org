@@ -255,8 +255,4 @@ Please do not edit without discussion first as this is a VERY complex template.
 
 --></table>{{#switch:{{{border|{{{1|}}}}}}|subgroup|child=<div>|none=|#default=</td></tr></table>}}<!--
 
---><noinclude>
-
-{{documentation}}
-<!-- Add categories and interwikis to the /doc subpage, not here! -->
-</noinclude>
+-->
