@@ -1,7 +1,7 @@
 {{Navbox
 |name = ܠܫ̈ܢܐ
 |navbar = plain
-|title = [[{{{1}}}{{{langvoid|ܠܫܢܐ}}}]]
+|title = [[{{{langvoid|ܠܫܢܐ }}}{{{1}}}]]
 |list1 = <div>
 ܘܝܩܝܦܕܝܐ̣:ܒܒܠ: [[Template:User {{{2}}}-0|0]] &#124; [[Template:User {{{2}}}-1|1]] &#124; [[Template:User {{{2}}}-2|2]] &#124; [[Template:User {{{2}}}-3|3]] &#124; [[Template:User {{{2}}}-4|4]] &#124; [[Template:User {{{2}}}|N]] &#124; [[Template:User {{{2}}}-5|5]]
 </div>
@@ -18,3 +18,6 @@
  |#default       = {{{#| }}}
 }}]]
 }}}</includeonly>
+<noinclude>
+[[en:Template:Languages]]
+</noinclude>
