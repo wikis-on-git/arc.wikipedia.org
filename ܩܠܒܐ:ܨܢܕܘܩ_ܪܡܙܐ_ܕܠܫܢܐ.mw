@@ -18,7 +18,7 @@
   | {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
     |Signed
     |ܡܬܡܠܠ
-    }} in
+    }}
   }}
 | data2 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
   |{{{creator|–}}}
