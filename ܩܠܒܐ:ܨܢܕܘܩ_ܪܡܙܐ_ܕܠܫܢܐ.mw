@@ -230,18 +230,18 @@
 | label24 = [[Linguasphere Observatory|Linguasphere]]
 | data24 = {{#if:{{{lingua|}}}|<tt>{{{lingua}}}</tt>}}
 | data25 = {{#if:{{{map|}}}
-  | [[ܠܦܦܐ:{{{map}}}|{{px|{{{mapsize|}}}|300px}}]]{{#if:{{{mapcaption|}}}|<div style="text-align:right;">{{{mapcaption}}}</div>}}
+  | [[ܠܦܦܐ:{{{map}}}|{{px|{{{mapsize|}}}|300px}}]]{{#if:{{{mapcaption|}}}|<div style="text-align:left;">{{{mapcaption}}}</div>}}
   }}
 | data26 = {{#if:{{{map2|}}}
-  | [[ܠܦܦܐ:{{{map2}}}|{{px|{{{mapsize|}}}|300px}}]]{{#if:{{{mapcaption2|}}}|<div style="text-align:right;">{{{mapcaption2}}}</div>}}
+  | [[ܠܦܦܐ:{{{map2}}}|{{px|{{{mapsize|}}}|300px}}]]{{#if:{{{mapcaption2|}}}|<div style="text-align:left;">{{{mapcaption2}}}</div>}}
   }}
 | data27 = {{#if:{{{notice|}}}|
-{{{!}} style="text-align:right;"
+{{{!}} style="text-align:left;"
 {{Infobox language/{{{notice|}}}}}
 {{!}}}
 }}<!--provide notice if IPA or Indic fonts are used; optional links for sign languages-->
 | data28 = {{#if:{{{notice2|}}}|
-{{{!}} style="text-align:right;"
+{{{!}} style="text-align:left;"
 {{Infobox language/{{{notice2|}}}}}
 {{!}}}
 }}
