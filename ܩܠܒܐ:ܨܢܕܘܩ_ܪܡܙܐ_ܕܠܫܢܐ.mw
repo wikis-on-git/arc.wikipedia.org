@@ -1,0 +1,300 @@
+{{ܨܢܕܘܩ ܪܡܙܐ
+| name = ܨܢܕܘܩ ܪܡܙܐ ܕܠܫܢܐ
+| bodystyle = {{#if:{{{boxsize|}}}|width: {{{boxsize}}};}}
+| abovestyle = color: {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}} }}|black|1}}|white|{{{fontcolor|black}}} }}; background-color: {{#if:{{{creator|}}}{{{setting|}}}|black|{{#if:{{{signers|}}}|silver|{{Infobox language/family-color|{{{familycolor|Default}}} }} }} }};
+| above = {{{name|Language name}}}
+| subheaderstyle = font-weight: bold; color: {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}} }}|black|1}}|white|{{{fontcolor|black}}} }}; background-color: {{#if:{{{creator|}}}{{{setting|}}}|black|{{#if:{{{signers|}}}|silver|{{Infobox language/family-color|{{{familycolor|Default}}} }} }} }};
+| headerstyle = color: {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}|white|{{{fontcolor|black}}}}}; background-color: {{#if:{{{signers|}}}|silver|{{#if:{{{creator|}}}{{{setting|}}}|black|{{Infobox language/family-color|{{{familycolor|Default}}}}}}}}};
+| subheader = {{{nativename|}}}
+| image = {{#if:{{{image|}}}
+  |[[ܠܦܦܐ:{{{image}}}|{{px|{{{imagesize|}}}|200px}}]]
+  }}
+| caption = {{{imagecaption|}}}
+
+| label1 = ܪܬܡܐ
+| data1 = {{#if:{{{pronunciation|}}}| {{{pronunciation|''will be added''}}}}}
+| label2 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
+  | ܣܝܘܡܐ
+  | {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
+    |Signed
+    |ܡܬܡܠܠ
+    }} in
+  }}
+| data2 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
+  |{{{creator|–}}}
+  |{{{states|{{{region|–}}}}}}
+  }}
+| label3 = ܝܘܒܠܐ ܕܣܝܡܘܬܐ
+| data3 = {{{date|}}}
+| label4 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
+  |Setting and usage
+  |ܩܠܝܡܐ
+  }}
+| data4 = {{#ifexpr:{{#if:{{{states|}}}|1|0}}+{{#if:{{{region|}}}|1|0}}!=1
+  |{{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
+    |{{{setting|–}}}
+    |{{{region|–}}}
+    }}
+  }}
+| label5 = [[ܦܢܝܬܐ]]
+| data5 = {{#if:{{{latd|}}}
+  | <small style="white-space: nowrap">{{coord|{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}|{{{longm}}}|{{{longEW}}}|type:landmark|display=inline}}</small>
+  }}
+| label6 = ܐܽܘܡܬܐ
+| data6 = {{{ethnicity|}}}
+| label7 = {{#if:{{{extinct|}}}
+  |[[ܠܫܢܐ ܦܢܝܬ|ܬܫܥܝܬܐ ܕܦܢܝܐ]]
+  |ܡ̈ܠܠܐ ܐܡܗܝ̈ܐ {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
+    |ܢܘܦܝ̈ܐ
+    |ܡ̈ܠܠܐ
+    }}
+  }}
+| data7 = {{#if:{{{extinct|}}}
+  |{{{extinct}}}
+  |{{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}} }}|silver|1}}
+    |{{{signers|–}}}
+    |{{{speakers|–}}}{{#if:{{{Atlas UNESCO country|}}}
+      |{{Atlas UNESCO|{{{Atlas UNESCO country}}}|{{{Atlas UNESCO language|{{PAGENAME}} }}} }}
+      }}
+    }}
+  }}
+| label8 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
+  |ܣܕܪܐ (ܡܚܫܒܬܐ)
+  |[[ܓܢܣܐ ܕܠܫܢܐ]]
+  }}
+| data8 = <div style="text-align:left;">{{{family|{{{fam1|{{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
+  |''ܓܢܝܙܐ''
+  |{{#if:{{{creator|}}}{{{setting|}}}
+    |[[ܠܫܢܐ ܥܒܝܕܐ]]
+    |{{Infobox language/genetic|{{{familycolor|Default}}}}}
+    }}
+  }}}}}
+<ul style="line-height:100%; margin-left:15px;padding-left:0"><li>
+{{#ifeq:{{{familycolor|}}}|unclassified||{{#ifeq:{{{familycolor|}}}|Unclassified||{{#ifeq:{{{familycolor|}}}|isolate||{{#ifeq:{{{familycolor|}}}|Isolate||{{#if:{{{fam2|}}}
+| {{{fam2}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam3|}}}
+| {{{fam3}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam4|}}}
+| {{{fam4}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam5|}}}
+| {{{fam5}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam6|}}}
+| {{{fam6}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam7|}}}
+| {{{fam7}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam8|}}}
+| {{{fam8}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam9|}}}
+| {{{fam9}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam10|}}}
+| {{{fam10}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam11|}}}
+| {{{fam11}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam12|}}}
+| {{{fam12}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam13|}}}
+| {{{fam13}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam14|}}}
+| {{{fam14}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam15|}}}
+| {{{fam15}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{{name}}}</li></ul>
+| {{{name}}}
+}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}
+}}</li></ul>| {{{name}}}
+}}</li></ul>
+}}}}}}}}}}}</div>
+| label9 = Standard forms
+| data9 = {{#if:{{{standards|}}}|{{{standards}}}
+|{{#if:{{{stand1|}}}|
+<div>{{{stand1|}}}</div>
+<div>{{{stand2|}}}</div>
+<div>{{{stand3|}}}</div>
+<div>{{{stand4|}}}</div>
+<div>{{{stand5|}}}</div>
+<div>{{{stand6|}}}</div>
+}}}}
+| label10 = ܠܥܙ̈ܐ
+| data10 = {{#if:{{{dialects|}}}|{{{dialects}}}
+|{{#if:{{{dia1|}}}|
+<div>{{{dia1|}}}</div>
+<div>{{{dia2|}}}</div>
+<div>{{{dia3|}}}</div>
+<div>{{{dia4|}}}</div>
+<div>{{{dia5|}}}</div>
+<div>{{{dia6|}}}</div>
+<div>{{{dia7|}}}</div>
+<div>{{{dia8|}}}</div>
+<div>{{{dia9|}}}</div>
+<div>{{{dia10|}}}</div>
+<div>{{{dia11|}}}</div>
+<div>{{{dia12|}}}</div>
+<div>{{{dia13|}}}</div>
+<div>{{{dia14|}}}</div>
+<div>{{{dia15|}}}</div>
+<div>{{{dia16|}}}</div>
+<div>{{{dia17|}}}</div>
+<div>{{{dia18|}}}</div>
+<div>{{{dia19|}}}</div>
+<div>{{{dia20|}}}</div>
+}}}}
+| label11 = [[ܟܬܟܐ]]
+| data11 = {{{script|}}}
+| label12 = Category (sources)
+| data12 = {{{posteriori|}}}
+
+| header13 = {{#if:{{{nation|}}}{{{agency|}}}|ܪܘܫܡܝܘܬܐ}}
+| label14 = ܠܫܢܐ ܪܘܫܡܝܐ ܒ
+| data14 = {{#if:{{{agency|}}}|{{{nation|''ܠܝܬ''}}}}}
+| label15 = ܠܫܢܐ ܡܫܬܘܕܥ ܕܒܨܝܪܝ̈ܐ
+| data15 = {{{minority|}}}
+| label16 = ܡܬܪܨܢܐ
+| data16 = {{{agency|{{#ifexpr:{{#if:{{{agency|}}}|1|0}} and {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|Default}}}}}|black|1}}|1|0}}
+  | ''ܠܝܬ''
+  | {{#if:{{{nation|}}}|''ܠܝܬ ܡܬܪܨܢܐ ܪܘܫܡܝܐ''}}
+  }}}}}
+| header17 = ܪܡܙ̈ܐ ܕISO
+| label18 = ISO 639-1
+| data18 = {{#if:{{{iso1|}}}|<tt>{{{iso1}}}</tt>}}
+| label19 = ISO 639-2
+| data19 = {{#if:{{{iso2|}}}{{{iso2b|}}}{{{iso2t|}}}
+ |<tt>{{#if:{{{iso2b|}}}{{{iso2t|}}}
+  |{{{iso2b|{{{iso2|–}}}}}}&nbsp;(B)
+  |{{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
+   |{{{iso2|sgn}}}
+   |{{
+    #if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
+    |{{{iso2|art}}}
+    |{{{iso2|–}}}}}}}}}</tt>{{
+     #if:{{{iso2b|}}}{{{iso2t|}}}
+     |<br /><tt>{{{iso2t|{{{iso2|–}}}}}}&nbsp;(T)</tt>}}
+ }}
+| label20 = ISO 639-3
+| data20 = {{#if:{{{iso3|}}}
+   |{{#ifeq:{{{iso3|}}}|none|''ܠܝܬ''|<tt>[[ISO639-3:{{{iso3}}}|{{{iso3}}}]]</tt> {{#if:{{{lc1|}}}| – [[Macrolanguage]]}} {{{iso3comment|}}}}}|{{#if:{{{lc1|}}}| |–}}}}{{#ifexpr:{{#if:{{{lc1|}}}|1|0}} and {{#if:{{{lc2|}}}|1|0}}|{{#if:{{{iso3|}}}|<br />individual codes|{{#if:{{{lc3|}}}|variously|either}}}}:{{Infobox language/codelist
+|{{{lc1|}}}|{{{ld1|}}}|{{{ll1|}}}}}{{Infobox language/codelist
+|{{{lc2|}}}|{{{ld2|}}}|{{{ll2|}}}}}{{Infobox language/codelist
+|{{{lc3|}}}|{{{ld3|}}}|{{{ll3|}}}}}{{Infobox language/codelist
+|{{{lc4|}}}|{{{ld4|}}}|{{{ll4|}}}}}{{Infobox language/codelist
+|{{{lc5|}}}|{{{ld5|}}}|{{{ll5|}}}}}{{Infobox language/codelist
+|{{{lc6|}}}|{{{ld6|}}}|{{{ll6|}}}}}{{Infobox language/codelist
+|{{{lc7|}}}|{{{ld7|}}}|{{{ll7|}}}}}{{Infobox language/codelist
+|{{{lc8|}}}|{{{ld8|}}}|{{{ll8|}}}}}{{Infobox language/codelist
+|{{{lc9|}}}|{{{ld9|}}}|{{{ll9|}}}}}{{Infobox language/codelist
+|{{{lc10|}}}|{{{ld10|}}}|{{{ll10|}}}}}{{Infobox language/codelist
+|{{{lc11|}}}|{{{ld11|}}}|{{{ll11|}}}}}{{Infobox language/codelist
+|{{{lc12|}}}|{{{ld12|}}}|{{{ll12|}}}}}{{Infobox language/codelist
+|{{{lc13|}}}|{{{ld13|}}}|{{{ll13|}}}}}{{Infobox language/codelist
+|{{{lc14|}}}|{{{ld14|}}}|{{{ll14|}}}}}{{Infobox language/codelist
+|{{{lc15|}}}|{{{ld15|}}}|{{{ll15|}}}}}{{Infobox language/codelist
+|{{{lc16|}}}|{{{ld16|}}}|{{{ll16|}}}}}{{Infobox language/codelist
+|{{{lc17|}}}|{{{ld17|}}}|{{{ll17|}}}}}{{Infobox language/codelist
+|{{{lc18|}}}|{{{ld18|}}}|{{{ll18|}}}}}{{Infobox language/codelist
+|{{{lc19|}}}|{{{ld19|}}}|{{{ll19|}}}}}{{Infobox language/codelist
+|{{{lc20|}}}|{{{ld20|}}}|{{{ll20|}}}}}{{Infobox language/codelist
+|{{{lc21|}}}|{{{ld21|}}}|{{{ll21|}}}}}{{Infobox language/codelist
+|{{{lc22|}}}|{{{ld22|}}}|{{{ll22|}}}}}{{Infobox language/codelist
+|{{{lc23|}}}|{{{ld23|}}}|{{{ll23|}}}}}{{Infobox language/codelist
+|{{{lc24|}}}|{{{ld24|}}}|{{{ll24|}}}}}{{Infobox language/codelist
+|{{{lc25|}}}|{{{ld25|}}}|{{{ll25|}}}}}{{Infobox language/codelist
+|{{{lc26|}}}|{{{ld26|}}}|{{{ll26|}}}}}{{Infobox language/codelist
+|{{{lc27|}}}|{{{ld27|}}}|{{{ll27|}}}}}{{Infobox language/codelist
+|{{{lc28|}}}|{{{ld28|}}}|{{{ll28|}}}}}{{Infobox language/codelist
+|{{{lc29|}}}|{{{ld29|}}}|{{{ll29|}}}}}{{Infobox language/codelist
+|{{{lc30|}}}|{{{ld30|}}}|{{{ll30|}}}}}{{Infobox language/codelist
+|{{{lc31|}}}|{{{ld31|}}}|{{{ll31|}}}}}{{Infobox language/codelist
+|{{{lc32|}}}|{{{ld32|}}}|{{{ll32|}}}}}{{Infobox language/codelist
+|{{{lc33|}}}|{{{ld33|}}}|{{{ll33|}}}}}{{Infobox language/codelist
+|{{{lc34|}}}|{{{ld34|}}}|{{{ll34|}}}}}{{Infobox language/codelist
+|{{{lc35|}}}|{{{ld35|}}}|{{{ll35|}}}}}{{Infobox language/codelist
+|{{{lc36|}}}|{{{ld36|}}}|{{{ll36|}}}}}{{Infobox language/codelist
+|{{{lc37|}}}|{{{ld37|}}}|{{{ll37|}}}}}{{Infobox language/codelist
+|{{{lc38|}}}|{{{ld38|}}}|{{{ll38|}}}}}{{Infobox language/codelist
+|{{{lc39|}}}|{{{ld39|}}}|{{{ll39|}}}}}{{Infobox language/codelist
+|{{{lc40|}}}|{{{ld40|}}}|{{{ll40|}}}}}{{Infobox language/codelist
+|{{{lc41|}}}|{{{ld41|}}}|{{{ll41|}}}}}{{Infobox language/codelist
+|{{{lc42|}}}|{{{ld42|}}}|{{{ll42|}}}}}{{Infobox language/codelist
+|{{{lc43|}}}|{{{ld43|}}}|{{{ll43|}}}}}{{Infobox language/codelist
+|{{{lc44|}}}|{{{ld44|}}}|{{{ll44|}}}}}{{Infobox language/codelist
+|{{{lc45|}}}|{{{ld45|}}}|{{{ll45|}}} }}
+ |{{#if:{{{lc1|}}}|{{#if:{{{iso3|}}}|<br />individual code:<br />}}<tt>[http://www.sil.org/iso639-3/documentation.asp?id={{{lc1}}} {{{lc1}}}]</tt> – {{#if:{{{ll1|}}}|{{#ifeq:{{{ll1|}}}|none|{{{ld1|}}}|[[{{{ll1}}}|{{{ld1|}}}]]}}|[[{{{ld1|}}}]]}} }} }}
+| label21 = {{sc|Linguist}} List
+| data21 = {{#if:{{{linglist|}}}
+  |<tt>[http://multitree.linguistlist.org/codes/{{{linglist}}} {{{linglist}}}]</tt> {{#if:{{{lingname|}}}|{{{lingname}}}}}
+  }}
+| label22 = &nbsp;
+| data22 = {{#if:{{{linglist2|}}}
+  |<tt>[http://multitree.linguistlist.org/codes/{{{linglist2}}} {{{linglist2}}}]</tt> {{#if:{{{lingname2|}}}|{{{lingname2}}}}}
+  }}
+| label23 = &nbsp;
+| data23 = {{#if:{{{linglist3|}}}
+  |<tt>[http://multitree.linguistlist.org/codes/{{{linglist3}}} {{{linglist3}}}]</tt> {{#if:{{{lingname3|}}}|{{{lingname3}}}}}
+  }}
+| label24 = [[Linguasphere Observatory|Linguasphere]]
+| data24 = {{#if:{{{lingua|}}}|<tt>{{{lingua}}}</tt>}}
+| data25 = {{#if:{{{map|}}}
+  | [[ܠܦܦܐ:{{{map}}}|{{px|{{{mapsize|}}}|300px}}]]{{#if:{{{mapcaption|}}}|<div style="text-align:right;">{{{mapcaption}}}</div>}}
+  }}
+| data26 = {{#if:{{{map2|}}}
+  | [[ܠܦܦܐ:{{{map2}}}|{{px|{{{mapsize|}}}|300px}}]]{{#if:{{{mapcaption2|}}}|<div style="text-align:right;">{{{mapcaption2}}}</div>}}
+  }}
+| data27 = {{#if:{{{notice|}}}|
+{{{!}} style="text-align:right;"
+{{Infobox language/{{{notice|}}}}}
+{{!}}}
+}}<!--provide notice if IPA or Indic fonts are used; optional links for sign languages-->
+| data28 = {{#if:{{{notice2|}}}|
+{{{!}} style="text-align:right;"
+{{Infobox language/{{{notice2|}}}}}
+{{!}}}
+}}
+}}<noinclude>
+[[ar:قالب:لغة]]
+[[az:Şablon:Dil]]
+[[ba:Ҡалып:Тел]]
+[[be:Шаблон:Картка:Мова]]
+[[be-x-old:Шаблён:Інфармацыя пра мову]]
+[[bg:Шаблон:Език]]
+[[ca:Template:Llengua]]
+[[cs:Šablona:Infobox jazyk]]
+[[cy:Nodyn:Gwybodlen iaith]]
+[[da:Skabelon:Infoboks sprog]]
+[[de:Vorlage:Infobox Sprache]]
+[[dsb:Pśedłoga:Infokašćik rěc]]
+[[el:Πρότυπο:Πληροφορίες γλώσσας]]
+[[es:Plantilla:Infobox idioma]]
+[[eo:Ŝablono:Informkesto lingvo]]
+[[eu:Txantiloi:Hizkuntza infotaula]]
+[[fa:الگو:جعبه اطلاعات زبان]]
+[[fr:Modèle:Infobox Langue]]
+[[fy:Berjocht:Taaltabel]]
+[[gd:Template:Cànan]]
+[[hsb:Předłoha:Infokašćik rěč]]
+[[io:Template:Linguo]]
+[[ilo:Template:Pagsasao]]
+[[ia:Patrono:Infobox lingua]]
+[[it:Template:lingua]]
+[[ka:თარგი:ინფოდაფა ენა]]
+[[km:ទំព័រគំរូ:ប្រអប់ព័ត៌មាន_ភាសា]]
+[[ku:Şablon:Ziman]]
+[[la:Formula:Lingua]]
+[[lv:Veidne:Infobox Language]]
+[[li:Sjabloon:Taal]]
+[[hu:Sablon:Nyelv]]
+[[mk:Шаблон:Инфокутија Јазик]]
+[[mr:साचा:माहितीचौकट भाषा]]
+[[ja:Template:Infobox Language]]
+[[pl:Szablon:Język infobox]]
+[[pt:Predefinição:Info/Língua]]
+[[ru:Шаблон:Язык]]
+[[simple:Template:Infobox Language]]
+[[sk:Šablóna:Infobox jazyk]]
+[[sl:Predloga:Infopolje Jezik]]
+[[sr:Шаблон:Кутијица за језик]]
+[[fi:Malline:Kieli]]
+[[sv:Mall:Språk]]
+[[szl:Szablon:Godka infobox]]
+[[tt:Template:Tel]]
+[[th:Template:กล่องข้อมูล ภาษา]]
+[[vi:Tiêu bản:Tóm tắt về ngôn ngữ]]
+[[tr:Şablon:Dil]]
+[[uk:Шаблон:Картка:Мова]]
+[[zh:Template:Infobox Language]]
+</noinclude>
