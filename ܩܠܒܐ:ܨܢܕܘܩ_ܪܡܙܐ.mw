@@ -435,7 +435,7 @@
 }}<!-- Below
 -->{{#if:{{{below|}}}|<tr><td colspan=2 class="{{{belowclass|}}}" style="text-align:center; {{{belowstyle|}}}">{{{below}}}</td></tr>}}<!--
  Navbar
--->{{#if:{{{name|}}}|<tr><td colspan=2 style="text-align:right">{{navbar|{{{name}}}|mini=1}}</td></tr>}}
+-->{{#if:{{{name|}}}|<tr><td colspan=2 style="text-align:left">{{navbar|{{{name}}}|mini=1}}</td></tr>}}
 {{#ifeq:{{{child|}}}|yes||</table>}}{{#switch:{{lc:{{{italic title|¬}}}}}
  |¬|no       = <!-- no italic title -->
  ||force|yes = {{italic title|force={{#ifeq:{{lc:{{{italic title|}}}}}|force|true}}}}
