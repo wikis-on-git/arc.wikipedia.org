@@ -40,7 +40,7 @@
 | data5 = {{#if:{{{latd|}}}
   | <small style="white-space: nowrap">{{coord|{{{latd}}}|{{{latm}}}|{{{latNS}}}|{{{longd}}}|{{{longm}}}|{{{longEW}}}|type:landmark|display=inline}}</small>
   }}
-| label6 = ܐܽܘܡܬܐ
+| label6 = ܐܘܡܬܐ
 | data6 = {{{ethnicity|}}}
 | label7 = {{#if:{{{extinct|}}}
   |[[ܠܫܢܐ ܦܢܝܐ|ܬܫܥܝܬܐ ܕܦܢܝܬܐ]]
@@ -135,7 +135,7 @@
 <div>{{{dia19|}}}</div>
 <div>{{{dia20|}}}</div>
 }}}}
-| label11 = [[ܟܬܟܐ]]
+| label11 = [[ܟܬܒܐ]]
 | data11 = {{{script|}}}
 | label12 = Category (sources)
 | data12 = {{{posteriori|}}}
