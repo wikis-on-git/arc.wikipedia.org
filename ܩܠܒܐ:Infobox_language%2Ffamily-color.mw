@@ -1,0 +1,61 @@
+{{#switch:{{{1|}}}
+| #default = {{{1}}}
+| Afro-Asiatic | Afro-asiatic | Afrasiatic = <nowiki>#faecc8</nowiki>
+| Algic | Algonkian = lightskyblue
+| Altaic = yellowgreen
+| American = <nowiki>#C0DDE6</nowiki>
+| Andamanese = <nowiki>#C99FEE</nowiki>
+| Australian = <nowiki>#eba9ee</nowiki>
+| Austroasiatic | Austro-Asiatic | Austro-asiatic = lightcoral
+| Austronesian = pink
+| Caucasian = lightgreen
+| Conlang | conlang | constructed language = black
+| Creole | creole = tan
+| Dravidian = mediumspringgreen
+| Eskimo-Aleut | Eskaleut = lightcyan
+| Hmong-Mien | Miao-Yao = <nowiki>#F2CEEE</nowiki>
+| Indo-European = <nowiki>#C9FFD9</nowiki>
+| isolate | language isolate | Isolate | #dddddd = <nowiki>#dddddd</nowiki>
+| Khoisan = goldenrod
+| Mixed | mixed = tan
+| Na-Dene | Na-Dené | Dene-Yeniseian | Dené-Yeniseian = <nowiki>#99DDFF</nowiki>
+| Niger-Congo = <nowiki>#FFDDAA</nowiki>
+| Nilo-Saharan = gold
+| Palaeosiberian | Palaeo-Siberian | Palaeo-siberian | Paleosiberian | Paleo-Siberian | Paleo-siberian = darkseagreen
+| Papuan = <nowiki>#fd79da</nowiki>
+| Pidgin | pidgin = tan
+| Sign | sign | sign language = silver
+| Sino-Tibetan = tomato
+| Kadai | Kradai | Tai-Kadai = lavender
+| Uralic = limegreen
+| Uto-Aztecan | Utoaztecan = dodgerblue
+| unclassified | Unclassified = white 
+| = white<includeonly>[[Category:Languages without family color codes]]</includeonly><!--default-->
+}}<noinclude>
+=== Usage ===
+
+<nowiki>{{</nowiki>[[Template:Infobox language|Infobox language]]<nowiki>/family-color|<family/color>}}</nowiki><br>Replace <family/color> with the language family or specific color to display.
+
+If no color is chosen, white will display, and [[:Category:Languages without family color codes]] will be called. 
+
+[[af:Sjabloon:Inligtingskas Taal/familie-kleur]]
+[[ar:قالب:لغة/لون]]
+[[cy:Nodyn:Gwybodlen iaith/lliw-teulu]]
+[[dsb:Pśedłoga:Infokašćik rěc/Barwa]]
+[[eo:Ŝablono:Informkesto lingvo/Koloro]]
+[[eu:Txantiloi:Hizkuntza infotaula/familiaren kolorea]]
+[[gv:Clowan:Kishtey fys çhengey/daah chynney]]
+[[ko:틀:언어 정보/계통색]]
+[[hsb:Předłoha:Infokašćik rěč/Barba]]
+[[hy:Կաղապար:Տեղեկաքարտ Լեզու/Ընտանիքի գույն]]
+[[id:Templat:Infobox Language/family-color]]
+[[lv:Veidne:Valodas infokaste/family-color]]
+[[sw:Kigezo:Infobox Language/family-color]]
+[[mk:Шаблон:Инфокутија Јазик/семејство-боја]]
+[[arz:قالب:Infobox Language/family-color]]
+[[pt:Predefinição:Info/Língua/family-color]]
+[[ss:Template:Infobox Lúlwîmi/umndeni-bâla]]
+[[sl:Predloga:Infopolje Jezik/barvadružine]]
+[[vi:Tiêu bản:Language/family-color]]
+[[zh:Template:Infobox Language/family-color]]
+</noinclude>
