@@ -43,7 +43,7 @@
 | label6 = ܐܽܘܡܬܐ
 | data6 = {{{ethnicity|}}}
 | label7 = {{#if:{{{extinct|}}}
-  |[[ܠܫܢܐ ܦܢܝܬ|ܬܫܥܝܬܐ ܕܦܢܝܐ]]
+  |[[ܠܫܢܐ ܦܢܝܐ|ܬܫܥܝܬܐ ܕܦܢܝܬܐ]]
   |ܡ̈ܠܠܐ ܐܡܗܝ̈ܐ {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
     |ܢܘܦܝ̈ܐ
     |ܡ̈ܠܠܐ
