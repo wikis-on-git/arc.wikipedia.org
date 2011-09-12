@@ -117,7 +117,7 @@
  |create=Please see the {{#if:{{{xfd|}}}|'''[[{{{xfd}}}|deletion discussion]]''' or the}} [{{fullurl:Special:Log|type=delete&page={{FULLPAGENAMEE}}}} deletion log] for details of why this page was deleted. If you would like to create a page at this title, you must first [[Wikipedia:Requests for page protection|request]] for it to be unprotected, or contact the administrator who deleted the page for the deleted material to be restored. If unsuccessful, you can use [[Wikipedia:Deletion review|deletion review]].
 }}}}}
 }}
-}}|[[Category:Wikipedia pages with incorrect protection templates]]}}<!--End if small--><includeonly>{{#ifeq:{{lc:{{{categories|no}}}}}|no||{{{categories|}}}}}</includeonly><noinclude>
+}}|}}<!--End if small--><includeonly>{{#ifeq:{{lc:{{{categories|no}}}}}|no||{{{categories|}}}}}</includeonly><noinclude>
 
 <!-- Add categories and interwikis to the /doc subpage, not here! -->
 </noinclude>
