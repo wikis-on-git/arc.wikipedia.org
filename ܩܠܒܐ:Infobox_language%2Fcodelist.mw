@@ -1,5 +1,5 @@
 {{#if:{{{1|}}}
- |<br />{{ISO639-3 documentation|code={{{1}}}}}&nbsp;&ndash;&nbsp;{{#if:{{{3|}}}
+ |<br />&nbsp;&ndash;&nbsp;{{#if:{{{3|}}}
   |{{#ifeq:{{{3|}}}|none
    |{{{2|}}}
    |[[{{{3}}}|{{{2|}}}]]
