@@ -30,13 +30,13 @@
 | Uralic = limegreen
 | Uto-Aztecan | Utoaztecan = dodgerblue
 | unclassified | Unclassified = white 
-| = white<includeonly>[[Category:Languages without family color codes]]</includeonly><!--default-->
+| = white<includeonly></includeonly><!--default-->
 }}<noinclude>
 === Usage ===
 
 <nowiki>{{</nowiki>[[Template:Infobox language|Infobox language]]<nowiki>/family-color|<family/color>}}</nowiki><br>Replace <family/color> with the language family or specific color to display.
 
-If no color is chosen, white will display, and [[:Category:Languages without family color codes]] will be called. 
+If no color is chosen, white will display. 
 
 [[af:Sjabloon:Inligtingskas Taal/familie-kleur]]
 [[ar:قالب:لغة/لون]]
