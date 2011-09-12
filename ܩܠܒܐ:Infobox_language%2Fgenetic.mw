@@ -1,0 +1,56 @@
+{{
+#switch:{{{1|}}}
+| Afro-Asiatic | Afro-asiatic | Afroasiatic = [[Afro-Asiatic languages|Afro-Asiatic]]
+| Niger-Congo | Niger–Congo = [[Niger–Congo languages|Niger–Congo]]
+| Nilo-Saharan = [[Nilo-Saharan languages|Nilo-Saharan]]?
+| Khoisan = (specify language family under 'fam1')[[Category:Language articles with spurious family]]
+| Indo-European = [[Indo-European languages|Indo-European]]
+| Caucasian = (specify language family under 'fam1')[[Category:Language articles with spurious family]]
+| Altaic = (specify language family under 'fam1') 
+| Uralic = [[Uralic languages|Uralic]]
+| Dravidian = [[Dravidian languages|Dravidian]]
+| Paleosiberian | Paleo-Siberian | Paleo-siberian | Palaeosiberian | Palaeo-Siberian | Palaeo-siberian = (specify language family under 'fam1')[[Category:Language articles with spurious family]]
+| Austronesian = [[Austronesian languages|Austronesian]]
+| Austro-Asiatic | Austro-asiatic | Austroasiatic = [[Austro-Asiatic languages|Austro-Asiatic]]
+| Sino-Tibetan = [[Sino-Tibetan languages|Sino-Tibetan]]
+| Hmong-Mien | Hmong–Mien = [[Hmong–Mien languages|Hmong–Mien]]
+| Andamanese = (specify language family under 'fam1' or 'family')[[Category:Language articles with spurious family]]
+| Australian = (specify language family under 'fam1' or 'family')[[Category:Language articles with spurious family]]
+| Papuan = (specify language family under 'fam1')[[Category:Language articles with spurious family]]
+| Tai-Kadai | Tai–Kadai = [[Tai–Kadai languages|Tai–Kadai]]
+| American = (specify language family under 'fam1' or 'family')[[Category:Language articles with spurious family]]
+| Na-Dene | Na-Dené | Dene-Yeniseian | Dené-Yeniseian | Dene–Yeniseian | Dené–Yeniseian = [[Dené–Yeniseian languages|Dené–Yeniseian]]
+| Eskimo-Aleut | Eskimo–Aleut = [[Eskimo–Aleut languages|Eskimo–Aleut]]
+| Uto-Aztecan = [[Uto-Aztecan languages|Uto-Aztecan]]
+| Creole | creole = [[Creole language|Creole]]
+| Pidgin | pidgin = [[Pidgin]]
+| Mixed | mixed = [[Mixed language|Mixed]]
+| Isolate | isolate | language isolate = [[language isolate]]
+| Sign | sign | sign language = [[sign language]]
+| Conlang | conlang | constructed language = [[constructed language]]
+| unclassified | Unclassified = [[Unclassified language|unclassified]]
+| = [[Category:Languages without family color codes]]
+}}<noinclude>
+===Usage===
+<nowiki>{{</nowiki>[[template:Infobox language|Infobox language]]<nowiki>/genetic|<family/color>}}</nowiki>
+
+Replace <family/color> with the language family or specific color to display genetic classification for.
+
+Some of the family colors, such as 'American', are areal. If no fam1 field is used in such cases, [[:Category:Language articles with spurious family]] will be called. 
+
+[[af:Sjabloon:Inligtingskas Taal/geneties2]]
+[[ar:قالب:صندوق معلومات لغة2/genetic2]]
+[[bg:Шаблон:Език/генетика2]]
+[[dsb:Pśedłoga:Infokašćik rěc/genetik2]]
+[[eu:Txantiloi:Hizkuntza infotaula/genetiko 2]]
+[[hsb:Předłoha:Infokašćik rěč/genetik2]]
+[[sw:Kigezo:Infobox Language/genetic2]]
+[[ml:ഫലകം:Infobox Language/genetic2]]
+[[arz:قالب:Infobox Language/genetic2]]
+[[ja:Template:Infobox Language/genetic2]]
+[[pt:Predefinição:Info/Língua/genetic2]]
+[[sl:Predloga:Infopolje Jezik/genetika2]]
+[[tl:Suleras:Infobox Language/genetic2]]
+[[vi:Tiêu bản:Language genetic]]
+[[zh:Template:Infobox Language/genetic2]]
+</noinclude>
