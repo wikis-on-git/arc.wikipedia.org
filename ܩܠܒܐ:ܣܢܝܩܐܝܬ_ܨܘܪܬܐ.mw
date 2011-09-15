@@ -1,0 +1,6 @@
+<includeonly><font color="silver">
+
+<span class="plainlinks">[http://commons.wikimedia.org/wiki/Commons:Upload/en?uselang=arc ܨܢܝܩܐܝܬ ܨܘܪܬܐ]</span></font>
+
+{{#ifeq: {{NAMESPACE}} | Sjabloon | | [[ܣܕܪܐ:ܘܝܩܝܦܕܝܐ:ܣܢܝܩܐܝܬ ܨܘܪܬܐ]] }}
+</includeonly>
