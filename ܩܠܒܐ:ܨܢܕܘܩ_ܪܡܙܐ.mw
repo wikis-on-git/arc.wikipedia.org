@@ -1,4 +1,4 @@
-{| class="toccolours vatop infobox" cellpadding="1" cellspacing="1" style="float:right; clear:right; width:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}px; padding:0px; margin:0px 0px 1em 1em; font-size:85%;"
+{| class="toccolours vatop infobox" cellpadding="1" cellspacing="1" style="float:left; clear:right; width:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}px; padding:0px; margin:0px 0px 1em 1em; font-size:85%;"
 {{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} '''<big>{{#If:{{{kop|}}}|{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kop}}}|<font color={{{color}}}>{{{kop}}}</font>}}|{{{kop}}}}}|{{PAGENAME}}}}</big>'''
 {{!}}-
 {{#If:{{{breed|}}}|{{#IfEq:{{{breed}}}|''''''|| {{!}} align="center" colspan="3" {{!}} {{{breed}}}
