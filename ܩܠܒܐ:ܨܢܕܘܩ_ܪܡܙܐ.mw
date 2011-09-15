@@ -19,19 +19,19 @@
 {{!}}-}}
 {{#If:{{{kolom1|}}}{{{kolom2|}}}{{{kolom3|}}}| {{!}} width="{{{kolom1|}}}" {{!}} {{!!}} width="{{{kolom2|}}}" {{!}} {{!!}} width="{{{kolom3|}}}" {{!}}
 {{!}}-}}
-{{#If:{{{image|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image}}}|{{#If:{{{imagewidth|}}}|{{{imagewidth|}}}px|{{#expr:{{{breedte|{{Infobox/breedte}}}}}-6}}px}}|{{{caption|{{PAGENAME}}}}}]]
+{{#If:{{{image|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image}}}|{{#If:{{{imagewidth|}}}|{{{imagewidth|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{caption|{{PAGENAME}}}}}]]
 {{!}}-}}
 {{#If:{{{image|}}}|{{#If:{{{caption|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{caption}}}</small>
 {{!}}-}}}}
 {{#If:{{{image|}}}||{{#If:{{{noimage|}}}|{{!}} align="center" colspan="3" {{!}} {{{noimage|}}}
 {{!}}-}}}}
-{{#If:{{{mainimage|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{mainimage}}}|{{#If:{{{mainimagewidth|}}}|{{{mainimagewidth|}}}px|{{#expr:{{{breedte|{{Infobox/breedte}}}}}-6}}px}}|{{{maincaption|{{PAGENAME}}}}}]]
+{{#If:{{{mainimage|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{mainimage}}}|{{#If:{{{mainimagewidth|}}}|{{{mainimagewidth|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{maincaption|{{PAGENAME}}}}}]]
 {{!}}-}}
 {{#If:{{{mainimage|}}}|{{#If:{{{maincaption|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{maincaption}}}</small>
 {{!}}-}}}}
 {{#If:{{{mainimage|}}}||{{#If:{{{nomainimage|}}}|{{!}} align="center" colspan="3" {{!}} {{{nomainimage|}}}
 {{!}}-}}}}
-{{#If:{{{otherimage|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{otherimage}}}|{{#If:{{{otherimagewidth|}}}|{{{otherimagewidth|}}}px|{{#expr:{{{breedte|{{Infobox/breedte}}}}}-6}}px}}|{{{othercaption|{{PAGENAME}}}}}]]
+{{#If:{{{otherimage|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{otherimage}}}|{{#If:{{{otherimagewidth|}}}|{{{otherimagewidth|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{othercaption|{{PAGENAME}}}}}]]
 {{!}}-}}
 {{#If:{{{otherimage|}}}|{{#If:{{{othercaption|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{othercaption}}}</small>
 {{!}}-}}}}
@@ -347,23 +347,23 @@
 {{!}}-}}
 {{#If:{{{itemB_6|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headB_6|}}} {{!!}} colspan="2" {{!}} {{{itemB_6}}}
 {{!}}-}}
-{{#If:{{{image0|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image0|}}}|{{#If:{{{imagewidth0|}}}|{{{imagewidth0|}}}px|{{#expr:{{{breedte|{{Infobox/breedte}}}}}-6}}px}}|{{{caption0|{{PAGENAME}}}}}]]
+{{#If:{{{image0|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image0|}}}|{{#If:{{{imagewidth0|}}}|{{{imagewidth0|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{caption0|{{PAGENAME}}}}}]]
 {{!}}-}}
 {{#If:{{{image0|}}}|{{#If:{{{caption0|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{caption0}}}</small>
 {{!}}-}}}}
 {{#If:{{{image0|}}}||{{#If:{{{noimage0|}}}|{{!}} align="center" colspan="3" {{!}} {{{noimage0|}}}
 {{!}}-}}}}
-{{#If:{{{image1|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image1|}}}|{{#If:{{{imagewidth1|}}}|{{{imagewidth1|}}}px|{{#expr:{{{breedte|{{Infobox/breedte}}}}}-6}}px}}|{{{caption1|{{PAGENAME}}}}}]]
+{{#If:{{{image1|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image1|}}}|{{#If:{{{imagewidth1|}}}|{{{imagewidth1|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{caption1|{{PAGENAME}}}}}]]
 {{!}}-}}
 {{#If:{{{image1|}}}|{{#If:{{{caption1|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{caption1}}}</small>
 {{!}}-}}}}
 {{#If:{{{image1|}}}||{{#If:{{{noimage1|}}}|{{!}} align="center" colspan="3" {{!}} {{{noimage1|}}}
 {{!}}-}}}}
-{{#If:{{{image2|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image2|}}}|{{#If:{{{imagewidth2|}}}|{{{imagewidth2|}}}px|{{#expr:{{{breedte|{{Infobox/breedte}}}}}-6}}px}}|{{{caption2|{{PAGENAME}}}}}]]
+{{#If:{{{image2|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image2|}}}|{{#If:{{{imagewidth2|}}}|{{{imagewidth2|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{caption2|{{PAGENAME}}}}}]]
 {{!}}-}}
 {{#If:{{{image2|}}}|{{#If:{{{caption2|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{caption2}}}</small>
 {{!}}-}}}}
-{{#If:{{{image3|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image3|}}}|{{#If:{{{imagewidth3|}}}|{{{imagewidth3|}}}px|{{#expr:{{{breedte|{{Infobox/breedte}}}}}-6}}px}}|{{{caption3|{{PAGENAME}}}}}]]
+{{#If:{{{image3|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image3|}}}|{{#If:{{{imagewidth3|}}}|{{{imagewidth3|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{caption3|{{PAGENAME}}}}}]]
 {{!}}-}}
 {{#If:{{{image3|}}}|{{#If:{{{caption3|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{caption3}}}</small>
 {{!}}-}}}}
