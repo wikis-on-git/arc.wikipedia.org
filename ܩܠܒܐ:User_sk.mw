@@ -1,5 +1,13 @@
-{{UsersSpeak|sk|ܣܠܘܒܩܝܐ|Tento redaktor má '''slovenčinu'''.}}
-[[ܣܕܪܐ:ܘܝܩܦܝܕܝ̈ܝܐ ܥܠ ܠܫܢ̈ܐ|sk]]
+{{userbox-level
+| level    = 
+| id       = [[ܠܫܢܐ ܣܠܘܒܩܝܐ|sk]]
+| info     = Tento redaktor má '''[[:ܣܕܪܐ:User sk|slovenčinu]]''' ako '''[[:ܣܕܪܐ:User sk-N|materinský jazyk]]'''.
+| nocat = {{{nocat|}}}
+| usercategory  = User it
+}}
+[[Category:User it]]
+<noinclude>
+{{languages|ܣܠܘܒܩܝܐ|sk}}
 
 [[ab:Ашаблон:User sk]]
 [[af:Sjabloon:Gebruiker sk]]
