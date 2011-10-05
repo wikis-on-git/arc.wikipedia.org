@@ -19,7 +19,7 @@
 {{!}}-}}
 {{#If:{{{kolom1|}}}{{{kolom2|}}}{{{kolom3|}}}| {{!}} width="{{{kolom1|}}}" {{!}} {{!!}} width="{{{kolom2|}}}" {{!}} {{!!}} width="{{{kolom3|}}}" {{!}}
 {{!}}-}}
-{{#If:{{{image|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image}}}|{{#If:{{{imagewidth|}}}|{{{imagewidth|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{caption|{{PAGENAME}}}}}]]
+{{#If:{{{image|}}}| {{!}} align="center" colspan="3" {{!}} {{{image}}}|{{#If:{{{imagewidth|}}}|{{{imagewidth|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{caption|{{PAGENAME}}}}}]]
 {{!}}-}}
 {{#If:{{{image|}}}|{{#If:{{{caption|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{caption}}}</small>
 {{!}}-}}}}
