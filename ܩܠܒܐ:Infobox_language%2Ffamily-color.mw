@@ -1,6 +1,6 @@
 {{#switch:{{{1|}}}
 | #default = {{{1}}}
-| ܐܦܪܘܐܣܝܘܝܐ | ܐܦܪܘ-ܐܣܝܘܝܐ | ܐܦܪܘܐܣܝܝܐ | ܐܦܪܘ-ܐܣܝܝܐ | Afro-Asiatic | Afro-asiatic | Afrasiatic = <nowiki>#faecc8</nowiki>
+| ܐܦܪܘ-ܐܣܝܝܐ = <nowiki>#faecc8</nowiki>
 | ܐܠܓܝܐ | ܐܠܓܘܢܩܝܐ | Algic | Algonkian = lightskyblue
 | ܐܠܛܝܐ |Altaic = yellowgreen
 | ܐܡܪܝܩܝܐ | American = <nowiki>#C0DDE6</nowiki>
