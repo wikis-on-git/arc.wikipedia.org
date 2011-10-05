@@ -71,20 +71,20 @@
   }}}}}
 <ul style="line-height:100%; margin-left:15px;padding-left:0"><li>
 {{#ifeq:{{{familycolor|}}}|unclassified||{{#ifeq:{{{familycolor|}}}|Unclassified||{{#ifeq:{{{familycolor|}}}|isolate||{{#ifeq:{{{familycolor|}}}|Isolate||{{#if:{{{fam2|}}}
-| {{{fam2}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam3|}}}
-| {{{fam3}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam4|}}}
-| {{{fam4}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam5|}}}
-| {{{fam5}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam6|}}}
-| {{{fam6}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam7|}}}
-| {{{fam7}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam8|}}}
-| {{{fam8}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam9|}}}
-| {{{fam9}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam10|}}}
-| {{{fam10}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam11|}}}
-| {{{fam11}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam12|}}}
-| {{{fam12}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam13|}}}
-| {{{fam13}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam14|}}}
-| {{{fam14}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam15|}}}
-| {{{fam15}}}<br /><span style="font-size:66%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{{name}}}</li></ul>
+| {{{fam2}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam3|}}}
+| {{{fam3}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam4|}}}
+| {{{fam4}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam5|}}}
+| {{{fam5}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam6|}}}
+| {{{fam6}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam7|}}}
+| {{{fam7}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam8|}}}
+| {{{fam8}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam9|}}}
+| {{{fam9}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam10|}}}
+| {{{fam10}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam11|}}}
+| {{{fam11}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam12|}}}
+| {{{fam12}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam13|}}}
+| {{{fam13}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam14|}}}
+| {{{fam14}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam15|}}}
+| {{{fam15}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{{name}}}
 | {{{name}}}
 }}</li></ul>| {{{name}}}
 }}</li></ul>| {{{name}}}
