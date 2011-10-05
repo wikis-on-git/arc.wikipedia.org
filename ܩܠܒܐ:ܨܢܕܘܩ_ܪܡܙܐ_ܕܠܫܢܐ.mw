@@ -71,20 +71,20 @@
   }}}}}
 <ul style="line-height:100%; margin-left:15px;padding-left:0"><li>
 {{#ifeq:{{{familycolor|}}}|unclassified||{{#ifeq:{{{familycolor|}}}|Unclassified||{{#ifeq:{{{familycolor|}}}|isolate||{{#ifeq:{{{familycolor|}}}|Isolate||{{#if:{{{fam2|}}}
-| {{{fam2}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam3|}}}
-| {{{fam3}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam4|}}}
-| {{{fam4}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam5|}}}
-| {{{fam5}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam6|}}}
-| {{{fam6}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam7|}}}
-| {{{fam7}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam8|}}}
-| {{{fam8}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam9|}}}
-| {{{fam9}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam10|}}}
-| {{{fam10}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam11|}}}
-| {{{fam11}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam12|}}}
-| {{{fam12}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam13|}}}
-| {{{fam13}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam14|}}}
-| {{{fam14}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam15|}}}
-| {{{fam15}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{{name}}}</li></ul>
+| {{{fam2}}}<ul style="line-height:100%; margin-right:5px;padding-right:0"><li>{{#if:{{{fam3|}}}
+| {{{fam3}}}<ul style="line-height:100%; margin-right:5px;padding-right:0"><li>{{#if:{{{fam4|}}}
+| {{{fam4}}}<ul style="line-height:100%; margin-right:5px;padding-right:0"><li>{{#if:{{{fam5|}}}
+| {{{fam5}}}<ul style="line-height:100%; margin-right:5px;padding-right:0"><li>{{#if:{{{fam6|}}}
+| {{{fam6}}}<ul style="line-height:100%; margin-right:5px;padding-right:0"><li>{{#if:{{{fam7|}}}
+| {{{fam7}}}<ul style="line-height:100%; margin-right:5px;padding-right:0"><li>{{#if:{{{fam8|}}}
+| {{{fam8}}}<ul style="line-height:100%; margin-right:5px;padding-right:0"><li>{{#if:{{{fam9|}}}
+| {{{fam9}}}<ul style="line-height:100%; margin-right:5px;padding-right:0"><li>{{#if:{{{fam10|}}}
+| {{{fam10}}}<ul style="line-height:100%; margin-right:5px;padding-right:0"><li>{{#if:{{{fam11|}}}
+| {{{fam11}}}<ul style="line-height:100%; margin-right:5px;padding-right:0"><li>{{#if:{{{fam12|}}}
+| {{{fam12}}}<ul style="line-height:100%; margin-right:5px;padding-right:0"><li>{{#if:{{{fam13|}}}
+| {{{fam13}}}<ul style="line-height:100%; margin-right:5px;padding-right:0"><li>{{#if:{{{fam14|}}}
+| {{{fam14}}}<ul style="line-height:100%; margin-right:5px;padding-right:0"><li>{{#if:{{{fam15|}}}
+| {{{fam15}}}<ul style="line-height:100%; margin-right:5px;padding-right:0"><li>{{{name}}}</li></ul>
 | {{{name}}}
 }}</li></ul>| {{{name}}}
 }}</li></ul>| {{{name}}}
