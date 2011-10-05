@@ -62,7 +62,7 @@
   |ܣܕܪܐ (ܡܚܫܒܬܐ)
   |[[ܓܢܣܐ ܕܠܫܢܐ]]
   }}
-| data8 = <div style="text-align:left;">{{{family|{{{fam1|{{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
+| data8 = <div style="text-align:right;">{{{family|{{{fam1|{{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
   |''ܓܢܝܙܐ''
   |{{#if:{{{creator|}}}{{{setting|}}}
     |[[ܠܫܢܐ ܥܒܝܕܐ]]
