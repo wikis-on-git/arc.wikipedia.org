@@ -69,22 +69,22 @@
     |{{Infobox language/genetic|{{{familycolor|Default}}}}}
     }}
   }}}}}
-<ul style="line-height:100%; margin-right:15px;padding-right:0"><li>
+<ul style="line-height:100%; margin-left:15px;padding-left:0"><li>
 {{#ifeq:{{{familycolor|}}}|unclassified||{{#ifeq:{{{familycolor|}}}|Unclassified||{{#ifeq:{{{familycolor|}}}|isolate||{{#ifeq:{{{familycolor|}}}|Isolate||{{#if:{{{fam2|}}}
-| {{{fam2}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam3|}}}
-| {{{fam3}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam4|}}}
-| {{{fam4}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam5|}}}
-| {{{fam5}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam6|}}}
-| {{{fam6}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam7|}}}
-| {{{fam7}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam8|}}}
-| {{{fam8}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam9|}}}
-| {{{fam9}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam10|}}}
-| {{{fam10}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam11|}}}
-| {{{fam11}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam12|}}}
-| {{{fam12}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam13|}}}
-| {{{fam13}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam14|}}}
-| {{{fam14}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{#if:{{{fam15|}}}
-| {{{fam15}}}<br /><span style="text-align: right;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>{{{name}}}</ul></li>
+| {{{fam2}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam3|}}}
+| {{{fam3}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam4|}}}
+| {{{fam4}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam5|}}}
+| {{{fam5}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam6|}}}
+| {{{fam6}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam7|}}}
+| {{{fam7}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam8|}}}
+| {{{fam8}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam9|}}}
+| {{{fam9}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam10|}}}
+| {{{fam10}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam11|}}}
+| {{{fam11}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam12|}}}
+| {{{fam12}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam13|}}}
+| {{{fam13}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam14|}}}
+| {{{fam14}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{#if:{{{fam15|}}}
+| {{{fam15}}}<ul style="line-height:100%; margin-left:5px;padding-left:0"><li>{{{name}}}</li></ul>
 | {{{name}}}
 }}</li></ul>| {{{name}}}
 }}</li></ul>| {{{name}}}
@@ -100,8 +100,7 @@
 }}</li></ul>| {{{name}}}
 }}</li></ul>| {{{name}}}
 }}</li></ul>
-}}}}}}}}}}}</div>
-| label9 = Standard forms
+}}}}}}}}}}}</div>| label9 = Standard forms
 | data9 = {{#if:{{{standards|}}}|{{{standards}}}
 |{{#if:{{{stand1|}}}|
 <div>{{{stand1|}}}</div>
