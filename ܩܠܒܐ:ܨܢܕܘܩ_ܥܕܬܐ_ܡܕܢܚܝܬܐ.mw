@@ -1,29 +1,34 @@
 {{ܨܢܕܘܩ ܪܡܙܐ
-| bgcolor  =  #B0C4DE
-| color    =    #000000
-| kop      = {{{ܫܡܐ|}}}
-| image    = {{{ܨܘܪܬܐ|}}}
-| caption  = {{{ܟܬܝܒܬܐ|}}}
-| noimage  = {{ܣܢܝܩܐܝܬ ܨܘܪܬܐ}}
-| kop1     = ܦܘܠܓܐ
-| head1_1  = ܥܕܬܐ ܐܡܗܝܬܐ			| item1_1 = {{{ܥܕܬܐ ܐܡܗܝܬܐ|}}}
-| head1_2  = ܫܢܬܐ ܕܫܬܐܣܬܐ		| item1_2 = {{{ܫܢܬܐ ܕܫܬܐܣܬܐ|}}}
-| head1_3  = ܡܩܝܡܢܐ			| item1_3 = {{{ܡܩܝܡܢܐ|}}}
+| name = ܨܢܕܘܩ ܥܕܬܐ ܡܕܢܚܝܐ
+| bodystyle = {{#if:{{{boxsize|}}}|width: {{{boxsize}}};}}
+| abovestyle = color: {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}} }}|black|1}}|white|{{{fontcolor|black}}} }}; background-color: {{#if:{{{creator|}}}{{{setting|}}}|black|{{#if:{{{signers|}}}|silver|{{Infobox language/family-color|{{{familycolor|Default}}} }} }} }};
+| above = {{{name|}}}
+| subheaderstyle = font-weight: bold; color: {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}} }}|black|1}}|white|{{{fontcolor|black}}} }}; background-color: {{#if:{{{creator|}}}{{{setting|}}}|black|{{#if:{{{signers|}}}|silver|{{Infobox language/family-color|{{{familycolor|Default}}} }} }} }};
+| headerstyle = color: #B0C4DE;
+| subheader = {{{nativename|}}}
+| image = {{#if:{{{ܨܘܪܬܐ|}}}
+  |[[ܠܦܦܐ:{{{ܨܘܪܬܐ}}}|{{px|{{{imagesize|}}}|200px}}]]
+  }}
+| caption = {{{ܟܬܝܒܬܐ|}}}
+| header1     = ܦܘܠܓܐ
+| label1  = ܥܕܬܐ ܐܡܗܝܬܐ			| data1 = {{{ܥܕܬܐ ܐܡܗܝܬܐ|}}}
+| label2  = ܫܢܬܐ ܕܫܬܐܣܬܐ			| data2 = {{{ܫܢܬܐ ܕܫܬܐܣܬܐ|}}}
+| label3  = ܡܩܝܡܢܐ				| data3 = {{{ܡܩܝܡܢܐ|}}}
 | kop2     = ܪܝܫ ܥܕܬܐ
-| head2_1  = ܪܝܫܐ				| item2_1 = {{{ܪܝܫܐ|}}}
-| head2_2  = ܟܘܢܝܐ ܕܪܝܫܐ			| item2_2 = {{{ܟܘܢܝܐ ܕܪܝܫܐ|}}}
-| head2_3  = ܟܘܪܣܝܐ			| item2_3 = {{{ܟܘܪܣܝܐ|}}}
+| label4  = ܪܝܫܐ				| data4 = {{{ܪܝܫܐ|}}}
+| label5  = ܟܘܢܝܐ ܕܪܝܫܐ			| data5 = {{{ܟܘܢܝܐ ܕܪܝܫܐ|}}}
+| label6  = ܟܘܪܣܝܐ				| data6 = {{{ܟܘܪܣܝܐ|}}}
 | kop3     = ܪ̈ܡܙܐ
-| head3_1  = ܐܢܢܦܘܪܐ			| item3_1 = {{{ܐܢܢܦܘܪܐ|}}}
-| head3_2  = ܠܫܢܐ ܕܐܢܢܦܘܪܐ			| item3_2 = {{{ܠܫܢܐ ܕܐܢܢܦܘܪܐ|}}}
-| head3_3  = ܣܘܪܓܕܐ			| item3_3 = {{{ܣܘܪܓܕܐ|}}}
+| label7  = ܐܢܢܦܘܪܐ				| data7 = {{{ܐܢܢܦܘܪܐ|}}}
+| label8  = ܠܫܢܐ ܕܐܢܢܦܘܪܐ			| data8 = {{{ܠܫܢܐ ܕܐܢܢܦܘܪܐ|}}}
+| label9  = ܣܘܪܓܕܐ				| data9 = {{{ܣܘܪܓܕܐ|}}}
 | kop4     = ܪܘܪܒܘܬܐ
-| head4_1  = ܡܢܝܢܐ ܕܡܗܝܡܢ̈ܐ			| item4_1 = {{{ܡܢܝܢܐ ܕܡܗܝܡܢ̈ܐ|}}}
-| head4_2  = ܚܣܝ̈ܐ			| item4_2 = {{{ܚܣܝ̈ܐ|}}}
-| head4_3  = ܡܪ̈ܥܝܬܐ			| item4_3 = {{{ܡܪ̈ܥܝܬܐ|}}}
-| head4_4  = ܕܝܪ̈ܐ				| item4_4 = {{{ܕܝܪ̈ܐ|}}}
-| head4_5  = ܥܕ̈ܬܐ			| item4_5 = {{{ܥܕ̈ܬܐ|}}}
-| head4_6  = ܟܗܢ̈ܐ			| item4_6 = {{{ܟܗܢ̈ܐ|}}}
+| label10  = ܡܢܝܢܐ ܕܡܗܝܡܢ̈ܐ			| data10 = {{{ܡܢܝܢܐ ܕܡܗܝܡܢ̈ܐ|}}}
+| label11  = ܚܣܝ̈ܐ			| data11 = {{{ܚܣܝ̈ܐ|}}}
+| label12  = ܡܪ̈ܥܝܬܐ			| data12 = {{{ܡܪ̈ܥܝܬܐ|}}}
+| label13  = ܕܝܪ̈ܐ				| data13 = {{{ܕܝܪ̈ܐ|}}}
+| label14  = ܥܕ̈ܬܐ			| data14 = {{{ܥܕ̈ܬܐ|}}}
+| label15  = ܟܗܢ̈ܐ			| data15 = {{{ܟܗܢ̈ܐ|}}}
 | other1   = {{#If:{{{ܦܐܬܐ ܕܢܘܠܐ|}}}|{{{ܦܐܬܐ ܕܢܘܠܐ}}}}}
 }}<noinclude>
 == ܚܫܚܬܐ ==
