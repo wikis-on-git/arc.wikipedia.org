@@ -1,492 +1,471 @@
-{| width="300px" align="right" style="line-height:130%; clear:left; float:left; border:1px solid #aaaaaa; background-color:#f9f9f9; font-size: 95%; padding:0;" class="infobox"
-{{#ifeq:{{{child|}}}|yes||<table class="infobox {{{bodyclass|}}}" cellspacing="5" style="width:22em; {{{bodystyle|}}}"><!--
- Caption
--->{{#if:{{{title|}}}|<caption class="{{{titleclass|}}}" style="{{{titlestyle|}}}">{{{title}}}</caption>}}<!--
- Header
--->{{#if:{{{above|}}}|<tr><th colspan=2 class="{{{aboveclass|}}}" style="text-align:center; font-size:125%; font-weight:bold; {{{abovestyle|}}}">{{{above}}}</th></tr>}}
-}}{{#ifeq:{{{child|}}}|yes|{{#if:{{{title|}}}|'''{{{title}}}'''}}}}<!--
- Subheader1
--->{{#if:{{{subheader|{{{subheader1|}}}}}}|{{Infobox/row
- |data={{{subheader|{{{subheader1|}}}}}}
- |datastyle={{{subheaderstyle|{{{subheaderstyle1|}}}}}}
- |class={{{subheaderclass|}}}
- |rowclass={{{subheaderrowclass|{{{subheaderrowclass1|}}}}}}
-}} }}<!--
- Subheader2
--->{{#if:{{{subheader2|}}}|{{Infobox/row
- |data={{{subheader2}}}
- |datastyle={{{subheaderstyle|{{{subheaderstyle2|}}}}}}
- |class={{{subheaderclass|}}}
- |rowclass={{{subheaderrowclass2|}}}
-}} }}<!--
- Image1
--->{{#if:{{{image|{{{image1|}}}}}}|{{Infobox/row
- |data={{{image|{{{image1}}} }}}{{#if:{{{caption|{{{caption1|}}}}}}|<br /><span style="{{{captionstyle|}}}">{{{caption|{{{caption1}}}}}}</span>}}
- |datastyle={{{imagestyle|}}}
- |class={{{imageclass|}}}
- |rowclass={{{imagerowclass1|}}}
-}} }}<!--
- Image2
--->{{#if:{{{image2|}}}|{{Infobox/row
- |data={{{image2}}}{{#if:{{{caption2|}}}|<br /><span style="{{{captionstyle|}}}">{{{caption2}}}</span>}}
- |datastyle={{{imagestyle|}}}
- |class={{{imageclass|}}}
- |rowclass={{{imagerowclass2|}}}
-}} }}<!--
--->{{Infobox/row
- |header={{{header1|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label1|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data1|}}}     |datastyle={{{datastyle|}}}
- |class={{{class1|}}}   |rowclass={{{rowclass1|}}}
-}}{{Infobox/row
- |header={{{header2|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label2|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data2|}}}     |datastyle={{{datastyle|}}}
- |class={{{class2|}}}   |rowclass={{{rowclass2|}}}
-}}{{Infobox/row
- |header={{{header3|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label3|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data3|}}}     |datastyle={{{datastyle|}}}
- |class={{{class3|}}}   |rowclass={{{rowclass3|}}}
-}}{{Infobox/row
- |header={{{header4|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label4|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data4|}}}     |datastyle={{{datastyle|}}}
- |class={{{class4|}}}   |rowclass={{{rowclass4|}}}
-}}{{Infobox/row
- |header={{{header5|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label5|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data5|}}}     |datastyle={{{datastyle|}}}
- |class={{{class5|}}}   |rowclass={{{rowclass5|}}}
-}}{{Infobox/row
- |header={{{header6|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label6|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data6|}}}     |datastyle={{{datastyle|}}}
- |class={{{class6|}}}   |rowclass={{{rowclass6|}}}
-}}{{Infobox/row
- |header={{{header7|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label7|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data7|}}}     |datastyle={{{datastyle|}}}
- |class={{{class7|}}}   |rowclass={{{rowclass7|}}}
-}}{{Infobox/row
- |header={{{header8|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label8|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data8|}}}     |datastyle={{{datastyle|}}}
- |class={{{class8|}}}   |rowclass={{{rowclass8|}}}
-}}{{Infobox/row
- |header={{{header9|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label9|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data9|}}}     |datastyle={{{datastyle|}}}
- |class={{{class9|}}}   |rowclass={{{rowclass9|}}}
-}}{{Infobox/row
- |header={{{header10|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label10|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data10|}}}     |datastyle={{{datastyle|}}}
- |class={{{class10|}}}   |rowclass={{{rowclass10|}}}
-}}{{Infobox/row
- |header={{{header11|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label11|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data11|}}}     |datastyle={{{datastyle|}}}
- |class={{{class11|}}}   |rowclass={{{rowclass11|}}}
-}}{{Infobox/row
- |header={{{header12|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label12|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data12|}}}     |datastyle={{{datastyle|}}}
- |class={{{class12|}}}   |rowclass={{{rowclass12|}}}
-}}{{Infobox/row
- |header={{{header13|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label13|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data13|}}}     |datastyle={{{datastyle|}}}
- |class={{{class13|}}}   |rowclass={{{rowclass13|}}}
-}}{{Infobox/row
- |header={{{header14|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label14|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data14|}}}     |datastyle={{{datastyle|}}}
- |class={{{class14|}}}   |rowclass={{{rowclass14|}}}
-}}{{Infobox/row
- |header={{{header15|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label15|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data15|}}}     |datastyle={{{datastyle|}}}
- |class={{{class15|}}}   |rowclass={{{rowclass15|}}}
-}}{{Infobox/row
- |header={{{header16|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label16|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data16|}}}     |datastyle={{{datastyle|}}}
- |class={{{class16|}}}   |rowclass={{{rowclass16|}}}
-}}{{Infobox/row
- |header={{{header17|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label17|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data17|}}}     |datastyle={{{datastyle|}}}
- |class={{{class17|}}}   |rowclass={{{rowclass17|}}}
-}}{{Infobox/row
- |header={{{header18|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label18|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data18|}}}     |datastyle={{{datastyle|}}}
- |class={{{class18|}}}   |rowclass={{{rowclass18|}}}
-}}{{Infobox/row
- |header={{{header19|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label19|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data19|}}}     |datastyle={{{datastyle|}}}
- |class={{{class19|}}}   |rowclass={{{rowclass19|}}}
-}}{{Infobox/row
- |header={{{header20|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label20|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data20|}}}     |datastyle={{{datastyle|}}}
- |class={{{class20|}}}   |rowclass={{{rowclass20|}}}
-}}{{Infobox/row
- |header={{{header21|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label21|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data21|}}}     |datastyle={{{datastyle|}}}
- |class={{{class21|}}}   |rowclass={{{rowclass21|}}}
-}}{{Infobox/row
- |header={{{header22|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label22|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data22|}}}     |datastyle={{{datastyle|}}}
- |class={{{class22|}}}   |rowclass={{{rowclass22|}}}
-}}{{Infobox/row
- |header={{{header23|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label23|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data23|}}}     |datastyle={{{datastyle|}}}
- |class={{{class23|}}}   |rowclass={{{rowclass23|}}}
-}}{{Infobox/row
- |header={{{header24|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label24|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data24|}}}     |datastyle={{{datastyle|}}}
- |class={{{class24|}}}   |rowclass={{{rowclass24|}}}
-}}{{Infobox/row
- |header={{{header25|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label25|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data25|}}}     |datastyle={{{datastyle|}}}
- |class={{{class25|}}}   |rowclass={{{rowclass25|}}}
-}}{{Infobox/row
- |header={{{header26|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label26|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data26|}}}     |datastyle={{{datastyle|}}}
- |class={{{class26|}}}   |rowclass={{{rowclass26|}}}
-}}{{Infobox/row
- |header={{{header27|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label27|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data27|}}}     |datastyle={{{datastyle|}}}
- |class={{{class27|}}}   |rowclass={{{rowclass27|}}}
-}}{{Infobox/row
- |header={{{header28|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label28|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data28|}}}     |datastyle={{{datastyle|}}}
- |class={{{class28|}}}   |rowclass={{{rowclass28|}}}
-}}{{Infobox/row
- |header={{{header29|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label29|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data29|}}}     |datastyle={{{datastyle|}}}
- |class={{{class29|}}}   |rowclass={{{rowclass29|}}}
-}}{{Infobox/row
- |header={{{header30|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label30|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data30|}}}     |datastyle={{{datastyle|}}}
- |class={{{class30|}}}   |rowclass={{{rowclass30|}}}
-}}{{Infobox/row
- |header={{{header31|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label31|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data31|}}}     |datastyle={{{datastyle|}}}
- |class={{{class31|}}}   |rowclass={{{rowclass31|}}}
-}}{{Infobox/row
- |header={{{header32|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label32|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data32|}}}     |datastyle={{{datastyle|}}}
- |class={{{class32|}}}   |rowclass={{{rowclass32|}}}
-}}{{Infobox/row
- |header={{{header33|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label33|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data33|}}}     |datastyle={{{datastyle|}}}
- |class={{{class33|}}}   |rowclass={{{rowclass33|}}}
-}}{{Infobox/row
- |header={{{header34|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label34|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data34|}}}     |datastyle={{{datastyle|}}}
- |class={{{class34|}}}   |rowclass={{{rowclass34|}}}
-}}{{Infobox/row
- |header={{{header35|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label35|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data35|}}}     |datastyle={{{datastyle|}}}
- |class={{{class35|}}}   |rowclass={{{rowclass35|}}}
-}}{{Infobox/row
- |header={{{header36|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label36|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data36|}}}     |datastyle={{{datastyle|}}}
- |class={{{class36|}}}   |rowclass={{{rowclass36|}}}
-}}{{Infobox/row
- |header={{{header37|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label37|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data37|}}}     |datastyle={{{datastyle|}}}
- |class={{{class37|}}}   |rowclass={{{rowclass37|}}}
-}}{{Infobox/row
- |header={{{header38|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label38|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data38|}}}     |datastyle={{{datastyle|}}}
- |class={{{class38|}}}   |rowclass={{{rowclass38|}}}
-}}{{Infobox/row
- |header={{{header39|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label39|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data39|}}}     |datastyle={{{datastyle|}}}
- |class={{{class39|}}}   |rowclass={{{rowclass39|}}}
-}}{{Infobox/row
- |header={{{header40|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label40|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data40|}}}     |datastyle={{{datastyle|}}}
- |class={{{class40|}}}   |rowclass={{{rowclass40|}}}
-}}{{Infobox/row
- |header={{{header41|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label41|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data41|}}}     |datastyle={{{datastyle|}}}
- |class={{{class41|}}}   |rowclass={{{rowclass41|}}}
-}}{{Infobox/row
- |header={{{header42|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label42|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data42|}}}     |datastyle={{{datastyle|}}}
- |class={{{class42|}}}   |rowclass={{{rowclass42|}}}
-}}{{Infobox/row
- |header={{{header43|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label43|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data43|}}}     |datastyle={{{datastyle|}}}
- |class={{{class43|}}}   |rowclass={{{rowclass43|}}}
-}}{{Infobox/row
- |header={{{header44|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label44|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data44|}}}     |datastyle={{{datastyle|}}}
- |class={{{class44|}}}   |rowclass={{{rowclass44|}}}
-}}{{Infobox/row
- |header={{{header45|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label45|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data45|}}}     |datastyle={{{datastyle|}}}
- |class={{{class45|}}}   |rowclass={{{rowclass45|}}}
-}}{{Infobox/row
- |header={{{header46|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label46|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data46|}}}     |datastyle={{{datastyle|}}}
- |class={{{class46|}}}   |rowclass={{{rowclass46|}}}
-}}{{Infobox/row
- |header={{{header47|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label47|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data47|}}}     |datastyle={{{datastyle|}}}
- |class={{{class47|}}}   |rowclass={{{rowclass47|}}}
-}}{{Infobox/row
- |header={{{header48|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label48|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data48|}}}     |datastyle={{{datastyle|}}}
- |class={{{class48|}}}   |rowclass={{{rowclass48|}}}
-}}{{Infobox/row
- |header={{{header49|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label49|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data49|}}}     |datastyle={{{datastyle|}}}
- |class={{{class49|}}}   |rowclass={{{rowclass49|}}}
-}}{{Infobox/row
- |header={{{header50|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label50|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data50|}}}     |datastyle={{{datastyle|}}}
- |class={{{class50|}}}   |rowclass={{{rowclass50|}}}
-}}{{Infobox/row
- |header={{{header51|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label51|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data51|}}}     |datastyle={{{datastyle|}}}
- |class={{{class51|}}}   |rowclass={{{rowclass51|}}}
-}}{{Infobox/row
- |header={{{header52|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label52|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data52|}}}     |datastyle={{{datastyle|}}}
- |class={{{class52|}}}   |rowclass={{{rowclass52|}}}
-}}{{Infobox/row
- |header={{{header53|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label53|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data53|}}}     |datastyle={{{datastyle|}}}
- |class={{{class53|}}}   |rowclass={{{rowclass53|}}}
-}}{{Infobox/row
- |header={{{header54|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label54|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data54|}}}     |datastyle={{{datastyle|}}}
- |class={{{class54|}}}   |rowclass={{{rowclass54|}}}
-}}{{Infobox/row
- |header={{{header55|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label55|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data55|}}}     |datastyle={{{datastyle|}}}
- |class={{{class55|}}}   |rowclass={{{rowclass55|}}}
-}}{{Infobox/row
- |header={{{header56|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label56|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data56|}}}     |datastyle={{{datastyle|}}}
- |class={{{class56|}}}   |rowclass={{{rowclass56|}}}
-}}{{Infobox/row
- |header={{{header57|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label57|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data57|}}}     |datastyle={{{datastyle|}}}
- |class={{{class57|}}}   |rowclass={{{rowclass57|}}}
-}}{{Infobox/row
- |header={{{header58|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label58|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data58|}}}     |datastyle={{{datastyle|}}}
- |class={{{class58|}}}   |rowclass={{{rowclass58|}}}
-}}{{Infobox/row
- |header={{{header59|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label59|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data59|}}}     |datastyle={{{datastyle|}}}
- |class={{{class59|}}}   |rowclass={{{rowclass59|}}}
-}}{{Infobox/row
- |header={{{header60|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label60|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data60|}}}     |datastyle={{{datastyle|}}}
- |class={{{class60|}}}   |rowclass={{{rowclass60|}}}
-}}{{Infobox/row
- |header={{{header61|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label61|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data61|}}}     |datastyle={{{datastyle|}}}
- |class={{{class61|}}}   |rowclass={{{rowclass61|}}}
-}}{{Infobox/row
- |header={{{header62|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label62|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data62|}}}     |datastyle={{{datastyle|}}}
- |class={{{class62|}}}   |rowclass={{{rowclass62|}}}
-}}{{Infobox/row
- |header={{{header63|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label63|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data63|}}}     |datastyle={{{datastyle|}}}
- |class={{{class63|}}}   |rowclass={{{rowclass63|}}}
-}}{{Infobox/row
- |header={{{header64|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label64|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data64|}}}     |datastyle={{{datastyle|}}}
- |class={{{class64|}}}   |rowclass={{{rowclass64|}}}
-}}{{Infobox/row
- |header={{{header65|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label65|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data65|}}}     |datastyle={{{datastyle|}}}
- |class={{{class65|}}}   |rowclass={{{rowclass65|}}}
-}}{{Infobox/row
- |header={{{header66|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label66|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data66|}}}     |datastyle={{{datastyle|}}}
- |class={{{class66|}}}   |rowclass={{{rowclass66|}}}
-}}{{Infobox/row
- |header={{{header67|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label67|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data67|}}}     |datastyle={{{datastyle|}}}
- |class={{{class67|}}}   |rowclass={{{rowclass67|}}}
-}}{{Infobox/row
- |header={{{header68|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label68|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data68|}}}     |datastyle={{{datastyle|}}}
- |class={{{class68|}}}   |rowclass={{{rowclass68|}}}
-}}{{Infobox/row
- |header={{{header69|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label69|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data69|}}}     |datastyle={{{datastyle|}}}
- |class={{{class69|}}}   |rowclass={{{rowclass69|}}}
-}}{{Infobox/row
- |header={{{header70|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label70|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data70|}}}     |datastyle={{{datastyle|}}}
- |class={{{class70|}}}   |rowclass={{{rowclass70|}}}
-}}{{Infobox/row
- |header={{{header71|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label71|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data71|}}}     |datastyle={{{datastyle|}}}
- |class={{{class71|}}}   |rowclass={{{rowclass71|}}}
-}}{{Infobox/row
- |header={{{header72|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label72|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data72|}}}     |datastyle={{{datastyle|}}}
- |class={{{class72|}}}   |rowclass={{{rowclass72|}}}
-}}{{Infobox/row
- |header={{{header73|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label73|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data73|}}}     |datastyle={{{datastyle|}}}
- |class={{{class73|}}}   |rowclass={{{rowclass73|}}}
-}}{{Infobox/row
- |header={{{header74|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label74|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data74|}}}     |datastyle={{{datastyle|}}}
- |class={{{class74|}}}   |rowclass={{{rowclass74|}}}
-}}{{Infobox/row
- |header={{{header75|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label75|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data75|}}}     |datastyle={{{datastyle|}}}
- |class={{{class75|}}}   |rowclass={{{rowclass75|}}}
-}}{{Infobox/row
- |header={{{header76|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label76|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data76|}}}     |datastyle={{{datastyle|}}}
- |class={{{class76|}}}   |rowclass={{{rowclass76|}}}
-}}{{Infobox/row
- |header={{{header77|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label77|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data77|}}}     |datastyle={{{datastyle|}}}
- |class={{{class77|}}}   |rowclass={{{rowclass77|}}}
-}}{{Infobox/row
- |header={{{header78|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label78|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data78|}}}     |datastyle={{{datastyle|}}}
- |class={{{class78|}}}   |rowclass={{{rowclass78|}}}
-}}{{Infobox/row
- |header={{{header79|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label79|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data79|}}}     |datastyle={{{datastyle|}}}
- |class={{{class79|}}}   |rowclass={{{rowclass79|}}}
-}}{{Infobox/row
- |header={{{header80|}}} |headerstyle={{{headerstyle|}}}
- |label={{{label80|}}}   |labelstyle={{{labelstyle|}}}
- |data={{{data80|}}}     |datastyle={{{datastyle|}}}
- |class={{{class80|}}}   |rowclass={{{rowclass80|}}}
-}}<!-- Below
--->{{#if:{{{below|}}}|<tr><td colspan=2 class="{{{belowclass|}}}" style="text-align:center; {{{belowstyle|}}}">{{{below}}}</td></tr>}}<!--
- Navbar
--->{{#if:{{{name|}}}|<tr><td colspan=2 style="text-align:right">{{navbar|{{{name}}}|mini=1}}</td></tr>}}
-{{#ifeq:{{{child|}}}|yes||</table>}}{{#switch:{{lc:{{{italic title|¬}}}}}
- |¬|no       = <!-- no italic title -->
- ||force|yes = {{italic title|force={{#ifeq:{{lc:{{{italic title|}}}}}|force|true}}}}
-}}<includeonly>{{#ifeq:{{{decat|}}}|yes||{{#if:{{{data1|}}}{{{data2|}}}{{{data3|}}}{{{data4|}}}{{{data5|}}}{{{data6|}}}{{{data7|}}}{{{data8|}}}{{{data9|}}}{{{data10|}}}{{{data11|}}}{{{data12|}}}{{{data13|}}}{{{data14|}}}{{{data15|}}}{{{data16|}}}{{{data17|}}}{{{data18|}}}{{{data19|}}}{{{data20|}}}{{{data21|}}}{{{data22|}}}{{{data23|}}}{{{data24|}}}{{{data25|}}}{{{data26|}}}{{{data27|}}}{{{data28|}}}{{{data29|}}}{{{data30|}}}{{{data31|}}}{{{data32|}}}{{{data33|}}}{{{data34|}}}{{{data35|}}}{{{data36|}}}{{{data37|}}}{{{data38|}}}{{{data39|}}}{{{data40|}}}{{{data41|}}}{{{data42|}}}{{{data43|}}}{{{data44|}}}{{{data45|}}}{{{data46|}}}{{{data47|}}}{{{data48|}}}{{{data49|}}}{{{data50|}}}{{{data51|}}}{{{data52|}}}{{{data53|}}}{{{data54|}}}{{{data55|}}}{{{data56|}}}{{{data57|}}}{{{data58|}}}{{{data59|}}}{{{data60|}}}{{{data61|}}}{{{data62|}}}{{{data63|}}}{{{data64|}}}{{{data65|}}}{{{data66|}}}{{{data67|}}}{{{data68|}}}{{{data69|}}}{{{data70|}}}{{{data71|}}}{{{data72|}}}{{{data73|}}}{{{data74|}}}{{{data75|}}}{{{data76|}}}{{{data77|}}}{{{data78|}}}{{{data79|}}}{{{data80|}}}||{{namespace detect|main=}}}}}}</includeonly><noinclude>
-
-[[ar:قالب:قالب معلومات]]
-[[be:Шаблон:Картка]]
-[[be-x-old:Шаблён:Картка]]
-[[bg:Шаблон:Infobox]]
-[[bs:Šablon:Infokutija]]
-[[cs:Šablona:Infobox]]
-[[cy:Nodyn:Gwybodlen3]]
-[[da:Skabelon:Infoboks-en]]
-[[de:Vorlage:Infobox]]
-<!-- [[en:Template:Infobox]] -->
-[[el:Πρότυπο:Πλαίσιο πληροφοριών]]
-[[et:Mall:Infobox]]
-[[es:Plantilla:Ficha]]
-[[eo:Ŝablono:Informkesto]]
-[[fa:الگو:دادان]]
-[[fi:Malline:Tietolaatikko]]
-[[fr:Modèle:Infobox]]
-[[hsb:Předłoha:Infokašćik]]
-[[id:Templat:Infobox]]
-[[ia:Patrono:Infobox]]
-[[os:Шаблон:Infobox]]
-[[it:Template:Infobox]]
-[[is:Snið:Infobox]]
-[[lv:Veidne:Infobox]]
-[[mk:Шаблон:Infobox]]
-[[no:Mal:Infoboks]]
-[[ja:Template:Infobox]]
-[[hu:Sablon:Infobox]]
-[[csb:Szablóna:Infobox]]
-[[ko:틀:정보상자]]
-[[ka:თარგი:ინფოდაფა]]
-[[km:ទំព័រគំរូ:ប្រអប់​ព័ត៌មាន]]
-[[nn:Mal:Infoboks]]
-[[pt:Predefinição:Info]]
-[[si:සැකිල්ල:තොරතුරුකොටුව]]
-[[ro:Format:Infobox]]
-[[ru:Шаблон:Карточка]]
-[[sk:Šablóna:Infobox]]
-[[sl:Predloga:Infopolje]]
-[[sv:Mall:Infobox]]
-[[th:แม่แบบ:กล่องข้อมูล]]
-[[tpi:Template:Infobok]]
-[[tr:Şablon:Bilgi kutusu]]
-[[uk:Шаблон:Картка]]
-[[ur:Template:Infobox]]
-[[vi:Bản mẫu:Infobox]]
-[[zh:Template:Infobox]]
-</noinclude>
+{| class="toccolours vatop infobox" cellpadding="1" cellspacing="1" style="float:left; clear:right; width:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}px; padding:0px; margin:0px 0px 1em 1em; font-size:85%;"
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} '''<big>{{#If:{{{kop|}}}|{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kop}}}|<font color={{{color}}}>{{{kop}}}</font>}}|{{{kop}}}}}|{{PAGENAME}}}}</big>'''
+{{!}}-
+{{#If:{{{breed|}}}|{{#IfEq:{{{breed}}}|''''''|| {{!}} align="center" colspan="3" {{!}} {{{breed}}}
+{{!}}-}}}}
+{{#If:{{{soort|}}}{{{icon|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}};color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#If:{{{soort|}}}|'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{soort}}}|<font color={{{color}}}>{{{soort}}}</font>}}|{{{soort}}}}}'''}}{{#If:{{{icon|}}}|&nbsp;&nbsp;[[File:{{{icon}}}|25x19px]]}}
+{{!}}-}}
+{{#If:{{{kop0|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{kop0}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kop0}}}|<font color={{{color}}}>{{{kop0}}}</font>}}|{{{kop0}}}}}'''}}
+{{!}}-}}
+{{#If:{{{breed0|}}}|{{#IfEq:{{{breed0}}}|''''''|| {{!}} align="center" colspan="3" {{!}} {{{breed0}}}
+{{!}}-}}}}
+{{#If:{{{links0|}}}| {{!}} colspan="3" {{!}} {{{links0}}}
+{{!}}-}}
+{{#If:{{{item0_1|}}}| {{!}} {{{head0_1|}}} {{!!}} {{#If:{{{item0_1r|}}}|{{{item0_1}}} {{!!}} {{{item0_1r}}} | colspan="2" {{!}} {{{item0_1}}}}} 
+{{!}}-}}
+{{#If:{{{item0_2|}}}| {{!}} {{{head0_2|}}} {{!!}} colspan="2" {{!}} {{{item0_2}}}
+{{!}}-}}
+{{#If:{{{kolom1|}}}{{{kolom2|}}}{{{kolom3|}}}| {{!}} width="{{{kolom1|}}}" {{!}} {{!!}} width="{{{kolom2|}}}" {{!}} {{!!}} width="{{{kolom3|}}}" {{!}}
+{{!}}-}}
+{{#If:{{{image|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image}}}|{{#If:{{{imagewidth|}}}|{{{imagewidth|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{caption|{{PAGENAME}}}}}]]
+{{!}}-}}
+{{#If:{{{image|}}}|{{#If:{{{caption|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{caption}}}</small>
+{{!}}-}}}}
+{{#If:{{{image|}}}||{{#If:{{{noimage|}}}|{{!}} align="center" colspan="3" {{!}} {{{noimage|}}}
+{{!}}-}}}}
+{{#If:{{{mainimage|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{mainimage}}}|{{#If:{{{mainimagewidth|}}}|{{{mainimagewidth|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{maincaption|{{PAGENAME}}}}}]]
+{{!}}-}}
+{{#If:{{{mainimage|}}}|{{#If:{{{maincaption|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{maincaption}}}</small>
+{{!}}-}}}}
+{{#If:{{{mainimage|}}}||{{#If:{{{nomainimage|}}}|{{!}} align="center" colspan="3" {{!}} {{{nomainimage|}}}
+{{!}}-}}}}
+{{#If:{{{otherimage|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{otherimage}}}|{{#If:{{{otherimagewidth|}}}|{{{otherimagewidth|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{othercaption|{{PAGENAME}}}}}]]
+{{!}}-}}
+{{#If:{{{otherimage|}}}|{{#If:{{{othercaption|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{othercaption}}}</small>
+{{!}}-}}}}
+{{#If:{{{otherimage|}}}||{{#If:{{{nootherimage|}}}|{{!}} align="center" colspan="3" {{!}} {{{nootherimage|}}}
+{{!}}-}}}}
+{{#If:{{{main1|}}}| {{!}} align="center" colspan="3" {{!}} {{{main1}}}
+{{!}}-}}
+{{#If:{{{links21|}}}| {{!}} colspan="3" {{!}} {{{links21}}}
+{{!}}-}}
+{{#If:{{{main2|}}}| {{!}} align="center" colspan="3" {{!}} {{{main2}}}
+{{!}}-}}
+{{#If:{{{main3|}}}| {{!}} align="center" colspan="3" {{!}} {{{main3}}}
+{{!}}-}}
+{{#If:{{{main4|}}}| {{!}} align="center" colspan="3" {{!}} {{{main4}}}
+{{!}}-}}
+{{#If:{{{kop1|}}}|
+{{#If:{{{breed1|}}}{{{links1|}}}{{{item1_1|}}}{{{item1_2|}}}{{{item1_3|}}}{{{item1_4|}}}{{{item1_5|}}}{{{item1_6|}}}{{{item1_7|}}}{{{item1_8|}}}{{{item1_9|}}}{{{toonkop1|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{kop1}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kop1}}}|<font color={{{color}}}>{{{kop1}}}</font>}}|{{{kop1}}}}}'''}}
+{{!}}-}}}}
+{{#If:{{{breed1|}}}| {{!}} align="center" colspan="3" {{!}} {{{breed1}}}
+{{!}}-}}
+{{#If:{{{links1|}}}| {{!}} colspan="3" {{!}} {{{links1}}}
+{{!}}-}}
+{{#If:{{{item1_1|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head1_1|}}} {{!!}} {{#If:{{{item1_1r|}}}|{{{item1_1}}} {{!!}} {{{item1_1r}}} | colspan="2" {{!}} {{{item1_1}}}}} 
+{{!}}-}}
+{{#If:{{{item1_2|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head1_2|}}} {{!!}} colspan="2" {{!}} {{{item1_2}}}
+{{!}}-}}
+{{#If:{{{item1_3|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head1_3|}}} {{!!}} colspan="2" {{!}} {{{item1_3}}}
+{{!}}-}}
+{{#If:{{{item1_4|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head1_4|}}} {{!!}} colspan="2" {{!}} {{{item1_4}}}
+{{!}}-}}
+{{#If:{{{item1_5|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head1_5|}}} {{!!}} colspan="2" {{!}} {{{item1_5}}}
+{{!}}-}}
+{{#If:{{{item1_6|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head1_6|}}} {{!!}} colspan="2" {{!}} {{{item1_6}}}
+{{!}}-}}
+{{#If:{{{item1_7|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head1_7|}}} {{!!}} colspan="2" {{!}} {{{item1_7}}}
+{{!}}-}}
+{{#If:{{{item1_8|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head1_8|}}} {{!!}} colspan="2" {{!}} {{{item1_8}}}
+{{!}}-}}
+{{#If:{{{item1_9|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head1_9|}}} {{!!}} colspan="2" {{!}} {{{item1_9}}}
+{{!}}-}}
+{{#If:{{{kop2|}}}|
+{{#If:{{{breed2|}}}{{{links2|}}}{{{item2_1|}}}{{{item2_2|}}}{{{item2_3|}}}{{{item2_4|}}}{{{item2_5|}}}{{{item2_6|}}}{{{item2_7|}}}{{{item2_8|}}}{{{item2_9|}}}{{{toonkop2|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{kop2}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kop2}}}|<font color={{{color}}}>{{{kop2}}}</font>}}|{{{kop2}}}}}'''}}
+{{!}}-}}}}
+{{#If:{{{breed2|}}}| {{!}} align="center" colspan="3" {{!}} {{{breed2}}}
+{{!}}-}}
+{{#If:{{{links2|}}}| {{!}} colspan="3" {{!}} {{{links2}}}
+{{!}}-}}
+{{#If:{{{item2_1|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head2_1|}}} {{!!}} {{#If:{{{item2_1r|}}}|{{{item2_1}}} {{!!}} {{{item2_1r}}} | colspan="2" {{!}} {{{item2_1}}}}}
+{{!}}-}}
+{{#If:{{{item2_2|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head2_2|}}} {{!!}} colspan="2" {{!}} {{{item2_2}}}
+{{!}}-}}
+{{#If:{{{item2_3|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head2_3|}}} {{!!}} colspan="2" {{!}} {{{item2_3}}}
+{{!}}-}}
+{{#If:{{{item2_4|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head2_4|}}} {{!!}} colspan="2" {{!}} {{{item2_4}}}
+{{!}}-}}
+{{#If:{{{item2_5|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head2_5|}}} {{!!}} colspan="2" {{!}} {{{item2_5}}}
+{{!}}-}}
+{{#If:{{{item2_6|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head2_6|}}} {{!!}} colspan="2" {{!}} {{{item2_6}}}
+{{!}}-}}
+{{#If:{{{item2_7|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head2_7|}}} {{!!}} colspan="2" {{!}} {{{item2_7}}}
+{{!}}-}}
+{{#If:{{{item2_8|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head2_8|}}} {{!!}} colspan="2" {{!}} {{{item2_8}}}
+{{!}}-}}
+{{#If:{{{item2_9|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head2_9|}}} {{!!}} colspan="2" {{!}} {{{item2_9}}}
+{{!}}-}}
+{{#If:{{{kop3|}}}|
+{{#If:{{{breed3|}}}{{{links3|}}}{{{item3_1|}}}{{{item3_2|}}}{{{item3_3|}}}{{{item3_4|}}}{{{item3_5|}}}{{{item3_6|}}}{{{item3_7|}}}{{{item3_8|}}}{{{item3_9|}}}{{{toonkop3|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{kop3}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kop3}}}|<font color={{{color}}}>{{{kop3}}}</font>}}|{{{kop3}}}}}'''}}
+{{!}}-}}}}
+{{#If:{{{breed3|}}}| {{!}} align="center" colspan="3" {{!}} {{{breed3}}}
+{{!}}-}}
+{{#If:{{{links3|}}}| {{!}} colspan="3" {{!}} {{{links3}}}
+{{!}}-}}
+{{#If:{{{item3_1|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head3_1|}}} {{!!}} {{#If:{{{item3_1r|}}}|{{{item3_1}}} {{!!}} {{{item3_1r}}} | colspan="2" {{!}} {{{item3_1}}}}}
+{{!}}-}}
+{{#If:{{{item3_2|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head3_2|}}} {{!!}} colspan="2" {{!}} {{{item3_2}}}
+{{!}}-}}
+{{#If:{{{item3_3|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head3_3|}}} {{!!}} colspan="2" {{!}} {{{item3_3}}}
+{{!}}-}}
+{{#If:{{{item3_4|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head3_4|}}} {{!!}} colspan="2" {{!}} {{{item3_4}}}
+{{!}}-}}
+{{#If:{{{item3_5|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head3_5|}}} {{!!}} colspan="2" {{!}} {{{item3_5}}}
+{{!}}-}}
+{{#If:{{{item3_6|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head3_6|}}} {{!!}} colspan="2" {{!}} {{{item3_6}}}
+{{!}}-}}
+{{#If:{{{item3_7|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head3_7|}}} {{!!}} colspan="2" {{!}} {{{item3_7}}}
+{{!}}-}}
+{{#If:{{{item3_8|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head3_8|}}} {{!!}} colspan="2" {{!}} {{{item3_8}}}
+{{!}}-}}
+{{#If:{{{item3_9|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head3_9|}}} {{!!}} colspan="2" {{!}} {{{item3_9}}}
+{{!}}-}}
+{{#If:{{{kop4|}}}|
+{{#If:{{{breed4|}}}{{{links4|}}}{{{item4_1|}}}{{{item4_2|}}}{{{item4_3|}}}{{{item4_4|}}}{{{item4_5|}}}{{{item4_6|}}}{{{item4_7|}}}{{{item4_8|}}}{{{item4_9|}}}{{{item4_10|}}}{{{item4_11|}}}{{{toonkop4|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{kop4}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kop4}}}|<font color={{{color}}}>{{{kop4}}}</font>}}|{{{kop4}}}}}'''}}
+{{!}}-}}}}
+{{#If:{{{breed4|}}}| {{!}} align="center" colspan="3" {{!}} {{{breed4}}}
+{{!}}-}}
+{{#If:{{{links4|}}}| {{!}} colspan="3" {{!}} {{{links4}}}
+{{!}}-}}
+{{#If:{{{item4_1|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head4_1|}}} {{!!}} {{#If:{{{item4_1r|}}}|{{{item4_1}}} {{!!}} {{{item4_1r}}} | colspan="2" {{!}} {{{item4_1}}}}}
+{{!}}-}}
+{{#If:{{{item4_2|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head4_2|}}} {{!!}} colspan="2" {{!}} {{{item4_2}}}
+{{!}}-}}
+{{#If:{{{item4_3|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head4_3|}}} {{!!}} colspan="2" {{!}} {{{item4_3}}}
+{{!}}-}}
+{{#If:{{{item4_4|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head4_4|}}} {{!!}} colspan="2" {{!}} {{{item4_4}}}
+{{!}}-}}
+{{#If:{{{item4_5|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head4_5|}}} {{!!}} colspan="2" {{!}} {{{item4_5}}}
+{{!}}-}}
+{{#If:{{{item4_6|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head4_6|}}} {{!!}} colspan="2" {{!}} {{{item4_6}}}
+{{!}}-}}
+{{#If:{{{item4_7|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head4_7|}}} {{!!}} colspan="2" {{!}} {{{item4_7}}}
+{{!}}-}}
+{{#If:{{{item4_8|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head4_8|}}} {{!!}} colspan="2" {{!}} {{{item4_8}}}
+{{!}}-}}
+{{#If:{{{item4_9|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head4_9|}}} {{!!}} colspan="2" {{!}} {{{item4_9}}}
+{{!}}-}}
+{{#If:{{{item4_10|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head4_10|}}} {{!!}} colspan="2" {{!}} {{{item4_10}}}
+{{!}}-}}
+{{#If:{{{item4_11|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head4_11|}}} {{!!}} colspan="2" {{!}} {{{item4_11}}}
+{{!}}-}}
+{{#If:{{{kop5|}}}|
+{{#If:{{{breed5|}}}{{{links5|}}}{{{item5_1|}}}{{{item5_2|}}}{{{item5_3|}}}{{{item5_4|}}}{{{item5_5|}}}{{{item5_6|}}}{{{item5_7|}}}{{{item5_8|}}}{{{item5_9|}}}{{{item5_10|}}}{{{item5_11|}}}{{{toonkop5|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{kop5}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kop5}}}|<font color={{{color}}}>{{{kop5}}}</font>}}|{{{kop5}}}}}'''}}
+{{!}}-}}}}
+{{#If:{{{breed5|}}}| {{!}} align="center" colspan="3" {{!}} {{{breed5}}}
+{{!}}-}}
+{{#If:{{{links5|}}}| {{!}} colspan="3" {{!}} {{{links5}}}
+{{!}}-}}
+{{#If:{{{item5_1|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head5_1|}}} {{!!}} {{#If:{{{item5_1r|}}}|{{{item5_1}}} {{!!}} {{{item5_1r}}} | colspan="2" {{!}} {{{item5_1}}}}}
+{{!}}-}}
+{{#If:{{{item5_2|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head5_2|}}} {{!!}} colspan="2" {{!}} {{{item5_2}}}
+{{!}}-}}
+{{#If:{{{item5_3|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head5_3|}}} {{!!}} colspan="2" {{!}} {{{item5_3}}}
+{{!}}-}}
+{{#If:{{{item5_4|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head5_4|}}} {{!!}} colspan="2" {{!}} {{{item5_4}}}
+{{!}}-}}
+{{#If:{{{item5_5|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head5_5|}}} {{!!}} colspan="2" {{!}} {{{item5_5}}}
+{{!}}-}}
+{{#If:{{{item5_6|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head5_6|}}} {{!!}} colspan="2" {{!}} {{{item5_6}}}
+{{!}}-}}
+{{#If:{{{item5_7|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head5_7|}}} {{!!}} colspan="2" {{!}} {{{item5_7}}}
+{{!}}-}}
+{{#If:{{{item5_8|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head5_8|}}} {{!!}} colspan="2" {{!}} {{{item5_8}}}
+{{!}}-}}
+{{#If:{{{item5_9|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head5_9|}}} {{!!}} colspan="2" {{!}} {{{item5_9}}}
+{{!}}-}}
+{{#If:{{{item5_10|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head5_10|}}} {{!!}} colspan="2" {{!}} {{{item5_10}}}
+{{!}}-}}
+{{#If:{{{item5_11|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head5_11|}}} {{!!}} colspan="2" {{!}} {{{item5_11}}}
+{{!}}-}}
+{{#If:{{{kop6|}}}|
+{{#If:{{{breed6|}}}{{{links6|}}}{{{item6_1|}}}{{{item6_2|}}}{{{item6_3|}}}{{{item6_4|}}}{{{item6_5|}}}{{{item6_6|}}}{{{item6_7|}}}{{{item6_8|}}}{{{item6_9|}}}{{{item6_10|}}}{{{item6_11|}}}{{{toonkop6|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{kop6}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kop6}}}|<font color={{{color}}}>{{{kop6}}}</font>}}|{{{kop6}}}}}'''}}
+{{!}}-}}}}
+{{#If:{{{breed6|}}}| {{!}} align="center" colspan="3" {{!}} {{{breed6}}}
+{{!}}-}}
+{{#If:{{{links6|}}}| {{!}} colspan="3" {{!}} {{{links6}}}
+{{!}}-}}
+{{#If:{{{item6_1|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head6_1|}}} {{!!}} {{#If:{{{item6_1r|}}}|{{{item6_1}}} {{!!}} {{{item6_1r}}} | colspan="2" {{!}} {{{item6_1}}}}}
+{{!}}-}}
+{{#If:{{{item6_2|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head6_2|}}} {{!!}} colspan="2" {{!}} {{{item6_2}}}
+{{!}}-}}
+{{#If:{{{item6_3|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head6_3|}}} {{!!}} colspan="2" {{!}} {{{item6_3}}}
+{{!}}-}}
+{{#If:{{{item6_4|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head6_4|}}} {{!!}} colspan="2" {{!}} {{{item6_4}}}
+{{!}}-}}
+{{#If:{{{item6_5|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head6_5|}}} {{!!}} colspan="2" {{!}} {{{item6_5}}}
+{{!}}-}}
+{{#If:{{{item6_6|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head6_6|}}} {{!!}} colspan="2" {{!}} {{{item6_6}}}
+{{!}}-}}
+{{#If:{{{item6_7|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head6_7|}}} {{!!}} colspan="2" {{!}} {{{item6_7}}}
+{{!}}-}}
+{{#If:{{{item6_8|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head6_8|}}} {{!!}} colspan="2" {{!}} {{{item6_8}}}
+{{!}}-}}
+{{#If:{{{item6_9|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head6_9|}}} {{!!}} colspan="2" {{!}} {{{item6_9}}}
+{{!}}-}}
+{{#If:{{{item6_10|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head6_10|}}} {{!!}} colspan="2" {{!}} {{{item6_10}}}
+{{!}}-}}
+{{#If:{{{item6_11|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head6_11|}}} {{!!}} colspan="2" {{!}} {{{item6_11}}}
+{{!}}-}}
+{{#If:{{{kop7|}}}|
+{{#If:{{{breed7|}}}{{{links7|}}}{{{item7_1|}}}{{{item7_2|}}}{{{item7_3|}}}{{{item7_4|}}}{{{item7_5|}}}{{{item7_6|}}}{{{item7_7|}}}{{{item7_8|}}}{{{item7_9|}}}{{{item7_10|}}}{{{item7_11|}}}{{{toonkop7|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{kop7}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kop7}}}|<font color={{{color}}}>{{{kop7}}}</font>}}|{{{kop7}}}}}'''}}
+{{!}}-}}}}
+{{#If:{{{breed7|}}}| {{!}} align="center" colspan="3" {{!}} {{{breed7}}}
+{{!}}-}}
+{{#If:{{{links7|}}}| {{!}} colspan="3" {{!}} {{{links7}}}
+{{!}}-}}
+{{#If:{{{item7_1|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head7_1|}}} {{!!}} {{#If:{{{item7_1r|}}}|{{{item7_1}}} {{!!}} {{{item7_1r}}} | colspan="2" {{!}} {{{item7_1}}}}}
+{{!}}-}}
+{{#If:{{{item7_2|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head7_2|}}} {{!!}} colspan="2" {{!}} {{{item7_2}}}
+{{!}}-}}
+{{#If:{{{item7_3|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head7_3|}}} {{!!}} colspan="2" {{!}} {{{item7_3}}}
+{{!}}-}}
+{{#If:{{{item7_4|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head7_4|}}} {{!!}} colspan="2" {{!}} {{{item7_4}}}
+{{!}}-}}
+{{#If:{{{item7_5|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head7_5|}}} {{!!}} colspan="2" {{!}} {{{item7_5}}}
+{{!}}-}}
+{{#If:{{{item7_6|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head7_6|}}} {{!!}} colspan="2" {{!}} {{{item7_6}}}
+{{!}}-}}
+{{#If:{{{item7_7|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head7_7|}}} {{!!}} colspan="2" {{!}} {{{item7_7}}}
+{{!}}-}}
+{{#If:{{{item7_8|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head7_8|}}} {{!!}} colspan="2" {{!}} {{{item7_8}}}
+{{!}}-}}
+{{#If:{{{item7_9|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head7_9|}}} {{!!}} colspan="2" {{!}} {{{item7_9}}}
+{{!}}-}}
+{{#If:{{{item7_10|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head7_10|}}} {{!!}} colspan="2" {{!}} {{{item7_10}}}
+{{!}}-}}
+{{#If:{{{item7_11|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head7_11|}}} {{!!}} colspan="2" {{!}} {{{item7_11}}}
+{{!}}-}}
+{{#If:{{{kop8|}}}|
+{{#If:{{{breed8|}}}{{{links8|}}}{{{item8_1|}}}{{{item8_2|}}}{{{item8_3|}}}{{{item8_4|}}}{{{item8_5|}}}{{{item8_6|}}}{{{item8_7|}}}{{{item8_8|}}}{{{item8_9|}}}{{{item8_10|}}}{{{item8_11|}}}{{{toonkop8|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{kop8}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kop8}}}|<font color={{{color}}}>{{{kop8}}}</font>}}|{{{kop8}}}}}'''}}
+{{!}}-}}}}
+{{#If:{{{breed8|}}}| {{!}} align="center" colspan="3" {{!}} {{{breed8}}}
+{{!}}-}}
+{{#If:{{{links8|}}}| {{!}} colspan="3" {{!}} {{{links8}}}
+{{!}}-}}
+{{#If:{{{item8_1|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head8_1|}}} {{!!}} {{#If:{{{item8_1r|}}}|{{{item8_1}}} {{!!}} {{{item8_1r}}} | colspan="2" {{!}} {{{item8_1}}}}}
+{{!}}-}}
+{{#If:{{{item8_2|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head8_2|}}} {{!!}} colspan="2" {{!}} {{{item8_2}}}
+{{!}}-}}
+{{#If:{{{item8_3|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head8_3|}}} {{!!}} colspan="2" {{!}} {{{item8_3}}}
+{{!}}-}}
+{{#If:{{{item8_4|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head8_4|}}} {{!!}} colspan="2" {{!}} {{{item8_4}}}
+{{!}}-}}
+{{#If:{{{item8_5|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head8_5|}}} {{!!}} colspan="2" {{!}} {{{item8_5}}}
+{{!}}-}}
+{{#If:{{{item8_6|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head8_6|}}} {{!!}} colspan="2" {{!}} {{{item8_6}}}
+{{!}}-}}
+{{#If:{{{item8_7|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head8_7|}}} {{!!}} colspan="2" {{!}} {{{item8_7}}}
+{{!}}-}}
+{{#If:{{{item8_8|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head8_8|}}} {{!!}} colspan="2" {{!}} {{{item8_8}}}
+{{!}}-}}
+{{#If:{{{item8_9|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head8_9|}}} {{!!}} colspan="2" {{!}} {{{item8_9}}}
+{{!}}-}}
+{{#If:{{{item8_10|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head8_10|}}} {{!!}} colspan="2" {{!}} {{{item8_10}}}
+{{!}}-}}
+{{#If:{{{item8_11|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head8_11|}}} {{!!}} colspan="2" {{!}} {{{item8_11}}}
+{{!}}-}}
+{{#If:{{{kop9|}}}|
+{{#If:{{{breed9|}}}{{{links9|}}}{{{item9_1|}}}{{{item9_2|}}}{{{item9_3|}}}{{{item9_4|}}}{{{item9_5|}}}{{{item9_6|}}}{{{item9_7|}}}{{{item9_8|}}}{{{item9_9|}}}{{{item9_10|}}}{{{item9_11|}}}{{{toonkop9|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{kop9}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kop9}}}|<font color={{{color}}}>{{{kop9}}}</font>}}|{{{kop9}}}}}'''}}
+{{!}}-}}}}
+{{#If:{{{breed9|}}}| {{!}} align="center" colspan="3" {{!}} {{{breed9}}}
+{{!}}-}}
+{{#If:{{{links9|}}}| {{!}} colspan="3" {{!}} {{{links9}}}
+{{!}}-}}
+{{#If:{{{item9_1|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head9_1|}}} {{!!}} {{#If:{{{item9_1r|}}}|{{{item9_1}}} {{!!}} {{{item9_1r}}} | colspan="2" {{!}} {{{item9_1}}}}}
+{{!}}-}}
+{{#If:{{{item9_2|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head9_2|}}} {{!!}} colspan="2" {{!}} {{{item9_2}}}
+{{!}}-}}
+{{#If:{{{item9_3|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head9_3|}}} {{!!}} colspan="2" {{!}} {{{item9_3}}}
+{{!}}-}}
+{{#If:{{{item9_4|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head9_4|}}} {{!!}} colspan="2" {{!}} {{{item9_4}}}
+{{!}}-}}
+{{#If:{{{item9_5|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head9_5|}}} {{!!}} colspan="2" {{!}} {{{item9_5}}}
+{{!}}-}}
+{{#If:{{{item9_6|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head9_6|}}} {{!!}} colspan="2" {{!}} {{{item9_6}}}
+{{!}}-}}
+{{#If:{{{item9_7|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head9_7|}}} {{!!}} colspan="2" {{!}} {{{item9_7}}}
+{{!}}-}}
+{{#If:{{{item9_8|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head9_8|}}} {{!!}} colspan="2" {{!}} {{{item9_8}}}
+{{!}}-}}
+{{#If:{{{item9_9|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head9_9|}}} {{!!}} colspan="2" {{!}} {{{item9_9}}}
+{{!}}-}}
+{{#If:{{{item9_10|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head9_10|}}} {{!!}} colspan="2" {{!}} {{{item9_10}}}
+{{!}}-}}
+{{#If:{{{item9_11|}}}| {{!}} style="font-weight:bold;" {{!}} {{{head9_11|}}} {{!!}} colspan="2" {{!}} {{{item9_11}}}
+{{!}}-}}
+{{#If:{{{kopA|}}}|
+{{#If:{{{breedA|}}}{{{linksA|}}}{{{itemA_1|}}}{{{itemA_2|}}}{{{itemA_3|}}}{{{itemA_4|}}}{{{itemA_5|}}}{{{itemA_6|}}}{{{itemA_7|}}}{{{itemA_8|}}}{{{itemA_9|}}}{{{toonkopA|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{kopA}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kopA}}}|<font color={{{color}}}>{{{kopA}}}</font>}}|{{{kopA}}}}}'''}}
+{{!}}-}}}}
+{{#If:{{{breedA|}}}| {{!}} align="center" colspan="3" {{!}} {{{breedA}}}
+{{!}}-}}
+{{#If:{{{linksA|}}}| {{!}} colspan="3" {{!}} {{{linksA}}}
+{{!}}-}}
+{{#If:{{{itemA_1|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headA_1|}}} {{!!}} {{#If:{{{itemA_1r|}}}|{{{itemA_1}}} {{!!}} {{{itemA_1r}}} | colspan="2" {{!}} {{{itemA_1}}}}}
+{{!}}-}}
+{{#If:{{{itemA_2|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headA_2|}}} {{!!}} colspan="2" {{!}} {{{itemA_2}}}
+{{!}}-}}
+{{#If:{{{itemA_3|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headA_3|}}} {{!!}} colspan="2" {{!}} {{{itemA_3}}}
+{{!}}-}}
+{{#If:{{{itemA_4|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headA_4|}}} {{!!}} colspan="2" {{!}} {{{itemA_4}}}
+{{!}}-}}
+{{#If:{{{itemA_5|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headA_5|}}} {{!!}} colspan="2" {{!}} {{{itemA_5}}}
+{{!}}-}}
+{{#If:{{{itemA_6|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headA_6|}}} {{!!}} colspan="2" {{!}} {{{itemA_6}}}
+{{!}}-}}
+{{#If:{{{itemA_7|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headA_7|}}} {{!!}} colspan="2" {{!}} {{{itemA_7}}}
+{{!}}-}}
+{{#If:{{{itemA_8|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headA_8|}}} {{!!}} colspan="2" {{!}} {{{itemA_8}}}
+{{!}}-}}
+{{#If:{{{itemA_9|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headA_9|}}} {{!!}} colspan="2" {{!}} {{{itemA_9}}}
+{{!}}-}}
+{{#If:{{{kopB|}}}|
+{{#If:{{{itemB_1|}}}{{{itemB_2|}}}{{{itemB_3|}}}{{{itemB_4|}}}{{{itemB_5|}}}{{{itemB_6|}}}{{{toonkopB|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{kopB}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kopB}}}|<font color={{{color}}}>{{{kopB}}}</font>}}|{{{kopB}}}}}'''}}
+{{!}}-}}}}
+{{#If:{{{itemB_1|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headB_1|}}} {{!!}} colspan="2" {{!}} {{{itemB_1}}}
+{{!}}-}}
+{{#If:{{{itemB_2|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headB_2|}}} {{!!}} colspan="2" {{!}} {{{itemB_2}}}
+{{!}}-}}
+{{#If:{{{itemB_3|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headB_3|}}} {{!!}} colspan="2" {{!}} {{{itemB_3}}}
+{{!}}-}}
+{{#If:{{{itemB_4|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headB_4|}}} {{!!}} colspan="2" {{!}} {{{itemB_4}}}
+{{!}}-}}
+{{#If:{{{itemB_5|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headB_5|}}} {{!!}} colspan="2" {{!}} {{{itemB_5}}}
+{{!}}-}}
+{{#If:{{{itemB_6|}}}| {{!}} style="font-weight:bold;" {{!}} {{{headB_6|}}} {{!!}} colspan="2" {{!}} {{{itemB_6}}}
+{{!}}-}}
+{{#If:{{{image0|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image0|}}}|{{#If:{{{imagewidth0|}}}|{{{imagewidth0|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{caption0|{{PAGENAME}}}}}]]
+{{!}}-}}
+{{#If:{{{image0|}}}|{{#If:{{{caption0|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{caption0}}}</small>
+{{!}}-}}}}
+{{#If:{{{image0|}}}||{{#If:{{{noimage0|}}}|{{!}} align="center" colspan="3" {{!}} {{{noimage0|}}}
+{{!}}-}}}}
+{{#If:{{{image1|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image1|}}}|{{#If:{{{imagewidth1|}}}|{{{imagewidth1|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{caption1|{{PAGENAME}}}}}]]
+{{!}}-}}
+{{#If:{{{image1|}}}|{{#If:{{{caption1|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{caption1}}}</small>
+{{!}}-}}}}
+{{#If:{{{image1|}}}||{{#If:{{{noimage1|}}}|{{!}} align="center" colspan="3" {{!}} {{{noimage1|}}}
+{{!}}-}}}}
+{{#If:{{{image2|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image2|}}}|{{#If:{{{imagewidth2|}}}|{{{imagewidth2|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{caption2|{{PAGENAME}}}}}]]
+{{!}}-}}
+{{#If:{{{image2|}}}|{{#If:{{{caption2|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{caption2}}}</small>
+{{!}}-}}}}
+{{#If:{{{image3|}}}| {{!}} align="center" colspan="3" {{!}} [[File:{{{image3|}}}|{{#If:{{{imagewidth3|}}}|{{{imagewidth3|}}}px|{{#expr:{{{breedte|{{ܨܢܕܘܩܐ/ܬܩܝܢܘܬܐ}}}}}-6}}px}}|{{{caption3|{{PAGENAME}}}}}]]
+{{!}}-}}
+{{#If:{{{image3|}}}|{{#If:{{{caption3|}}}| {{!}} align="center" colspan="3" {{!}} <small>{{{caption3}}}</small>
+{{!}}-}}}}
+{{#If:{{{otherkop|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{otherkop}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{otherkop}}}|<font color={{{color}}}>{{{otherkop}}}</font>}}|{{{otherkop}}}}}'''}}
+{{!}}-}}
+{{#If:{{{other0|}}}| {{!}} align="center" colspan="3" {{!}} {{{other0}}}
+{{!}}-}}
+{{#If:{{{other1|}}}| {{!}} align="center" colspan="3" {{!}} {{{other1}}}
+{{!}}-}}
+{{#If:{{{links31|}}}| {{!}} colspan="3" {{!}} {{{links31}}}
+{{!}}-}}
+{{#If:{{{other2|}}}| {{!}} align="center" colspan="3" {{!}} {{{other2}}}
+{{!}}-}}
+{{#If:{{{links32|}}}| {{!}} colspan="3" {{!}} {{{links32}}}
+{{!}}-}}
+{{#If:{{{other3|}}}| {{!}} align="center" colspan="3" {{!}} {{{other3}}}
+{{!}}-}}
+{{#If:{{{links33|}}}| {{!}} colspan="3" {{!}} {{{links33}}}
+{{!}}-}}
+{{#If:{{{driekop1|}}}|
+{{#If:{{{drie1_1|}}}{{{drie1_3|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{driekop1}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{driekop1}}}|<font color={{{color}}}>{{{driekop1}}}</font>}}|{{{driekop1}}}}}'''}}
+{{!}}-
+{{!}} colspan="3" {{!}}
+{{{!}} style="background:transparent; font-size:{{{drietekstgrootte|100%}}}; text-align:center" cellspacing="0" cellpadding="0" width="100%"
+{{!}} width="33%" {{!}} {{{drie1_1|}}} {{!!}}&nbsp;{{!!}} width="33%" {{!}} {{{drie1_2|}}} {{!!}}&nbsp;{{!!}} width="33%" {{!}} {{{drie1_3|}}}
+{{!}}}
+{{!}}-}}}}
+{{#If:{{{driekop2|}}}|
+{{#If:{{{drie2_1|}}}{{{drie2_3|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} '''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{driekop2}}}|<font color={{{color}}}>{{{driekop2}}}</font>}}|{{{driekop2}}}}}'''
+{{!}}-
+{{!}} colspan="3" {{!}}
+{{{!}} style="background:transparent; font-size:{{{drietekstgrootte|100%}}}; text-align:center" cellspacing="0" cellpadding="0" width="100%"
+{{!}} width="33%" {{!}} {{{drie2_1|}}} {{!!}}&nbsp;{{!!}} width="33%" {{!}} {{{drie2_2|}}} {{!!}}&nbsp;{{!!}} width="33%" {{!}} {{{drie2_3|}}}
+{{!}}}
+{{!}}-}}}}
+{{#If:{{{driekop3|}}}|
+{{#If:{{{drie3_1|}}}{{{drie3_3|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{driekop3}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{driekop3}}}|<font color={{{color}}}>{{{driekop3}}}</font>}}|{{{driekop3}}}}}'''}}
+{{!}}-
+{{!}} colspan="3" {{!}}
+{{{!}} style="background:transparent; font-size:{{{drietekstgrootte|100%}}}; text-align:center" cellspacing="0" cellpadding="0" width="100%"
+{{!}} width="33%" {{!}} {{{drie3_1|}}} {{!!}}&nbsp;{{!!}} width="33%" {{!}} {{{drie3_2|}}} {{!!}}&nbsp;{{!!}} width="33%" {{!}} {{{drie3_3|}}}
+{{!}}}
+{{!}}-}}}}
+{{#If:{{{driekop4|}}}|
+{{#If:{{{drie4_1|}}}{{{drie4_3|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} '''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{driekop4}}}|<font color={{{color}}}>{{{driekop4}}}</font>}}|{{{driekop4}}}}}'''
+{{!}}-
+{{!}} colspan="3" {{!}}
+{{{!}} style="background:transparent; font-size:{{{drietekstgrootte|100%}}}; text-align:center" cellspacing="0" cellpadding="0" width="100%"
+{{!}} width="33%" {{!}} {{{drie4_1|}}} {{!!}}&nbsp;{{!!}} width="33%" {{!}} {{{drie4_2|}}} {{!!}}&nbsp;{{!!}} width="33%" {{!}} {{{drie4_3|}}}
+{{!}}}
+{{!}}-}}}}
+{{#If:{{{driekop5|}}}|
+{{#If:{{{drie5_1|}}}{{{drie5_3|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{driekop5}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{driekop5}}}|<font color={{{color}}}>{{{driekop5}}}</font>}}|{{{driekop5}}}}}'''}}
+{{!}}-
+{{!}} colspan="3" {{!}}
+{{{!}} style="background:transparent; font-size:{{{drietekstgrootte|100%}}}; text-align:center" cellspacing="0" cellpadding="0" width="100%"
+{{!}} width="33%" {{!}} {{{drie5_1|}}} {{!!}}&nbsp;{{!!}} width="33%" {{!}} {{{drie5_2|}}} {{!!}}&nbsp;{{!!}} width="33%" {{!}} {{{drie5_3|}}}
+{{!}}}
+{{!}}-}}}}
+{{#If:{{{driekop6|}}}|
+{{#If:{{{drie6_1|}}}{{{drie6_3|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} '''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{driekop6}}}|<font color={{{color}}}>{{{driekop6}}}</font>}}|{{{driekop6}}}}}'''
+{{!}}-
+{{!}} colspan="3" {{!}}
+{{{!}} style="background:transparent; font-size:{{{drietekstgrootte|100%}}}; text-align:center" cellspacing="0" cellpadding="0" width="100%"
+{{!}} width="33%" {{!}} {{{drie6_1|}}} {{!!}}&nbsp;{{!!}} width="33%" {{!}} {{{drie6_2|}}} {{!!}}&nbsp;{{!!}} width="33%" {{!}} {{{drie6_3|}}}
+{{!}}}
+{{!}}-}}}}
+{{#If:{{{otherkop2|}}}|
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}}; color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{otherkop2}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{otherkop2}}}|<font color={{{color}}}>{{{otherkop2}}}</font>}}|{{{otherkop2}}}}}'''}}
+{{!}}-}}
+{{#If:{{{other4|}}}| {{!}} align="center" colspan="3" {{!}} {{{other4}}}
+{{!}}-}}
+{{#If:{{{links34|}}}| {{!}} colspan="3" {{!}} {{{links34}}}
+{{!}}-}}
+{{#If:{{{other5|}}}| {{!}} align="center" colspan="3" {{!}} {{{other5}}}
+{{!}}-}}
+{{#If:{{{links35|}}}| {{!}} colspan="3" {{!}} {{{links35}}}
+{{!}}-}}
+{{#If:{{{other6|}}}| {{!}} align="center" colspan="3" {{!}} {{{other6}}}
+{{!}}-}}
+{{#If:{{{links36|}}}| {{!}} colspan="3" {{!}} {{{links36}}}
+{{!}}-}}
+{{#If:{{{portaal|}}} | {{!}} style="background-color:{{{bgcolor|#e3e3e3}}}" align="center" colspan="3" {{!}}
+{{{!}} style="background:transparent; color:{{{color|#000000}}}" cellspacing="0" cellpadding="0"
+{{!}} style="vertical-align:middle" {{!}} '''Portaal'''&nbsp; [[File:Portal icon.svg|22px|Portaalicoon]] &nbsp;
+{{!}} align="left" {{!}} '''[[Portaal:{{{portaal}}}|{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{portaal}}}|<span style="color:{{{color}}}">{{{portaal}}}</span>}}|{{{portaal}}}}}]] {{#If:{{{portaal2|}}}|<br/>[[Portaal:{{{portaal2}}}|{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{portaal2}}}|<span style="color:{{{color}}}">{{{portaal2}}}</span>}}|{{{portaal2}}}}}]]}} {{#If:{{{portaal3|}}}|<br/>[[Portaal:{{{portaal3}}}|{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{portaal3}}}|<span style="color:{{{color}}}">{{{portaal3}}}</span>}}|{{{portaal3}}}}}]]}}'''
+{{!}}}
+{{!}}-}}
+{{#If:{{{kop99|}}}| 
+{{!}} style="background-color:{{{bgcolor|#e3e3e3}}};color:{{{color|#000000}}}" align="center" colspan="3" {{!}} {{#IfEq:{{{kop99}}}|----||'''{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{kop99}}}|<font color={{{color}}}>{{{kop99}}}</font>}}|{{{kop99}}}}}'''}}
+{{!}}-}}
+{{#If:{{{portaalZ|}}} | {{!}} style="background-color:{{{bgcolor|#e3e3e3}}}" align="center" colspan="3" {{!}}
+{{{!}} style="background:transparent; color:{{{color|#000000}}}" cellspacing="0" cellpadding="0"
+{{!}} style="vertical-align:middle" {{!}} '''Portaal'''&nbsp; [[File:Portal icon.svg|22px|Portaalicoon]] &nbsp;
+{{!}} '''[[Portaal:{{{portaalZ}}}|{{#If:{{{color|}}}|{{#If:{{{linkcolor|}}}|{{{portaalZ}}}|<span style="color:{{{color}}}">{{{portaalZ}}}</span>}}|{{{portaalZ}}}}}]]'''
+{{!}}}
+{{!}}-}}
+|}
