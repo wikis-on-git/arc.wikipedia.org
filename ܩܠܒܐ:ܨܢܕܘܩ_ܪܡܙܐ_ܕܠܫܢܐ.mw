@@ -16,7 +16,7 @@
 | label2 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
   | ܣܝܘܡܐ
   | {{#if:{{{signers|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|silver|1}}
-    |Signed
+    |ܣܡ
     |ܡܬܡܠܠ
     }}
   }}
@@ -27,7 +27,7 @@
 | label3 = ܝܘܒܠܐ ܕܣܝܡܘܬܐ
 | data3 = {{{date|}}}
 | label4 = {{#if:{{{creator|}}}{{{setting|}}}{{#ifeq:{{Infobox language/family-color|{{{familycolor|}}}}}|black|1}}
-  |Setting and usage
+  |ܡܦܠܚܢܘܬܐ
   |ܩܠܝܡܐ
   }}
 | data4 = {{#ifexpr:{{#if:{{{states|}}}|1|0}}+{{#if:{{{region|}}}|1|0}}!=1
