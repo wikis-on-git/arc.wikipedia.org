@@ -31,6 +31,9 @@
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܡܕܝܢܬܐ ܪܒܬܐ]]'''
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܡܕܝܢܬܐ ܪܒܬܐ}}}
 |- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܥܡܡܐ ܐܘܡܬܢܝܐ ܕ{{{ܫܡܐ}}}|ܥܡܡ̈ܐ ܐܘܡܬܢܝ̈ܐ]]'''
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܥܡܡܐ ܐܘܡܬܢܝܐ}}}
+|- valign="top"
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܡܕܒܪܢܘܬܐ]]'''
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܡܕܒܪܢܘܬܐ}}}
 |- valign="top"
@@ -54,6 +57,9 @@
 |- valign="top"
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܦܢܝܬܐ ܕܙܒܢܐ]]'''
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܦܢܝܬܐ ܕܙܒܢܐ}}}
+|- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''ܢܕܒܪܘܢ ܒܓܢܒ'''
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܢܕܒܪܘܢ ܒܓܢܒ}}}
 |- valign="top"
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܪܡܙܐ ܕܐܢܛܪܢܛ]]'''
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܪܡܙܐ ܕܐܢܛܪܢܛ}}}
@@ -79,6 +85,7 @@
 | ܐܪܫܟܝܬܐ = <br>
 | ܛܘܟܣܐ ܕܐܪܫܟܝܬܐ = <br>
 | ܡܕܝܢܬܐ ܪܒܬܐ = <br>
+| ܥܡܡܐ ܐܘܡܬܢܝܐ = <br>
 | ܡܕܒܪܢܘܬܐ = <br>
 | ܡܕܒܪܢܐ = <br>
 | ܫܡܐ ܕܡܕܒܪܢܐ = <br>
@@ -99,6 +106,7 @@
 | ܡܥܠܬܐ ܐܘܡܬܢܝܬܐ ܠܟܠ ܐܢܫ = <br>
 | ܙܘܙܐ = <br>
 | ܦܢܝܬܐ ܕܙܒܢܐ = <br>
+| ܢܕܒܪܘܢ ܒܓܢܒ = <br>
 | ܪܡܙܐ ܕܐܢܛܪܢܛ = <br>
 | ܡܢܝܢܐ ܕܛܠܦܘܢ = <br>
 | ܡܬܒܝܢܢܘܬܐ = <br>
