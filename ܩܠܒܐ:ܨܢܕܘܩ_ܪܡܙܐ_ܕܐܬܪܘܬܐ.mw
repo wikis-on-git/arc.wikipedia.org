@@ -331,7 +331,7 @@
               -->[[{{{politics_link}}}|ܡܕܒܪܢܘܬܐ]]|<!--else:
               -->{{#ifexist: ܦܘܠܝܛܝܩܝ ܪ{{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|<!--then:
                   -->[[ ܦܘܠܝܛܝܩܝ ܪ{{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|ܡܕܒܪܢܘܬܐ]]|<!--else:
-                  -->Government}}}}</th>
+                  -->ܡܕܒܪܢܘܬܐ}}}}</th>
           <td>{{{government_type|}}}</td>
         </tr><!--
 -->|<!--else no government_type provided, so if at least one leader provided,
@@ -683,7 +683,7 @@
         </tr>
         <tr class="mergedrow">
           <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
-          <td style="padding-left:0em;">Total</td>
+          <td style="padding-left:0em;">ܟܠܢܝܬܐ</td>
           <td>{{{GDP_nominal}}}&nbsp;<!--
               -->{{#if:{{{GDP_nominal_rank|}}} |<!--then:-->({{{GDP_nominal_rank}}}) }}</td>
         </tr><!--
