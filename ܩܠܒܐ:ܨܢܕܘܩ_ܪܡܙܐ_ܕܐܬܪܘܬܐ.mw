@@ -543,8 +543,8 @@
           <th colspan="3">{{#if:{{{area_link|}}}|<!--then:
               -->[[{{{area_link}}}|ܫܛܚܐ]]|<!--else:
               -->{{#ifexist:Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|<!--then:
-                  -->[[Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Area]]|<!--else:
-                  -->Area}}}}</th>
+                  -->[[Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|ܫܛܚܐ]]|<!--else:
+                  -->ܫܛܚܐ}}}}</th>
         </tr>
         <tr class="mergedrow">
           <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
