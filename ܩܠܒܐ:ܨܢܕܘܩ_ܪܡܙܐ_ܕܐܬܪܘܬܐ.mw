@@ -832,7 +832,7 @@
 -->{{#if:{{{calling_code|}}} |<!--then:
      --><tr>
           <th colspan="2">{{#ifexist:ܡܢܝܢܐ ܕܛܠܦܘܢ ܒ{{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
-                              |[[ܡܢܝܢܐ ܕܛܠܦܘܢ ܒ{{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|Calling code]]|Calling code}}</th>
+                              |[[ܡܢܝܢܐ ܕܛܠܦܘܢ ܒ{{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|ܡܢܝܢܐ ܕܛܠܦܘܢ]]|Calling code}}</th>
           <td>{{{calling_code}}}</td>
         </tr><!--
 -->}}<!--
