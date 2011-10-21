@@ -130,7 +130,7 @@
 ================================================================
 -->{{#if:{{{other_symbol|}}}{{{text_symbol|}}} |<!--then:
      --><tr>
-          <td colspan="3" style="line-height:1.2em; text-align:center;"><hr><!--
+          <td colspan="3" style="line-height:1.2em; text-align:center;"><!--
            -->{{#if:{{{other_symbol_type|}}}{{{text_symbol_type|}}} |<!--then:
                 -->'''{{{other_symbol_type|}}}{{{text_symbol_type|}}}'''<br/>}}<!--
            -->{{{other_symbol|}}}{{{text_symbol|}}}</td>
@@ -142,7 +142,7 @@
 ================================================================
 -->{{#if:{{{image_map|}}} |<!--then:
      --><tr>
-          <hr><td colspan="3" style="text-align:center; padding:0.6em 0em;">[[File:{{{image_map}}} |{{{map_width|250px}}} |center |alt={{{alt_map|{{{map_caption|}}}}}}|{{{alt_map|{{{map_caption|ܫܘܦܐ ܕ{{{common_name|{{{linking_name|{{PAGENAME}} }}} }}} }}} }}}]] <div style="position:relative; top:0.3em;"><small>{{{map_caption|}}}</small></div>
+          <td colspan="3" style="text-align:center; padding:0.6em 0em;">[[File:{{{image_map}}} |{{{map_width|250px}}} |center |alt={{{alt_map|{{{map_caption|}}}}}}|{{{alt_map|{{{map_caption|ܫܘܦܐ ܕ{{{common_name|{{{linking_name|{{PAGENAME}} }}} }}} }}} }}}]] <div style="position:relative; top:0.3em;"><small>{{{map_caption|}}}</small></div>
           </td>
         </tr><!--
 -->}}<!--
@@ -158,7 +158,7 @@
 ================================================================
 -->{{#if:{{{capital|}}}{{{admin_center|}}}{{{largest_city|}}}{{{largest_settlement|}}}
    |<!--then1:
-    --><hr><tr class="mergedtoprow"><!--
+    --><tr class="mergedtoprow"><!--
        -----------Check if capital/admin center provided:-------
        -->{{#if:{{{capital|}}}{{{admin_center|}}}
           |<!--then2:
@@ -254,7 +254,7 @@
      Official or Recognised regional languages; Ethnic groups
 ================================================================
 -->{{#if:{{{official_languages|}}} |<!--then:
-     --><tr><hr>
+     --><tr>
           <th colspan="2" style="vertical-align:middle; white-space:nowrap;">ܠܫܢܐ ܫܠܝܛܐ</th>
           <td>{{{official_languages|}}}</td>
         </tr><!--
@@ -297,7 +297,7 @@
                                Demonym
 ================================================================
 -->{{#if:{{{demonym|}}} |<!--then:
-     --><tr><hr>
+     --><tr>
           <th colspan="2">ܕܝܡܘܢܝܡ</th>
           <td>{{#ifexist:ܥܡܐ {{{demonym}}}|<!--then:
               -->[[ܥܡܐ {{{demonym}}}|{{{demonym}}}]] |<!--else:
@@ -310,7 +310,7 @@
      Organization type, Membership (geopolitical organization)
 ================================================================
 -->{{#if:{{{org_type|}}} |<!--then:
-     --><tr><hr> <td colspan="2">'''Type'''</td>
+     --><tr> <td colspan="2">'''Type'''</td>
              <td>{{{org_type}}}</td>
         </tr><!--
 -->}}<!--
@@ -326,7 +326,7 @@
             or "Leaders" (geopolitical organization)
 ================================================================
 -->{{#if:{{{government_type|}}} |<!--then:
-     --><tr><hr>
+     --><tr>
           <th colspan="2">{{#if:{{{politics_link|}}}|<!--then:
               -->[[{{{politics_link}}}|ܡܕܒܪܢܘܬܐ]]|<!--else:
               -->{{#ifexist: ܦܘܠܝܛܝܩܝ ܪ{{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|<!--then:
@@ -350,7 +350,7 @@
                                Leaders
 ================================================================
 -->{{#if:{{{leader_title1|}}} |<!--then:
-     --><hr><tr class="{{#if:{{{leader_title2|}}}
+     --><tr class="{{#if:{{{leader_title2|}}}
                    |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
           <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
           <td style="padding-right:0em;">{{{leader_title1}}}</td>
@@ -393,7 +393,7 @@
                            Legislature
 ================================================================
 -->{{#if:{{{legislature|}}} |<!--then:
-     --><tr><hr>
+     --><tr>
           <th colspan="2">ܢܘܡܝܩܘܬܐ</th>
           <td>{{{legislature|}}}</td>
       </tr><!--
@@ -418,7 +418,7 @@
            or Establishment (geopolitical organization)
 ================================================================
 -->{{#if:{{{established_event1|}}}{{{sovereignty_type|}}}{{{established|}}} |<!--then:
-     --><hr>tr {{#if:{{{established_event1|}}} |<!--then:-->class="mergedtoprow"}}><!--
+     --><tr {{#if:{{{established_event1|}}} |<!--then:-->class="mergedtoprow"}}><!--
          ----------Sovereignty----------
          -->{{#if:{{{sovereignty_type|}}}
             |<!--then:-->{{#if:{{{sovereignty_note|}}}
@@ -440,7 +440,7 @@
                        or organization's establishment
 ================================================================
 -->{{#if:{{{established_event1|}}} |<!--then:
-     --><hr><tr class="{{#if:{{{established_event2|}}}
+     --><tr class="{{#if:{{{established_event2|}}}
                    |<!--then:-->mergedrow |<!--else:-->mergedbottomrow}}">
           <td style="width:1em; padding:0 0 0 0.6em;">&nbsp;-&nbsp;</td>
           <td style="padding-right:0em;">{{{established_event1}}}</td>
@@ -539,7 +539,7 @@
      Area (area_label, area_km2, area_label2, area_data2,...)
 ================================================================
 -->{{#if:{{{area_km2|}}} |<!--then:
-     --><hr><tr class="mergedtoprow">
+     --><tr class="mergedtoprow">
           <th colspan="3">{{#if:{{{area_link|}}}|<!--then:
               -->[[{{{area_link}}}|ܫܛܚܐ]]|<!--else:
               -->{{#ifexist:Geography of {{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|<!--then:
@@ -595,7 +595,7 @@
                               Population
 ================================================================
 -->{{#if:{{{population_estimate|}}}{{{population_census|}}}{{{FR_metropole_population|}}} |<!--then:
-     --><hr><tr class="mergedtoprow">
+     --><tr class="mergedtoprow">
           <th colspan="3">{{#if:{{{population_link|}}}|<!--then:
               -->[[{{{population_link}}}|ܥܡܘܪܐ]]|<!--else:
               -->{{#ifexist:ِܥܡܘܪܐ ܕ{{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|<!--then:
@@ -655,7 +655,7 @@
 ================================================================
    -----------------PPP-----------------
 -->{{#if:{{{GDP_PPP|}}} |<!--then:
-     --><hr><tr class="mergedtoprow">
+     --><tr class="mergedtoprow">
           <td colspan="2">'''[[ܡܥܠܬܐ ܐܘܡܬܢܝܬܐ|GDP]]'''&nbsp;([[ܫܘܝܘܬܐ ܕܚܝܠܐ ܡܟܪܝܐ|PPP]])</td>
           <td>ܚܘܫܒܘܬܐ ܕ&nbsp;{{{GDP_PPP_year|}}}</td>
         </tr>
@@ -714,7 +714,7 @@
                                  HDI
 ================================================================
 -->{{#if:{{{HDI|}}} |<!--then:
-     --><hr><tr>
+     --><tr>
           <td colspan="2">'''[[ܩܘܕܝܟܣ ܕܛܘܘܪܐ ܕܐܢܫܐ|HDI]]'''&nbsp;{{#if:{{{HDI_year|}}} |<!--then:-->({{{HDI_year|}}}) }}</td>
           <td>{{{HDI}}}&nbsp;<!--
               -->{{#if:{{{HDI_category|}}} |<!--then:-->({{{HDI_category|}}})&nbsp;}}<!--
@@ -726,7 +726,7 @@
                               Currency
 ================================================================
 -->{{#if:{{{currency|}}} |<!--then:
-     --><tr><hr>
+     --><tr>
           <th colspan="2" style="vertical-align:middle;">ܙܘܙܐ</th>
           <td>{{{currency}}} <!--
               -->{{#if:{{{currency_code|}}}
@@ -738,7 +738,7 @@
                               Time zone
 ================================================================
 -->{{#if:{{{time_zone|}}}{{{utc_offset|}}} |<!--then:
-     --><hr><tr {{#if:{{{utc_offset_DST|}}}{{{DST_note|}}} |<!--then:-->class="mergedtoprow"}}>
+     --><tr {{#if:{{{utc_offset_DST|}}}{{{DST_note|}}} |<!--then:-->class="mergedtoprow"}}>
           <th colspan="2">ܦܢܝܬܐ ܕܙܒܢܐ</th>
           <td>{{{time_zone|}}} <!--
               -->{{#if:{{{utc_offset|}}} |<!--then:-->{{nowrap|([[ܙܒܢܐ ܥܡܡܝܐ ܡܚܝܕܐ|UTC]]{{{utc_offset}}})<!--endnowrap:-->}}<!--endif:-->}}</td>
@@ -762,7 +762,7 @@
                                          Antipodes
 ==========================================================================================
 -->{{#if:{{{antipodes|}}} |<!--then:
-     --><tr><hr>
+     --><tr>
           <th colspan="2">[[ܢܘܩܕ̈ܐ ܐܢܛܝܦܘܕ̈ܝܐ]]</th>
           <td>{{{antipodes}}}</td>
         </tr><!--
@@ -772,7 +772,7 @@
                                          Date format
 ==========================================================================================
 -->{{#if:{{{date_format|}}} |<!--then:
-     --><tr><hr>
+     --><tr>
           <th colspan="2">ܐܣܟܡܐ ܕܣܝܩܘܡܐ</th>
           <td>{{{date_format}}}</td>
         </tr><!--
@@ -782,7 +782,7 @@
                                          Rule of the Road
 ==========================================================================================
 -->{{#if:{{{drives_on|}}} |<!--then:
-     --><tr><hr>
+     --><tr>
           <th colspan="2">ܐܬܛܪܝ ܥܠ</th>
           <td>{{{drives_on}}}</td>
         </tr><!--
@@ -796,7 +796,7 @@
   |=<!-- if iso3166code is not supplied:-->{{#if:{{{common_name|}}}
     |<!-- then: -->{{#ifexist:Template:ISO 3166 code {{{common_name|}}}
       |<!-- then: --><tr class="mergedtoprow">
-      <hr><th colspan="2">[[ISO 3166|ISO&nbsp;3166&nbsp;code]]</th>
+      <th colspan="2">[[ISO 3166|ISO&nbsp;3166&nbsp;code]]</th>
       <td>[[ISO 3166-2:{{ISO 3166 code {{{common_name|}}} }}|{{ISO 3166 code {{{common_name|}}} }}]]</td>
       </tr>
     }}<!--end ifexist -->
@@ -811,7 +811,7 @@
                             Internet TLD
 ================================================================
 -->{{#if:{{{cctld|}}} |<!--then:
-     --><tr><hr>
+     --><tr>
           <th colspan="2">[[ܪܡܙܐ ܕܐܝܢܛܪܢܛ]]</th>
           <td>{{{cctld}}}</td>
         </tr><!--
@@ -820,7 +820,7 @@
                 Official website (geopolitical organization)
 ================================================================
 -->{{#if:{{{official_website|}}} |<!--then:
-     --><tr><hr>
+     --><tr>
           <td colspan="3" style="line-height:11pt; text-align:center;"><!--
            -->'''ܫܘܦܐ ܕܐܝܢܛܪܢܛ'''<br/>{{{official_website}}}</td>
         </tr><!--
@@ -830,7 +830,7 @@
                             Calling code
 ================================================================
 -->{{#if:{{{calling_code|}}} |<!--then:
-     --><tr><hr>
+     --><tr>
           <th colspan="2">{{#ifexist:ܡܢܝܢܐ ܕܛܠܦܘܢ ܒ{{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}
                               |[[ܡܢܝܢܐ ܕܛܠܦܘܢ ܒ{{{linking_name|{{{common_name|{{{name|{{PAGENAME}}}}}}}}}}}|ܡܢܝܢܐ ܕܛܠܦܘܢ]]|ܡܢܝܢܐ ܕܛܠܦܘܢ}}</th>
           <td>{{{calling_code}}}</td>
@@ -841,7 +841,7 @@
                            Patron saint
 ================================================================
 -->{{#if:{{{patron_saint|{{{patron_saints|}}}}}} |<!--then:
-     --><tr><hr>
+     --><tr>
           <th colspan="2" >[[ܩܕܝܫܐ ܡܨܥܝܐ]]{{#if:{{{patron_saints|}}}|s}}</th>
           <td>{{{patron_saint|{{{patron_saints}}}}}}</td>
         </tr><!--
@@ -853,7 +853,7 @@
                             Bottom Map
 ================================================================
 -->{{#if:{{{image_map3|}}} |<!--then:
-     --><tr class="mergedtoprow"><hr>
+     --><tr class="mergedtoprow">
           <td colspan="3" style="text-align:center; padding:0.6em 0em;"> [[File:{{{image_map3}}} |{{{map3_width|250px}}} |center |alt={{{alt_map3|}}}|Location of {{{common_name|{{{linking_name|{{PAGENAME}}}}}}}}]] <div style="position:relative; top:0.3em;"><small>{{{map_caption3|}}}</small></div>
           </td>
         </tr><!--
@@ -864,7 +864,7 @@
 ================================================================
     ----------Non-specific----------
 -->{{#if:{{{footnotes|}}} |<!--then:
-     --><tr><hr>
+     --><tr>
           <td colspan="3"><small>{{{footnotes}}}</small></td>
         </tr><!--
 -->}}<!--
