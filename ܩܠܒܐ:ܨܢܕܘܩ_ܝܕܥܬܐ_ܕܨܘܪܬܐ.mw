@@ -1,0 +1,6 @@
+{{Infobox image
+  |name = <Image name>
+  |size = <Width>
+  |has border = <yes|no>
+  |caption = <Image caption>
+}}
