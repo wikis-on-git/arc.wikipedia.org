@@ -1,0 +1,33 @@
+{ infobox
+| title   = {{{title|<includeonly>{{{ܫܡܐ|{{{subject_name|{{PAGENAME}} }}} }}}</includeonly>}}}
+| above   = {{{ܢܝܫܐ|}}}
+| image   = {{{ܨܘܪܬܐ|}}}
+| caption = {{{ܟܬܝܒܬܐ|}}}
+
+| label3  = ܛܓܡܐ
+| data3   = {{{ܛܓܡܐ|}}}
+| label4  = ܪܡܙܐ
+| data4   = {{{ܪܡܙܐ|}}}
+| label5  = ܪܘܝܚܘܬܐ
+| data5   = {{{ܪܘܝܚܘܬܐ|}}}
+| label6  = ܓܘܫܡܐ ܕܟܘܬܠܬܐ
+| data6   = {{{ܓܘܫܡܐ ܕܟܘܬܠܬܐ|}}}
+| label7  = ܡܨܥܝܘܬܐ ܕܗܘܓܝܐ
+| data7   = {{{ܗܘܓܝܐ|}}}
+| label8  = ܡܨܥܝܘܬܐ ܕܟܬܒܬܐ
+| data8   = {{{ܟܬܒܬܐ|}}}
+| label9  = ܡܥܝܪ̈ܐ ܬܐܒܝܠܝܐ
+| data9   = {{{ܡܥܝܪ̈ܐ|}}}
+| label10  = ܡܛܘܪܢܐ
+| data10   = {{{ܡܪܐ|}}}
+| label11 = ܪܚܝܩܘܝܬܐ
+| data11  = {{{ܪܚܝܩܘܝܬܐ|}}}
+| label12 = ܝܘܩܪܐ
+| data12  = {{{ܝܘܩܪܐ|}}}
+| label13 = ܡܦܠܚܬܐ
+| data13  = {{{ܡܦܠܚܬܐ|}}}
+| label14 = ܦܬܝܐ ܡܢ
+| data14  = {{{ܦܬܝܐ ܡܢ|}}}
+| label15 = ܦܬܝܐ ܥܕ
+| data15  = {{{ܦܬܝܐ ܥܕ|}}}
+}}<noinclude>{{documentation}}<!---Please add metadata to the <includeonly> section at the bottom of the /doc subpage---></noinclude>
