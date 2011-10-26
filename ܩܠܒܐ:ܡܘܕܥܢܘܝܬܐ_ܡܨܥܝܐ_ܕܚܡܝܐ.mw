@@ -1,4 +1,4 @@
-{ infobox
+{{ infobox
 | title   = {{{title|<includeonly>{{{ܫܡܐ|{{{subject_name|{{PAGENAME}} }}} }}}</includeonly>}}}
 | above   = {{{ܢܝܫܐ|}}}
 | image   = {{{ܨܘܪܬܐ|}}}
