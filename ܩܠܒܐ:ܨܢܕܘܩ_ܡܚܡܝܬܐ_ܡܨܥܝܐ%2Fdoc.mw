@@ -1,0 +1,75 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE. -->
+
+===Usage===
+<pre style="overflow:auto;">
+{{ܨܢܕܘܩ ܡܚܡܝܬܐ ܡܨܥܝܐ
+| name          = 
+| logo          = 
+| image         = 
+| caption       = 
+| type          = 
+| encoding      = 
+| capacity      = 
+| blocksize     = 
+| read          = 
+| write         = 
+| standard      = 
+| owner         = 
+| use           = 
+| dimensions    = 
+| weight        = 
+| extended from = 
+| extended to   = 
+}}
+</pre>
+
+===Example===
+{{ܨܢܕܘܩ ܡܚܡܝܬܐ ܡܨܥܝܐ
+| name          = GameCube Optical Disc
+| logo          = 
+| image         = [[File:NonFreeImageRemoved.svg|200px]]
+| caption       = ''[[Super Smash Bros. Melee]]'' disc
+| type          = [[Read only]] [[optical disc]]
+| encoding      = [[Digital]]
+| capacity      = 1.5 [[gigabyte]]s
+| read          = [[Laser]]
+| write         = 
+| standard      = 
+| owner         = [[Nintendo]] & [[Panasonic Corporation|Matsushita]]
+| use           = [[GameCube]] game media
+| extended from = 
+| extended to   = 
+}}
+{| style="border: none; background: none;"
+|<pre>{{Infobox storage medium
+| name          = GameCube Optical Disc
+| logo          = 
+| image         = [[File:NonFreeImageRemoved.svg|200px]]
+| caption       = ''[[Super Smash Bros. Melee]]'' disc
+| type          = [[Read only]] [[optical disc]]
+| encoding      = [[Digital]]
+| capacity      = 1.5 [[gigabyte]]s
+| read          = [[Laser]]
+| write         = 
+| standard      = 
+| owner         = [[Nintendo]] & [[Panasonic Corporation|Matsushita]]
+| use           = [[GameCube]] game media
+| extended from = 
+| extended to   = 
+}}</pre>
+|}
+
+<includeonly>
+[[Category:Computer hardware infobox templates|Storage medium]]
+[[Category:Technology and applied science infobox templates|Storage medium]]
+
+[[arc:ܡܘܕܥܢܘܝܬܐ ܡܨܥܝܐ ܕܚܡܝܐ]]
+[[ar:قالب:معلومات واسطة تخزين]]
+[[cs:Šablona:Infobox přenosné médium]]
+[[mk:Шаблон:Носач на податоци]]
+[[id:Template:Infobox storage medium]]
+[[ja:Template:ディスクメディア]]
+[[pt:Predefinição:Info/Mídia]]
+[[tr:Şablon:Medya ortamı bilgi kutusu]]
+</includeonly>
