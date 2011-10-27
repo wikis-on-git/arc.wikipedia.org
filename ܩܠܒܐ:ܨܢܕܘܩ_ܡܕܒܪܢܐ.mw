@@ -1,0 +1,57 @@
+{| class="infobox vcard" style="width: 250px; font-size: 90%; text-align: right"
+{{ܩܘܕܝܟܘܣ ܥܠܝܐ|ܫܡܐ={{{ܫܡܐ|}}}}}
+|-
+| align=center colspan="2" |
+{| style="background:#f9f9f9;" border="0" cellpadding="2" cellspacing="0"
+|- align=center
+{{{ܨܘܪܬܐ}}}
+|-
+!  colspan="2" style="text-align:center; font-size:110%" | <hr /><div style="background-color:lavender">'''ܪܝܫܐ ܕ{{{ܡܢܝܢܐ}}} ܕ [[ܐܘܚܕܢ̈ܐ ܡܚܝܕ̈ܐ]]'''</div>
+|-
+| '''ܫܘܪܝܐ ܕܢܘܓܪܐ:'''
+| {{{ܫܘܪܝܐ ܕܢܘܓܪܐ}}}{{#ܫܪ̈ܛܐ:{{{ܢܘܓܪܐ ܐܚܪܝܐ|}}}|<tr>
+<td>'''ܫܘܠܡܐ ܕܡܫܠܛܘܬܐ:'''</td>
+<td>{{{ܫܘܠܡܐ ܕܡܫܠܛܘܬܐ}}}</td>
+</tr>}}
+|-
+| '''ܣܝܩܘܡ ܡܘܠܕܐ:''' || {{{ܡܘܠܕܐ}}}{{#ܫܪܛܐ:{{{ܡܘܬܐ|}}}|<tr>
+<td>'''ܣܝܩܘܡ ܡܘܬܐ:'''</td>
+<td>{{{ܡܘܬܐ}}}</td>
+</tr>}}
+|-
+| '''ܕܘܟܬܐ ܕܡܘܠܕܐ:'''
+| {{{ܕܘܟܬܐ ܕܡܘܠܕܐ}}}
+|-
+| '''[[ܡܪܬܝ ܩܕܡܝܬܐ ܕܐܘܚܕܢ̈ܐ ܡܚܝܕ̈ܐ|ܡܪܬܝ ܩܕܡܝܬܐ]]:'''
+| {{{ܡܪܬܝ ܩܕܡܝܬܐ}}}
+|-
+|  '''[[ܓܒܐ]]:'''
+| {{{ܓܒܐ}}}
+|-
+| '''[[ܚܠܦ ܦܩܘܕܐ ܕܐܘܚܕܢ̈ܐ ܡܚܝܕ̈ܐ|ܚܠܦ ܦܩܘܕܐ]]:'''
+| {{{ܚܠܦ ܦܩܘܕܐ}}}
+|- style="display:{{#ܫܪܛܐ:{{{ܪܡܝ ܐܝܕܐ|}}}|table-row|none}};"
+|'''ܪܡܝ ܐܝܕܐ:''' || {{{ܪܡܝ ܐܝܕܐ}}}
+|}
+|}<noinclude>
+{{ܫܪܛܐ|ܩܠܒܐ:ܦܩܘܕܐ|ܣܕܪܐ:ܦܩܘܕܐ1}}
+[[ܣܕܪܐ:ܩܠܒ̈ܐ ܦܪܡܬܪ̈ܝܐ - ܢܫ̈ܐ|ܦܩܘܕ̈ܐ ܕܐܘܚܕܢ̈ܐ ܡܚܝܕ̈ܐ ܕܐܡܪܝܩܐ]]
+[[ܣܕܪܐ:ܩܠܒ̈ܐ ܦܪܡܬܪ̈ܝܐ - ܐܘܚܕܢ̈ܐ ܡܚܝܕ̈ܐ|ܦܩܘܕ̈ܐ ܕܐܘܚܕܢ̈ܐ ܡܚܝܕ̈ܐ]]
+[[ast:Plantilla:Info presidentes]]
+[[bg:Шаблон:Президент инфо]]
+[[bs:Šablon:Infokutija predsjednik]]
+[[cy:Nodyn:Arlywydd UDA]]
+[[en:Template:Infobox President]]
+[[ms:Templat:Politik]]
+[[ga:Teimpléad:Bosca Sonraí Uachtaráin]]
+[[id:Templat:Politikus]]
+[[ja:Template:大統領]]
+[[lb:Template:Minister]]
+[[no:Mal:Infoboks president USA]]
+[[nn:Mal:Infoboks leiar]]
+[[pl:Szablon:Polityk infobox]]
+[[simple:Template:Infobox President]]
+[[sv:Mall:Regeringschef]]
+[[tr:Şablon:ABD Başkanları]]
+[[vi:Tiêu bản:Tổng thống]]
+</noinclude>
