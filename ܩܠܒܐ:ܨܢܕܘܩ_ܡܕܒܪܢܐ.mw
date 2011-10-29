@@ -29,9 +29,12 @@
 | ܚܠܦ ܡܕܒܪܢܐ = 
 | ܦܐܬܐ ܕܢܘܠܐ = 
 }}</pre>
-<noinclude>
+</noinclude>
+<includeonly>
 {{#if:|ܩܠܒܐ:ܨܢܕܘܩ ܡܕܒܪܢܐ}}
-[[ܣܕܪܐ:ܡܕܒܪܢܐ ܐܘܚܕܢܐ ܡܚܝܕܐ]]
+[[ܣܕܪܐ:ܡܕܒܪܢܐ]]
+</includeonly>
+<noinclude>
 [[ast:Plantilla:Info presidentes]]
 [[bg:Шаблон:Президент инфо]]
 [[bs:Šablon:Infokutija predsjednik]]
