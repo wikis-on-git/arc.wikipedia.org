@@ -1,0 +1,16 @@
+{{documentation/end box/  | yes
+  }}
+
+| sandbox = 
+  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/sandbox
+| testcases = 
+  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/testcases
+
+| template page = 
+  {{NAMESPACE}}:{{{template page|{{PAGENAME}}}}}
+
+}}<noinclude>
+
+{{pp-template}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
