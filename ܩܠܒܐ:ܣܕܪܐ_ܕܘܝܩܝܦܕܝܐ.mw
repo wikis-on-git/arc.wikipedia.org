@@ -3,7 +3,7 @@
 | textstyle = text-align: center;
 | text = ܗܢܐ ܣܕܪܐ ܣܝܡ ܠܡܕܒܪܢܘܬܐ ܚܘܪܙܐ ܕܘܝܩܝܦܕܝܐ (ܣܘܪܝܝܐ) ܠܝܬ ܣܗܡܐ ܡܢ ܡܠܘܐܐ ܕܐܢܣܩܠܘܦܕܝܐ. ܚܒܫ ܦܐܬ̈ܐ ܗܢܘ ܕܠܝܢ ܒܡܠܘ̈ܐܐ ܐܢܣܩܠܘܦܝܕܝܐ؛{{#if:{{{1|}}}| <br /> <div style="text-align: left;">{{{ALTTEXT|'''وصف''':}}} {{{1|}}}</div> }} 
 }}{{#if:{{{shortcut|}}}| {{shortcut| {{{shortcut}}} }} }}<noinclude>
-{{ܚܬܝܬܘܬܐ}}
+{{Documentation}}
 <!-- Please add categories and interwikis to the /doc subpage, not here -->
 </noinclude><noinclude>
 [[ܣܕܪܐ:ܩܠܒ̈ܐ ܣܢܝܩܐ ܡܛܟܣܬܐ]]
