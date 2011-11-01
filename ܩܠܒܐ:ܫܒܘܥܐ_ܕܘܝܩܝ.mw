@@ -1,1 +1,8 @@
-{{#ifexist: ܘܝܩܝܦܕܝܐ:ܫܒܘܥܐ ܕܘܝܩܝ/{{ #time:Y|{{CURRENTYEAR}}}}/{{CURRENTWEEK}} | {{ܘܝܩܝܦܕܝܐ:ܫܒܘܥܐ ܕܘܝܩܝ/{{ #time:Y|{{CURRENTYEAR}}}}/{{CURRENTWEEK}}}} | {{ܘܝܩܝܦܕܝܐ:ܫܒܘܥܐ ܕܘܝܩܝ/{{ #time:Y|{{CURRENTYEAR}} -1 year}}/{{CURRENTWEEK}}}}}}
+<div style="position:absolute; z-index:100; left:10px; top:10px;" class="metadata" id="featured-star">{{titled-click|link=ܘܝܩܝܦܕܝܐ:ܫܒܘܥܐ ܕܘܝܩܝ|image=Color-chars-logo.png|width=20px|height=20px|title=ܗܢܐ ܡܠܘܐܐ ܐܬܛܘܪ ܒܝܨܝܦܘܬܐ ܕܫܒܘܥܐ ܕܘܝܩܝ. ܕܥܘܟ ܠܟܐ ܠܝܬܝܪ ܡܘܕܥܢܘܬܐ.}}
+</div>
+<includeonly>
+[[ܣܕܪܐ:ܡܠܘܐܐ ܕܫܒܘܥܐ ܕܘܝܩܝܦܕܝܐ|{{PAGENAME}}]]
+</includeonly>
+<noinclude>
+ܗܢܐا ܩܠܒܐ  ܡܛܟܣ ܪܘܫܡܐ ܕܟܘܬܐ ܕܘܝܩܝ ܓܘܢܝܬܐ ([[ܠܦܦܐ:Color-chars-logo.png|20px]]) ܒܩܘܪܢܝܬܐ ܕܣܡܠܐ ܠܥܠ ܦܐܬܐ ܕܡܠܘܐܐ ܠܫܘܕܥܐ ܥܠ ܐܢ ܐܗܐ ܡܠܘܐܐ ܐܬܒܪܝ ܒܝܨܝܦܘܬ ܬܪܡܝܬܐ ܕ[[ܘܝܩܝܦܕܝܐ:ܫܒܘܥܐ ܕܘܝܩܝ|ܫܒܘܥܐ ܕܘܝܩܝ]]. ܘܟܘܕ  ܗܘ <nowiki>{{ܫܒܘܥܐ ܕܘܝܩܝ}}</nowiki>. [[ܣܕܪܐ:ܩܠܒܐ ܫܒܘܥܐ ܕܘܝܩܝ]]
+<noinclude/>
