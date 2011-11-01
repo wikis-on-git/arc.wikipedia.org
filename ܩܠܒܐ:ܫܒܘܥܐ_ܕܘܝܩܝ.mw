@@ -1,0 +1,1 @@
+{{#ifexist: ܘܝܩܝܦܕܝܐ:ܫܒܘܥܐ ܕܘܝܩܝ/{{ #time:Y|{{CURRENTYEAR}}}}/{{CURRENTWEEK}} | {{ܘܝܩܝܦܕܝܐ:ܫܒܘܥܐ ܕܘܝܩܝ/{{ #time:Y|{{CURRENTYEAR}}}}/{{CURRENTWEEK}}}} | {{ܘܝܩܝܦܕܝܐ:ܫܒܘܥܐ ܕܘܝܩܝ/{{ #time:Y|{{CURRENTYEAR}} -1 year}}/{{CURRENTWEEK}}}}}}
