@@ -10,13 +10,13 @@
   | <!--Add the [edit][purge] or [create] links-->
     <span class="editsection plainlinks" id="doc_editlinks">{{
     #if: {{{doc exist|yes}}}
-    | [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=edit}} ترمیم]] [{{purge|تطہیر}}] 
+    | [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=edit}} ܫܚܠܦ]] [{{purge|ܕܟܝܐ}}] 
     | <!--/doc doesn't exist-->
       [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}| action=edit&preload={{
         #ifeq: {{SUBJECTSPACE}} | {{ns:File}}
         | Template:Documentation/preload-filespace
         | Template:Documentation/preload
-        }} }} تخلیق کریں]]
+        }} }} ܒܪܝ]]
     }}</span>
   }} <span style="{{#if: {{{heading-style|}}}
   | {{{heading-style|}}}
@@ -28,9 +28,9 @@
   | ¬ =   
     <!--"heading" not defined in this or previous level-->
     {{#switch: {{SUBJECTSPACE}} 
-    | {{ns:Template}} = [[Image:Template-info.svg|50px|alt=]] دستاویز سانچہ
-    | {{ns:File}} = خلاصہ
-    | #default = دستاویز
+    | {{ns:Template}} = [[Image:Template-info.svg|50px|alt=]] ܩܠܒܐ ܕܚܬܝܬܘܬܐ
+    | {{ns:File}} = ܚܘܠܨܐ
+    | #default = ܚܬܝܬܘܬܐ
     }}
   | #default = 
     <!--"heading" has data or is empty but defined-->
@@ -72,34 +72,36 @@
     | {{{link box}}}   <!--Use custom link box content-->
     | {{#if: {{{doc exist|yes}}}
       | <!--/doc exists, link to it-->
-اوپر دی گئی [[:en:Wikipedia:Template documentation|دستاویز]] صفحہ [[{{{docpage|{{FULLPAGENAME}}/doc}}}]] سے [[:en:Wikipedia:Transclusion|شامل]] کی گئی ہے۔ <small style="font-style: normal">([{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=edit}} ترمیم] &#124; [{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=history}} تاریخچہ])</small> <br>
+ܠܥܠ [[:en:Wikipedia:Template documentation|ܣܕܪܐ]] ܦܐܬܐ [[{{{docpage|{{FULLPAGENAME}}/doc}}}]] ܡܢ [[:en:Wikipedia:Transclusion|ܡܬܟܪܟܢܐ]] ܐܫܬܡܠܐ۔ <small style="font-style: normal">([{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=edit}} ܫܚܠܦ] &#124; [{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=history}} ܬܫܥܝܬܐ])</small> <br>
       }}<!-- 
         Add links to /sandbox and /testcases when appropriate:
    -->{{#switch: {{SUBJECTSPACE}}
       | {{ns:User}}
       | {{ns:Template}} = 
-مدیران اس سانچے کے {{
+ܟܬܒܢ̈ܐ ܐܝܬ ܒܗ ܡܨܚܨܗ ܒܐܗܐ ܩܠܒܐ {{
         #ifexist: {{{sandbox| {{FULLPAGENAME}}/sandbox }}}
-        | [[{{{sandbox| {{FULLPAGENAME}}/sandbox }}}|ریتخانہ]] <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/sandbox }}} | action=edit }} ترمیم] {{!}} [{{fullurl:Wikipedia:pagediff | withJS={{urlencode:MediaWiki:Common.js/pagediff.js}}&oldpage={{urlencode:{{{template page|{{FULLPAGENAME}}}}}}}&newpage={{urlencode:{{{sandbox|{{FULLPAGENAME}}/sandbox}}}}}}} فرق])</small> 
-        | ریتخانہ <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/sandbox }}} | action=edit&preload=Template:Documentation/preload-sandbox }} تخلیق کریں])</small> 
-        }} اور {{
+        | [[{{{sandbox| {{FULLPAGENAME}}/sandbox }}}|sandbox ]] <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/sandbox }}} | action=edit }} ܫܚܠܦ] {{!}} [{{fullurl:Wikipedia:pagediff | withJS={{urlencode:MediaWiki:Common.js/pagediff.js}}&oldpage={{urlencode:{{{template page|{{FULLPAGENAME}}}}}}}&newpage={{urlencode:{{{sandbox|{{FULLPAGENAME}}/sandbox}}}}}}} ܦܘܪܫܢܐ])</small> 
+        | sandbox <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/sandbox }}} | action=edit&preload=Template:Documentation/preload-sandbox }} ܒܪܝ ])</small> 
+        }} ܘܝܬܝܪ {{
         #ifexist: {{{testcases| {{FULLPAGENAME}}/testcases }}}
-        | [[{{{testcases| {{FULLPAGENAME}}/testcases }}}|ثابتات]] <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/testcases }}} | action=edit }} ترمیم])</small>
-        | ثابتات <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/testcases }}} | action=edit&preload=Template:Documentation/preload-testcases }} تخلیق کریں])</small>
-        }} میں تجربات کر سکتے ہیں۔ <br>
+        | [[{{{testcases| {{FULLPAGENAME}}/testcases }}}|ܨܚܨܝ ܐܝܟܢܝܘܬܐ]] <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/testcases }}} | action=edit }} ܫܚܠܦ])</small>
+        | ܨܚܨܝ ܐܝܟܢܝܘܬܐ <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/testcases }}} | action=edit&preload=Template:Documentation/preload-testcases }} ܒܪܝ])</small>
+        }} Show the cats and interwiki text, but not 
+        if "content" fed or "docname fed" since then it is 
+        unclear where to add the cats and interwikis.۔ <br>
       }}<!--
         Show the cats and interwiki text, but not 
         if "content" fed or "docname fed" since then it is 
         unclear where to add the cats and interwikis.
    -->{{#if: {{{content|}}} {{{docname fed|}}}
       | 
-      | برائے مہربانی زمرہ جات اور بین&zwnj;الوکی روابط [[{{{docpage|{{FULLPAGENAME}}/doc}}}|/دستاویز]]  کے ذیلی صفحے پر شامل کریں۔
+      | Please add categories and interwikis to the [[{{{docpage|{{FULLPAGENAME}}/doc}}}|/doc]]  ۔
       }}<!--
         Show the "Subpages" link:
    -->{{#switch: {{SUBJECTSPACE}}
       | {{ns:File}} =   <!--Don't show it-->
-      | {{ns:Template}} = &#32;[[Special:PrefixIndex/{{{template page|{{FULLPAGENAME}}}}}/|اس سانچے کے ذیلی صفحات]]۔
-      | #default = &#32;[[Special:PrefixIndex/{{{template page|{{FULLPAGENAME}}}}}/|اس صفحے کے ذیلی صفحات]]۔
+      | {{ns:Template}} = &#32;[[Special:PrefixIndex/{{{template page|{{FULLPAGENAME}}}}}/|Subpages of this template]]۔
+      | #default = &#32;[[Special:PrefixIndex/{{{template page|{{FULLPAGENAME}}}}}/|Subpages of this page]]۔
       }}
     }}{{#ifexist:{{FULLPAGENAME}}/Print
      |</br>A [[Help:Books/for experts#Improving the book layout|print version]] of this template exists at [[/Print]]. If you make a change to this template, please update the print version as well.[[Category:Templates with print versions]]
