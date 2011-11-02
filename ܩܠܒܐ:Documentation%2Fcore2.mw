@@ -7,13 +7,13 @@
 | docpage = 
   {{#if: {{{1|}}}
   | {{{1|}}}
-  | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/دستاویز
+  | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/ܟܬܝܒܬܐ
   }}
 | doc exist = 
   {{#ifexist: 
     {{#if: {{{1|}}}
     | {{{1|}}}   <!--Other docname fed-->
-    | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/دستاویز
+    | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/ܟܬܝܒܬܐ
     }}
   | yes
   }}
@@ -23,9 +23,9 @@
   }}
 
 | sandbox = 
-  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/ریتخانہ
+  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/Sandbox
 | testcases = 
-  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/ثابتات
+  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/testcases
 
 | template page = 
   {{NAMESPACE}}:{{{template page|{{PAGENAME}}}}}
