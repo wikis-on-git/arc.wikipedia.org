@@ -1,0 +1,47 @@
+<includeonly><div style="display:block; width:{{{width|auto}}}; margin-top:1em; margin-bottom:1em; padding:0px; background-color:{{{ܦܘܢܕ|transparent}}};<!-- bordures:
+-->border-collapse:collapse; border-style:solid; border-color:{{{ܒܘܪܕ|#aaaaaa}}}; border-width:1px;<!--t r b l
+-->{{#if:{{{ܐܪܘܢܕܝ|}}}|-moz-border-radius:{{{ܐܪܘܢܕܝ}}};|}}"><!--
+
+-->{{#ifeq:{{{ܬܚܘܝܬܐ|{{{ܨܘܪܬܐ|{{{ܩܠܒܐ|1}}} }}} }}}|{{{ܬܚܘܝܬܐ|{{{ܨܘܪܬܐ|{{{ܩܠܒܐ|}}} }}} }}}|<!--
+--><div style="margin:0; padding:0; background-color:{{{ܓܘܢܐ|transparent}}};<!-- bordures:
+-->border-style:solid; border-color:{{{ܒܘܪܕ|#aaaaaa}}}; border-width:0px 0px 1px 0px;<!--
+-->{{#if:{{{ܐܪܘܢܕܝ|}}}|-moz-border-radius-topleft:{{{ܐܪܘܢܕܝ}}}; -moz-border-radius-topright:{{{ܐܪܘܢܕܝ}}};|}}"><!--
+
+--><table cell-spacing="0" cell-padding="0" style="width:100%; border-style:none; border-collapse:collapse; background-color:transparent; padding:0px;<!--t+b l+r
+-->margin:0; vertical-align:middle;"><tr><!--
+
+ܠܦܦܐ:
+
+-->{{#if:{{{ܨܘܪܬܐ|}}}|<td style="border-style:none; width:35px; padding:.2em;">[[ܠܦܦܐ:{{{ܨܘܪܬܐ}}}|35px|{{{ܬܚܘܝܬܐ|}}}]]</td>}}<!--
+
+titre:
+
+--><td style="border-style:none; padding:.3em;">{{{ܬܚܘܝܬܐ|}}}</td><!--
+
+lien modifier:
+
+-->{{#if:{{{ܩܠܒܐ|}}}<!--
+-->|<td style="width:1%; border-style:none; padding:.2em;"><div class="noprint plainlinks" style="white-space:nowrap; font-size:smaller;">[<!--
+-->[{{SERVER}}{{localurl:{{{قالب}}}|action=edit}} ܫܚܠܦ]<!--
+-->]</div></td>}}<!--
+
+--></tr></table></div>}}<!--
+
+contenu:
+
+--><div style="padding:.4em;">
+{{#if:{{{ܚܒܫܝܬܐ|}}}|{{{ܚܒܫܝܬܐ}}}|{{#if:{{{ܩܠܒܐ|}}}|{{ {{{ܩܠܒܐ}}} }}|contenu manquant}} }}
+</div><!--
+
+ܡܙܝܕܬܐ:
+
+-->{{#ifeq:{{{ܡܙܝܕܬܐ|1}}}|{{{ܡܙܝܕܬܐ|}}}|<!--
+--><div style="margin:0; padding:.2em; background-color:{{{ܓܘܢܐ|transparent}}};<!-- bordures:
+-->border-style:solid; border-color:{{{ܒܘܪܕ|#aaaaaa}}}; border-width:1px 0px 0px 0px;<!--t r b l
+-->{{#if:{{{ܐܪܘܢܕܝ|}}}|-moz-border-radius-bottomleft:{{{ܐܪܘܢܕܝ}}}; -moz-border-radius-bottomright:{{{ܐܪܘܢܕܝ}}};|}}"><!--
+-->{{{ܡܙܝܕܬܐ|}}}<!--
+--></div>}}<!--
+
+--></div></includeonly><noinclude>
+[[ܣܕܪܐ:ܩܠܒ̈ܐ]] 
+</noinclude>
