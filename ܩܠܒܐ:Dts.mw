@@ -1,0 +1,6 @@
+<includeonly>{{#if:{{{1|}}}|{{dts/core|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|debug={{{debug|}}}|format={{{format|}}}|link={{{link|off}}}}}|<!--
+-->{{dts/core|{{CURRENTYEAR}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|debug={{{debug|}}}|format={{{format|}}}|link={{{link|off}}}|year=hide}}<!--
+-->}}</includeonly><noinclude>
+{{ܚܬܝܬܘܬܐ}}
+[[ܣܕܪܐ:ܩܠܒ̈ܐ|{{PAGENAME}}]]
+</noinclude>
