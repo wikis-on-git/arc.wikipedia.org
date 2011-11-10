@@ -1,0 +1,37 @@
+<div style="clear: both;"></div> 
+<div style="border: 1px solid {{{border}}}; background: {{{titlebackground}}}; color: {{{titleforeground}}}; padding: .1em; text-align: center; font-weight: bold; font-size: 100%; margin-bottom: 0px; border-bottom: none;"><span class="plainlinks" style="float:left; margin-bottom:.1em; font-size:80%; font-weight: normal;">[{{fullurl:{{{editpage}}}|action=edit}} ܫܚܠܦ]&nbsp;</span>{{{title}}}</div>
+<div style="display: block; border: 1px solid {{{border}}}; vertical-align: top; background: {{{background}}}; color: {{{foreground}}}; margin-bottom: 10px; padding: 1em; margin-top: 0em; padding-top: .3em;">
+<noinclude>
+{{Portal:Box-footer}}
+
+[[an:Portal:Box-header]]
+[[az:Şablon:Portal:Box-header]]
+[[bs:Šablon:Portal:Box-header]]
+[[ca:Portal:Box-header]]
+[[cs:Portál:Box-header]]
+[[da:Portal:Box-header]]
+[[de:Portal:Box-header]]
+[[dv:Portal:Box-header]]
+[[en:Portal:Free software/box-header-no-title-generic]]
+[[es:Plantilla:Box-header]]
+[[et:Portaal:Box-header]]
+[[fi:Teemasivu:Laatikon otsikko]]
+[[hr:Portal:Box-header]]
+[[hu:Portál:Matematika/Portál/Box-header]]
+[[id:Portal:Box-header]]
+[[it:Template:Box-testata]]
+[[ja:Portal:Box-header]]
+[[kw:Porth:Box-header]]
+[[mk:Шаблон:Box-header]]
+[[ms:Portal:Box-header]]
+[[nn:Mal:Box-header]]
+[[pl:Szablon:Nagłówek portalu]]
+[[pt:Portal:Box-header]]
+[[ru:Портал:Box-header]]
+[[sl:Portal:Polje-glava]]
+[[sv:Portal:Box-header]]
+[[th:แม่แบบ:หัวกล่อง]]
+[[vi:Chủ đề:Box-header]]
+[[zh:Portal:Box-header]]
+[[zh-yue:Portal:Box-header]]
+</noinclude>
