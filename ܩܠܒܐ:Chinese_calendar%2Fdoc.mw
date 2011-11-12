@@ -1,0 +1,34 @@
+These templates convert [[Julian day]] to [[Chinese calendar]].
+
+The allowed input date range is from [[4|0004]]-[[February 10|02-10]] <small>(西漢平帝元始四年正月初一)</small> to [[2044]]-[[January 29|01-29]].
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+=== Usage ===
+==== {{tl|Chinese calendar/cycle}} ====
+Convert Julian day to [[sexagenary cycle]] number since [[2637 BC]].
+
+==== {{tl|Chinese calendar/year}} ====
+Convert Julian day to year number in its sexagenary cycle. (0=甲子, 1=乙丑, 2=丙寅, ..., 59=癸亥)
+
+==== {{tl|Chinese calendar/month}} ====
+Convert Julian day to month in year, [[intercalary month]]s are negative numbered. (1=正月, -1=闰正月, 2=二月, -2=闰二月, ....)
+
+==== {{tl|Chinese calendar/day}} ====
+Convert Julian day to day in month. (1=初一, 2=初二, ..., 29=廿九, 30=三十)
+
+=== Examples ===
+# Current date: {{Chinese calendar/year name|{{Chinese calendar/year|{{JD|{{CURRENTYEAR}}|{{CURRENTMONTH}}|{{CURRENTDAY}}}}}}}}年{{Chinese calendar/month name|{{Chinese calendar/month|{{JD|{{CURRENTYEAR}}|{{CURRENTMONTH}}|{{CURRENTDAY}}}}}}}}月{{Chinese calendar/day name|{{Chinese calendar/day|{{JD|{{CURRENTYEAR}}|{{CURRENTMONTH}}|{{CURRENTDAY}}}}}}}}
+
+=== References ===
+# [http://sinocal.sinica.edu.tw/ 中央研究院計算中心 兩千年中西曆轉換]
+<includeonly>{{#ifeq:{{SUBJECTPAGENAME}}|Template:Chinese calendar
+|<!-- interwiki and other documentation for the Chinese calendar templates -->
+[[zh:Template:Chinese calendar]]
+[[zh-classical:Template:儒略日轉中國曆]]
+
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Chinese calendar templates| ]]
+
+|{{#ifexist:{{SUBJECTPAGENAME}}/doc|{{{{SUBJECTPAGENAME}}/doc}}}}}}
+</includeonly>
