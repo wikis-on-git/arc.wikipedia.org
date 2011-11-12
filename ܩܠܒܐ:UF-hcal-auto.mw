@@ -1,0 +1,19 @@
+The HTML mark up produced by this template includes an [[HCalendar|hCalendar microformat]], which makes the event/ date details [[Parsing|parsable]] by computers, either acting automatically to catalogue article across Wikipedia, or via a browser tool operated by a person, to (for example) add the subject to a calendar or diary application. For more information about the use of [[microformat]]s on Wikipedia, please see [[WP:UF|the microformat project]].
+
+hCalendar uses HTML classes including:
+
+{{Flatlist|
+*attendee
+*description
+*dtend
+*dtstart
+*location
+*summary
+*url
+*vevent
+}}
+
+'''Please do not rename or remove these classes; nor collapse nested elements which use them.'''
+<includeonly>{{#ifeq: {{SUBPAGENAME}}|doc||{{#ifeq: {{SUBPAGENAME}}|sandbox||[[Category:Templates generating hCalendars|{{PAGENAME}}]]}}}}</includeonly><noinclude>
+[[Category:Template namespace templates]]
+</noinclude>
