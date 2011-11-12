@@ -1,0 +1,10 @@
+{{#if:{{{era|}}}|{{#ifeq:{{Japanese year number|era={{{era}}}|year={{{year}}}}}|1|{{#if:{{{previous year era|}}}|{{Japanese year|era={{{previous year era}}}|year={{{year}}}}}|{{#ifeq: {{{nowrap|no}}}|no|<br/>|&nbsp;}}
+<small>({{Japanese era|{{{previous year era}}}|kanji}}{{Japanese year number|era={{{previous year era}}}|year={{{year}}}}}年)</small>
+<div style="text-align: center;">''— changed to —''</div>}}}}<!--
+-->{{Japanese year|era={{{era}}}|year={{{year}}}}}{{#ifeq: {{{nowrap|no}}}|no|<br />|&nbsp;}}<small>({{Japanese era|{{{era}}}|kanji}}{{#ifeq:{{Japanese year number|era={{{era}}}|year={{{year}}}}}|1|元|{{Japanese year number|era={{{era}}}|year={{{year}}}}}}}年)</small>}}<noinclude><!--
+--HISTORY:
+-- 02Jan07 added parameter "nowrap=yes" to not split years.
+-->
+[[ܣܕܪܐ:ܩܠܒܐ ܕܣܘܪܓܕܐ]]
+[[en:Template:Year in other calendars/Japanese]]
+</noinclude>
