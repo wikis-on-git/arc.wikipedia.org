@@ -1,0 +1,74 @@
+{| class="infobox vevent" style="font-size: 90%; width: 20em; background: white"
+|+ style="font-size: 135%;" | '''<span class="summary dtstart">{{#ifeq:{{{1}}}|BC|{{PAGENAME}}|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}}}</span> ܒܣܘܪܓܕܐ ܐܚܪܝܢܐ'''
+|-
+| [[ܣܘܪܓܕܐ ܡܪܢܝܐ]]
+| {{#if:{{{gregcal|}}}|[[{{{gregcal}}}|{{#ifeq:{{{1}}}|BC|{{PAGENAME}}|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}}}]]|{{#ifeq:{{{1}}}|BC|{{PAGENAME}}|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}}}}} <br /> ''<span style="font-family: serif;">{{Roman|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}}}</span>''
+|-
+| [[ܣܘܪܓܕܐ ܬܘܬܒܘܝܐ (ܗܓܪܝ)]]
+| {{ #ifeq: {{#expr: ({{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-621) > 0}} | 1 | {{ #expr: floor(1.030684*({{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-621.5643))}} – {{ #expr: floor(1.030684*({{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-620.5643))}} | {{ #expr: ceil(-1.030684*({{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-621.5643))}} BH – {{ #expr: ceil(-1.030684*({{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-620.5643))}} BH }}
+|-
+| [[ܣܘܪܓܕܐ ܐܫܘܪܝܐ]]
+| {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}+4750 }}
+|-
+| [[ܣܘܪܓܕܐ ܐܡܙܝܓܐܝܐ]]
+| {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}+950}}
+|-
+| [[ܣܘܪܓܕܐ ܦܪܣܝܐ]]
+| {{ #ifeq: {{#expr: ({{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-621) > 0}} | 1 | {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-622 }} – {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-621 }} | {{ #expr: (-1)*({{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-622)}} BP – {{ #expr: (-1)*({{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-621)}} BP}}
+|-
+| [[ܣܘܪܓܕܐ ܩܘܦܛܝܐ]]
+| {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-284}} – {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-283}}
+|-
+| [[ܣܘܪܓܕܐ ܒܗܐܐܝܐ]]
+| {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-1844 }} – {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-1843 }}
+|-
+| [[ܡܢ ܫܘܪܝܐ ܕܪܘܡܐ]]
+| {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}+753 }}
+|-
+| [[ܣܘܪܓܕܐ ܐܪܡܢܝܐ]]
+| {{ #ifeq: {{#expr: ({{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-550) > 0}} | 1 | {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-551 }} <br /> ԹՎ {{Armenian|{{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-551 }}}} | ''N/A''}}
+|-
+| [[ܣܘܪܓܕܐ ܒܢܓܠܐܝܐ]]
+| {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-593}}
+|-
+| [[ܣܘܪܓܕܐ ܟܘܫܝܐ]]
+| {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-8 }} – {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}-7 }}
+|-
+| [[ܣܘܪܓܕܐ ܥܒܪܝܐ]]
+| {{#expr:{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}+3760}} – {{#expr:{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}+3761}}
+|-
+| [[ܣܘܪܓܕܐ ܒܘܕܝܐ]]
+| {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}+544 }}
+|-
+| [[ܣܘܪܓܕܐ ܒܝܙܢܛܝܐ]]
+| {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}+5508 }} – {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}+5509 }}
+|-
+| [[ܣܘܪܓܕܐ ܨܝܢܝܐ]]
+| <small>[[Sexagenary cycle|{{Chinese calendar/year name|{{ #expr: ({{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}} + 55) mod 60 }}}}]]年{{ #if: {{Chinese calendar/cycle|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|1|1}}}} | {{Chinese calendar/month name|{{Chinese calendar/month|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|1|1}}}}}}月{{Chinese calendar/day name|{{Chinese calendar/day|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|1|1}}}}}}日 }}</small><br />({{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}} + 2636 }}/{{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}} + 2696 }}{{ #if: {{Chinese calendar/cycle|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|1|1}}}} | -{{ #ifexpr: {{Chinese calendar/month|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|1|1}}}} >= 0 | {{Chinese calendar/month|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|1|1}}}} | [[intercalary month|intercalary]] {{#expr:abs {{Chinese calendar/month|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|1|1}}}}}}}}-{{Chinese calendar/day|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|1|1}}}} }})<div style="text-align: center;">'''— إلى —'''</div><small>[[Sexagenary cycle|{{Chinese calendar/year name|{{ #expr: ({{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}} + 56) mod 60 }}}}]]年{{ #if: {{Chinese calendar/cycle|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|12|31}}}} | {{Chinese calendar/month name|{{Chinese calendar/month|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|12|31}}}}}}月{{Chinese calendar/day name|{{Chinese calendar/day|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|12|31}}}}}}日 }}</small><br />({{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}} + 2637 }}/{{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}} + 2697 }}{{ #if: {{Chinese calendar/cycle|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|12|31}}}} | -{{ #ifexpr: {{Chinese calendar/month|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|12|31}}}} >= 0 | {{Chinese calendar/month|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|12|31}}}} | [[intercalary month|intercalary]] {{#expr:abs {{Chinese calendar/month|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|12|31}}}}}}}}-{{Chinese calendar/day|{{JD|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|12|31}}}} }})
+|-
+| [[ܣܘܪܓܕܐ ܝܦܢܢܝܐ]]
+| {{ܫܢܬܐ ܒܣܘܪܓܕܐ ܐܚܪܝܢܐ/ܝܦܢܢܝܐ
+  | era = {{Nengo|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}}}
+  | previous year era = {{Nengo|{{#expr:{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}} - 1}}}}
+  | year = {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}
+}}
+|-
+| [[ܣܘܪܓܕܐ ܩܘܪܝܐܐܝܐ]]
+| {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}+2333 }}
+|-
+| [[ܣܘܪܓܕܐ ܬܐܝܠܢܕܝܐ]]
+| {{ #expr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}+543 }}
+|-
+{{#ifexpr: {{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}>=1970|{{!}} [[ܣܘܪܓܕܐ ܕܝܘܢܟܣ]]
+{{!}} {{ #expr:({{age in days|1970|01|01|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}|01|01}}*24*60*60)}} &ndash; {{ #expr: ({{age in days|1970|01|01|{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}+1|01|01}}*24*60*60)-1}}
+{{!}}-
+}}
+{{#if: {{{footnotes|}}} |
+{{!}} colspan="2" {{!}} <small>{{{footnotes|}}}</small>
+{{!}}-
+}}
+|-
+|colspan="2" align="center"| {{ܡܦܐܬܗ ܩܠܒܐ|ܫܢܬܐ ܒܣܘܪܓܕܐ ܐܚܪܝܢܐ|mini=1}} 
+|}<noinclude>
+{{documentation}}
+</noinclude>
