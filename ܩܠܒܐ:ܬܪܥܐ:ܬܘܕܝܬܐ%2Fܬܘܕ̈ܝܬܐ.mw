@@ -26,11 +26,10 @@ desc none</imagemap></div>
 {| style="width:100%;border:solid 0px #FFFFFF;background-color:transparent;align:center;padding:0px;padding-top:1em;" cellspacing="0px;"
 |- 
 | style="width:16.7%;"| <div align="center"><imagemap>ܠܦܦܐ:Lotus-buddha.svg |50x50px|Buddhism
-|75x50px|Confucianism
-rect 0 0 1000 750 [[ܙܒܢܝܐ]] 
-desc none</imagemap></div>
-| style="width:16.7%;"| <div align="center"><imagemap>ܠܦܦܐ:Tulip single upright.PNG |75x50px|Confucianism
-rect 0 0 1000 750 [[ܙܒܢܝܐ]] 
+rect 0 0 500 500 [[ܙܒܢܝܐ]] 
+desc none</imagemap></div> 
+| style="width:16.7%;"| <div align="center"><imagemap>ܠܦܦܐ:Tulip single upright.PNG |50x50px|Calvinism
+rect 0 0 500 500 [[ܙܒܢܝܐ]] 
 desc none</imagemap></div>
 | style="width:16.7%;"| <div align="center"><imagemap>ܠܦܦܐ:Päpstliches Symbol.jpg |75x50px|Confucianism
 rect 0 0 1000 750 [[ܙܒܢܝܐ]] 
@@ -42,14 +41,14 @@ desc none</imagemap></div>
 rect 0 0 1000 750 [[ܙܒܢܝܐ]] 
 desc none</imagemap></div>
 | style="width:16.7%;"| <div align="center"><imagemap>ܠܦܦܐ:God2-Sistine Chapel.png|100x75px|Creationism
-rect 0 0 1000 750 [[نظرية الخلق]] 
+rect 0 0 1000 750 [[ܙܒܢܝܐ]] 
 desc none</imagemap></div>
 |-
-| style="text-align:center;" |'''[[بوذية]]'''
-| style="text-align:center;" |'''[[كالفينية]]'''
-| style="text-align:center;" |'''[[كاثوليكية]]'''
-| style="text-align:center;" |'''[[مسيحية]]'''
-| style="text-align:center;" |'''[[كونفوشية]]'''
+| style="text-align:center;" |'''[[ܙܒܢܝܐ]]'''
+| style="text-align:center;" |'''[[ܙܒܢܝܐ]]'''
+| style="text-align:center;" |'''[[ܙܒܢܝܐ]]'''
+| style="text-align:center;" |'''[[ܙܒܢܝܐ]]'''
+| style="text-align:center;" |'''[[ܙܒܢܝܐ]]'''
 | style="text-align:center;" |''''''
 |}
 
