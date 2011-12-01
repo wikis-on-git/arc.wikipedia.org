@@ -4,3 +4,9 @@
 {{ܬܪܥܐ:ܬܘܕܝܬܐ/box-header|<big>  ܬܪܥܐ {{PAGENAME}} </big>|ܬܪܥܐ:ܬܘܕܝܬܐ/ܥܘܬܕܐ|}}
 {{ܬܪܥܐ:ܬܘܕܝܬܐ/ܥܘܬܕܐ}}
 {{ܬܪܥܐ:ܬܘܕܝܬܐ/box-footer|}}
+
+{{ܬܪܥܐ:ܬܘܕܝܬܐ/box-header|ܬܘܕ̈ܝܬܐ|ܬܪܥܐ:ܬܘܕܝܬܐ/ܬܘܕ̈ܝܬܐ|}}
+{{ܬܪܥܐ:ܬܘܕܝܬܐ/ܬܘܕ̈ܝܬܐ}}
+{{ܬܪܥܐ:ܬܘܕܝܬܐ/box-footer|}}
+</div>
+obm<div style="float:left; width:50%;"><!-- This width add to the the margin below to equal 100%-->
