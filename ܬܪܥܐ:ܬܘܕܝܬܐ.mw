@@ -1,6 +1,6 @@
 <!-- This portal was created using subst:box portal skeleton  -->
 {{ܡܦܐܬܐ ܕܬܪܥܐ}}
 <div style="float:right; width:100%">
-{{/box-header|<big>  ܬܪܥܐ {{PAGENAME}} </big>|ܬܪܥܐ:ܬܘܕܝܬܐ/ܥܘܬܕܐ|}}
+{{ܬܪܥܐ:ܬܘܕܝܬܐ/box-header|<big>  ܬܪܥܐ {{PAGENAME}} </big>|ܬܪܥܐ:ܬܘܕܝܬܐ/ܥܘܬܕܐ|}}
 {{ܬܪܥܐ:ܬܘܕܝܬܐ/ܥܘܬܕܐ}}
-{{/box-footer|}}
+{{ܬܪܥܐ:ܬܘܕܝܬܐ/box-footer|}}
