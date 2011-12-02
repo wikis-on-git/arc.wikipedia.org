@@ -1,0 +1,10 @@
+'''Note to editors on how to manage collapsibility:'''
+*Use <tt>{&#123;<!--
+--><includeonly>{{BASEPAGENAME}}</includeonly><noinclude>''Template name''</noinclude>|state=collapsed}}</tt> to show this template in its collapsed (hidden) state.
+*Use <tt>{&#123;<!--
+--><includeonly>{{BASEPAGENAME}}</includeonly><noinclude>''Template name''</noinclude>|state=expanded}}</tt> to show this template in its expanded (fully visible) state.
+*Use <tt>{&#123;<!--
+--><includeonly>{{BASEPAGENAME}}</includeonly><noinclude>''Template name''</noinclude>|state=autocollapse}}</tt> to show this template in its collapsed (hidden) state '''only if''' there is another template of the same type on the page. ({{{state|This}}} is usually the default.)<noinclude>
+{{documentation}}
+<!-- add categories, interwiki links etc on the bottom of /doc page, not here -->
+</noinclude>
