@@ -1,4 +1,4 @@
-<table {{#if:{{{id|}}}|id="{{{id|}}}"}} class="plainlinks fmbox
+<table id="{{{id|}}}" class="plainlinks fmbox
 {{#switch:{{{type|}}}
 | warning    = fmbox-warning
 | editnotice = fmbox-editnotice
@@ -11,12 +11,12 @@
 | <td class="mbox-image">
   {{#if:{{{image|}}}
   | {{{image}}}
-  | [[File:{{#switch:{{{type|}}}
-    | warning    = Cmbox deletion.png
-    | editnotice = Imbox notice.png
+  | {{#switch:{{{type|}}}
+    | warning    = [[ܠܦܦܐ:Cmbox deletion.png|40x40px]] 
+    | editnotice = [[ܠܦܦܐ:Imbox notice.png|40x40px]]
     | system          <!-- system = default -->
-    | #default   = Imbox notice.png
-    }}|40x40px|link=|alt=]]
+    | #default   = [[ܠܦܦܐ:Imbox notice.png|40x40px]]
+    }}
   }}</td>
 }}
 <td class="mbox-text" style="{{{textstyle|}}}"> {{{text}}} </td>
@@ -24,15 +24,14 @@
 | <td class="mbox-imageright"> {{{imageright}}} </td>
 }}
 </tr>
-</table><!--
-  Detect and report usage with faulty "type" parameter:
+</table><!-- Detect and report usage with faulty "type" parameter:
 -->{{#switch:{{{type|}}}
 |   <!-- No type fed, is also valid input -->
 | warning
 | editnotice
 | system     =    <!-- Do nothing, valid "type" -->
-| #default   = <div style="text-align: center;">This message box is using an invalid "type={{{type|}}}" parameter and needs fixing.</div>[[Category:Wikipedia message box parameter needs fixing|{{main other|Main:}}{{FULLPAGENAME}}]]<!-- Sort on namespace -->
-}}<noinclude>
-
-<!-- Add categories and interwikis to the /doc subpage, not here! -->
+| #default   = <div style="text-align: center;">This message box is using an invalid "type={{{type|}}}" parameter and needs fixing.</div><!-- Sort on namespace -->
+}}
+<noinclude>
+{{ܚܬܝܬܘܬܐ}}
 </noinclude>
