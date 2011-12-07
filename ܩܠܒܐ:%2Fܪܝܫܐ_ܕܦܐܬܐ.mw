@@ -1,0 +1,10 @@
+<div style="clear: both;"></div> 
+
+<div {{#ifeq:{{{degrade|}}} | non | | class="degrade" }} style="border:2px solid blue; background-color:skyblue; {{#if: {{{arrondi|}}}
+  | -moz-border-radius: {{{arrondi}}}; -webkit-border-radius: {{{arrondi}}}; border-radius: {{{arrondi}}}
+  | -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px
+}};font-size:100%; text-align:center;border-bottom:1px solid blue;font-weight:bold;"><span class="plainlinks" style="float:left; margin-bottom:.1em;">[[ملف:Nuvola apps kedit.png|link={{fullurl:{{{2}}}|action=edit}}|21بك]]&nbsp;</span>{{{1}}}</div>
+<div {{#ifeq:{{{degrade|}}} | non | | class="degrade" }} style="border:2px solid blue; vertical-align: top; background: lightblue; {{#if: {{{arrondi|}}}
+  | -moz-border-radius: {{{arrondi}}}; -webkit-border-radius: {{{arrondi}}}; border-radius: {{{arrondi}}}
+  | -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px
+}};color: black; margin-bottom: 10px; padding: 1em; margin-top: 0em; padding-top: .3em;border-top:1px solid blue;">
