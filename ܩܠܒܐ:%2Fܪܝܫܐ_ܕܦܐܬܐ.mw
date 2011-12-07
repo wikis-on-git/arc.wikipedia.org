@@ -3,7 +3,7 @@
 <div {{#ifeq:{{{degrade|}}} | non | | class="degrade" }} style="border:2px solid blue; background-color:skyblue; {{#if: {{{arrondi|}}}
   | -moz-border-radius: {{{arrondi}}}; -webkit-border-radius: {{{arrondi}}}; border-radius: {{{arrondi}}}
   | -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px
-}};font-size:100%; text-align:center;border-bottom:1px solid blue;font-weight:bold;"><span class="plainlinks" style="float:left; margin-bottom:.1em;">[[ملف:Nuvola apps kedit.png|link={{fullurl:{{{2}}}|action=edit}}|21بك]]&nbsp;</span>{{{1}}}</div>
+}};font-size:100%; text-align:center;border-bottom:1px solid blue;font-weight:bold;"><span class="plainlinks" style="float:left; margin-bottom:.1em;">[[ܠܦܦܐ:Nuvola apps kedit.png|link={{fullurl:{{{2}}}|action=edit}}|21px]]&nbsp;</span>{{{1}}}</div>
 <div {{#ifeq:{{{degrade|}}} | non | | class="degrade" }} style="border:2px solid blue; vertical-align: top; background: lightblue; {{#if: {{{arrondi|}}}
   | -moz-border-radius: {{{arrondi}}}; -webkit-border-radius: {{{arrondi}}}; border-radius: {{{arrondi}}}
   | -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px
