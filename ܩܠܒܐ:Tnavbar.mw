@@ -6,8 +6,8 @@
 -->{{#if:{{{brackets|}}}|<span style="{{{fontstyle|}}}">&#91;</span>}}<!--
 
 --><span style="white-space:nowrap;word-spacing:-.12em;"><!--
--->[[{{transclude|{{{1}}}}}|<span style="{{{fontstyle|}}}" title="ܚܙܝ ܗܢܐ ܩܠܒܐ"><!--
--->{{#if:{{{mini|}}}|ܚ|ܚܙܝ}}</span>]]<!--
+-->[[{{transclude|{{{1}}}}}|<span style="{{{fontstyle|}}}" title="ܚܘܝ ܗܢܐ ܩܠܒܐ"><!--
+-->{{#if:{{{mini|}}}|ܚ|ܚܘܝ}}</span>]]<!--
 
 --><span style="{{{fontstyle|}}}">&#32;<b>&middot;</b>&#32;</span><!--
 -->[[{{TALKPAGENAME:{{transclude|{{{1}}}}}}}|<span style="{{{fontstyle|}}}" title="ܕܪܘܫ ܗܢܐ ܩܠܒܐ"><!--
