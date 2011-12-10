@@ -1,4 +1,7 @@
-<span style="display:inline"><span style="display:table-cell; border-collapse:collapse; border:solid 1px #{{{2|AAAAAA}}}">{{{1}}}</span></span><noinclude>
+<span style="display:inline;"><span style="display:table-cell;<!--(seemingly ignored by IE)--> <!--border-collapse:collapse;--> border:{{{width|1px}}} {{{style|solid}}} {{{color|#ddd}}};">{{{1}}}</span></span><noinclude>{{template doc}}
+<!--Please add any interwiki links etc on the /doc page, not here - thanks!-->
+</noinclude>
+
 [[ܣܕܪܐ:ܩܠܒ̈ܐ|{{PAGENAME}}]]
 
 [[bg:Шаблон:Border]]
