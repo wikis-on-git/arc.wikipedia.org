@@ -1,0 +1,27 @@
+<onlyinclude>{{Navbox
+|name = Navbox suite
+|title = Navbox suite
+|navbar = off
+|state = off
+|style = width:auto; float:right; margin:0em 0em 0em 1em;
+|list1 = {{tl|Navbox}}
+|list2 = {{tl|Navbox subgroup}}
+|list3 = {{tl|Navbox with collapsible groups}}
+|list4 = {{tl|Navbox with columns}}
+|list5 = {{tl|Navboxes}}
+}}</onlyinclude><!--
+
+NOTE: A template MUST support all of the parameters marked with a cross in Template:Navbox/doc in order to be Navbox suite compliant.  In particular, the name, state, border, and navbar parameters are especially important.  
+
+--><noinclude>
+[[Category:Navigational boxes| ]]
+
+[[bg:Шаблон:Навигационни шаблони]]
+[[ca:Plantilla:Sèrie de plantilles de caixes de navegació]]
+[[ko:틀:안내 모음]]
+[[arz:قالب:Navbox suite]]
+[[ja:Template:Navbox suite]]
+[[or:ଟେମ୍ପଲେଟ:Navbox suite]]
+[[pt:Predefinição:Navbox suite]]
+[[zh:Template:Navbox suite]]
+</noinclude>
