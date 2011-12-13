@@ -1,0 +1,11 @@
+{{ombox
+|type = notice
+|image = [[File:Essay.svg|30px]]
+|text = This guidance [[Wikipedia:Wikipedia essays|essay]] contains comments and advice of one or more Wikipedia contributors. It is not a [[Wikipedia:Policies and guidelines|Wikipedia policy or guideline]], though it may be consulted for assistance{{#if:{{{interprets|}}}|<nowiki> </nowiki>on {{#ifexist:{{{interprets}}}|[[{{{interprets}}}]]|{{{interprets|}}} }} }}. A potential [[Wikipedia:Consensus|measure]] of how the community views this essay may be gained by consulting the history and talk pages, and checking [[Help:What links here|What links here]].
+<includeonly>{{{category|[[Category:Wikipedia guidance essays|{{PAGENAME}}]]}}}</includeonly>
+|imageright = {{#if:{{{1<includeonly>|</includeonly>}}} | {{Ombox/Shortcut|{{{1|}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}} }} }}
+}}<noinclude>
+[[Category:Wikipedia header templates]]
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
