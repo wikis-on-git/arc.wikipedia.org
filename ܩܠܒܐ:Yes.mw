@@ -1,6 +1,34 @@
 <noinclude>{| class="wikitable"
 |-
-|</noinclude>style="background: #90ff90; color: black; vertical-align: middle; text-align: {{{align|center}}}; {{{style|}}}" class="table-yes"|{{{1|Yes}}}<noinclude>
+|</noinclude>style="background: #90ff90; color: black; vertical-align: middle; text-align: {{{align|center}}}; {{{style|}}}" class="table-yes"|{{{1|ܗܐ}}}<noinclude>
 |}
-{{documentation}}
+
+{{Table cell templates}}
+
+[[ca:Plantilla:Cel·la sí]]
+[[dsb:Pśedłoga:Jo1]]
+[[en:Template:Yes]]
+[[eo:Ŝablono:Jes]]
+[[es:Plantilla:Sí]]
+[[et:Mall:Jah]]
+[[he:תבנית:כן]]
+[[hr:Predložak:Da]]
+[[hsb:Předłoha:Haj1]]
+[[hu:Sablon:Igen]]
+[[ia:Patrono:Si]]
+[[id:Templat:Ya]]
+[[it:Template:Sit]]
+[[ja:Template:Yes]]
+[[mk:Шаблон:Да]]
+[[pl:Szablon:Tabela-tak]]
+[[pt:Predefinição:Sim 2]]
+[[ro:Format:Da-tabel]]
+[[ru:Шаблон:Да]]
+[[sh:Šablon:Da]]
+[[sk:Šablóna:Áno]]
+[[sq:Stampa:Po]]
+[[sv:Mall:Ja]]
+[[tl:Suleras:Oo]]
+[[uk:Шаблон:Так]]
+[[zh:Template:Yes]]
 </noinclude>
