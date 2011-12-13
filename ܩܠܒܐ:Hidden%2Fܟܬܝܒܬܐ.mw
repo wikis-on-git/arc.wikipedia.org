@@ -1,0 +1,142 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+This template creates a [[Wikipedia:NavFrame|dynamic navigation box]] using style sheet declarations in [[MediaWiki:Common.css]] and Javascript code in [[MediaWiki:Common.js]]. It displays the first parameter (the heading) with a [show] link on the right.  If [show] is clicked by the user, the second parameter (the body) is displayed below the heading and the [show] link becomes [hide].  Clicking on [hide] then hides the body again and the [hide] link becomes [show] again.
+
+The template does '''not''' provide an argument to designate the initial state of the show/hide control.  In the nested case, show/hide controls in hidden content retain their state.  There is no facility for ''collapse all'' or ''reveal all''.  
+
+==Usage==
+===Syntax===
+<pre style="overflow:auto;">
+{{Hidden
+|header=
+|content=
+|style=
+|headerstyle=
+|contentstyle=
+|fw1=
+|fw2=
+|bg1=
+|bg2=
+|ta1=
+|ta2=
+}}
+</pre>
+
+===Parameters===
+Only two parameters are required for this template:
+;header : text for header (or title); alternative to using unnamed parameter <nowiki>{{{1}}}</nowiki>
+;content : text for content (or body); alternative to using unnamed parameter <nowiki>{{{2}}}</nowiki>
+
+====Optional====
+;style : add [[w:Cascading Style Sheets|CSS]] to the main div.
+;headerstyle : add [[w:Cascading Style Sheets|CSS]] to the header.
+;contentstyle : add [[w:Cascading Style Sheets|CSS]] to the content box.
+
+<br/>'''Note:''' This template will not respect the user preference "justify paragraphs".
+
+==Examples==
+===Basic===
+In this example only the two required parameters are specified.
+{| class="wikitable"
+| {{rh}} | Code
+| <pre>{{hidden|Title text here|Body text line 1<br/>Body text line 2}}</pre>
+|-
+| {{rh}} | Result
+| {{hidden|Title text here|Body text line 1<br/>Body text line 2}}
+|}
+
+===Header background===
+{| class="wikitable"
+| {{rh}} | Code
+| <pre style="overflow:auto;">
+{{hidden
+|Title text here
+|Body text line 1<br/>Body text line 2
+|headerstyle=background:#ccccff
+|style=text-align:center;
+}}
+</pre>
+|-
+| {{rh}} | Result
+| {{hidden|Title text here|Body text line 1<br/>Body text line 2|headerstyle=background:#ccccff|style=text-align:center;}}
+|}
+
+===CSS===
+{| class="wikitable"
+| {{rh}} | Code
+| 
+<pre>
+{{hidden
+| style = border:1px dashed red; width: 50%;
+| headerstyle = background: #ccccff; font-size: 110%;
+| contentstyle = text-align: center; color:green;
+| header = Title text here
+| content = Body text line 1<br />Body text line 2<br />Body text line 3
+}}</pre>
+|-
+| {{rh}} | Result
+| 
+{{hidden
+| style = border:1px dashed red; width: 50%;
+| headerstyle = background: #ccccff; font-size: 110%;
+| contentstyle = text-align: center; color:green;
+| header = Title text here
+| content = Body text line 1<br />Body text line 2<br />Body text line 3
+}}
+|}
+
+== Issues ==
+=== Show/hide button overlap ===
+<div style="background:pink;font-weight:bold">With ta1=right or a long header, the header may overlap the show/hide button:</div>
+{{evd|hidden|Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.|def}}
+
+{{clr}}
+;<div style="background:cyan;font-weight:bold">Possible workaround is to add "padding-right:3em;" to the headercss parameter:</div>
+"<nowiki>{{hidden|headerstyle=text-align:right; padding-right:3em;|Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.|def}}</nowiki>" gives "{{hidden|headerstyle=text-align:right; padding-right:3em;|Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.|def}}"
+
+<div style="background:pink;font-weight:bold">Example with long header</div>
+{{hidden|abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc |def}}
+
+{{clr}}
+;<div style="background:cyan;font-weight:bold">Above example with workaround:</div>
+"<nowiki>{{hidden|headerstyle=padding-right:3em;|abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc |def}}</nowiki>" gives "{{hidden|headerstyle=padding-right:3em;|abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc abc |def}}"
+
+=== Sections ===
+Sections included inside a hidden block result in broken anchors in the table of contents at the top of the page.
+{{hidden begin|title=example}}
+==== You can't get here from the table of contents ====
+{{hidden end}}
+
+==See also==
+* {{tiw|hidden begin}}
+* {{tiw|hidden end}}
+* {{tim|hidden}}
+* {{tiw|Collapsible list}}
+
+<includeonly><!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Collapse templates|{{PAGENAME}}]]
+[[Category:Wikipedia formatting and function templates|{{PAGENAME}}]]
+
+<!-- [[en:Template:Hidden]] -->
+[[ar:قالب:مخفي]]
+[[az:Şablon:Gizlət]]
+[[bs:Šablon:Sakrij]]
+[[ca:Plantilla:Amagada]]
+[[cy:Nodyn:Cuddiwyd]]
+[[dsb:Pśedłoga:Nawikašćik]]
+[[et:Mall:Peidetud]]
+[[eo:Ŝablono:Kaŝskatolo]]
+[[fa:الگو:پنهان]]
+[[fr:Modèle:Boîte déroulante]]
+[[hy:Կաղապար:Նավարկման զոլ]]
+[[hsb:Předłoha:Nawigaciska lajsta]]
+[[ku:Şablon:Hidden]]
+[[lt:Šablonas:Hidden]]
+[[mk:Шаблон:Hidden]]
+[[ja:Template:Hidden]]
+[[pl:Szablon:Ukryj]]
+[[pt:Predefinição:Oculto]]
+[[sv:Mall:Dold]]
+[[uk:Шаблон:Hidden]]
+</includeonly>
