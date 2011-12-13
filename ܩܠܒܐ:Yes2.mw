@@ -1,6 +1,14 @@
 <noinclude>{| class="wikitable"
 |-
-|</noinclude>style="background:#bfd; color:black; vertical-align:middle; text-align:{{{align|center}}}; {{{style|}}}" class="table-yes2" |{{{1|}}}<noinclude>
+|</noinclude>style="background:#bfd; color:black; vertical-align:middle; text-align:{{{align|center}}}; {{{style|}}}" class="table-ܗܐ2" |{{{1|}}}<noinclude>
 |}
-{{documentation}}
+{{Table cell templates}}
+<noinclude>
+[[en:Template:Yes2]]
+[[fa:الگو:Yes2]]
+[[fr:Modèle:Oui2]]
+[[ja:Template:Yes2]]
+[[pt:Predefinição:Sim2]]
+[[ro:Format:Yes2]]
+[[sq:Stampa:Po2]]
 </noinclude>
