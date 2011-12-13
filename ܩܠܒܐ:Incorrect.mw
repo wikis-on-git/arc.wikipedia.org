@@ -1,0 +1,6 @@
+style="background: #ff9900; color: black;" | {{{1|Incorrect}}}<noinclude>
+----
+This template is designed to be used in a table to make a cell with "Incorrect" in that cell, with an orange background. It is to be distinguished from [[ܩܠܒܐ:Partial|Partial]] in that "incorrect" means "worse than [[ܩܠܒܐ:No|not at all]]".
+
+{{Table cell templates}}
+</noinclude>
