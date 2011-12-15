@@ -1,0 +1,327 @@
+{{Documentation subpage}}
+
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+{{mbox templates}}
+This is the {{tl|ambox}} or '''article message box''' meta-template.
+
+It is used to build ''article message box'' templates such as {{tl|wikify}}. It offers several different colours, uses default images if no image parameter is given and it has some other features.
+
+This meta-template uses the ambox CSS classes in [[MediaWiki:Common.css]]. The classes can also be used directly in a [[Help:Table|wikitable]] if special functionality is needed. See the [[Wikipedia:Ambox CSS classes|how-to guide]] for that.
+
+=== Usage ===
+Simple usage example:
+
+<pre>
+{{ambox | text = Some text.}}
+</pre>
+
+{{ambox | text = Some text.}}
+
+Complex example:
+
+<pre>
+{{ambox
+| subst      = <includeonly>{{subst:</includeonly><includeonly>substcheck}}</includeonly>
+| type       = style
+| small      = left
+| image      = [[File:Emblem-question-yellow.svg|40px|alt=Question mark]]
+| smallimage = [[File:Emblem-question-yellow.svg|20px|alt=Question mark]]
+| textstyle  = color: red; font-weight: bold; font-style: italic;
+| text       = Text for a big box, for the top of articles.
+| smalltext  = Text for the top of article sections.
+| category   = A name of a category to use for monthly categories
+| date       = {{{date|}}}
+| all        = A category which all articles will be placed in
+}}
+</pre>
+
+{{ambox
+| type       = style
+| small      = left
+| image      = [[File:Emblem-question-yellow.svg|40px|alt=Question mark]]
+| smallimage = [[File:Emblem-question-yellow.svg|20px|alt=Question mark]]
+| textstyle  = color: red; font-weight: bold; font-style: italic;
+| text       = Text for a big box, for the top of articles.
+| smalltext  = Text for the top of article sections.
+}}
+
+But you are not really supposed to use red bold italic text.
+
+=== Article message box types ===
+The following examples use different '''type''' parameters but use no image parameters thus they use the default images for each type.
+
+{{ambox
+| type  = speedy
+| text  = type=<u>speedy</u> – Speedy deletion issues, such as {{tl|db-g1}} and {{tl|db-g3}}.
+}}
+{{ambox
+| type  = delete
+| text  = type=<u>delete</u> – Deletion issues, such as {{tl|afd}} and {{tl|prod}}.
+}}
+{{ambox
+| type  = content
+| text  = type=<u>content</u> – Content issues, such as {{tl|POV}} and {{tl|globalize}}.
+}}
+{{ambox
+| type  = style
+| text  = type=<u>style</u> – Style issues, such as {{tl|cleanup}} and {{tl|wikify}}.
+}}
+{{ambox
+| type  = notice
+| text  = type=<u>notice</u> – Article notices, such as {{tl|current}} and {{tl|inuse}}.
+}}
+{{ambox
+| type  = move
+| text  = type=<u>move</u> – Merge, split and transwiki proposals, such as {{tl|split}} and {{tl|copy to wiktionary}}.
+}}
+{{ambox
+| type  = protection
+| text  = type=<u>protection</u> – Protection notices, such as {{tl|pp-vandalism}} and {{tl|pp-semi-protected}}.
+}}
+
+=== Other images ===
+The default images shown above are mostly for convenience. In many cases it is more appropriate to use more specific images. These examples use the '''image''' parameter to specify an image other than the default images.
+
+{{ambox
+| type  = content
+| image = [[File:Unbalanced scales.svg|40px|link=|alt=]]
+| text  = type = content <br> image = <nowiki>[[File:Unbalanced scales.svg|40px|link=|alt=]]</nowiki> <br> This image is often used for {{tl|POV}} and similar issues.
+}}
+{{ambox
+| type  = style
+| image = [[File:Wikitext.svg|50px|link=|alt=]]
+| text  = type = style <br> image = <nowiki>[[File:Wikitext.svg|50px|link=|alt=]]</nowiki> <br> This image is often used for {{tl|wikify}} etc.
+}}
+{{ambox
+| type  = move
+| image = [[File:Merge-arrows.svg|50px|link=|alt=]]
+| text  = type = move <br> image = <nowiki>[[File:Merge-arrows.svg|50px|link=|alt=]]</nowiki> <br> This image is used for {{tl|merge}} etc.
+}}
+
+=== More examples ===
+Some other parameter combinations.
+
+{{ambox
+| text  = No type and no image given ('''default''')
+}}
+{{ambox
+| image = none
+| text  = No type and '''image=none''' – No image is used and the '''text''' uses the whole message box area.
+}}
+
+{{ambox
+| image = [[File:Gnome globe current event.svg|42px|alt=Clock over a larger globe]]
+| imageright = [[File:Nuvola apps bookcase.svg|40px|alt=Three stacked books]]
+| text  = image = <nowiki>[[File:Gnome globe current event.svg|42px|alt=Clock over a larger globe]]</nowiki> <br> imageright = <nowiki>[[File:Nuvola apps bookcase.svg|40px|alt=Three stacked books]]</nowiki>
+}}
+
+{{ambox
+| image = [[File:Gnome globe current event.svg|42px|alt=Clock over a larger globe]]
+| imageright = [[File:Shuttle.svg|20px|link=|alt=]]
+| text  = '''This article or section documents a current [[spaceflight]].'''
+<br>Content may change as the mission progresses.
+}}
+
+=== Parameters ===
+List of all parameters:
+
+<pre>
+{{ambox
+| name        = Name of template without the Template: part
+| subst       = <includeonly>{{subst:</includeonly><includeonly>substcheck}}</includeonly>
+| type        = speedy / delete / content / style / notice / move / protection
+| image       = none / [[File:...|40px|...]]
+| imageright  = [[File:...|40px|...]]
+| class       = A custom CSS class to apply to the box
+| style       = CSS values
+| textstyle   = CSS values
+| text        = The message body text.
+| small       = {{{small|}}} / left
+| smallimage  = none / [[File:...|20px|...]]
+| smallimageright = none / [[File:...|20px|...]]
+| smalltext   = A shorter message body text.
+| category    = Prefix for monthly categories
+| preposition = Preposition between category name and month (defaults to "from")
+| date        = {{{date|}}}
+| all         = Category which all articles will be placed in, if any
+}}
+</pre>
+
+'''subst'''
+This should be used in order to detect when the template has been incorrectly substituted. Such pages will be placed in [[:Category:Pages with incorrectly substituted templates]]
+
+'''type'''
+:If no '''type''' parameter is given the template defaults to type '''notice'''. That means it gets a blue side bar.
+
+'''image'''
+:'''No parameter''' = If no '''image''' parameter is given the template uses a default image. Which default image it uses depends on the '''type''' parameter.
+:'''An image''' = Should be an image with usual wiki notation. Widths of 40px - 50px are usually about right. (Images over 52 pixels wide will cause padding problems.)
+:: Often an icon is [[Wikipedia:Alternative text for images#Purely decorative images|purely decorative]] in the W3C sense that it repeats the text. To improve [[Wikipedia:Accessibility|accessibility]], it is desirable to not have it be announced by [[screen reader]]s, as well as to avoid it linking to an irrelevant page. If (and only if) the image license allows this, it can be marked with "{{para|link}}{{para|alt}}". For example:
+:::<code><nowiki>image = [[File:Unbalanced scales.svg|40px|link=|alt=]]</nowiki></code>
+:: Conversely, an icon that does not use "{{para|link}}{{para|alt}}", and which therefore is announced to visually impaired readers, should use an "{{para|alt|<var>[[Wikipedia:Alternative text for images|alt text]]</var>}}" parameter that describes the icon. With no {{para|link}} parameter (using the default link), the alt text should describe the icon's visual appearance. For example:
+:::<code><nowiki>image = [[File:Gnome globe current event.svg|40px|alt=Clock over a larger globe]]</nowiki></code>
+:: With a nonempty "{{para|link|<var>Page</var>}}" the alt text should describe the icon's function. For example:
+:::<code><nowiki>image = [[File:Purple question mark.svg|40px|link=Special:Random|alt=Random article]]</nowiki></code>
+:: An icon whose license requires attribution may have alt text, but ''must keep the default link''. Although public domain images do not require a link, many licenses do require one. Please see ''[[Wikipedia:Alternative text for images#Purely decorative images|Purely decorative images]]'' for more information about licensing.
+:'''none''' = Means that no image is used.
+:<s>'''blank'''</s> = This parameter is now deprecated. If you see it in use, change it to "image=none".
+
+'''imageright'''
+:'''No parameter''' = If no '''imageright''' parameter is given then no image is shown on the right side.
+:'''An image''' = Should be an image with usual wiki notation. 40px - 50px width are usually about right depending on the image height to width ratio. (Images over 52 pixels width will cause padding problems.) For example:
+::<code><nowiki>imageright = [[File:Nuvola apps bookcase.png|40px|alt=Three stacked books]]</nowiki></code>
+:'''Anything''' = Any other object that you want to show on the right side.
+
+'''style'''
+:Optional [[Cascading Style Sheets|CSS]] values used by the entire message box table. Without quotation marks <code>" "</code> but with the ending semicolons <code>;</code>. For example:
+::<code>style = margin-bottom: 0.5em;</code>
+
+'''textstyle'''
+:Optional [[Cascading Style Sheets|CSS]] values used by the text cell. For example:
+::<code>textstyle = text-align: center;</code>
+
+'''text'''
+
+==== Categorisation parameters ====
+*'''category''' / '''cat''' - prefix for monthly categories, e.g. ''Wikipedia articles needing style editing''
+*'''preposition''' - preposition between category name and month; the default is ''from''
+*'''date'''= {{{date|}}} - pass through the date parameter when using monthly cleanup categories
+*'''all''' - category which all articles will be placed in, e.g. ''All articles needing style editing''
+
+==== The small parameters ====
+The small article message boxes are meant for the top of sections. Normally they should only contain one or two lines of text.
+
+'''small'''
+:'''left''' = Makes it a smaller left aligned message box. This also makes the default images smaller. Note that any data fed to the '''smallimage''', '''smallimageright''' and '''smalltext''' parameters is only used if "small=left". To make it so your template also understands the small parameter you can use this code:
+::<code><nowiki>small = {{{small|}}}</nowiki></code>
+{{ambox
+| small = left
+| text = small = left
+}}
+{{ambox
+| type = style
+| small = left
+| text = type = style <br> small = left
+}}
+:'''any other value, including blank and no parameter''' = Default-sized inlined message box. Ignores '''smallimage''', '''smallimageright''' and '''smalltext'''.
+'''smallimage'''
+:'''No parameter''' = If no '''smallimage''' parameter is given then this template falls back to use the '''image''' parameter. If the '''image''' parameter also is empty then a small default image is used.
+:'''An image''' = Should be an image with usual wiki notation. 20px width is usually about right for boxes with one line of text, while 25px width is usually about right for boxes with two lines of text. For example:
+::<code><nowiki>smallimage = [[File:Gnome globe current event.svg|20px|alt=Clock over a larger globe]]</nowiki></code>
+:'''none''' = Means that no image is used. This overrides any image fed to '''image''', when "small=left".
+{{ambox
+| small = left
+| image      = [[File:Replacement filing cabinet.svg|50px|link=|alt=]]
+| smallimage = [[File:Replacement filing cabinet.svg|25px|link=|alt=]]
+| text =
+small = left <br> image = <nowiki>[[File:Replacement filing cabinet.svg|50px|link=|alt=]]</nowiki> <br> smallimage = <nowiki>[[File:Replacement filing cabinet.svg|25px|link=|alt=]]</nowiki>
+}}
+
+'''smallimageright'''
+:'''No parameter''' = If no '''smallimageright''' parameter is given then this template falls back to use the '''imageright''' parameter. If the '''imageright''' parameter also is empty then no image is shown on the right side.
+:'''An image''' = Should be an image with usual wiki notation. 20px - 25px width is usually about right. For example:
+::<code><nowiki>smallimageright = [[File:Nuvola apps bookcase.png|20px|alt=Three stacked books]]</nowiki></code>
+:'''Anything''' = Any other object that you want to show on the right side.
+:'''none''' = Means that no right side image is used. This overrides any image fed to '''imageright''', when "small=left".
+{{ambox
+| small = left
+| imageright = [[File:Gnome globe current event.svg|50px|alt=Clock over a larger globe]]
+| smallimageright = none
+| text =
+small = left <br> imageright = <nowiki>[[File:Gnome globe current event.svg|50px|alt=Clock over a larger globe]]</nowiki> <br> smallimageright = none
+}}
+
+'''smalltext'''
+:A shorter version of the message body text. If no '''smalltext''' parameter is given then this template falls back to use the '''text''' parameter.
+
+=== Technical details ===
+If you need to use special characters in the text parameter then you need to escape them like this:
+
+<pre>
+{{ambox
+| text  = <div>
+Equal sign = and a start and end brace { } work fine as they are.
+But here is a pipe &amp;#124; and two end braces &lt;nowiki>}}&lt;/nowiki>.
+And now a pipe and end braces &lt;nowiki>|}}&lt;/nowiki>.
+</div>
+}}
+</pre>
+
+{{ambox
+| text  = <div>
+Equal sign = and a start and end brace { } work fine as they are.
+But here is a pipe &#124; and two end braces <nowiki>}}</nowiki>.
+And now a pipe and end braces <nowiki>|}}</nowiki>.
+</div>
+}}
+
+The <code>&lt;div></code> tags that surround the text in the example above are usually not needed. But if the text contains line breaks then sometimes we get weird line spacing. This especially happens when using vertical dotted lists. Then use the div tags to fix that.
+
+This template uses CSS classes in [[MediaWiki:Common.css]] for most of its looks, thus it is fully skinnable.
+
+This template calls {{tl|ambox/core}} which holds most of the code for {{tl|ambox}}, while {{tl|ambox}} itself does parameter preprocessing.
+
+Internally this meta-template uses HTML markup instead of wikimarkup for the table code. That is the usual way we make meta-templates since wikimarkup has several drawbacks. For instance it makes it harder to use [[m:Help:ParserFunctions|parser functions]] and some special characters in parameters.
+
+The default images for this meta-template are in png format instead of svg format. The main reason is that some older web browsers have trouble with the transparent background that MediaWiki renders for svg images. The png images here have hand optimised transparent background colour so they look good in all browsers. Note that svg icons only look somewhat bad in the old browsers, thus such hand optimisation is only worth the trouble for very widely used icons.
+
+For more technical details see the [[Template talk:Ambox|talk page]] and the "See also" links below. Since this template works almost exactly like {{tl|tmbox}}, {{tl|imbox}}, {{tl|cmbox}} and {{tl|ombox}} their talk pages and related pages might also contain more details.
+
+=== See also ===
+{{Mbox templates see also}}
+
+Other pages:
+* [[Wikipedia:Ambox CSS classes]] – Describes how to use the ambox CSS classes directly in [[Help:Table|wikitable]]s and [[HTML element#Tables|HTML tables]].
+* [[Wikipedia:Article message boxes]] – The style guideline for creating article message boxes.
+* [[Wikipedia talk:Article message boxes]] – For discussion about these matters.
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Wikipedia metatemplates|Ambox]]
+[[Category:Exclude in print|{{PAGENAME}}]]
+
+[[ar:قالب:صندوق رم]]
+[[arz:Template:Ambox]]
+[[as:Template:Ambox]]
+[[az:Şablon:Ambox]]
+[[bg:Шаблон:Ambox]]
+[[be:Шаблон:Ambox]]
+[[be-x-old:Шаблён:Паведамленьне]]
+[[bs:Šablon:Ambox]]
+[[ca:Plantilla:Metacaixa d'avís article]]
+[[da:Skabelon:Hønsedesign]]
+[[dsb:Pśedłoga:Ambox]]
+[[es:Plantilla:Metaplantilla de avisos]]
+[[eo:Ŝablono:ArtikolaMesaĝokesto]]
+[[fa:الگو:Ambox]]
+[[fr:Modèle:Méta bandeau d'avertissement]]
+[[ko:틀:알림 상자]]
+[[hsb:Předłoha:Ambox]]
+[[hy:Կաղապար:Ambox]]
+[[id:Templat:Ambox]]
+[[is:Snið:Skilaboð]]
+[[it:Template:Avviso]]
+[[ka:თარგი:Ambox]]
+[[lv:Veidne:Ambox]]
+[[mk:Шаблон:Ambox]]
+[[mn:Загвар:Ambox]]
+[[no:Mal:Ambox]]
+[[ja:Template:Ambox]]
+[[pl:Szablon:Ambox]]
+[[pt:Predefinição:Ambox]]
+[[ro:Format:meta-casetă]]
+[[ru:Template:Ambox]]
+[[sc:Template:Ambox]]
+[[simple:Template:Ambox]]
+[[sk:Šablóna:Ambox]]
+[[sl:Predloga:Opozorilno polje]]
+[[sv:Mall:Ambox]]
+[[fi:Malline:Viestipohja]]
+[[th:แม่แบบ:Ambox]]
+[[tr:Şablon:Mikutusu]]
+[[uk:Шаблон:Ambox]]
+[[ur:Template:Ambox]]
+[[vi:Tiêu bản:Hộp thông báo]]
+[[zh-yue:Template:Ambox]]
+[[zh:Template:Ambox]]
+</includeonly>
