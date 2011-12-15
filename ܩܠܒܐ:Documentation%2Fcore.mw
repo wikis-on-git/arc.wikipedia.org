@@ -28,9 +28,9 @@
   | ¬ =   
     <!--"heading" not defined in this or previous level-->
     {{#switch: {{SUBJECTSPACE}} 
-    | {{ns:Template}} = [[Image:Template-info.svg|50px|alt=]] ܩܠܒܐ ܕܚܬܝܬܘܬܐ
+    | {{ns:Template}} = [[Image:Template-info.svg|50px|alt=]] ܩܠܒܐ ܕܐܫܛܪܘܬܐ
     | {{ns:File}} = ܚܘܠܨܐ
-    | #default = ܚܬܝܬܘܬܐ
+    | #default = ܐܫܛܪܘܬܐ
     }}
   | #default = 
     <!--"heading" has data or is empty but defined-->
