@@ -1,0 +1,13 @@
+{| class="tmbox tmbox-notice wpbs mbox-inside collapsible collapsed" style="border-collapse:separate;" cellspacing="4"
+| style="border: none; padding: 0px; width: 1px;"|
+! class="mbox-text"|{{Show button}}{{#if:{{{text|}}}|{{{text}}}<nowiki>:</nowiki>}}
+|-
+| colspan="2" class="wpbs-inner {{#ifeq:{{lc:{{{banner collapsed|}}}}}|no||outercollapse}}" style="background:#fffaef; border:1px dotted gray; padding:2px 4px;" |
+{{{1|}}}<!--
+
+-->{{#ifexist: {{#rel2abs: /Comments}} | <tr><td colspan="2" class="wpbs-comments">[[Image:Information icon.svg|16px]] This article has an '''[[/Comments|assessment summary page]]'''.</td></tr>}}
+|}<noinclude>
+
+{{documentation}}
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
