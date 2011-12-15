@@ -1,6 +1,6 @@
 <!--
   Automatically add {{template sandbox notice}} when on a /sandbox page.
--->{{#ifeq: {{SUBPAGENAME}} | ریتخانہ
+-->{{#ifeq: {{SUBPAGENAME}} | sandbox
 | <div style="clear: both;"></div>{{template sandbox notice}}
 }}<!--
   Automatically add {{pp-template}} to protected templates.
