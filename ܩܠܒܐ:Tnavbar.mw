@@ -15,7 +15,7 @@
 
 -->{{#if:{{{noedit|}}}|<!--nothing-->|<!--else:
 --><span style="{{{fontstyle|}}}">&#32;<b>&middot;</b>&#32;</span><!--
--->[{{fullurl:{{transclude|{{{1}}}}}|action=edit}} <span style="{{{fontstyle|}}}" title="ܟܬܒ ܩܠܒܐ"><!--
+-->[{{fullurl:{{transclude|{{{1}}}}}|action=edit}} <span style="{{{fontstyle|}}}" title="ܫܚܠܦ ܩܠܒܐ"><!--
 -->{{#if:{{{mini|}}}|ܫ|ܫܚܠܦ}}</span>]}}<!--
 --></span><!--
 
