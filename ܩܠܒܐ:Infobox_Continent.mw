@@ -46,7 +46,7 @@
 #if: {{{ܐܢܛܪܢܛ<includeonly>|</includeonly>}}} |
 <tr><th colspan="2">ܐܢܛܪܢܛ</th><td>{{{ܐܢܛܪܢܛ}}}</td></tr>
 }}{{
-#if: {{{أكبر المدن<includeonly>|</includeonly>}}} |
+#if: {{{ܡܕܝܢܬ̈ܐ ܪ̈ܒܐ<includeonly>|</includeonly>}}} |
 <tr><th colspan="2">ܡܕܝܢܬ̈ܐ ܪ̈ܒܐ</th><td>{{{ܡܕܝܢܬ̈ܐ ܪ̈ܒܐ}}}</td></tr>
 }}{{
 #if: {{{ܡܕܝܢܬ̈ܐ ܚܒܝܨ̈ܐ<includeonly>|</includeonly>}}} |
@@ -55,7 +55,7 @@
 #if: {{{ܒܝܬ ܡܥܡܪ̈ܐ<includeonly>|</includeonly>}}} |
 <tr><th colspan="2">ܒܝܬ ܡܥܡܪ̈ܐ</th><td>{{{ܡܫܪ̈ܝܬܐ}}}</td></tr>
 }}{{
-#if: {{{المنظمات الإقليمية<includeonly>|</includeonly>}}} |
+#if: {{{ܡܛܟܣܝܬ̈ܐ ܐܩܠܝܡܝ̈ܐ<includeonly>|</includeonly>}}} |
 <tr><th colspan="2">ܡܛܟܣܝܬ̈ܐ ܐܩܠܝܡܝ̈ܐ</th><td>{{{ܡܛܟܣܝܬ̈ܐ ܐܩܠܝܡܝ̈ܐ}}}</td></tr>
 }}
 </table>
