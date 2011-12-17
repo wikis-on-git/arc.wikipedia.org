@@ -1,0 +1,143 @@
+{{ sidebar with collapsible lists
+| name           = Style
+| title          = [[Wikipedia: Manual of Style|Manual of Style]]
+| bodyclass      = hlist
+| expanded       = {{{expanded|}}}
+| style          = width: 200px;
+|contentstyle = border-bottom: #aaa 1px solid
+| image          = <inputbox>
+type=fulltext
+width=25
+prefix=Wikipedia:Manual of Style
+searchbuttonlabel=Search the MoS
+break=no
+</inputbox>
+
+| list1name      = Arts
+| list1title     = [[:Category:Wikipedia Manual of Style (arts)|Arts]]
+| list1          = 
+* [[Wikipedia:Manual of Style/Anime- and manga-related articles|Anime & Manga]]
+* [[Wikipedia:Manual of Style/Comics|Comics]]
+* [[Wikipedia:Manual of Style/Film|Film]]
+* [[Wikipedia:Lyrics and poetry|Lyrics and Poetry]]
+* [[Wikipedia:Manual of Style/Novels|Novels]]
+* [[Wikipedia:Manual of Style/Television|Television]]
+* [[Wikipedia:Manual of Style/Visual arts|Visual arts]]
+* [[Wikipedia:Manual of Style/Writing about fiction|Writing about fiction]]
+
+| list2name      = Content
+| list2title     = [[:Category:Wikipedia Manual of Style (content)|Content]]
+| list2          = 
+* [[Wikipedia:Manual of Style/Accessibility|Accessibility]]
+* [[Wikipedia:Manual of Style/Article message boxes|Article message boxes]]
+* [[Wikipedia:Manual of Style/Biographies|Biographies]]
+* [[Wikipedia:Manual of Style/Disambiguation pages|Disambiguation pages]]
+* [[Wikipedia:Manual of Style/Infoboxes|Infoboxes]]
+* [[Wikipedia:Manual of Style/Linking|Linking]]
+* [[Wikipedia:Manual of Style/Self-references to avoid|Self-references]]
+* [[Wikipedia:Manual of Style/Words to watch|Words to watch]]
+
+| list3name      = Dates and numbers
+| list3title     = [[:Category:Wikipedia Manual of Style (formatting)|Dates and numbers]]
+| list3          = 
+* [[Wikipedia: Manual of Style/Dates and numbers|Dates and numbers]]
+
+| list4name      = Formatting
+| list4title     = [[:Category:Wikipedia Manual of Style (formatting)|Formatting]]
+| list4          = 
+* [[Wikipedia:Manual of Style/Abbreviations|Abbreviations]]
+* [[Wikipedia:Manual of Style/Capital letters|Capitalization]]
+* [[Wikipedia:Manual of Style/Dates and numbers|Dates and numbers]]
+* [[Wikipedia:Manual of Style/Pronunciation|Pronunciation]]
+* [[Wikipedia:Manual of Style/Proper names|Proper names]]
+* [[Wikipedia:Manual of Style/Spelling|Spelling]]
+* [[Wikipedia:Manual of Style/Text formatting|Text formatting]]
+* [[Wikipedia:Manual of Style/Titles|Titles]]
+
+| list5name      = Images
+| list5title     = [[:Category:Wikipedia Manual of Style (images)|Images]]
+| list5          = 
+* [[Wikipedia:Manual of Style/Captions|Captions]]
+* [[WP:Galleries|Galleries]]
+* [[Wikipedia:Manual of Style/Icons|Icons]]
+* [[WP:IMAGES|Images]]
+* [[WP:LAYOUT|Layout]]
+
+| list6name      = Layout
+| list6title     = [[:Category:Wikipedia Manual of Style (layout)|Layout]]
+| list6          = 
+* [[Wikipedia:Manual of Style/Footnotes|Footnotes]]
+* [[Wikipedia:Manual of Style/Layout|Layout]]
+* [[Wikipedia:Manual of Style/Lead section|Lead section]]
+* [[Wikipedia:Manual of Style/Tables|Tables]]
+* [[Wikipedia:Manual of Style/Trivia sections|Trivia sections]]
+
+| list7name      = Lists
+| list7title     = [[:Category:Wikipedia Manual of Style (lists)|Lists]]
+| list7          = 
+* [[Wikipedia:Manual of Style/Embedded lists|Embedded lists]]
+* [[Wikipedia:Manual of Style/Lists of works|Lists of works]]
+* [[Wikipedia:Manual of Style/Lists|Lists]]
+* [[Wikipedia:Manual of Style/Road junction lists|Road junctions]]
+
+| list8name      = Legal
+| list8title     = [[:Category:Wikipedia Manual of Style (legal)|Legal]]
+| list8          = 
+* [[Wikipedia:Manual of Style/Legal|Legal]]
+* [[Wikipedia:Manual of Style/Trademarks|Trademarks]]
+
+| list9name      = Music
+| list9title     = [[:Category:Wikipedia Manual of Style (music)|Music]]
+| list9          = 
+* [[Wikipedia:Manual of Style/Music|Music]]
+* [[Wikipedia:Manual of Style/Music samples|Samples]]
+* [[Wikipedia:Manual of Style/Record charts|Record charts]]
+
+| list10name     = Regional
+| list10title    = [[:Category:Wikipedia Manual of Style (regional)|Regional]]
+| list10         = 
+* [[Wikipedia:Manual of Style/Canada-related articles|Canada]]
+* [[Wikipedia:Manual of Style/France & French-related|France]]
+* [[Wikipedia:Manual of Style/Hawaii-related articles|Hawaii]]
+* [[Wikipedia:Manual of Style/Ireland-related articles|Ireland]]
+* [[Wikipedia:Manual of Style/Japan-related articles|Japan]]
+* [[Wikipedia:Manual of Style/Philippine-related articles|Philippine]]
+* [[Wikipedia:Manual of Style/Poland-related articles|Poland]]
+
+| list11name     = Religion
+| list11title    = [[:Category:Wikipedia Manual of Style (religion)|Religion]]
+| list11         = 
+* [[Wikipedia:Manual of Style/Islam-related articles|Islam]]
+* [[Wikipedia:Manual of Style/Latter Day Saints|Latter Day Saints]]
+
+| list12name     = Science
+| list12title    = [[:Category:Wikipedia Manual of Style (science)|Science]]
+| list12         = 
+* [[Wikipedia:Manual of Style/Chemistry|Chemistry]]
+* [[Wikipedia:Manual of Style/Mathematics|Mathematics]]
+* [[Wikipedia:Manual of Style/Medicine-related articles|Medicine]]
+* [[Wikipedia:Manual of Style/Command-line examples|Computer commands]]
+* [[Template:Taxobox/doc|Taxonomy]]
+
+| list13name     = Sports
+| list13title    = [[:Category:Wikipedia Manual of Style (sports)|Sports]]
+| list13         = 
+* [[Wikipedia:Manual of Style/Cue sports|Cue sports]]
+* [[Wikipedia:Manual of Style/Snooker|Snooker]] more specifically
+
+| list14name     = Related guidelines
+| list14title    = Related guidelines
+| list14         = 
+* [[Wikipedia:Article size|Article size]]
+* [[Wikipedia:Article titles|Article titles]]
+* [[Wikipedia:Categories, lists, and navigation templates|Categories, lists, and navigation templates]]
+* [[Wikipedia:Categorization|Categorization]]
+* [[Wikipedia:Citing sources|Footnotes]]
+* [[Wikipedia:Template namespace|Template namespace]]
+* [[Wikipedia:Hatnote|Hatnotes]]
+* [[Wikipedia:Signatures|Signatures]]
+* [[Wikipedia:Talk page guidelines|Talk page guidelines]]
+* [[Wikipedia:Subpages|Subpages]]
+* [[Wikipedia:User pages|User pages]]
+
+}}<noinclude>{{documentation}}</noinclude>
