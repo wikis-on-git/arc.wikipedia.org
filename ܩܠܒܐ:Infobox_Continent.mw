@@ -2,8 +2,8 @@
 
 <tr><th class="entete map" colspan="3" style="text-align: center; background-color: #285F27; color: white; font-size: larger;">{{PAGENAME}}</th></tr>
 {{
-#if: {{{ܚܪܝܛܐ|}}} {{{ܚܪܝܛܐ<includeonly>|</includeonly>}}} |
-<tr><td colspan="3" style="text-align: center; background-color: #FFFFFF;">[[Image:{{{ܚܪܝܛܐ|{{{ܚܪܝܛܐ}}}}}}| {{px|{{{ܡܘܩܕܪܐ_ܕܚܪܝܛܐ|}}}|{{{ܡܘܩܕܪܐ_ܕܚܪܝܛܐ|}}}|250}} |]]</td></tr>
+#if: {{{ܡܦܐ|}}} {{{ܡܦܐ<includeonly>|</includeonly>}}} |
+<tr><td colspan="3" style="text-align: center; background-color: #FFFFFF;">[[Image:{{{ܡܦܐ|{{{ܡܦܐ}}}}}}| {{px|{{{ܡܘܩܕܪܐ_ܕܡܦܐ|}}}|{{{ܡܘܩܕܪܐ_ܕܡܦܐ|}}}|250}} |]]</td></tr>
 }}
 <tr><th colspan="2">ܫܛܚܐ</th><td>{{{ܫܛܚܐ}}}</td></tr>
 {{
@@ -22,11 +22,11 @@
 #if: {{{ܐܬܪ̈ܘܬܐ<includeonly>|</includeonly>}}} |
 <tr><th colspan="2">ܐܬܪ̈ܘܬܐ</th><td>{{{ܐܬܪ̈ܘܬܐ}}}</td></tr>
 }}{{
-#if: {{{ܐܬܪ̈ܘܬܐ ܬܒܝܥܗܝ<includeonly>|</includeonly>}}} |
-<tr><th colspan="2">ܐܬܪ̈ܘܬܐ ܬܒܝܥܗܝ</th><td>{{{ܐܬܪ̈ܘܬܐ ܬܒܝܥܗܝ}}}</td></tr>
+#if: {{{ܐܬܪ̈ܘܬܐ ܬܒܝܥ̈ܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܐܬܪ̈ܘܬܐ ܬܒܝܥ̈ܐ</th><td>{{{ܐܬܪ̈ܘܬܐ ܬܒܝܥ̈ܐ}}}</td></tr>
 }}{{
-#if: {{{ܐܬܪ̈ܘܬܐ ܠܐ ܡܘܕܝܝܐ ܐܒܗ<includeonly>|</includeonly>}}} |
-<tr><th colspan="2">ܐܬܪ̈ܘܬܐ ܠܐ ܡܘܕܝܝܐ ܐܒܗ</th><td>{{{ܐܬܪ̈ܘܬܐ ܠܐ ܡܘܕܝܝܐ ܐܒܗ}}}</td></tr>
+#if: {{{ܐܬܪ̈ܘܬܐ ܠܐ ܡܘܕܝܐ ܒܗܘܢ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܐܬܪ̈ܘܬܐ ܠܐ ܡܘܕܝܐ ܒܗܘܢ</th><td>{{{ܐܬܪ̈ܘܬܐ ܠܐ ܡܘܕܝܐ ܒܗܘܢ}}}</td></tr>
 }}{{
 #if: {{{ܐܬܪ̈ܘܬܐ ܚܓܝܪ̈ܐ<includeonly>|</includeonly>}}} |
 <tr><th colspan="2">ܐܬܪ̈ܘܬܐ ܚܓܝܪ̈ܐ</th><td>{{{ܐܬܪ̈ܘܬܐ ܚܓܝܪ̈ܐ}}}</td></tr>
@@ -52,8 +52,8 @@
 #if: {{{ܡܕܝܢܬ̈ܐ ܚܒܝܨ̈ܐ<includeonly>|</includeonly>}}} |
 <tr><th colspan="2">ܡܕܝܢܬ̈ܐ ܚܒܝܨ̈ܐ</th><td>{{{ܡܕܝܢܬ̈ܐ ܚܒܝܨ̈ܐ}}}</td></tr>
 }}{{
-#if: {{{ܒܝܬ ܡܥܡܪ̈ܐ<includeonly>|</includeonly>}}} |
-<tr><th colspan="2">ܒܝܬ ܡܥܡܪ̈ܐ</th><td>{{{ܡܫܪ̈ܝܬܐ}}}</td></tr>
+#if: {{{ܡܐܬܪ̈ܢܝܬܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܡܐܬܪ̈ܢܝܬܐ</th><td>{{{ܡܐܬܪ̈ܢܝܬܐ}}}</td></tr>
 }}{{
 #if: {{{ܡܛܟܣܝܬ̈ܐ ܐܩܠܝܡܝ̈ܐ<includeonly>|</includeonly>}}} |
 <tr><th colspan="2">ܡܛܟܣܝܬ̈ܐ ܐܩܠܝܡܝ̈ܐ</th><td>{{{ܡܛܟܣܝܬ̈ܐ ܐܩܠܝܡܝ̈ܐ}}}</td></tr>
