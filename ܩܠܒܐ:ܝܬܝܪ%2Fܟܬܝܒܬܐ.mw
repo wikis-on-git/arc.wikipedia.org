@@ -1,0 +1,38 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+==Usage==
+<code><nowiki>{{cat more|WP:WikiProject}}</nowiki></code> produces: {{cat more|WP:WikiProject}}
+
+<code><nowiki>{{cat more|WP:WikiProject|l1=WikiProject}}</nowiki></code> produces: {{cat more|WP:WikiProject|l1=WikiProject}}
+
+==Multiple link targets==
+* <code><nowiki>{{cat more|1}}</nowiki></code> produces: {{cat more|1}}
+* <code><nowiki>{{cat more|Talk:1|l1=1}}</nowiki></code> produces: {{cat more|Talk:1|l1=1}}
+* <code><nowiki>{{cat more|1|2}}</nowiki></code> produces: {{cat more|1|2}}
+* <code><nowiki>{{cat more|Talk:1|l1=1|Talk:2|l2=2}}</nowiki></code> produces: {{cat more|Talk:1|l1=1|Talk:2|l2=2}}
+* <code><nowiki>{{cat more|1|2|3}}</nowiki></code> produces: {{cat more|1|2|3}}
+* <code><nowiki>{{cat more|Talk:1|l1=1|Talk:2|l2=2|Talk:3|l3=3}}</nowiki></code> produces: {{cat more|Talk:1|l1=1|Talk:2|l2=2|Talk:3|l3=3}}
+* <code><nowiki>{{cat more|1|2|3|4}}</nowiki></code> produces: {{cat more|1|2|3|4}}
+* <code><nowiki>{{cat more|Talk:1|l1=1|Talk:2|l2=2|Talk:3|l3=3|Talk:4|l4=4}}</nowiki></code> produces: {{cat more|Talk:1|l1=1|Talk:2|l2=2|Talk:3|l3=3|Talk:4|l4=4}}
+* <code><nowiki>{{cat more|1|2|3|4|5}}</nowiki></code> produces: {{cat more|1|2|3|4|5}}
+* <code><nowiki>{{cat more|Talk:1|l1=1|Talk:2|l2=2|Talk:3|l3=3|Talk:4|l4=4|Talk:5|l5=5}}</nowiki></code> produces: {{cat more|Talk:1|l1=1|Talk:2|l2=2|Talk:3|l3=3|Talk:4|l4=4|Talk:5|l5=5}}
+
+==See also==
+*{{tl|Cat exp}}
+*{{tl|Cat main}} "The main article for this category is..."
+*{{tl|Cat main section}}
+* [[T:OU|Other uses templates documentation]] about hatnotes
+
+<includeonly>
+<!--PLEASE ADD CATEGORIES AND INTERWIKIS BELOW THIS LINE, INSIDE INCLUDEONLY TAGS, THANK YOU. -->
+[[Category:Category namespace templates|{{PAGENAME}}]]
+[[Category:Cross-reference templates|{{PAGENAME}}]]
+[[Category:Hatnote templates for category pages]]
+[[ar:قالب:Cat more]]
+[[mk:Шаблон:Катпов2]]
+[[ja:Template:Catmore2]]
+[[ka:თარგი:Catmore2]]
+[[tl:Suleras:Catmore2]]
+[[ur:سانچہ:Cat more]]
+<includeonly>
