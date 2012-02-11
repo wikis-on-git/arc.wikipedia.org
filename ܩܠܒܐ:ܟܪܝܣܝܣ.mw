@@ -1,0 +1,8 @@
+{| cellpadding="10" align="center" style="border-collapse:collapse; background-color:transparent; border-style:none;"
+| width="20" valign=top | {{Click|image = cquote2.png|link = {{FULLPAGENAME}}| width = {{{size|{{{2|{{{quotewidth|{{{width|20px}}}}}}}}}}}}|height = {{{size|{{{3|{{{quoteheight|{{{height|20px}}}}}}}}}}}}}}
+| {{ܣܪܛܐ/ܣܘܪܝܝܐ|{{{1}}}}}
+| width="20" valign=bottom | {{Click|image = cquote1.png|link = {{FULLPAGENAME}}| width = {{{size|{{{2|{{{quotewidth|{{{width|20px}}}}}}}}}}}}|height = {{{size|{{{3|{{{quoteheight|{{{height|20px}}}}}}}}}}}}}}
+|-
+{{#if:{{{4|}}}{{{5|}}}
+|{{!}} colspan="3" style="padding-top: 10px" {{!}} {{#if:{{{4|<noinclude>Origin</noinclude>}}}|<p style="font-size:smaller;line-height:1em;text-align: left"><cite style="font-style:normal;">—{{{4}}}{{#if:{{{5|<noinclude>Source</noinclude>}}}|، {{{5}}}}}</cite></p>}}}}
+|}<noinclude>'''ܡܦܠܚܬܐ:''' <nowiki><code>{{ܟܪܝܣܝܣ ܕܝܠܢܝܐ|ܟܬܒܬܐ ܕܟܪܝܣܝܣ| ܚܘܝpx |ܪܡܘܬܐ px|ܐܨܠܐ ܕܟܪܝܣܝܣ|ܡܒܘܥܐ}}</code></nowiki>
