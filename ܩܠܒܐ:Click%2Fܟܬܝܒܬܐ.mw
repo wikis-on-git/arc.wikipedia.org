@@ -1,0 +1,75 @@
+{{Documentation subpage}}
+
+{{Mbox
+| type = style
+| image = [[File:Imbox content.png|40px|alt=|link=]]
+| text ='''Using this template is deprecated to new wiki syntax''': <tt><nowiki>[[File:Example.jpg|link=Link title]]</nowiki></tt> will just work the same as {{tlc|click|2=image=Example.jpg|3=link=Link title}}
+}}
+
+=== Prerequisites ===
+* MediaWiki 1.14 ([[rev:41789]]) or later
+
+=== Usage ===
+To use this template, simply copy the text below and replace the text between the <...> with the desired result.
+<pre>
+{{Click
+|image  = <image to be linked>
+|size   = <size of the image> 
+|width  = <width of the image> DEPRECATED
+|height = <height of the image, optional> DEPRECATED
+|link   = <page the image must link to>
+|title  = <the label for the image, optional>
+|desc   = <location of a description link, optional> DEPRECATED
+}}
+</pre>
+
+* The <code>image</code> parameter specifies the image to be used. It defaults to [[:Image:Transparent.gif]] when not specified.
+* The <code>size</code> parameter specified the maximum size of the image, either in the format <code>«width»x«height»px</code>, <code>«width»px</code>, or <code>x«height»px</code>.
+* <s>The <code>width</code> parameter specifies the maximum width the image should be scaled to. It defaults to the default size of the image when not specified. '''Do not add "px" to the value'''.</s> '''DEPRECATED'''
+* <s>The <code>height</code> parameter specifies the maximum height the image should be scaled to. It defaults to the default size of the image when not specified. '''Do not add "px" to the value'''.</s> '''DEPRECATED'''
+* The <code>link</code> parameter specifies the page to which the image should link. It defaults to the [[Main Page]] when not specified.
+* The <code>title</code> parameter specifies text to be used in the tooltip (text which appears on hovering the mouse over the image) and as alternative text if the image fails to load. It is entirely optional, and defaults to the text of the title of the page to which the image links.
+* <s>The <code>desc</code> parameter specifies a location where an icon linking to the description page for the image can be placed. It is entirely optional, and can take any of the following values: <code>top-right</code>, <code>bottom-right</code>, <code>bottom-left</code>, <code>top-left</code>, or <code>none</code> to disable it completely. It defaults to <code>none</code> when not specified.</s> '''DEPRECATED'''
+
+
+<includeonly>
+<!--Categories-->
+[[Category:Wikipedia formatting and function templates]]
+
+<!--Other languages-->
+
+[[af:Sjabloon:Click]]
+[[am:መለጠፊያ:Click]]
+[[ar:قالب:نقر]]
+[[ast:Plantía:Clic]]
+[[az:Şablon:Tıkla]]
+[[bg:Шаблон:Click]]
+[[ca:Plantilla:Clic]]
+[[ceb:Plantilya:Click]]
+[[da:Skabelon:Klik]]
+[[dsb:Pśedłoga:Click]]
+[[et:Mall:Klikk]]
+[[eo:Ŝablono:Click]]
+[[eu:Txantiloi:Lotura iruditik]]
+[[fa:الگو:کلیک]]
+[[fr:Modèle:Lien sur icône]]
+[[hy:Կաղապար:Կտտոց]]
+[[hsb:Předłoha:Click]]
+[[id:Templat:Klik]]
+[[is:Snið:Smella]]
+[[it:Template:Clic]]
+[[ka:თარგი:ბმული-სურათი]]
+[[lo:ແມ່ແບບ:Click]]
+[[li:Sjabloon:Klik]]
+[[ml:ഫലകം:ഞെക്ക്]]
+[[mwl:Modelo:Click]]
+[[na:Template:Click]]
+[[ja:Template:Click]]
+[[pt:Predefinição:Click]]
+[[fi:Malline:Kuvalinkki]]
+[[th:แม่แบบ:คลิก]]
+[[tr:Şablon:Click]]
+[[vi:Bản mẫu:Hình tượng]]
+[[zh-yue:Template:㩒]]
+[[zh:Template:Click]]
+</includeonly>
