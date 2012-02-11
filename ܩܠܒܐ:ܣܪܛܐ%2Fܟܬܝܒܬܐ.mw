@@ -1,0 +1,48 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+=== Usage ===
+Marks a string by [[ISO 15924]] code of script. Switch between {{tl|cuneiform}}, {{tl|Coptic}}, {{tl|Gaelic}}, {{tl|Hebrew}}, {{tl|Nastaliq}}, {{tl|runic}}, {{tl|Slavonic}}.
+
+The [[Nastaʿlīq script|Nasta'liq script]] is considered a font variant by both Unicode and ISO 15924. Use ur-Arab, ps-Arab or fa-Arab to access {{tl|Nastaliq}}.
+
+unaddressed is the selection of individual [[East Asian calligraphy|Chinese typefaces]] ([[ISO 15924:Hani|Hani]]), should be solved via {{tl|lang}}.
+
+*{{script|Xsux|𒈗}}
+*{{script|Xpeo|𐏈}}
+*{{script|Linb|𐃌}}
+*{{script|Glag|ⰃⰎⰀⰃⰑⰎⰟ}}
+*{{script|Ital|𐌇𐌀𐌓𐌉𐌊𐌀𐌔𐌕𐌉}}
+*{{script|Phnx|𐤒𐤓𐤕 𐤇𐤃𐤔𐤕}}
+*{{script|Ogam|᚛ᚑᚌᚐᚋ᚜}}
+*{{script|Runr|᛬ᚱᚢᚾᚨ᛬}}
+*{{script|Arab|أبجدية عربية}}
+*{{script|Hebr|אלפבית עברי}}
+*{{script|Syrc|ܐܠܦܒܝܬ ܣܘܪܝܝܐ}}
+*{{script|Cyrl|Кириллица}}
+*{{script|Cyrs|азъбоукы}}
+*{{script|Goth|𐌲𐌿𐍄𐌹𐍃𐌺}}
+*{{script|Armn|այբուբեն}}
+*{{script|Deva|देवनागरी}}
+*{{script|Taml|அரிச்சுவடி}}
+*{{script|Thai|อักษรไทย}}
+*{{script|Tibt|དབོད་ཡིག}}
+*{{script|Copt|ⲙⲉⲧⲣⲉⲙⲛⲭⲏⲙⲓ}}
+
+==See also==
+*{{tl|lang}}
+*{{tl|transl}}
+
+{{Template:ISO 15924/footer}}
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Multilingual support templates|Script]]
+
+[[ar:قالب:خط]]
+[[es:Plantilla:Script]]
+[[id:Templat:Script]]
+[[ja:Template:Script]]
+[[pt:Predefinição:Script]]
+
+</includeonly>
