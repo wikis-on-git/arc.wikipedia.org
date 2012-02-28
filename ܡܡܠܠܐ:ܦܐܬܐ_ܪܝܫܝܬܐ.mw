@@ -74,3 +74,4 @@ Please add oc (Occitan, more than 56,400 articles) to the list. Thanks in advanc
 
 ==Complete the renaming==
 It clearly says ”Syriac Wikipedia" on the homepage, but what happened to everything else? The ISO code is still arc, not syc as it should be. And all language links still says "ܐܪܡܝܐ" instead of "ܣܘܪܝܝܐ", it’s time to change that too. [[ܡܦܠܚܢܐ:Hadoyo|Hadoyo]] ([[ܡܡܠܠܐ ܕܡܦܠܚܢܐ:Hadoyo|ܡܡܠܠܐ]]) 21:12, 26 ܒܫܒܛ 2012 (UTC)
+:Dear Hadoyo, sadly but true, we can't change those things without a developer helping us. Last year we reported a bug on bugzilla to rename the Wikipedia. Unfortunately, there seems to be some technical issues in renaming a wikipedia. Developers find it a bit difficult to do so, you could say. The developers *will* apply the changes, we only don't know when that will be. You can find the bug report right [https://bugzilla.wikimedia.org/show_bug.cgi?id=26725 here].
