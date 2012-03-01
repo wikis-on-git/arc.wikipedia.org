@@ -80,7 +80,9 @@
  |play        = {{{play10|}}}
 }}}}
 |below = {{#ifeq:{{{plain|}}}|yes||{{#ifeq:{{{help|}}}|no||<span style="font-size:smaller;">''ܐܝܬ ܠܟ ܩܛܪܐ ܒܫܡܥܬܐ ܠ {{#if:{{{filename2|}}}{{{filename3|}}}{{{filename4|}}}{{{filename5|}}}{{{filename6|}}}{{{filename7|}}}{{{filename8|}}}{{{filename9|}}}{{{filename10|}}}|these files|ܗܢܐ ܠܦܦܐ؟}} ܚܙܝ [[Wikipedia:Media help|media help]].''</span>}}}}
-}}{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Articles with hAudio microformats]]}}<noinclude>{{documentation}}
+}}{{#ifeq:{{NAMESPACE}}|{{ns:0}}|[[Category:Articles with hAudio microformats]]}}<noinclude>{{documentation}}</noinclude>
+
+<noinclude>
 
 [[ܣܕܪܐ:ܩܠܒ̈ܐ]]
 [[be:Шаблон:Listen]]
