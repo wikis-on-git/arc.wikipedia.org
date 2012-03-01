@@ -1,0 +1,226 @@
+{{documentation subpage}}
+
+{{tl|{{PAGENAME}}}} allows audio files to be embedded in articles. It should be used for audio files that are set off from the text, like music clips or sound recordings.
+
+== Simple usage ==
+
+<pre style="overflow: auto">
+{{Listen
+| filename    = 
+| title       = 
+| description = 
+| pos         = 
+}}
+</pre>
+
+*'''filename''' ''(Required)'': the pagename of the media file, ''without'' the File: (formerly Image:) prefix
+*'''title''' ''(Required)'': the title of the audio file, to be displayed. Do not use quote marks around song titles. Do not use wikilinks in the title – they will not work.
+*'''description''': a description of the audio file
+*'''pos = left or right
+
+=== Multiple files ===
+
+Additional files can be embedded in an article with one template by appending a number to each parameter. Up to ten files can be included.
+
+<pre style="overflow: auto">
+{{Listen
+| filename     = 
+| title        = 
+| alt          = 
+| description  = 
+| filename2    = 
+| title2       = 
+| alt2         = 
+| description2 = 
+| filename3    = 
+| title3       = 
+| alt3         = 
+| description3 = 
+}}
+</pre>
+
+*'''filename''' ''(Required)'': the pagename of the media file, ''without'' the File: (formerly Image:) prefix
+*'''title''' ''(Required)'': the title of the audio file, to be displayed. Do not use quote marks around song titles.
+*'''alt''': alt text for the image displayed for the file, for visually impaired readers; see ''[[Wikipedia:Alternative text for images]]''. This is needed for file formats such as [[Ogg]]'s <code>.ogv</code> format that include video as well as sound. The alt text should describe just the initial static image, not the entire video or its sound.
+*'''description''': a description of the audio file
+
+== Style parameters ==
+
+The template also takes a number of style parameters to control its appearance:
+
+*'''type''': can be used to alter the image displayed at the left depending on the type of audio content being embedded.  Acceptable values are '''sound''', '''speech''' and '''music''' (default)
+*'''header''': can be used to add a header to the box.
+*'''help''': if set {{para|help|no}}, suppresses the help text that normally appears at the bottom of the box.  Only do this if there are other audio files on the page which ''do'' have the help link; it ''must'' be provided on at least the first file on the article.
+*'''pos''': by default the box floats to the right side of the screen.  Setting this to '''left''' will cause the box to instead float on the left-hand side.
+*'''image''': define a different image.  Eg {{nowrap|{{para|image|<nowiki>[[File:Example.jps|20px]]</nowiki>}}}}.  You can set {{para|image|none}} to disable the image entirely.
+*'''style''': can be used to pass specific style instructions to the box. Setting this to '''float:none''' will anchor the box when this is convenient.  Setting this to '''float:none; clear:none''' will enable the anchored box to co-exist gracefully beside another floating box.
+*'''play#''': some media files cannot be displayed inline; if this is the case set {{para|play|no}} to prevent the broken inline link from displaying.
+*'''plain''': if set {{para|plain|yes}}, removes most of the ornamentation (table border, image, and help links) to give a minimalist version. This also removes the left/right float and positioning, to allow the box to be manually positioned as desired using the {{para|style}} (e.g., {{Para|style|float:right}}) parameter and surrounding markup.
+
+==Examples==
+;Basic example:
+{{Listen
+| filename    = Accordion chords-01.ogg
+| title       = Accordion chords
+| description = Chords being played on an accordion
+}}
+
+<pre style="overflow: auto">
+{{Listen
+| filename    = Accordion chords-01.ogg
+| title       = Accordion chords
+| description = Chords being played on an accordion
+}}
+</pre>
+{{-}}
+
+;Example with video:
+{{Listen
+| header      = Inaugural Address
+| filename    = Barack Obama inaugural address.ogv
+| alt         = A black man in a black coat gestures and talks at a lecturn surrounded by teleprompters. Behind him, in the background, are about a dozen warmly-dressed onlookers.
+| title       = Inaugural address of Barack Obama
+| description = Barack Obama delivers his [[inaugural address]] on January 20, 2009.<br>(Duration: 21 minutes, 21 seconds)
+| help        = no
+| type        = sound
+}}
+
+<pre style="overflow: auto">
+{{Listen
+| header      = Inaugural Address
+| filename    = Barack Obama inaugural address.ogv
+| alt         = A black man in a black coat gestures and talks at a lecturn surrounded by teleprompters. Behind him, in the background, are about a dozen warmly-dressed onlookers.
+| title       = Inaugural address of Barack Obama
+| description = Barack Obama delivers his [[inaugural address]] on January 20, 2009.<br>(Duration: 21 minutes, 21 seconds)
+| help        = no
+| type        = sound
+}}
+</pre>
+{{-}}
+
+;Example with header:
+{{Listen
+| filename    = Frase de Neil Armstrong.ogg
+| title       = "One small step for a man..."
+| description = First words spoken on the [[moon]].
+| type        = speech
+| pos         = left
+| header      = Recordings of this phrase:
+}}
+
+<pre style="overflow: auto">
+{{Listen
+| filename    = Frase de Neil Armstrong.ogg
+| title       = "One small step for a man..."
+| description = First words spoken on the [[moon]].
+| type        = speech
+| pos         = left
+| header      = Recordings of this phrase:
+}}
+</pre>
+{{-}}
+
+;Plain example:
+{{Listen
+| filename = Accordion chords-01.ogg
+| title    = Accordion chords
+| plain    = yes
+| style    = float:left
+}}
+
+<pre style="overflow: auto">
+{{Listen
+| filename = Accordion chords-01.ogg
+| title    = Accordion chords
+| plain    = yes
+| style    = float:left
+}}
+</pre>
+{{-}}
+
+;Multiple files:
+{{Listen
+| filename     = Accordion chords-01.ogg
+| title        = Accordion chords
+| description  = Chords being played on an accordion
+| type         = music
+| filename2    = Moonlight.ogg
+| title2       = ''Moonlight Sonata''
+| description2 = [[Beethoven]]'s "Sonata in C-sharp minor"
+| filename3    = Au_clair_de_la_lune_mode_do.mid
+| title3       = Au Clair de la Lune
+| description3 = The traditional French children's song
+| play3        = no
+}}
+
+<pre style="overflow: auto">
+{{Listen
+| filename     = Accordion chords-01.ogg
+| title        = Accordion chords
+| description  = Chords being played on an accordion
+| type         = music
+| filename2    = Moonlight.ogg
+| title2       = ''Moonlight Sonata''
+| description2 = [[Beethoven]]'s "Sonata in C-sharp minor"
+| filename3    = Au_clair_de_la_lune_mode_do.mid
+| title3       = Au Clair de la Lune
+| description3 = The traditional French children's song
+| play3        = no
+}}
+</pre>
+
+{{-}}
+
+== Microformat ==
+{{UF-audio}}
+
+== See also ==
+* {{tl|Audio}}, a variant of this template meant more for inline sounds like pronunciations.
+* {{tl|Multi-listen start}}, {{tl|Multi-listen item}}, and {{tl|Multi-listen end}}, templates used to list multiple audio files in the same box
+
+<includeonly>
+[[Category:Audio templates]]
+[[Category:Exclude in print|{{PAGENAME}}]]
+
+[[ar:قالب:إستمع]]
+[[be:Шаблон:Listen]]
+[[be-x-old:Шаблён:Слухаць]]
+[[bs:Šablon:Slušajte]]
+[[ca:Plantilla:Escoltar]]
+[[cs:Šablona:Poslech]]
+[[cy:Nodyn:Listen]]
+[[da:Skabelon:Lyt]]
+[[et:Mall:Heli]]
+[[eo:Ŝablono:Aŭskultu]]
+[[es:Plantilla:Multimedia]]
+[[fa:الگو:شنیدن]]
+[[fr:Modèle:Son]]
+[[gv:Clowan:Eaisht]]
+[[hsb:Předłoha:Posłuchaj]]
+[[hu:Sablon:Hallgat]]
+[[id:Templat:Dengar]]
+[[it:Template:Multimedia]]
+[[la:Formula:Audire]]
+[[lv:Veidne:Listen]]
+[[ja:Template:試聴]]
+[[mk:Шаблон:Преслушување]]
+[[mr:साचा:ऐका]]
+[[ms:Templat:Listen/doc]]
+[[nl:Sjabloon:Luister]]
+[[no:mal:lytte]]
+[[ka:თარგი:მოსმენა]]
+[[kk:Template:Listen]]
+[[pl:Szablon:Listen]]
+[[pt:Predefinição:Escute]]
+[[ru:Шаблон:Listen]]
+[[sl:Predloga:Poslušaj]]
+[[sr:Шаблон:Listen]]
+[[simple:Template:Listen]]
+[[fi:Malline:Kuuntele]]
+[[sv:Mall:Lyssna]]
+[[vi:Tiêu bản:Nghe]]
+[[ko:틀:Listen]]
+[[ta:வார்ப்புரு:Listen]]
+[[tr:Şablon:Dinle]]
+[[zh:Template:Listen]]
+</includeonly>
