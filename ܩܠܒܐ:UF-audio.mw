@@ -1,0 +1,34 @@
+The HTML mark up produced by this template includes an [[HAudio|hAudio microformat]], which makes the recording's details [[Parsing|parsable]] by computers, either acting automatically to catalogue articles across Wikipedia, or via a browser tool operated by a person, to (for example) add the subject to a playlist or database. For more information about the use of [[microformat]]s on Wikipedia, please see [[Wikipedia:WikiProject Microformats|the microformat project]].
+
+=== Sub-templates ===
+
+Date-of-publication ("published") information will only be included in the microformat if {{tlx|Start date}} (or {{tlx|Start date and age}} where appropriate) is used in a parent template or infobox ([[Wikipedia:WikiProject Microformats/dates|but do not use these if the date is before 1583 CE]]).
+
+For the length or duration of a recording, say 3 minutes 45 seconds, use {{Tl|Duration}} thus: <code><nowiki>{{Duration|m=3|s=45}}</nowiki></code>, which renders as {{Duration|m=3|s=45}}. An optional ''h'' parameter can be used for ''hours''.
+
+'''Please do not remove instances of these sub-templates.'''
+
+=== Classes ===
+
+hAudio uses HTML classes including:
+{{Flat list|
+* haudio
+* fn 
+* album
+* description
+* category
+* contributor
+* duration
+* h
+* item
+* min
+* photo
+* position
+* price 
+* published
+* s
+}}
+
+'''Please do not rename or remove these classes; nor collapse nested elements which use them.'''<includeonly>{{#ifeq: {{SUBPAGENAME}}|doc||{{#ifeq: {{SUBPAGENAME}}|sandbox||[[Category:Templates generating hAudio microformats|{{PAGENAME}}]]}}}}</includeonly><noinclude>
+[[Category:Template namespace templates]]
+</noinclude>
