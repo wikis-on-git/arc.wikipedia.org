@@ -1,0 +1,127 @@
+{{documentation subpage}}
+
+== Syntax ==
+<pre style="font-size:95%; overflow:auto;">
+{{Collapsible list
+|framestyle = <!--(optional)-->
+|title = 
+|titlestyle = <!--(optional)-->
+|liststyle  = <!--(optional)-->
+|1 =          <!--(First item in list)--->
+|2 =          <!--(Second item in list)-->
+|3 =          <!--(Third item in list)--->
+|...
+}}
+</pre>
+
+;Default state
+Specifying <code>expand = true</code>, or any non-blank value, will set the default state to expanded.
+
+== Examples ==
+<pre style="font-size:95%; overflow:auto;">
+{{Collapsible list 
+|title=[[European Free Trade Association]] Members 
+|[[Iceland]] 
+|[[Liechtenstein]] 
+|[[Norway]] 
+|[[Switzerland]]}}
+</pre>
+{{Collapsible list |title=[[European Free Trade Association]] Members |[[Iceland]] |[[Liechtenstein]] |[[Norway]] |[[Switzerland]]}}
+
+===Example of a list without borders because it's within an infobox===
+In these examples, the fields leader_name2 and leader_name3 have been changed to use collapsible list.
+{{Infobox settlement
+|official_name     = City of Hamilton
+|motto             = Together Aspire - Together Achieve
+|image_skyline     = HamiltonOntarioSkylineC.JPG
+|imagesize         = 250px
+|image_caption     = 
+|image_map         = Map of Ontario HAMILTON.svg
+|mapsize           = 200px
+|map_caption       = Location in the province of Ontario, Canada
+|subdivision_type  = Country
+|subdivision_name  = [[Canada]]
+|subdivision_type1 = [[Provinces and territories of Canada|Province]]
+|subdivision_name1 = [[Ontario]]
+|leader_title      = [[Mayor]]
+|leader_name       = [[Fred Eisenberger]]
+|leader_title1     = [[City Council]]
+|leader_name1      = [[Hamilton, Ontario City Council]]
+|leader_title2     = [[Member of Parliament#Canada|MPs]]
+|leader_name2      =
+ {{Collapsible list
+  |framestyle=border:none; padding:0; <!--Hides borders and improves row spacing-->
+  |title=List of MPs
+  |1=[[Dean Allison]] |2=[[Chris Charlton]] |3=[[David Christopherson]] |4=[[Wayne Marston]] |5=[[David Sweet]]
+ }}
+|leader_title3     = [[Member of Provincial Parliament (Ontario)|MPPs]]
+|leader_name3      =
+ {{Collapsible list
+  |framestyle=border:none; padding:0; <!--as above-->
+  |title=List of MPPs
+  |1=[[Marie Bountrogianni]] |2=[[Andrea Horwath]] |3=[[Judy Marsales]] |4=[[Ted McMeekin]] |5=[[Jennifer Mossop]]
+ }}
+|established_title = [[Municipal corporation|Incorporated]]
+|established_date  = June 9, 1846
+}}
+<pre style="font-size:95%; overflow:auto;">
+{{Infobox settlement
+|official_name     = City of Hamilton
+ ...truncated... 
+|leader_title      = [[Mayor]]
+|leader_name       = [[Fred Eisenberger]]
+|leader_title1     = [[City Council]]
+|leader_name1      = [[Hamilton City Council]]
+|leader_title2     = [[Member of Parliament (Canada)|MPs]]
+|leader_name2      =
+ {{Collapsible list
+  |framestyle=border:none; padding:0; <!--Hides borders and improves row spacing-->
+  |title=List of MPs
+  |1=[[Dean Allison]] |2=[[Chris Charlton]] |3=[[David Christopherson]] |4=[[Wayne Marston]] |5=[[David Sweet]]
+ }}
+|leader_title3     = [[Member of Provincial Parliament (Ontario)|MPPs]]
+|leader_name3      =
+ {{Collapsible list
+  |framestyle=border:none; padding:0; <!--as above-->
+  |title=List of MPPs
+  |1=[[Marie Bountrogianni]] |2=[[Andrea Horwath]] |3=[[Judy Marsales]] |4=[[Ted McMeekin]] |5=[[Jennifer Mossop]]
+ }}
+|established_title = [[Municipal corporation|Incorporated]]
+|established_date  = June 9, 1846
+ (...etc...)
+}}
+</pre>
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox||
+[[Category:Collapse templates]]
+[[Category:List templates|Collapsible]]
+[[Category:Wikipedia list formatting templates]]
+
+[[af:Sjabloon:Opvoubare lys]]
+[[ar:قالب:قائمة مخفية]]
+[[as:Template:Collapsible list]]
+[[be-x-old:Шаблён:Згорнуты сьпіс]]
+[[bg:Шаблон:Collapsible list]]
+[[bn:টেমপ্লেট:List collapsed]]
+[[cy:Nodyn:Rhestr i'w dangos]]
+[[et:Mall:Peidetav loend]]
+[[eo:Ŝablono:Kaŝebla listo]]
+[[es:Plantilla:Lista desplegable]]
+[[fr:Modèle:Collapsible list]]
+[[hsb:Předłoha:Schowajomna lisćina]]
+[[ia:Patrono:Collapsible list]]
+[[ja:Template:Collapsible list]]
+[[ka:თარგი:Collapsible list]]
+[[ko:틀:목록 축소]]
+[[lv:Veidne:Collapsible list]]
+[[mk:Шаблон:Расклопен список]]
+[[mr:साचा:Collapsible list]]
+[[no:Mal:Sammenleggbar liste]]
+[[ro:Format:Collapsible list]]
+[[ru:Шаблон:Collapsible list]]
+[[sk:Šablóna:Collapsible list]]
+[[sl:Predloga:Skrčljivi seznam]]
+[[sv:Mall:Hopfällbar lista]]
+[[uk:Шаблон:Collapsible list]]
+[[zh:Template:Collapsible list]]
+}}</includeonly>
