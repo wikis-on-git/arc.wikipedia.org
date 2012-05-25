@@ -1,3 +1,6 @@
 <span lang="{{#if: {{{2|}}}|{{{1}}}|und-Syrc}}" xml:lang="{{#if: {{{2|}}}|{{{1}}}|und-Syrc}}" title="Syriac Script" style="{{Script/Syriac/Scripts|{{#if: {{{2|}}}|{{{1}}}|Syrc}}}}">{{{2|{{{1}}}}}}</span><noinclude>
 [[Category:Multilingual support templates]]
+
+{{ܐܫܛܪܘܬܐ}}
+[[ܣܕܪܐ:ܩܠܒ̈ܐ]]
 </noinclude>
