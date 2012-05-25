@@ -1,0 +1,7 @@
+font-size: 1.3em; font-family:
+{{#switch: {{{1}}}
+ | Syre = 'Estrangelo Nisibin'
+ | Syrj = 'Serto Urhoy'
+ | Syrn = 'East Syriac Adiabene'
+| Syrc = sans-serif
+| sans-serif}};<noinclude>&lrm;</noinclude>
