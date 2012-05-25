@@ -13,10 +13,10 @@
 |orv-Cyrs = {{script/Slavonic|orv|{{{2}}}}}
 |sla-Cyrs = {{script/Slavonic|sla|{{{2}}}}}
 |Cyrs = {{script/Slavonic|sla|{{{2}}}}}
-|Syrc | Syriac = {{Script/Syriac|{{{2}}}}}
-|Syre | Estrangelo = {{Script/Syriac|Syre|{{{2}}}}}
-|Syrn | Madnhaya = {{Script/Syriac|Syrn|{{{2}}}}}
-|Syrj | Serto = {{Script/Syriac|Syrj|{{{2}}}}}
+|Syrc | ܣܘܪܝܝܐ = {{ܣܪܛܐ/ܣܘܪܝܝܐ|{{{2}}}}}
+|Syre | ܐܣܛܪܢܓܠܐ = {{ܣܪܛܐ/ܐܣܛܪܢܓܠܐ|Syre|{{{2}}}}}
+|Syrn | ܡܕܢܚܝܐ = {{ܣܪܛܐ/ܡܕܢܚܝܐ|Syrn|{{{2}}}}}
+|Syrj | ܣܪܛܐ = {{ܣܪܛܐ/ܣܪܛܐ|Syrj|{{{2}}}}}
 |#default=<span style="font-size:125%;{{#switch: {{{1}}}
  |Goth
  |Latf
