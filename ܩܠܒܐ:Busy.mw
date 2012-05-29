@@ -1,0 +1,6 @@
+{{tmbox
+|small = {{{small|}}}
+|image = [[Image:{{{image|Busy desk.svg}}}|{{#ifeq:{{{small|}}}|yes|40px|75x50px}}]]
+|text = {{{message|{{{1|This user}}} is {{{descriptor|busy}}} {{{2|in [[real life]]}}} {{#if:{{{end|}}}|until&nbsp;{{{end}}}&nbsp;}}{{#if:{{{reason|}}}|due to&nbsp;{{{reason}}}&nbsp;}}and may not respond swiftly to queries.{{#if:{{{msg|}}}|<P>{{{msg}}} }} }}}
+| style     = {{#if:{{{width|}}}|width: {{{width}}}px;}} {{#ifeq:{{{shadow}}}|yes|{{box-shadow|0px|2px|4px|rgba(0,0,0,0.2)}}|}}
+}}<noinclude>{{documentation}}<!---If anyone can find a better picture, please do so!---></noinclude>
