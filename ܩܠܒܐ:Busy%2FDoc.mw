@@ -1,0 +1,56 @@
+{{Documentation subpage}}
+
+=== Usage ===
+Use on user pages or user talk pages when people shouldn't expect them to be answered to quickly. When using simply <code><nowiki>{{busy}}</nowiki></code>, the template produces the message above
+
+=== Parameters ===
+
+There are two unnamed parameters. The first which replaces "this user" with the name placed.<br>
+IE <code><nowiki>{{busy|He}}</nowiki></code> produces
+{{busy|He}}
+The second unnamed parameter replaces "in real life" with whatever is put. Unfortunately, at the time being it requires for there to be something in the first parameter (DO NOT use <nowiki>{{busy||foo}}</nowiki>).<br>
+IE <code><nowiki>{{busy|This user|at [[school]]}}</nowiki></code> produces
+{{busy|This user|at [[school]]}}
+
+=== Optional parameters ===
+
+*'''reason''', use to specify a reason why you will be busy.<br>
+IE <code><nowiki>{{busy|reason=not being allowed to edit Wikipedia while at work,}}</nowiki></code> produces
+{{busy|reason=not being allowed to edit Wikipedia while at work,}}
+*'''end''', use to specify until when you will be busy.<br>
+IE <code><nowiki>{{busy|end=Monday evening (UTC)}}</nowiki></code> produces
+{{busy|end=Monday evening (UTC)}}
+*'''msg''' appends any custom message at the end.<br>
+IE <code><nowiki>{{busy|msg=April Fool!}}</nowiki></code> produces
+{{busy|msg=April Fool!}}
+*'''small''' will display the small version of this box,<br>
+IE <code><nowiki>{{busy|small=yes}}</nowiki></code> produces
+{{busy|small=yes}}
+
+{{-}}
+=== Sample using all parameters ===
+<code><nowiki>{{busy|Johnny Doe|at school|reason=school being compulsory|end=Saturday morning (EST)|msg=I won't be on for Saturday the 25th, though.}}</nowiki></code> produces
+
+{{busy|Johnny Doe|at school|reason=school being compulsory|end=Saturday morning (EST)|msg=I won't be on for Saturday the 25th, though.}}
+
+=== See also ===
+
+*{{tl|busy2}} - a different version of this template
+*[[Wikipedia:Wikibreak]] for other similar templates
+
+<includeonly>[[Category:wikibreak templates]]
+[[Category:User talk header templates|{{PAGENAME}}]]
+
+[[ar:قالب:مشغول]]
+[[ceb:Plantilya:Busy]]
+[[fa:الگو:کاربر مشغول]]
+[[fr:Modèle:Wikibreak débordé]]
+[[id:Templat:Pengguna sibuk]]
+[[kn:ಟೆಂಪ್ಲೇಟು:Busy]]
+[[ja:Template:Busy]]
+[[simple:Template:Busy]]
+[[th:แม่แบบ:ไม่ว่าง]]
+[[tl:Suleras:Busy]]
+[[zh-yue:Template:Busy]]
+[[zh:Template:Busy]]
+</includeonly>
