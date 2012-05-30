@@ -30,7 +30,7 @@
   | ¬ =   
     <!--"heading" not defined in this or previous level-->
     {{#switch: {{SUBJECTSPACE}} 
-    | {{ns:Template}} ='' {{ [[Image:Assyrianstar.svg|ܡܕܥ̈ܐ ܕܩܠܒܐ|25px|link=ܘܝܩܝܦܕܝܐ:ܐܫܛܪܘܬܐ ܕܩܠܒܐ]] }} ''ܐܫܛܪܘܬܐ ܕܩܠܒܐ
+    | {{ns:Template}} ='' {{ [[Image:Aramaic alap.png|ܡܕܥ̈ܐ ܕܩܠܒܐ|20px|link=ܘܝܩܝܦܕܝܐ:ܐܫܛܪܘܬܐ ܕܩܠܒܐ]] }} ''ܐܫܛܪܘܬܐ ܕܩܠܒܐ
     | {{ns:File}} = Summary
     | #default = ܐܫܛܪܘܬܐ
     }}
