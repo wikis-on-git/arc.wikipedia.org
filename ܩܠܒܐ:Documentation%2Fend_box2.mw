@@ -6,13 +6,13 @@
 | docpage = 
   {{#if: {{{1|}}}
   | {{{1|}}}
-  | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/doc
+  | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/شرح
   }}
 | doc exist = 
   {{#ifexist: 
     {{#if: {{{1|}}}
     | {{{1|}}}   <!--Other docname fed-->
-    | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/doc
+    | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/شرح
     }}
   | yes
   }}
@@ -22,15 +22,14 @@
   }}
 
 | sandbox = 
-  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/sandbox
+  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/ملعب
 | testcases = 
-  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/testcases
-
+  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/مختبر
 | template page = 
   {{NAMESPACE}}:{{{template page|{{PAGENAME}}}}}
 
 }}<noinclude>
 
-{{pp-template}}
+
 <!-- Add categories and interwikis to the /doc subpage, not here! -->
 </noinclude>
