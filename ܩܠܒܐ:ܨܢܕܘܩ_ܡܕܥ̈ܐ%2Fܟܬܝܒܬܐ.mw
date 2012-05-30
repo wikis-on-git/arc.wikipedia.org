@@ -1,0 +1,510 @@
+{{documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE. -->
+{{confused|Template:Userbox}}
+This template is intended as a meta-template: a template used for constructing other templates. It is not meant for use directly in an article, but can be used on a one-off basis if required. See [[Help:Infobox]] for an introduction to infoboxes and information on how to design them. See [[:Category:Infobox templates]] for specific infobox templates.
+
+=== ܡܦܠܚܬܐ ===
+Usage is similar to {{tl|navbox}}, but with an additional distinction. Each row on the table can contain either a header, or a label/data pair, or just a data cell. These are mutually exclusive states so if you define a row with both a header and a label/data pair, the label/data pair is ignored.
+
+To insert an image somewhere other than at the top of the infobox, or to insert freeform data, use a row with only a data field.
+
+==== Number ranges ====
+Row numbers may be from 1 to 80 (for situations where more than 80 rows are required, see [[#Embedding|Embedding]] below). To allow flexibility when the layout of an infobox is changed, it may be helpful when developing an infobox to use non-contiguous numbers for header and label/data rows. Parameters for new rows can then be inserted in future without having to renumber existing parameters. For example:
+<pre>|header3  = Section 1
+|label5   = Label A
+|data5    = Data B
+|label7   = Label C
+|data7    = Data C
+|header10 = Section 2
+|label12  = Label D
+|data12   = Data D</pre>
+
+=== Parameters ===
+====View/discuss/edit links====
+;name
+:If this parameter is present, "view/discuss/edit" links will be added to the bottom of the infobox, pointing to the named template. You can use <nowiki>{{subst:PAGENAME}}</nowiki>.
+
+:However this is rarely what you want, because it will send users clicking these links in an infobox in an article to the template code rather than the data in the infobox that they probably want to change.
+
+====Title====
+{{Infobox
+|title = Text in caption over infobox
+|subheader = Subheader of the infobox
+|data1 = (the rest of the infobox goes here)
+}}
+{{Infobox
+|above = Text in uppermost cell of infobox
+|subheader = Subheader of the infobox
+|subheader2 = Second subheader of the infobox
+|data1 = (the rest of the infobox goes here)
+}}
+
+There are two different ways to put a title on an infobox. One contains the title inside the infobox's border, the other puts it on top as a caption. You can use both of them together if you like, or just one or the other, or even neither (though this is not recommended).
+;title : Text to put in the caption over top of the table.
+;above : Text to put within the uppermost cell of the table.
+
+====Optional content====
+;subheader, subheader2 : additional title fields which fit below {{{title}}} and {{{above}}}.
+;image, image2 : images to display at the top of the template. Use full image syntax, for example <nowiki>[[File:example.png|200px|alt=Example alt text]]</nowiki>. Image is centered by default. See [[WP:ALT]] for more on alt text.
+;caption, caption2 : Text to put underneath the images.
+;header(n) : Text to use as a header in row n.
+;label(n): Text to use as a label in row n.
+;data(n): Text to display as data in row n.
+;below: Text to put in the bottom cell. The bottom cell is intended for footnotes, see-also, and other such information.
+;child: See the [[#Embedding|embedding]] section for details.
+
+Note: for any given value for (n), not all combinations of parameters are permitted. The presence of a {{para|header''(n)''}} will cause the corresponding {{para|data''(n)''}}{{para|label''(n)''}} (and {{para|rowclass''(n)''}}, see below) to be ignored; the absence of a {{para|data''(n)''}} will cause the corresponding {{para|label''(n)''}} to be ignored. Valid combinations for any single row are:
+*{{para|header''(n)''}} {{para|class''(n)''}}
+*{{para|data''(n)''}} {{para|rowclass''(n)''}} {{para|class''(n)''}}
+*{{para|label''(n)''}} {{para|data''(n)''}} {{para|rowclass''(n)''}} {{para|class''(n)''}}
+See the rendering of header4, label4, and data4 in the examples section below.
+
+====Optional CSS styling====
+;bodystyle : Applies to the infobox table as a whole
+;titlestyle : Applies only to the title caption. Adding a background color is usually inadvisable since the text is rendered "outside" the infobox.
+;abovestyle : Applies only to the "above" cell at the top. The default style has font-size:large; since this cell is usually used for a title, if you want to use the above cell for regular-sized text include "font-size:medium;" in the abovestyle.
+;imagestyle : Applies to the cell the image is in. This includes the text of the image caption, but you should set text properties with captionstyle instead of imagestyle in case the caption is moved out of this cell in the future.
+;captionstyle : Applies to the text of the image caption.
+;headerstyle : Applies to all header cells
+;labelstyle : Applies to all label cells
+;datastyle : Applies to all data cells
+;belowstyle : Applies only to the below cell
+
+==== HTML classes ====
+;bodyclass : This parameter is inserted into the "class" attribute for the infobox as a whole.
+;titleclass : This parameter is inserted into the "class" attribute for the infobox's title caption.
+;aboveclass : This parameter is inserted into the "class" attribute for the infobox's "above" cell.
+; aboverowclass : This parameter is inserted into the "class" attribute for the complete table row the "above" cell is on.
+; subheaderclass : This parameter is inserted into the "class" attribute for the infobox's subheader.
+; subheaderrowclass : This parameter is inserted into the "class" attribute for the complete table row the subheader is on.
+;imageclass : This parameter is inserted into the "class" attribute for the image; it is in particular used in conjunction with {{tl|Image class names}}.
+; imagerowclass1, imagerowclass2 : These parameters are inserted into the "class" attribute for the complete table row the respective images are on.
+;rowclass(n) : This parameter is inserted into the "class" attribute for the specified row '''including''' the label or other explanatory text.
+;class(n) : This parameter is inserted into the "class" attribute for the data cell of the specified row. If there's no data cell it has no effect.
+;belowclass : This parameter is inserted into the "class" attribute for the infobox's below cell.
+
+==== Microformats ====
+
+This template supports the addition of microformat information. This is done by adding "class" attributes to various data cells, indicating what kind of information is contained within. To flag an infobox as containing [[hCard]] information, for example, add the following parameter:
+
+<pre>
+|bodyclass = vcard
+</pre>
+
+And for each row containing a data cell that's part of the vcard, add a corresponding class parameter:
+
+<pre>
+|class1 = fn
+|class2 = org
+|class3 = tel
+</pre>
+
+...and so forth. "above" and "title" can also be given classes, since these are usually used to display the name of the subject of the infobox.
+
+See [[Wikipedia:WikiProject Microformats]] for more information on adding microformat information to Wikipedia, and [[microformat]] for more information on microformats in general.
+
+====Italic titles====
+Titles of articles with infoboxes may be made italic, in line with [[WP:ITALICTITLE]], by passing the <code>italic title</code> parameter.
+*Turn on italic titles by passing {{para|italic title|<nowiki>{{{italic title|}}}</nowiki>}} from the infobox.
+*Turn off by default but allow some instances to be made italic by passing {{para|italic title|<nowiki>{{{italic title|no}}}</nowiki>}}
+*Do not make any titles italic by not passing the parameter at all.
+
+===Making fields optional===
+A row with a label but no data is not displayed. This allows for the easy creation of optional infobox content rows. To make a row optional use a parameter that defaults to an empty string, like so:
+
+<pre>
+|label5 = Population
+|data5  = {{{population|}}}
+</pre>
+
+This way if an article doesn't define the population parameter in its infobox the row won't be displayed.
+
+For more complex fields with pre-formated contents that would still be present even if the parameter wasn't set, you can wrap it all in an "#if" statement to make the whole thing vanish when the parameter is not used. For instance, the "#if" statement in the following example reads "#if:the parameter ''mass'' has been supplied |then display it, followed by 'kg'":
+
+<pre>
+|label6 = Mass
+|data6  = {{#if:{{{mass|}}}|{{{mass}}} kg}}
+</pre>
+
+For more on #if, see [[meta:ParserFunctions##if:|here]].
+
+You can also make headers optional in a similar way. If you want a header to appear only if one or more of the data fields that fall under it are filled, one could use the following pattern as an example of how to do it:
+
+<pre style="overflow:auto;">{{Infobox
+|name    = {{subst:PAGENAME}}
+|title   = Example of an optional header
+|header1 = {{#if:{{{item_one|}}}{{{item_two|}}}{{{item_three|}}}|Optional header}}
+|label2  = Item one
+|data2   = {{{item_one|}}}
+|label3  = Item two
+|data3   = {{{item_two|}}}
+|label4  = Item three
+|data4   = {{{item_three|}}}
+}}</pre>
+
+header1 will be shown if any of item_one, item_two, or item_three is defined. If none of the three parameters are defined the header won't be shown.
+
+The trick to this is that the "if" returns false only if there is nothing whatsoever in the conditional section, so only if all three of item_one, item_two and item_three are undefined will the if statement fail.
+
+===Examples===
+{{Infobox
+|name         = Infobox/doc
+|bodystyle    = 
+|title        = Test Infobox
+|titlestyle   = 
+
+|image        = [[File:example.png|200px|alt=Example alt text]]
+|imagestyle   = 
+|caption      = Caption for example.png
+|captionstyle = 
+|headerstyle  = background:#ccf;
+|labelstyle   = background:#ddf;
+|datastyle    = 
+
+|header1 = Header defined alone
+|label1  = 
+|data1   = 
+|header2 = 
+|label2  = Label defined alone does not display (needs data, or is suppressed)
+|data2   = 
+|header3 =
+|label3  = 
+|data3   = Data defined alone
+|header4 = All three defined (header, label, data, all with same number)
+|label4  = does not display (same number as a header)
+|data4   = does not display (same number as a header)
+|header5 =
+|label5  = Label and data defined (label)
+|data5   = Label and data defined (data)
+
+|belowstyle = background:#ddf;
+|below = Below text
+}}
+
+<pre style="overflow:auto">{{Infobox
+|name         = Infobox/doc
+|bodystyle    = 
+|title        = Test Infobox
+|titlestyle   = 
+
+|image        = [[File:example.png|200px|alt=Example alt text]]
+|imagestyle   = 
+|caption      = Caption for example.png
+|captionstyle = 
+|headerstyle  = background:#ccf;
+|labelstyle   = background:#ddf;
+|datastyle    = 
+
+|header1 = Header defined alone
+|label1  = 
+|data1   = 
+|header2 = 
+|label2  = Label defined alone does not display (needs data, or is suppressed)
+|data2   = 
+|header3 =
+|label3  = 
+|data3   = Data defined alone
+|header4 = All three defined (header, label, data, all with same number)
+|label4  = does not display (same number as a header)
+|data4   = does not display (same number as a header)
+|header5 =
+|label5  = Label and data defined (label)
+|data5   = Label and data defined (data)
+
+|belowstyle = background:#ddf;
+|below = Below text
+}}</pre>
+
+Notice how when a label is defined without an accompanying data cell the row doesn't appear in the displayed infobox, and when a header is defined on the same row as a data cell all of them are displayed.
+
+{{clear}}
+For this example, {{nowrap|bodystyle &#0061; width:20em;}} and {{nowrap|labelstyle &#0061; width:33%;}}
+
+{{Infobox
+|bodystyle   = width:20em;
+|name        = Infobox/doc
+|title       = Test Infobox
+|titlestyle  = 
+|headerstyle = 
+|labelstyle  = width:33%
+|datastyle   = 
+
+|header1 = 
+|label1  = Label 1
+|data1   = Data 1
+|header2 = 
+|label2  = Label 2
+|data2   = Data 2
+|header3 = 
+|label3  = Label 3
+|data3   = Data 3
+|header4 = Header 4
+|label4  = 
+|data4   = 
+|header5 = 
+|label5  = Label 5
+|data5   = Data 5: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+|belowstyle = 
+|below = Below text
+}}
+<pre style="overflow: auto">
+{{Infobox
+|bodystyle   = width:20em;
+|name        = Infobox/doc
+|title       = Test Infobox
+|titlestyle  = 
+|headerstyle = 
+|labelstyle  = width:33%
+|datastyle   = 
+
+|header1 = 
+|label1  = Label 1
+|data1   = Data 1
+|header2 = 
+|label2  = Label 2
+|data2   = Data 2
+|header3 = 
+|label3  = Label 3
+|data3   = Data 3
+|header4 = Header 4
+|label4  = 
+|data4   = 
+|header5 = 
+|label5  = Label 5
+|data5   = Data 5: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+|belowstyle = 
+|below = Below text
+}}
+</pre>
+{{clear}}
+
+===Embedding===
+One infobox template can be embedded into another using the {{para|child}} parameter.  This feature can be used to create a modular infobox, or to create more well defined logical sections.
+{{Infobox
+| title = Top level title
+| data1 = {{Infobox
+  | child = yes
+  | title = First subsection
+  | label1= Label 1.1
+  | data1 = Data 1.1
+}}
+| data2 = {{Infobox
+  | child = yes
+  | title = Second subsection
+  | label1= Label 2.1
+  | data1 = Data 2.1
+}}
+|belowstyle = 
+|below = Below text
+}}
+<pre style="overflow:auto">
+{{Infobox
+| title = Top level title
+| data1 = {{Infobox
+  | child = yes
+  | title = First subsection
+  | label1= Label 1.1
+  | data1 = Data 1.1
+}}
+| data2 = {{Infobox
+  | child = yes
+  | title = Second subsection
+  | label1= Label 2.1
+  | data1 = Data 2.1
+}}
+|belowstyle = 
+|below = Below text
+}}
+</pre>
+Note, in the examples above, the child infobox is placed in a <code>data</code> field, not a <code>header</code> field.  The title will be enclosed in {{tag|b}} bold tags, which can create a "double bolding effect" in some browsers if the child infobox is placed in a <code>header</code> field.  To place the child infobox in a header field and avoid the double bolding effect, use
+{{Infobox
+| title = Top level title
+| header1 = First subsection
+  {{Infobox
+  | child = yes
+  | label1= Label 1.1
+  | data1 = Data 1.1
+}}
+| header2 = Second subsection
+  {{Infobox
+  | child = yes
+  | label1= Label 2.1
+  | data1 = Data 2.1
+}}
+|belowstyle = 
+|below = Below text
+}}
+<pre style="overflow:auto">
+{{Infobox
+| title = Top level title
+| header1 = First subsection
+  {{Infobox
+  | child = yes
+  | label1= Label 1.1
+  | data1 = Data 1.1
+}}
+| header2 = Second subsection
+  {{Infobox
+  | child = yes
+  | label1= Label 2.1
+  | data1 = Data 2.1
+}}
+|belowstyle = 
+|below = Below text
+}}
+</pre>
+
+=== Full blank syntax ===
+(Note: the template currently handles up to 80 rows; only 20 are included here since infoboxes larger than that will be relatively rare. Just extend the numbering as needed. The microformat "class" parameters are also omitted as they are not commonly used.)
+
+<pre style="overflow:auto;">
+{{Infobox
+|name         = {{subst:PAGENAME}}
+|bodystyle    = 
+|title        = 
+|titlestyle   = 
+|above        = 
+|abovestyle   = 
+
+|imagestyle   = 
+|captionstyle = 
+
+|image        = 
+|caption      = 
+|image2       = 
+|caption2     = 
+
+|headerstyle  = 
+|labelstyle   = 
+|datastyle    = 
+
+|header1  = 
+|label1   = 
+|data1    = 
+|header2  = 
+|label2   = 
+|data2    = 
+|header3  = 
+|label3   = 
+|data3    = 
+|header4  = 
+|label4   = 
+|data4    = 
+|header5  = 
+|label5   = 
+|data5    = 
+|header6  = 
+|label6   = 
+|data6    = 
+|header7  = 
+|label7   = 
+|data7    = 
+|header8  = 
+|label8   = 
+|data8    = 
+|header9  = 
+|label9   = 
+|data9    = 
+|header10 = 
+|label10  = 
+|data10   = 
+|header11 = 
+|label11  = 
+|data11   = 
+|header12 = 
+|label12  = 
+|data12   = 
+|header13 = 
+|label13  = 
+|data13   = 
+|header14 = 
+|label14  = 
+|data14   = 
+|header15 = 
+|label15  = 
+|data15   = 
+|header16 = 
+|label16  = 
+|data16   = 
+|header17 = 
+|label17  = 
+|data17   = 
+|header18 = 
+|label18  = 
+|data18   = 
+|header19 = 
+|label19  = 
+|data19   = 
+|header20 = 
+|label20  = 
+|data20   = 
+
+|belowstyle =
+|below = 
+}}</pre>
+
+=== Porting to other MediaWikis ===
+The infobox template requires the tidy extension to be installed, and may not work with other MediaWikis. The [[Wikipedia:WikiProject Transwiki]] has a version of Infobox that has been modified to work on other MediaWikis.
+
+=== See also ===
+* {{tl|infobox3cols}}
+
+<includeonly>{{#ifeq:{{SUBPAGENAME}}|sandbox||
+[[Category:Infobox templates| ]]
+[[Category:Templates generating microformats]]
+[[Category:Wikipedia metatemplates|Infobox]]
+
+[[ar:قالب:قالب معلومات]]
+[[be:Шаблон:Картка]]
+[[be-x-old:Шаблён:Картка]]
+[[bg:Шаблон:Infobox]]
+[[bn:টেমপ্লেট:তথ্যছক]]
+[[bs:Šablon:Infokutija]]
+[[cs:Šablona:Infobox]]
+[[cy:Nodyn:Gwybodlen3]]
+[[da:Skabelon:Infoboks-en]]
+[[de:Vorlage:Infobox]]
+<!-- [[en:Template:Infobox]] -->
+[[el:Πρότυπο:Πλαίσιο πληροφοριών]]
+[[et:Mall:Infobox]]
+[[es:Plantilla:Ficha]]
+[[eo:Ŝablono:Informkesto]]
+[[fa:الگو:دادان]]
+[[fi:Malline:Tietolaatikko]]
+[[fr:Modèle:Infobox]]
+[[hsb:Předłoha:Infokašćik]]
+[[hy:Կաղապար:Տեղեկաքարտ]]
+[[id:Templat:Infobox]]
+[[ia:Patrono:Infobox]]
+[[os:Шаблон:Infobox]]
+[[it:Template:Infobox]]
+[[is:Snið:Infobox]]
+[[ltg:Taiss:Infoskreine]]
+[[lv:Veidne:Infobox]]
+[[mhr:Кышкар:Аҥа]]
+[[mk:Шаблон:Infobox]]
+[[no:Mal:Infoboks]]
+[[ja:Template:Infobox]]
+[[hu:Sablon:Infobox]]
+[[csb:Szablóna:Infobox]]
+[[ko:틀:정보상자]]
+[[ka:თარგი:ინფოდაფა]]
+[[km:ទំព័រគំរូ:ប្រអប់​ព័ត៌មាន]]
+[[nn:Mal:Infoboks]]
+[[pt:Predefinição:Info]]
+[[si:සැකිල්ල:තොරතුරුකොටුව]]
+[[ro:Format:Infobox]]
+[[ru:Шаблон:Карточка]]
+[[sk:Šablóna:Infobox]]
+[[sl:Predloga:Infopolje]]
+[[sv:Mall:Infobox]]
+[[th:แม่แบบ:กล่องข้อมูล]]
+[[tpi:Template:Infobok]]
+[[tr:Şablon:Bilgi kutusu]]
+[[uk:Шаблон:Картка]]
+[[ur:Template:Infobox]]
+[[vi:Bản mẫu:Infobox]]
+[[zh:Template:Infobox]]
+}}</includeonly>
