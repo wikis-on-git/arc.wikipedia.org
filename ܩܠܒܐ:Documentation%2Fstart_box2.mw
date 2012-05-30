@@ -1,36 +1,22 @@
-{{documentation/end box
+{{documentation/start box
 | preload = {{{preload|}}}   <!--Allow custom preloads-->
+| heading = {{{heading|¬}}}   <!--Empty but defined means no header-->
+| heading-style = {{{heading-style|}}}
 | content = {{{content|}}}
-| link box = {{{link box|}}}   <!--So "link box=off" works-->
 
 | docpage = 
   {{#if: {{{1|}}}
   | {{{1|}}}
-  | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/doc
+  | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/ܦܘܫܩܐ
   }}
+
 | doc exist = 
   {{#ifexist: 
     {{#if: {{{1|}}}
     | {{{1|}}}   <!--Other docname fed-->
-    | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/doc
+    | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/ܦܘܫܩܐ
     }}
   | yes
   }}
-| docname fed =
-  {{#if: {{{1|}}}
-  | yes
-  }}
 
-| sandbox = 
-  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/sandbox
-| testcases = 
-  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/testcases
-
-| template page = 
-  {{NAMESPACE}}:{{{template page|{{PAGENAME}}}}}
-
-}}<noinclude>
-
-{{pp-template}}
-<!-- Add categories and interwikis to the /doc subpage, not here! -->
-</noinclude>
+}}
