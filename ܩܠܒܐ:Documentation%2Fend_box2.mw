@@ -6,13 +6,13 @@
 | docpage = 
   {{#if: {{{1|}}}
   | {{{1|}}}
-  | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/شرح
+  | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/ܦܘܫܩܐ
   }}
 | doc exist = 
   {{#ifexist: 
     {{#if: {{{1|}}}
     | {{{1|}}}   <!--Other docname fed-->
-    | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/شرح
+    | {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/ܦܘܫܩܐ
     }}
   | yes
   }}
@@ -22,9 +22,9 @@
   }}
 
 | sandbox = 
-  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/ملعب
+  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/ܡܠܥܒܐ
 | testcases = 
-  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/مختبر
+  {{{docspace|{{NAMESPACE}}}}}:{{{template page|{{PAGENAME}}}}}/ܒܝܬ ܢܣܝܢܐ
 | template page = 
   {{NAMESPACE}}:{{{template page|{{PAGENAME}}}}}
 
