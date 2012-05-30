@@ -1,0 +1,7 @@
+__NOTOC__<includeonly>{{#ifeq: {{lc:{{SUBPAGENAME}}}} | {{{override|ܦܘܫܩܐ}}} |
+</includeonly><div class="messagebox" id="template_doc_page_viewed_directly" style="text-align: right">
+'''ܗܢܐ ܦܐܬܐ [[ܘܝܩܝܦܕܝܐ:ܐܫܛܪܘܬܐ ܕܩܠܒܐ|ܕܐܫܛܪܘܬܐ]] [[ܘܝܩܝܦܕܝܐ:ܦܐܬܐ ܦܥܘܝܬܐ|ܦܥܘܝܬܐ]] ܗܦܟܐ ܠ {{{1|[[{{SUBJECTSPACE}}:{{BASEPAGENAME}}]]}}}.'''<br />ܐܝܬ ܒܗ݁ ܗܢܐ ܦܐܬܐ ܡܕܥ̈ܐ ܘ [[ܘܝܩܝܦܕܝܐ:ܣܕܪ̈ܐ|ܣܕܪܬܐ]] ܘܚܒܝܫܬ̈ܐ ܐܚܪܝܢ̈ܐ ܗܦܟ̈ܐ ܠܦܘܫܩܐ ܕܩܠܒܐ ܘܗܢܘܢ ܠܐ ܐܢܘܢ ܡܢܬܐ ܡܢܗ.<br /><span style="font-size:0.9em;">ܠܚܘܝܬܐ ܕܦܐܬܐ ܕ{{lc:{{NAMESPACE}}}} ܒܓܢܗ، ܚܙܝ {{{1|[[{{SUBJECTSPACE}}:{{BASEPAGENAME}}]]}}}.</span></div>
+{{DEFAULTSORT:{{PAGENAME}}}}{{#if:{{{inhibit|}}}|<!-- skip -->|[[ܣܕܪܐ:ܦܐܬ̈ܐ ܕܐܫܛܪܘܬܐ ܦܥܘܝܬܐ<noinclude>| </noinclude>]]}}
+<includeonly>}}</includeonly><noinclude>
+{{ܐܫܛܪܘܬܐ}}
+</noinclude>
