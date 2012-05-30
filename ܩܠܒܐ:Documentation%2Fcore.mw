@@ -1,54 +1,4 @@
-<!--
-  Start of green doc box
---><div id="template-documentation" class="template-documentation iezoomfix"><!--
-  Add the heading at the top of the doc box:
--->{{#ifeq: {{{heading|¬}}} | <!--Defined but empty-->
-| <!--"heading=", do nothing-->
-| <div style="padding-bottom: 3px; border-bottom: 1px solid #aaa; margin-bottom: 1ex;">{{
-  #if: {{{content|}}}
-  | 
-  | <!--Add the [edit][purge] or [create] links-->
-    <span class="editsection plainlinks" id="doc_editlinks">{{
-    #if: {{{doc exist|yes}}}
-    | [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=edit}} ܫܚܠܦ]] [{{purge|ܕܟܝܐ}}] 
-    | <!--/doc doesn't exist-->
-      [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}| action=edit&preload={{
-        #ifeq: {{SUBJECTSPACE}} | {{ns:File}}
-        | Template:Documentation/preload-filespace
-        | Template:Documentation/preload
-        }} }} ܒܪܝ]]
-    }}</span>
-  }} <span style="{{#if: {{{heading-style|}}}
-  | {{{heading-style|}}}
-  | {{#ifeq: {{SUBJECTSPACE}} | {{ns:Template}}
-    | font-weight: bold; font-size: 125%
-    | font-size: 150%
-    }}
-  }}">{{#switch: {{{heading|¬}}}
-  | ¬ =   
-    <!--"heading" not defined in this or previous level-->
-    {{#switch: {{SUBJECTSPACE}} 
-    | {{ns:Template}} = [[Image:Template-info.svg|50px|alt=]] ܩܠܒܐ ܕܐܫܛܪܘܬܐ
-    | {{ns:File}} = ܚܘܠܨܐ
-    | #default = ܐܫܛܪܘܬܐ
-    }}
-  | #default = 
-    <!--"heading" has data or is empty but defined-->
-    {{{heading|}}}
-  }}</span></div>
-}}<!--
-  Load the /doc content:
-  Note: The line breaks between this comment and the if-case
-  and between the if-case and the following div are necessary so 
-  "=== Headings ===" at the start and end of docs are interpreted.
--->
-{{#if: {{{content|}}}
-| {{{content|}}}
-| {{#if: {{{doc exist|yes}}}
-  | {{ {{{docpage|{{FULLPAGENAME}}/doc}}} }}
-  }}
-}}
-<div style="clear: both;"></div><!--So right or left floating items don't stick out of the doc box.-->
+<noinclude><div></noinclude><div style="clear: both;"></div><!--So right or left floating items don't stick out of the doc box.-->
 </div><!--End of green doc box--><!--
   Link box below for the doc meta-data:
 -->{{#if: 
@@ -66,46 +16,44 @@
   | id = documentation-meta-data
   | image = none
   | style = background-color: #ecfcf4;
-<!--  | textstyle = font-style: italic; -->
+  | textstyle = font-size: 90%;
   | text = 
     {{#if: {{{link box|}}}
     | {{{link box}}}   <!--Use custom link box content-->
     | {{#if: {{{doc exist|yes}}}
       | <!--/doc exists, link to it-->
-ܠܥܠ [[:en:Wikipedia:Template documentation|ܣܕܪܐ]] ܦܐܬܐ [[{{{docpage|{{FULLPAGENAME}}/doc}}}]] ܡܢ [[:en:Wikipedia:Transclusion|ܡܬܟܪܟܢܐ]] ܐܫܬܡܠܐ۔ <small style="font-style: normal">([{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=edit}} ܫܚܠܦ] &#124; [{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=history}} ܬܫܥܝܬܐ])</small> <br>
+        [[ܘܝܩܝܦܕܝܐ:ܐܫܛܪܘܬܐ ܕܩܠܒܐ|ܐܫܛܪܘܬܐ]] ܠܥܠ [[ܘܝܩܝܦܕܝܐ:ܚܒܫܝܬ̈ܐ|ܚܒܫܬܐ]] ܡܢ [[{{{docpage|{{FULLPAGENAME}}/ܦܘܫܩܐ}}}]]. <small style="font-style: normal">([{{fullurl:{{{docpage|{{FULLPAGENAME}}/ܦܘܫܩܐ}}}|action=edit}} ܫܚܠܦ] &#124; [{{fullurl:{{{docpage|{{FULLPAGENAME}}/ܦܘܫܩܐ}}}|action=history}} ܣܝܩܘܡ])</small> <br>
       }}<!-- 
         Add links to /sandbox and /testcases when appropriate:
    -->{{#switch: {{SUBJECTSPACE}}
       | {{ns:User}}
       | {{ns:Template}} = 
-ܟܬܒܢ̈ܐ ܐܝܬ ܒܗ ܡܨܚܨܗ ܒܐܗܐ ܩܠܒܐ {{
-        #ifexist: {{{sandbox| {{FULLPAGENAME}}/sandbox }}}
-        | [[{{{sandbox| {{FULLPAGENAME}}/sandbox }}}|sandbox ]] <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/sandbox }}} | action=edit }} ܫܚܠܦ] {{!}} [{{fullurl:Wikipedia:pagediff | withJS={{urlencode:MediaWiki:Common.js/pagediff.js}}&oldpage={{urlencode:{{{template page|{{FULLPAGENAME}}}}}}}&newpage={{urlencode:{{{sandbox|{{FULLPAGENAME}}/sandbox}}}}}}} ܦܘܪܫܢܐ])</small> 
-        | sandbox <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/sandbox }}} | action=edit&preload=Template:Documentation/preload-sandbox }} ܒܪܝ ])</small> 
-        }} ܘܝܬܝܪ {{
-        #ifexist: {{{testcases| {{FULLPAGENAME}}/testcases }}}
-        | [[{{{testcases| {{FULLPAGENAME}}/testcases }}}|ܨܚܨܝ ܐܝܟܢܝܘܬܐ]] <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/testcases }}} | action=edit }} ܫܚܠܦ])</small>
-        | ܨܚܨܝ ܐܝܟܢܝܘܬܐ <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/testcases }}} | action=edit&preload=Template:Documentation/preload-testcases }} ܒܪܝ])</small>
-        }} Show the cats and interwiki text, but not 
-        if "content" fed or "docname fed" since then it is 
-        unclear where to add the cats and interwikis.۔ <br>
+       ܡܫܟܚ ܐܢܬ [[ܘܝܩܝܦܕܝܐ:ܡܠܥܒ̈ܐ ܕܩܠܒ̈ܐ ܘܒܝܬ ܢܣܝܘܢܗ̈ܝ|ܬܢܣܝܢ]] ܟܠ ܫܘܚܠܦܐ ܒܓܘ ܩܠܒܐ ܒܓܘ {{
+        #ifexist: {{{sandbox| {{FULLPAGENAME}}/ܡܠܥܒܐ }}}
+        | [[{{{sandbox| {{FULLPAGENAME}}/ܡܠܥܒܐ }}}|ܡܠܥܒܐ]] <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/ܡܠܥܒܐ }}} | action=edit }} ܫܚܠܦ] {{!}} [{{fullurl:Wikipedia:pagediff | withJS={{urlencode:MediaWiki:Common.js/pagediff.js}}&oldpage={{urlencode:{{{template page|{{FULLPAGENAME}}}}}}}&newpage={{urlencode:{{{sandbox|{{FULLPAGENAME}}/ܡܠܥܒܐ}}}}}}} ܫܘܚܠܦܐ])</small> 
+        | ܡܠܥܒܐ <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/ܡܠܥܒܐ }}} | action=edit&preload=Template:Documentation/preload-sandbox }} ܒܪܝ])</small> 
+        }} ܕܝܢ [[ܘܝܩܝܦܕܝܐ:ܒܝܬ ܢܣܝܢܐ ܕܩܠܒ̈ܐ ܘܒܝܬ ܢܣܝܢܗ̈ܝ|ܢܣܝܢ]] ܡܬܦܠܚ ܒܓܘ {{
+        #ifexist: {{{testcases| {{FULLPAGENAME}}/ܒܝܬ ܢܣܝܢܐ }}}
+        | [[{{{testcases| {{FULLPAGENAME}}/ܒܝܬ ܢܣܝܢܐ }}}|ܒܝܬ ܢܣܝܢܐ]] <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/ܒܝܬ ܢܣܝܢܐ }}} | action=edit }} ܫܚܠܦ])</small>
+        | ܒܝܬ ܢܣܝܢܐ <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/ܒܝܬ ܢܣܝܢܐ }}} | action=edit&preload=Template:Documentation/preload-testcases }} ܒܪܝ])</small>
+        }}. <br>
       }}<!--
         Show the cats and interwiki text, but not 
         if "content" fed or "docname fed" since then it is 
         unclear where to add the cats and interwikis.
    -->{{#if: {{{content|}}} {{{docname fed|}}}
       | 
-      | Please add categories and interwikis to the [[{{{docpage|{{FULLPAGENAME}}/doc}}}|/doc]]  ۔
+      | ܦܩܕ ܐܘܣܦ ܣܕܪ̈ܐ ܘܐܝܨܘܪ̈ܐ ܕܐܢܛܪܘܝܩܝ ܠܦܐܬܐ [[{{{docpage|{{FULLPAGENAME}}/ܦܘܫܩܐ}}}|/ܦܘܫܩܐ]] ܦܥܘܝܬܐ.
       }}<!--
         Show the "Subpages" link:
    -->{{#switch: {{SUBJECTSPACE}}
       | {{ns:File}} =   <!--Don't show it-->
-      | {{ns:Template}} = &#32;[[Special:PrefixIndex/{{{template page|{{FULLPAGENAME}}}}}/|Subpages of this template]]۔
-      | #default = &#32;[[Special:PrefixIndex/{{{template page|{{FULLPAGENAME}}}}}/|Subpages of this page]]۔
+      | {{ns:Template}} = &#32;[[Special:PrefixIndex/{{{template page|{{FULLPAGENAME}}}}}/|ܦܐܬ̈ܐ ܕܩܠܒܐ ܦܥܘܝ̈ܐ]].
+      | #default = &#32;[[Special:PrefixIndex/{{{template page|{{FULLPAGENAME}}}}}/|ܦܐܬܐ ܦܥܘܝܬܐ]].
       }}
-    }}{{#ifexist:{{FULLPAGENAME}}/Print
-     |</br>A [[Help:Books/for experts#Improving the book layout|print version]] of this template exists at [[/Print]]. If you make a change to this template, please update the print version as well.[[Category:Templates with print versions]]
-    }}
+    }}{{#ifexist:{{FULLPAGENAME}}/ܛܒܥܬܐ
+     |</br>ܠܗܢܐ ܩܠܒܐ [[:en:Help:Books/for experts#Improving the book layout|ܐܨܚܬܐ ܕܛܒܥܬܐ]] ܒܓܘ ܦܐܬܐ [[/ܛܒܥܬܐ]]. ܐܢ ܐܢܬ ܫܚܠܦܬ ܒܓܘܗܝ ܫܚܠܦ ܐܨܚܬܐ ܕܛܒܥܐ ܐܦ ܗܝ.[[ܣܕܪܐ:ܩܠܒ̈ܐ]]
+    }}{{#ifexist:{{FULLPAGENAME}}/Print|&ensp;(<s>[[/Print]]</s>)}}
   }}
 }}<!--End link box--><!--
 
@@ -123,8 +71,4 @@
 
 | <includeonly>[[Category:Wikipedia pages with strange ((documentation)) usage|{{main other|Main:}}{{FULLPAGENAME}}]]<!-- Sort on namespace --></includeonly>
 
-}}<noinclude>
-
-{{pp-template}}
-<!-- Add categories and interwikis to the /doc subpage, not here! -->
-</noinclude>
+}}
