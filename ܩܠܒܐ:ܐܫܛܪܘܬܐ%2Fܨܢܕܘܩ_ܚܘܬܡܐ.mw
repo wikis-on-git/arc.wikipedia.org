@@ -28,14 +28,14 @@
    -->{{#switch: {{SUBJECTSPACE}}
       | {{ns:User}}
       | {{ns:Template}} = 
-       ܡܫܟܚ ܐܢܬ [[ܘܝܩܝܦܕܝܐ:ܡܠܥܒ̈ܐ ܕܩܠܒ̈ܐ ܘܒܝܬ ܢܣܝܘܢܗ̈ܝ|ܬܢܣܝܢ]] ܟܠ ܫܘܚܠܦܐ ܒܓܘ ܩܠܒܐ ܒܓܘ {{
+       ܡܫܟܚ ܐܢܬ [[ܘܝܩܝܦܕܝܐ:ܡܠܥܒ̈ܐ ܕܩܠܒ̈ܐ ܘܒܝܬ ܢܘܣܝ̈ܐ|ܢܣܝܢ]] ܟܠ ܫܘܚܠܦܐ ܒܓܘ ܩܠܒܐ ܒܓܘ {{
         #ifexist: {{{sandbox| {{FULLPAGENAME}}/ܡܠܥܒܐ }}}
         | [[{{{sandbox| {{FULLPAGENAME}}/ܡܠܥܒܐ }}}|ܡܠܥܒܐ]] <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/ܡܠܥܒܐ }}} | action=edit }} ܫܚܠܦ] {{!}} [{{fullurl:Wikipedia:pagediff | withJS={{urlencode:MediaWiki:Common.js/pagediff.js}}&oldpage={{urlencode:{{{template page|{{FULLPAGENAME}}}}}}}&newpage={{urlencode:{{{sandbox|{{FULLPAGENAME}}/ܡܠܥܒܐ}}}}}}} ܫܘܚܠܦܐ])</small> 
         | ܡܠܥܒܐ <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/ܡܠܥܒܐ }}} | action=edit&preload=Template:Documentation/preload-sandbox }} ܒܪܝ])</small> 
-        }} ܕܝܢ [[ܘܝܩܝܦܕܝܐ:ܒܝܬ ܢܣܝܢܐ ܕܩܠܒ̈ܐ ܘܒܝܬ ܢܣܝܢܗ̈ܝ|ܢܣܝܢ]] ܡܦܠܚܬܗ ܒܓܘ {{
-        #ifexist: {{{testcases| {{FULLPAGENAME}}/ܒܝܬ ܢܣܝܢܐ }}}
-        | [[{{{testcases| {{FULLPAGENAME}}/ܒܝܬ ܢܣܝܢܐ }}}|ܒܝܬ ܢܣܝܢܐ]] <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/ܒܝܬ ܢܣܝܢܐ }}} | action=edit }} ܫܚܠܦ])</small>
-        | ܒܝܬ ܢܣܝܢܐ <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/ܒܝܬ ܢܣܝܢܐ }}} | action=edit&preload=Template:Documentation/preload-testcases }} ܒܪܝ])</small>
+        }} ܕܝܢ [[ܘܝܩܝܦܕܝܐ:ܡܠܥܒ̈ܐ ܕܩܠܒ̈ܐ ܘܒܝܬ ܢܘܣܝ̈ܐ|ܢܣܝܢ]] ܡܦܠܚܬܗ ܒܓܘ {{
+        #ifexist: {{{testcases| {{FULLPAGENAME}}/ܒܝܬ ܢܘܣܝܐ }}}
+        | [[{{{testcases| {{FULLPAGENAME}}/ܒܝܬ ܢܘܣܝܐ }}}|ܒܝܬ ܢܘܣܝܐ]] <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/ܒܝܬ ܢܘܣܝܐ }}} | action=edit }} ܫܚܠܦ])</small>
+        | ܒܝܬ ܢܘܣܝܐ <small style="font-style: normal">([{{fullurl: {{{testcases| {{FULLPAGENAME}}/ܒܝܬ ܢܘܣܝܐ }}} | action=edit&preload=Template:Documentation/preload-testcases }} ܒܪܝ])</small>
         }}. <br>
       }}<!--
         Show the cats and interwiki text, but not 
