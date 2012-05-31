@@ -28,7 +28,7 @@
    -->{{#switch: {{SUBJECTSPACE}}
       | {{ns:User}}
       | {{ns:Template}} = 
-       ܡܫܟܚ ܐܢܬ [[ܘܝܩܝܦܕܝܐ:ܡܠܥܒ̈ܐ ܕܩܠܒ̈ܐ ܘܒܝܬ ܢܘܣܝ̈ܐ|ܢܣܝܢ]] ܟܠ ܫܘܚܠܦܐ ܒܓܘ ܩܠܒܐ ܒܓܘ {{
+       ܡܫܟܚ ܐܢܬ [[ܘܝܩܝܦܕܝܐ:ܡܠܥܒ̈ܐ ܕܩܠܒ̈ܐ ܘܒܝܬ ܢܘܣܝ̈ܐ|ܬܢܣܝܢ]] ܟܠ ܫܘܚܠܦܐ ܒܓܘ ܩܠܒܐ ܒܓܘ {{
         #ifexist: {{{sandbox| {{FULLPAGENAME}}/ܡܠܥܒܐ }}}
         | [[{{{sandbox| {{FULLPAGENAME}}/ܡܠܥܒܐ }}}|ܡܠܥܒܐ]] <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/ܡܠܥܒܐ }}} | action=edit }} ܫܚܠܦ] {{!}} [{{fullurl:Wikipedia:pagediff | withJS={{urlencode:MediaWiki:Common.js/pagediff.js}}&oldpage={{urlencode:{{{template page|{{FULLPAGENAME}}}}}}}&newpage={{urlencode:{{{sandbox|{{FULLPAGENAME}}/ܡܠܥܒܐ}}}}}}} ܫܘܚܠܦܐ])</small> 
         | ܡܠܥܒܐ <small style="font-style: normal">([{{fullurl: {{{sandbox| {{FULLPAGENAME}}/ܡܠܥܒܐ }}} | action=edit&preload=Template:Documentation/preload-sandbox }} ܒܪܝ])</small> 
