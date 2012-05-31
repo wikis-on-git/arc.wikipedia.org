@@ -1,4 +1,6 @@
-<table class="infobox bordered vcard" style="width: 22em; font-size: 88%; text-align: right; line-height: 1.5em">
+<div style="float: left; border: 1px solid #ccd2d9; background: #f9f9f9; padding: 0.5em 0.5em 0.5em 0.5em; margin-right: 1em;">
+
+<table class="infobox bordered vcard" style="width: 22em; font-size:95%; text-align: right; line-height: 1.5em">
 
 <tr><th class="entete map" colspan="3" style="text-align: center; background-color: #285F27; color: white; font-size: larger;">{{PAGENAME}}</th></tr>
 {{
