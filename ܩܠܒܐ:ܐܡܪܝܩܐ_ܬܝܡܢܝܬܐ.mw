@@ -1,9 +1,9 @@
-{{navbox
+{{Navbox
 |name   = {{{ܫܡܐ|ܐܡܪܝܩܐ ܬܝܡܢܝܬܐ}}}
 | image = {{{ܨܘܪܬܐ|[[ܠܦܦܐ:SouthAmericaLocation.svg|200px]]}}}
 |state  = <includeonly>{{{state|autocollapse}}}</includeonly><noinclude>expanded</noinclude>
-|title  = {{#if:{{{ܬܚܘܝܬܐ|}}}
-            | {{{ܬܚܘܝܬܐ}}}
+|title  = {{#if:{{{ܟܘܢܝܐ|}}}
+            | {{{ܟܘܢܝܐ}}}
             | {{#ifexist:{{{1|{{{ܩܕܡ|}}}}}}_ܐܡܪܝܩܐ_ܬܝܡܢܝܬܐ{{{2|_{{{ܒܬܪ|}}}}}}
                 | [[{{{1|{{{ܩܕܡ|}}}}}} ܐܡܪܝܩܐ ܬܝܡܢܝܬܐ{{{2| {{{ܒܬܪ|}}}}}}]]
                 |   {{{1|{{{ܩܕܡ|}}}}}} ܐܡܪܝܩܐ ܬܝܡܢܝܬܐ{{{2| {{{ܒܬܪ|}}}}}}
@@ -11,7 +11,7 @@
           }}
 |border = {{{border|}}}
 |groupstyle = padding:0.35em 1.0em; line-height:1.1em; <!--reduces wide gap between wrapped groupname lines-->
-|liststyle  = font-size:1.10em;
+|liststyle  = font-size:0.95em;
  
 |above = '' ܚܕܟܡܐ ܡܢ ܐܬܪܘܬܐ ܕܣܕܝܪܝܢܐ ܐܬܚܫܝܒܬ ܫܘܬܦܐ ܒܝܢܬ ܬܪܬܝܢ ܐܡܪ̈ܝܩܐ ܓܪܒܝܬܐ ܘܬܝܡܢܝܬܐ ܐܘ ܡܢ ܐܬܪܘܬܐ ܕܩܐܪܝܒܝ.''
 
@@ -40,7 +40,7 @@
  }}
 <!--end #if:-->}}
 }}<noinclude>
-{{ܚܬܝܬܘܬܐ}}
+{{ܐܫܛܪܘܬܐ}}
 [[ܣܕܪܐ:ܩܠܒܐ ܕܝܒܝܫܝܬܐ|{{PAGENAME}}]]
 [[ܣܕܪܐ:ܩܠܒܐ ܕܐܬܪܘܬܐ|{{PAGENAME}}]]
 </noinclude>
