@@ -1,0 +1,86 @@
+<table class="infobox bordered vcard" style="width: 22em; font-size: 88%; text-align: right; line-height: 1.5em">
+
+<tr><th class="entete map" colspan="3" style="text-align: center; background-color: #285F27; color: white; font-size: larger;">{{PAGENAME}}</th></tr>
+{{
+#if: {{{ܡܦܐ|}}} {{{ܡܦܐ<includeonly>|</includeonly>}}} |
+<tr><td colspan="3" style="text-align: center; background-color: #FFFFFF;">[[Image:{{{ܡܦܐ|{{{ܡܦܐ}}}}}}| {{px|{{{ܡܘܩܕܪܐ_ܕܡܦܐ|}}}|{{{ܡܘܩܕܪܐ_ܕܡܦܐ|}}}|250}} |]]</td></tr>
+}}
+<tr><th colspan="2">ܫܛܚܐ</th><td>{{{ܫܛܚܐ}}}</td></tr>
+{{
+#if: {{{ܡܢܝܢܐ ܕܫܟܝܢ̈ܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܡܢܝܢܐ ܕܫܟܝܢ̈ܐ</th><td>{{{ܡܢܝܢܐ ܕܫܟܝܢ̈ܐ}}}</td></tr>
+}}{{
+#if: {{{ܟܘܫܝܐ ܕܟܢܫܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܟܘܫܝܐ ܕܟܢܫܐ</th><td>{{{ܟܘܫܝܐ ܕܟܢܫܐ}}}</td></tr>
+}}{{
+#if: {{{ܟܘܢܝܐ ܕܐܬܪ̈ܝܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܟܘܢܝܐ ܕܐܬܪ̈ܝܐ</th><td>{{{ܟܘܢܝܐ ܕܐܬܪ̈ܝܐ}}}</td></tr>
+}}{{
+#if: {{{ܡܦܠܓܝܬܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܡܦܠܓܝܬܐ</th><td>{{{ܡܦܠܓܝܬܐ}}}</td></tr>
+}}{{
+#if: {{{ܐܬܪ̈ܘܬܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܐܬܪ̈ܘܬܐ</th><td>{{{ܐܬܪ̈ܘܬܐ}}}</td></tr>
+}}{{
+#if: {{{ܐܬܪ̈ܘܬܐ ܬܒܝܥ̈ܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܐܬܪ̈ܘܬܐ ܬܒܝܥ̈ܐ</th><td>{{{ܐܬܪ̈ܘܬܐ ܬܒܝܥ̈ܐ}}}</td></tr>
+}}{{
+#if: {{{ܐܬܪ̈ܘܬܐ ܠܐ ܡܘܕܝܐ ܒܗܘܢ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܐܬܪ̈ܘܬܐ ܠܐ ܡܘܕܝܐ ܒܗܘܢ</th><td>{{{ܐܬܪ̈ܘܬܐ ܠܐ ܡܘܕܝܐ ܒܗܘܢ}}}</td></tr>
+}}{{
+#if: {{{ܐܬܪ̈ܘܬܐ ܚܓܝܪ̈ܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܐܬܪ̈ܘܬܐ ܚܓܝܪ̈ܐ</th><td>{{{ܐܬܪ̈ܘܬܐ ܚܓܝܪ̈ܐ}}}</td></tr>
+}}{{
+#if: {{{ܐܬܪ̈ܘܬܐ ܒܓܘ ܟܘܬܫܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܐܬܪ̈ܘܬܐ ܒܓܘ ܟܘܬܫܐ</th><td>{{{ܐܬܪ̈ܘܬܐ ܒܓܘ ܟܘܬܫܐ}}}</td></tr>
+}}{{
+#if: {{{ܠܫܢܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܠܫܢܐ</th><td>{{{ܠܫܢܐ}}}</td></tr>
+}}{{
+#if: {{{ܠܫܢ̈ܐ ܐܩܠܝܡܝ̈ܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܠܫܢ̈ܐ ܐܩܠܝܡܝ̈ܐ</th><td>{{{ܠܫܢ̈ܐ ܐܩܠܝܡܝ̈ܐ}}}</td></tr>
+}}{{
+#if: {{{ܕܘܟܬܐ ܙܒܢܝܬܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܕܘܟܬܐ ܙܒܢܝܬܐ</th><td>{{{ܕܘܟܬܐ ܙܒܢܝܬܐ}}}</td></tr>
+}}{{
+#if: {{{ܐܢܛܪܢܛ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܐܢܛܪܢܛ</th><td>{{{ܐܢܛܪܢܛ}}}</td></tr>
+}}{{
+#if: {{{ܡܕܝܢܬ̈ܐ ܪ̈ܒܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܡܕܝܢܬ̈ܐ ܪ̈ܒܐ</th><td>{{{ܡܕܝܢܬ̈ܐ ܪ̈ܒܐ}}}</td></tr>
+}}{{
+#if: {{{ܡܕܝܢܬ̈ܐ ܚܒܝܨ̈ܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܡܕܝܢܬ̈ܐ ܚܒܝܨ̈ܐ</th><td>{{{ܡܕܝܢܬ̈ܐ ܚܒܝܨ̈ܐ}}}</td></tr>
+}}{{
+#if: {{{ܡܐܬܪ̈ܢܝܬܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܡܐܬܪ̈ܢܝܬܐ</th><td>{{{ܡܐܬܪ̈ܢܝܬܐ}}}</td></tr>
+}}{{
+#if: {{{ܡܛܟܣܝܬ̈ܐ ܐܩܠܝܡܝ̈ܐ<includeonly>|</includeonly>}}} |
+<tr><th colspan="2">ܡܛܟܣܝܬ̈ܐ ܐܩܠܝܡܝ̈ܐ</th><td>{{{ܡܛܟܣܝܬ̈ܐ ܐܩܠܝܡܝ̈ܐ}}}</td></tr>
+}}
+</table>
+<noinclude>
+{{ܐܫܛܪܘܬܐ}}
+
+
+[[ܣܕܪܐ:ܩܠܒ̈ܐ]]
+
+[[dsb:Pśedłoga:Infokašćik kontinent]]
+[[en:Template:Infobox Continent]]
+[[eo:Ŝablono:Informkesto kontinento]]
+[[es:Plantilla:Ficha de territorio]]
+[[fa:الگو:دادگان قاره‌ها]]
+[[fr:Modèle:Infobox Continent]]
+[[he:תבנית:יבשת]]
+[[hi:साँचा:Infobox Continent]]
+[[hsb:Předłoha:Infokašćik kontinent]]
+[[ja:Template:Infobox Continent]]
+[[ka:თარგი:ინფოდაფა კონტინენტი]]
+[[ko:틀:대륙 정보]]
+[[or:ଟେମ୍ପଲେଟ:Infobox Continent]]
+[[pt:Predefinição:Info/Território geográfico]]
+[[sk:Šablóna:Infobox Kontinent]]
+[[tpi:Template:Infobokis Kontinen]]
+[[tr:Şablon:Kıta bilgi kutusu]]
+[[vi:Bản mẫu:Infobox Continent]]
+</noinclude>
