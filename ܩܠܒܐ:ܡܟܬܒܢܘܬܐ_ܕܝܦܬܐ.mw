@@ -3,7 +3,7 @@
 <div class="mw-collapsible-header" style="font-weight: bold;font-size:105%; {{#if:{{{title_style|}}}{{{titlestyle|}}}<!--‪-->{{{ܢܘܡܛܐ ܕܟܘܢܝܐ|}}} |{{{title_style|}}}{{{titlestyle|}}}<!--‪-->{{{ܢܘܡܛܐ ܕܟܘܢܝܐ|}}} |background:transparent;" align="right}}"><!--
  -->{{#if:{{{title|}}}<!--‪-->{{{ܟܘܢܝܐ|}}} |{{{title|}}}<!--‪-->{{{ܟܘܢܝܐ|}}} |<!--‪-->ܡܟܬܒܢܘܬܐ}}<!--
  --></div>
-<ul class="mw-collapsible-content" style="{{#if:{{{bullets|}}}<!--‪-->{{{ܗܦܪܘܬܐ|}}}||list-style: none; margin-right: 0;}} {{#if:{{{list_style|}}}{{{liststyle|}}}<!--‪-->{{{ܢܘܡܛܐ ܕܡܟܬܒܢܘܬܐ|}}} |{{{list_style|}}}{{{liststyle|}}}<!--‪-->{{{ܢܘܡܛܐ ܕܡܟܬܒܢܘܬܐ|}}} |text-align:right;}} font-size:105%; margin-top: 0; margin-bottom: 0; line-height: inherit"><!--
+<ul class="mw-collapsible-content" style="{{#if:{{{bullets|}}}<!--‪-->{{{ܢܘܩܙܐ|}}}||list-style: none; margin-right: 0;}} {{#if:{{{list_style|}}}{{{liststyle|}}}<!--‪-->{{{ܢܘܡܛܐ ܕܡܟܬܒܢܘܬܐ|}}} |{{{list_style|}}}{{{liststyle|}}}<!--‪-->{{{ܢܘܡܛܐ ܕܡܟܬܒܢܘܬܐ|}}} |text-align:right;}} font-size:105%; margin-top: 0; margin-bottom: 0; line-height: inherit"><!--
  -->{{#if:{{{1|}}}  |<li style="line-height: inherit; margin: 0">{{{1|}}} </li>}}<!--
  -->{{#if:{{{2|}}}  |<li style="line-height: inherit; margin: 0">{{{2|}}} </li>}}<!--
  -->{{#if:{{{3|}}}  |<li style="line-height: inherit; margin: 0">{{{3|}}} </li>}}<!--
