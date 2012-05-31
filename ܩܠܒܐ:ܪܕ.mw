@@ -11,7 +11,7 @@
 | <td class="mbox-image">
   {{#if:{{{image|}}}
   | {{{image}}}
-  | [[File:{{#switch:{{{type|}}}
+  | [[ܠܦܦܐ:{{#switch:{{{type|}}}
     | warning    = Cmbox deletion.png
     | editnotice = Imbox notice.png
     | system          <!-- system = default -->
@@ -31,8 +31,7 @@
 | warning
 | editnotice
 | system     =    <!-- Do nothing, valid "type" -->
-| #default   = <div style="text-align: center;">This message box is using an invalid "type={{{type|}}}" parameter and needs fixing.</div>[[Category:Wikipedia message box parameter needs fixing|{{main other|Main:}}{{FULLPAGENAME}}]]<!-- Sort on namespace -->
+| #default   = <div style="text-align: center;">This message box is using an invalid "type={{{type|}}}" parameter and needs fixing.</div><!-- [[Category:Wikipedia message box parameter needs fixing|{{main other|Main:}}{{FULLPAGENAME}}]] --><!-- Sort on namespace -->
 }}<noinclude>
-{{documentation}}
-<!-- Add categories and interwikis to the /doc subpage, not here! -->
+{{ܐܫܛܪܘܬܐ}}
 </noinclude>
