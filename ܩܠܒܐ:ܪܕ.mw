@@ -1,26 +1,33 @@
-<table {{#if:{{{id|}}}|id="{{{id|}}}"}} class="plainlinks fmbox
-{{#switch:{{{type|}}}
-| warning    = fmbox-warning
-| editnotice = fmbox-editnotice
-| system          <!-- system = default -->
-| #default   = fmbox-system
-}} {{{class|}}}" style="{{{style|}}}">
+<table id="{{{ܗܝܝܘܬܐ|}}}" class="plainlinks fmbox
+{{#switch:{{{ܛܘܗܡܐ|}}}
+|  = fmbox-warning
+| ܡܥܝܪܢܘܬܐ ܟܬܒܬܐ = fmbox-editnotice
+| system <!--  system = default -->
+| #default = fmbox-system
+}} {{{class|}}}" style="{{{ܢܡܛܐ|}}}">
 <tr>
-{{#ifeq:{{{image|}}}|none
-| <!-- No image. -->
+{{#ifeq:{{{ܨܘܪܬܐ|}}}|ܠܐ
+| <!-- ܠܐ ܨܘܪܬܐ. -->
 | <td class="mbox-image">
-  {{#if:{{{image|}}}
-  | {{{image}}}
-  | [[File:{{#switch:{{{type|}}}
-    | warning    = Cmbox deletion.png
-    | editnotice = Imbox notice.png
-    | system          <!-- system = default -->
-    | #default   = Imbox notice.png
-    }}|40x40px|link=|alt=]]
+  {{#ifeq:{{{ܨܘܪܬܐ|}}}
+  | {{{ܨܘܪܬܐ}}}
+  | {{#switch:{{{ܛܘܗܡܐ|}}}
+    | ܙܘܗܪܐ = [[ܠܦܦܐ:Cmbox deletion.png|40x40px]] 
+    | ܡܥܝܪܢܘܬܐ ܟܬܒܬܐ = [[ܠܦܦܐ:Imbox notice.png|40x40px]]
+    | default <!-- = system -->
+    | #default = [[ܠܦܦܐ:Imbox notice.png|40x40px]]
+    }}
   }}</td>
 }}
-<td class="mbox-text" style="{{{textstyle|}}}"> {{{text}}} </td>
+<td class="mbox-text" style="{{{ܢܡܛܐ ܕܟܬܒܬܐ|}}}">
+{{{ܟܬܒܬܐ}}} </td>
 {{#if:{{{imageleft|}}}
 | <td class="mbox-imageleft"> {{{imageleft}}} </td>
 }}
 </tr>
+</table><noinclude>
+
+[[ܣܕܪܐ:ܩܠܒ̈ܐ]]
+
+[[en:Template:fmbox]]
+</noinclude>
