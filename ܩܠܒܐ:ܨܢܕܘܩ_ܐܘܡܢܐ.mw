@@ -1,0 +1,147 @@
+<noinclude>
+[[ܣܕܪܐ:ܩܠܒ̈ܐ ܡܕܥ̈ܐ ܥܠ ܦܪܨܘܦ̈ܐ]]
+</noinclude>
+{| class="infobox" style="font-size: 75%;margin:0 1em 1em 0;"
+! style="font-size: 90%;margin:0 1em 1em 0; background: #6699FF; text-align: center" colspan="3"| <big>'''{{{ܫܡܐ|{{PAGENAME}}}}}'''</big>
+|-
+{{#if: {{{ܨܘܪܬܐ|<noinclude>-</noinclude>}}} |
+{{!}} colspan="3" align="center" {{!}} {{{ܨܘܪܬܐ}}}
+{{!}}-
+}}
+! style="background: #CCCCCC; text-align: center" colspan="3" | ܡܕܥ̈ܐ ܦܪܨܘܦܝ̈ܐ
+|-
+{{#if: {{{ܫܡܐ ܡܫܡܠܝܐ|<noinclude>-</noinclude>}}} |
+{{!}}'''ܫܡܐ ܡܫܡܠܝܐ'''
+{{!}} colspan="2" {{!}} {{{ܫܡܐ ܡܫܡܠܝܐ}}}
+{{!}}-
+}}
+|-
+{{#if: {{{ܣܝܩܘܡ ܡܘܠܕܐ|<noinclude>-</noinclude>}}} |
+{{!}}'''ܣܝܩܘܡ ܡܘܠܕܐ'''
+{{!}} colspan="2" {{!}} {{{ܣܝܩܘܡ ܡܘܠܕܐ}}}
+{{!}}-
+}}
+{{#if: {{{ܕܘܟܐ ܕܡܘܠܕܐ|<noinclude>-</noinclude>}}} |
+{{!}}'''ܕܘܟܐ ܕܡܘܠܕܐ'''
+{{!}} colspan="2" {{!}} {{{ܕܘܟܐ ܕܡܘܠܕܐ}}}
+{{!}}-
+}}
+{{#if: {{{ܣܝܩܘܡ ܕܫܘܢܝܐ (ܡܘܬܐ)|<noinclude>-</noinclude>}}} |
+{{!}}'''ܣܝܩܘܡ ܕܫܘܢܝܐ (ܡܘܬܐ)'''
+{{!}} colspan="2" {{!}} {{{ܣܝܩܘܡ ܕܫܘܢܝܐ (ܡܘܬܐ)}}}
+{{!}}-
+}}
+{{#if: {{{ܕܘܟܐ ܕܒܗ ܡܝܬ|<noinclude>-</noinclude>}}} |
+{{!}}'''ܕܘܟܐ ܕܒܗ ܡܝܬ'''
+{{!}} colspan="2" {{!}} {{{ܕܘܟܐ ܕܒܗ ܡܝܬ}}}
+{{!}}-
+}}
+{{#if: {{{ܛܘܗܡܢܘܬܐ|<noinclude>-</noinclude>}}} |
+{{!}}'''ܛܘܗܡܢܘܬܐ'''
+{{!}} colspan="2" {{!}} {{{ܛܘܗܡܢܘܬܐ}}}
+{{!}}-
+}}
+{{#if: {{{ܡܪܗܛܐ|<noinclude>-</noinclude>}}} |
+{{!}}'''ܡܪܗܛܐ'''
+{{!}} colspan="2" {{!}} {{{ܡܪܗܛܐ}}}
+{{!}}-
+}}
+{{#if: {{{ܕܟ ܗܘܐ|<noinclude>-</noinclude>}}} |
+{{!}} '''ܕܟ ܗܘܐ'''
+{{!}} colspan="2" {{!}} {{{ܕܟ ܗܘܐ}}}
+{{!}}-
+}}
+{{#if: {{{ܡܠܦܢܐ|<noinclude>-</noinclude>}}} |
+{{!}}'''ܡܠܦܢܐ'''
+{{!}} colspan="2" {{!}} {{{ܡܠܦܢܐ}}}
+{{!}}-
+}}
+{{#if: {{{ܬܠܡܝܕ̈ܐ|<noinclude>-</noinclude>}}} |
+{{!}}'''ܬܠܡܝܕ̈ܐ'''
+{{!}} colspan="2" {{!}} {{{ܬܠܡܝܕ̈ܐ}}}
+{{!}}-
+}}
+{{#if: {{{ܡܕܪܫܬܐ|<noinclude>-</noinclude>}}} |
+{{!}}'''ܡܕܪܫܬܐ'''
+{{!}} colspan="2" {{!}} {{{ܡܕܪܫܬܐ}}}
+{{!}}-
+}}
+{{#if: {{{ܪܥܝ̈ܐ|<noinclude>-</noinclude>}}} |
+{{!}}'''ܪܥܝ̈ܐ'''
+{{!}} colspan="2" {{!}} {{{ܪܥܝ̈ܐ}}}
+{{!}}-
+}}
+{{#if: {{{ܐܬܥܙܙ ܒ|<noinclude>-</noinclude>}}} |
+{{!}}'''ܐܬܥܙܙ ܒ'''
+{{!}} colspan="2" {{!}} {{{ܐܬܥܙܙ ܒ}}}
+{{!}}-
+}}
+{{#if: {{{ܕܫܢ̈ܐ ܝܩܝܪ̈ܐ|<noinclude>-</noinclude>}}} |
+{{!}}'''ܕܫܢ̈ܐ ܝܩܝܪ̈ܐ'''
+{{!}} colspan="2" {{!}} {{{ܕܫܢ̈ܐ ܝܩܝܪ̈ܐ}}}
+{{!}}-
+}}
+{{#if: {{{ܦܠܛ̈ܐ ܝܩܝܪ̈ܐ|<noinclude>-</noinclude>}}} |
+{{!}}'''ܦܠܛ̈ܐ ܝܩܝܪ̈ܐ'''
+{{!}} colspan="2" {{!}} {{{ܦܠܛ̈ܐ ܝܩܝܪ̈ܐ}}}
+{{!}}-
+}}
+|-
+! style="background: #CCCCCC; text-align: center" colspan="3" | ܪܡܝ ܐܝܕܐ
+|-
+{{#if: {{{ܪܡܝ ܐܝܕܐ|<noinclude>-</noinclude>}}} |
+{{!}} colspan="3" align="center" {{!}} {{{ܪܡܝ ܐܝܕܐ}}}
+{{!}}-}}|}
+<noinclude>
+== ܡܦܠܚܬܐ ==
+<pre>
+{{ܡܕܥܐ ܥܠ ܦܪܨܘܦܐ ܐܡܢܝܐ
+|ܫܡܐ            = 
+|ܨܘܪܬܐ            = [[ܠܦܦܐ:ܝܨܘܪܐ ܕܨܘܪܬܐ|160px|ܫܡܐ ܕܪܫܡܐ ܐܘ ܓܠܘܦܐ]]  
+|ܣܝܩܘܡ ܡܘܠܕܐ    = [[ܝܘܡܐ ܝܪܚܐ]],[[ܫܢܬܐ]]
+|ܕܘܟܐ ܕܡܘܠܕܐ     = 
+|ܣܝܩܘܡ ܕܫܘܢܝܐ (ܡܘܬܐ)    = [[ܝܘܡܐ ܝܪܚܐ]],[[ܫܢܬܐ]] 
+|ܕܘܟܐ ܕܒܗ ܡܝܬ     = 
+|ܛܘܗܡܢܘܬܐ          = 
+|ܡܪܗܛܐ          = 
+|ܕܟ ܗܘܐ         = 
+|ܡܠܦܢܐ           = 
+|ܬܠܡܝܕ̈ܐ          = 
+|ܡܕܪܫܬܐ          =
+|ܪܥܝ̈ܐ           =
+|ܐܬܥܙܙ ܒ          =
+|ܕܫܢ̈ܐ ܝܩܝܪ̈ܐ      = ܕܫܢ̈ܐ ܐܘ ܫܘܡܗܐ
+|ܦܠܛ̈ܐ ܝܩܝܪ̈ܐ      = 
+|ܪܡܝ ܐܝܕܐ         = [[ܠܦܦܐ:ܝܨܘܪܐ ܕܨܘܪܬܐ|160px]]
+|}}
+</pre>
+
+
+[[be-x-old:Шаблён:Мастак]]
+[[ca:Plantilla:Infotaula artista]]
+[[cs:Šablona:Infobox umělec]]
+[[da:Skabelon:Infoboks kunstner]]
+[[en:Template:Infobox artist]]
+[[eo:Ŝablono:Informkesto artisto]]
+[[es:Plantilla:Ficha de artista]]
+[[fa:الگو:جعبه اطلاعات هنرمند]]
+[[fi:Malline:Taiteilija]]
+[[fr:Modèle:Infobox Artiste/Projet V2]]
+[[hsb:Předłoha:Infokašćik wuměłc]]
+[[ja:Template:Infobox 芸術家]]
+[[ka:თარგი:ინფოდაფა მხატვარი]]
+[[ko:틀:예술가 정보]]
+[[lv:Veidne:Mākslinieka infokaste]]
+[[mk:Шаблон:Инфокутија Уметник]]
+[[nl:Sjabloon:Infobox kunstenaar]]
+[[nn:Mal:Infoboks kunstnar]]
+[[no:Mal:Infoboks kunstner]]
+[[pl:Szablon:Artysta infobox]]
+[[ru:Шаблон:Художник]]
+[[sl:Predloga:Infopolje Umetnik]]
+[[tr:Şablon:Sanatçı bilgi kutusu]]
+[[uk:Шаблон:Картка:Художник]]
+[[ur:سانچہ:Infobox artist]]
+[[vi:Bản mẫu:Thông tin nghệ sĩ]]
+[[zh:Template:Infobox Artist]]
+</noinclude>
