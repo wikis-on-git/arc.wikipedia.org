@@ -1,5 +1,6 @@
-{{#ifeq:{{{child|}}}|yes||<table class="infobox {{{bodyclass|}}}" cellspacing="5" style="width:22em; {{#if:{{{float|}}}|float: {{{float}}}; clear: {{#ifeq:{{{float|}}}|none|both|{{{float}}}}}; margin: 0 0 1em 1em;}} {{{bodystyle|}}}"><!--
- Caption
+{| width="300px" align="right" style="line-height:130%; clear:left; float:left; border:1px solid #aaaaaa; background-color:#f9f9f9; font-size: 95%; padding:0;" class="infobox"
+{{#ifeq:{{{child|}}}|yes||<table class="infobox {{{bodyclass|}}}" cellspacing="5" style="width:22em; {{{bodystyle|}}}"><!--
+Caption
 -->{{#if:{{{title|}}}|<caption class="{{{titleclass|}}}" style="{{{titlestyle|}}}">{{{title}}}</caption>}}<!--
  Header
 -->{{#if:{{{above|}}}|<tr><th colspan=2 class="{{{aboveclass|}}}" style="text-align:center; font-size:125%; font-weight:bold; {{{abovestyle|}}}">{{{above}}}</th></tr>}}
