@@ -3,8 +3,7 @@
 |align=center|[[ܠܦܦܐ:Crystal Clear action run.png|50px]]
 |align=right|'''ܡܦܠܚܢܐ ܗܢܐ ܗܘ ܒܘܛ (BOT) ܡܢ {{#if: {{{link|}}}|{{{link}}}|{{#if: {{{1|}}}|[[ܡܦܠܚܢܐ:{{{1}}}|{{{1}}}]]|???}}}}.'''
 ܠܡܕܒܪ̈ܢܐ: ܐܢ ܒܘܛ ܗܢܐ ܠܐ ܦܠܚ ܛܒܐ܇ ܒܥܘ [[Special:Blockip/{{PAGENAME}}|ܚܪܘܡܗ]].
-|}</center></onlyinclude>
-
+|}</center></onlyinclude><noinclude>
 [[ab:Ашаблон:Bot]]
 [[ace:Pola:Bot]]
 [[af:Sjabloon:Bot]]
@@ -156,6 +155,7 @@
 [[pdc:Moddel:Bot]]
 [[pih:Template:Bot]]
 [[pl:Szablon:Bot]]
+[[pms:Stamp:Trigomiro]]
 [[pnt:Πρότυπον:Bot]]
 [[pt:Predefinição:Robô]]
 [[qu:Plantilla:Bot]]
@@ -207,6 +207,7 @@
 [[udm:Шаблон:Bot]]
 [[ug:قېلىپ:Bot]]
 [[uk:Шаблон:Bot]]
+[[ur:سانچہ:روبہ]]
 [[uz:Andoza:Bot]]
 [[ve:Template:Bot]]
 [[vec:Modèl:Bot]]
@@ -224,3 +225,4 @@
 [[zh:Template:Bot]]
 [[zh-yue:Template:Bot]]
 [[zu:Template:Bot]]
+</noinclude>
