@@ -1,0 +1,57 @@
+{{ infobox
+| Bold title = {{{italic title|}}}
+| bodystyle    = {{#if:{{{infoboxwidth|}}}|width: {{{infoboxwidth}}}}}
+| bodyclass =  vcard
+| abovestyle   = font-style: italic
+| above        = <includeonly>{{{name|{{PAGENAME}}}}} <span class="Z3988" title="ctx_ver=Z39.88-2004&rft_val_fmt={{urlencode:info:ofi/fmt:kev:mtx:book}}&rft.genre=book&rft.btitle={{urlencode:{{{name|}}}}}{{#if: {{{author|}}}|&rft.author={{urlencode:{{{author}}}}}}}{{#if: {{{last|}}}|&rft.aulast={{urlencode:{{{last}}}}}}}{{#if: {{{first|}}}|&rft.aufirst={{urlencode:{{{first}}}}}}}{{#if: {{{pub_date|{{{release_date|}}}}}}|&rft.date={{urlencode:{{{pub_date|{{{release_date}}}}}}}}}}{{#if: {{{publisher|}}}|&rft.pub={{urlencode:{{{publisher}}}}}}}{{#if: {{{location|}}}|&rft.place={{urlencode:{{{location}}}}}}}{{#if: {{{pages|}}}|&rft.pages={{urlencode:{{{pages}}}}}}}{{#if: {{{series|}}}|&rft.series={{urlencode:{{{series}}}}}}}{{#if: {{{oclc|}}}|&rft_id=info:oclcnum/{{{oclc}}}}}"></span></includeonly>
+|image = {{#if:{{{image|}}}|{{#ifeq:{{Str left | {{{image|}}} | 1 }}|[|[[Category:Infobox book image param needs updating]]}}{{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|}}}|sizedefault=frameless|alt={{{alt|}}}|border={{{border|}}}|suppressplaceholder=yes}}|{{main other|[[Category:Books with missing cover]]}}}}
+| caption = {{{caption|{{{image_caption|}}}}}}
+| label1       = Author(s)
+| data1        = {{{author|}}}
+| label2       = Original title
+| data2        = {{#if:{{{title_orig|}}}|''{{{title_orig}}}''}}
+| label3       = Translator
+| data3        = {{{translator|}}}
+| label4       = Illustrator
+| data4        = {{{illustrator|}}}
+| label5       = Cover artist
+| data5        = {{{cover_artist|}}}
+| label6       = Country
+| data6        = {{{country|}}}
+| label7       = Language
+| data7        = {{{language|}}}
+| label8       = Series
+| data8        = {{{series|}}}
+| label9       = Subject(s)
+| data9        = {{{subject|}}}
+| label10      = Genre(s)
+| data10       = {{{genre|}}}
+| label11      = Publisher
+| data11       = {{{publisher|}}}{{#if:{{{publisher2|}}}|, {{{publisher2}}}}}
+| label12      = Publication date
+| data12       = {{{pub_date|{{{release_date|}}}}}}
+| label13      = Published in English
+| data13       = {{{english_pub_date|{{{english_release_date|}}}}}}
+| label14      = Media type
+| data14       = {{{media_type|}}}
+| label15      = Pages
+| data15       = {{{pages|}}}
+| label16      = Award(s)
+| data16       = {{{awards|}}}
+| label17      = [[International Standard Book Number|ISBN]]
+| data17       = {{#if:{{{isbn|{{{ISBN|}}}}}}|{{#iferror:{{#expr:{{{isbn|{{{ISBN}}}}}}}}|{{{isbn|{{{ISBN}}}}}}|[[Special:Booksources/{{{isbn|{{{ISBN}}}}}}|{{{isbn|{{{ISBN}}}}}}]]}}}}
+| label18      = [[OCLC]] Number
+| data18       = {{#if:{{{oclc|}}}|[http://worldcat.org/oclc/{{urlencode:{{{oclc}}}}} {{{oclc}}}]}}
+| label19      = [[Dewey Decimal Classification|Dewey Decimal]]
+| data19       = {{{dewey|}}}
+| label20      = [[Library of Congress Classification|LC Classification]]
+| data20       = {{{congress|}}}
+| label21      = Preceded by
+| data21       = {{#if:{{{preceded_by|}}}|''{{{preceded_by|}}}''|{{#if:{{{preceded_by_quotation_marks|}}}|"{{{preceded_by_quotation_marks|}}}"}}}}
+| label22      = Followed by
+| data22       = {{#if:{{{followed_by|}}}|''{{{followed_by|}}}''|{{#if:{{{followed_by_quotation_marks|}}}|"{{{followed_by_quotation_marks|}}}"}}}}
+| label23      = Read online
+| data23       = {{#if:{{{wikisource|}}}|''[[s:{{{wikisource|}}}|{{{name|}}}]]'' at [[Wikisource]][[Category:Articles that link to Wikisource]]<!--create hidden category to be monitored by Wikiproject:Wikisource-->}}
+}}<noinclude>
+{{documentation}}
+</noinclude>
