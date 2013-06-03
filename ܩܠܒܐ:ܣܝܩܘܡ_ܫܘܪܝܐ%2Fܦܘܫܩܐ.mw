@@ -1,0 +1,80 @@
+{{Documentation subpage}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+==Usage==
+This template ('''{{tl|Start date}}''') returns a date, or date-time. It also includes the same date (and time) duplicated in a hidden (by CSS) ISO date format, for use in [[microformat]]s. This hidden date degrades gracefully when CSS is not available.
+
+==Syntax==
+*<nowiki>{{Start date|year|month|day}}</nowiki>
+*<nowiki>{{Start date|year|month|day|HH|MM|SS|TimeZone}}</nowiki> (MM and SS are optional; TimeZone may be a numerical value, or "Z" for [[Coordinated Universal Time|UTC]]; see examples)
+
+Examples:
+
+*<nowiki>{{Start date|1993}}</nowiki> returns "{{Start date|1993}}"
+*<nowiki>{{Start date|1993|02}}</nowiki> returns "{{Start date|1993|02}}"
+*<nowiki>{{Start date|1993|02|24}}</nowiki> returns "{{Start date|1993|02|24}}"
+*<nowiki>{{Start date|1993|02|24|08|30}}</nowiki> returns "{{Start date|1993|02|24|08|30}}"
+*<nowiki>{{Start date|1993|02|24|08|||+01:00}}</nowiki> returns "{{Start date|1993|02|24|08|||+01:00}}"
+*<nowiki>{{Start date|1993|02|24|08|||-07:00}}</nowiki> returns "{{Start date|1993|02|24|08|||-07:00}}"
+*:<nowiki>{{Start date|1993|02|24|08|30|23}}</nowiki> returns "{{Start date|1993|02|24|08|30|23}}"
+*<nowiki>{{Start date|1993|02|24|08|30|23|Z}}</nowiki> returns "{{Start date|1993|02|24|08|30|23|Z}}"
+*<nowiki>{{Start date|1993|02|24|08|30|23|+01:00}}</nowiki> returns "{{Start date|1993|02|24|08|30|23|+01:00}}"
+*<nowiki>{{Start date|1993|02|24|08|30|23|-07:00}}</nowiki> returns "{{Start date|1993|02|24|08|30|23|-07:00}}"
+
+An optional parameter, df, can be set to "y" or "yes" (or indeed any value) to display the day before the month. This is primarily used in articles about events in parts of the world where the day precedes the month in a date.
+
+Examples:
+
+*<nowiki>{{Start date|1993|02|24|df=y}}</nowiki> returns "{{Start date|1993|02|24|df=y}}"
+*<nowiki>{{Start date|1993|02|24|08|30|df=yes}}</nowiki> returns "{{Start date|1993|02|24|08|30|df=yes}}"
+
+'''Note:''' The template will appear broken when the parameters are left blank (as seen above).
+
+==Use in microformats==
+{{UF-date-part}}
+
+See [[WP:UF|the microformats project]] for further details.
+
+==See also==
+*'''{{tl|End date}}'''
+*'''{{tl|Start date and age}}'''
+*'''{{tl|Start-date}}''' (an alternative to this template)
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+
+[[Category:Templates generating hAtom|{{PAGENAME}}]]
+[[Category:Templates generating hCalendars|{{PAGENAME}}]]
+[[Category:Templates generating hCards|{{PAGENAME}}]]
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+[[es:Plantilla:Fecha]]
+[[en:Template:Start date]]
+[[et:Mall:Lõppaeg]]
+[[fa:الگو:تاریخ آغاز]]
+[[gd:Teamplaid:Start date]]
+[[gd:Teamplaid:End date]]
+[[gl:Modelo:Data]]
+[[hi:साँचा:Start date]]
+[[hy:Կաղապար:Start date]]
+[[id:Templat:Tanggal mulai]]
+[[ja:Template:Start date]]
+[[zh:Template:Start date]]
+[[ru:Шаблон:Start date]]
+[[simple:Template:End date]]
+[[th:แม่แบบ:Start date]]
+[[tpi:Template:Start date]]
+[[tr:Şablon:Tarih]]
+[[uk:Шаблон:Initial release]]
+[[ur:سانچہ:Start date]]
+[[jv:Cithakan:Start date]]
+[[kn:ಟೆಂಪ್ಲೇಟು:End date]]
+[[ka:თარგი:დაიწყე თარიღი]]
+[[kn:ಟೆಂಪ್ಲೇಟು:Start date]]
+[[la:Formula:Start date]]
+[[mr:साचा:दिनांक]]
+[[ms:Templat:Start date]]
+[[ms:Templat:End date]]
+[[no:Mal:Startdato]]
+[[or:ଛାଞ୍ଚ:Start date]]
+[[pa:ਨਮੂਨਾ:Start date]]
+[[pt:Predefinição:Data de início]]
+</includeonly>
