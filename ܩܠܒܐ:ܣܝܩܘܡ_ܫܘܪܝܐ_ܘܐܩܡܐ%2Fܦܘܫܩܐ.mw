@@ -1,0 +1,100 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+== Usage ==
+===Syntax===
+;Full syntax
+:<code><nowiki>{{Start date and age|yyyy|mm|dd|df=yes|br=yes}}</nowiki></code>
+
+;Common usage
+:<code><nowiki>{{Start date and age|yyyy|mm|dd}}</nowiki></code> to display result in {{xt|March 4, 2010; 4 months ago}} format
+:<code><nowiki>{{Start date and age|yyyy|mm|dd|df=yes}}</nowiki></code> to display result in {{xt|4 March 2010; 4 months ago}} format
+
+;Description of parameters
+:{| class="wikitable"
+|-
+! Parameter
+! Description
+|-
+|''yyyy''
+|Four digits indicating the year. The year must always appear in a 4-digits form.
+|-
+|''mm''
+|A number between 1 to 12, indicating the month. Leading zeros in the number are ignored.
+|-
+|''dd''
+|A number between 1 to 31, indicating the day of the month. Leading zeros in the number are ignored.
+|-
+|''df=''
+|The optional parameter '''df''' can either be set to '''yes''' or anything other than '''yes'''. When set to '''yes''', date will be displayed in DMY format: {{xt|4 March 2010}}. When set something other than '''yes''' or when this parameter is not included, date will be displayed in MD,Y format: {{xt|March 4, 2010}}.
+
+As for choosing the right format to use, consult [[Wikipedia:MOSNUM#Full date formatting|Manual of Style (dates and numbers): Full date formatting]].
+|-
+|''br=''
+|The optional parameter '''br''' can either be set to '''yes''' or anything other than '''yes'''. When set to '''yes''', a line break will be inserted between the date and the age. When set something other than '''yes''' or when this parameter is not included, a breaking space will be inserted between the date and the age. In either case, a semicolon separates the date and age, immediately before the line break or space.
+|}
+
+===Examples===
+{| class="wikitable"
+!Syntax
+!Result
+|-
+| colspan="2" bgcolor="#DDD" | '''Full date (year, month, day)'''
+|-
+| <code><nowiki>{{Start date and age|2010|01|02}}</nowiki></code>
+| {{Start date and age|2010|01|02}}
+|-
+| <code><nowiki>{{Start date and age|2008|08|09}}</nowiki></code>
+| {{Start date and age|2008|08|09}}
+|-
+| <code><nowiki>{{Start date and age|2003|07|05}}</nowiki></code>
+| {{Start date and age|2003|07|05}}
+|-
+| <code><nowiki>{{Start date and age|2010|1|2|df=yes}}</nowiki></code>
+| {{Start date and age|2010|1|2|df=yes}}
+|-
+| <code><nowiki>{{Start date and age|2008|8|9|df=yes}}</nowiki></code>
+| {{Start date and age|2008|8|9|df=yes}}
+|-
+| <code><nowiki>{{Start date and age|2003|7|5|df=yes}}</nowiki></code>
+| {{Start date and age|2003|7|5|df=yes}}
+|-
+| <code><nowiki>{{Start date and age|2009|9|9|br=yes}}</nowiki></code>
+| {{Start date and age|2009|9|9|br=yes}}
+|-
+| Today:<br /><code><nowiki>{{Start date and age|</nowiki>{{#time:Y|now}}&#124;{{#time:n|now}}&#124;{{#time:j|now}}}}</code>
+| {{Start date and age|{{#time:Y|now}}|{{#time:n|now}}|{{#time:j|now}}}}
+|-
+| Yesterday:<br /><code><nowiki>{{Start date and age|</nowiki>{{#time:Y|now-1 days}}&#124;{{#time:n|now-1 days}}&#124;{{#time:j|now-1 days}}}}</code>
+| {{Start date and age|{{#time:Y|now-1 days}}|{{#time:n|now-1 days}}|{{#time:j|now-1 days}}}}
+|-
+| colspan="2" bgcolor="#DDD" | '''Year and month'''
+|-
+| <code><nowiki>{{Start date and age|2002|03}}</nowiki></code>
+| {{Start date and age|2002|03}}
+|-
+| <code><nowiki>{{Start date and age|2002|04}}</nowiki></code>
+| {{Start date and age|2002|04}}
+|-
+| colspan="2" bgcolor="#DDD" | '''Year only'''
+|-
+| <code><nowiki>{{Start date and age|2002}}</nowiki></code>
+| {{Start date and age|2002}}
+|}
+
+== Use in microformats ==
+{{UF-hcal-part}}
+
+==See also==
+* {{tl|Start date}}
+* {{tl|Start-date}}
+* {{tl|End date}}
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS BELOW THIS LINE PLEASE -->
+[[Category:Date-computing templates|{{PAGENAME}}]]
+
+</includeonly>
+
+<includeonly>
+[[pl:Szablon:Data rozpoczęcia i wiek]]
+</includeonly>
