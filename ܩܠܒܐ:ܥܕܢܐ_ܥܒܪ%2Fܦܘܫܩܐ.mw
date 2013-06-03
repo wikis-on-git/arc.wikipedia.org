@@ -1,0 +1,41 @@
+{{Documentation subpage}}
+{{high-risk|100,000+}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+The '''Time ago''' template calculates the amount of time which has passed since a provided timestamp.  The result is a string similar to one of the examples below.  This template ''should not'' be used with "subst" unless you don't want the stamp to change as the user refreshes the page.
+
+Note that due to Wikipedia's caching mechanisms, you may need to [[WP:PURGE|purge]] a page using this template to update the dynamic value. See the section [[#Purge|Purge]] below.
+
+The result is rounded down. "Month" is defined as 31 days.
+
+=== Usage ===
+* <code><nowiki>{{</nowiki>'''Time ago'''|''timestamp''<nowiki>}}</nowiki></code>
+
+The timestamp can be almost any solid, readable format but to avoid ambiguity mistakes, one of the styles below is preferred.
+
+* <code>magnitude</code> parameter can be set to explicitly use certain unit. Allowed values are: <code>seconds</code>, <code>minutes</code>, <code>hours</code>, <code>days</code>, <code>weeks</code>, <code>months</code> and <code>years</code>.
+* <code>min_magnitude</code> parameter can be set to use the specified unit or bigger units. Allowed values are: <code>seconds</code>, <code>minutes</code>, <code>hours</code>, <code>days</code>, <code>months</code> and <code>years</code>.
+* <code>ago</code> parameter can be set to override the default usage of the text "<code>ago</code>".
+
+==== Purge ====
+Add the parameter {{para|purge|yes}} to add a [[WP:PURGE|purge]] link.
+
+=== Examples ===
+* {{tlc|Time ago| -83 minutes}} → '''{{Time ago|-83 minutes}}'''
+* {{tlc|Time ago| -334 minutes}} → '''{{Time ago|-334 minutes}}'''
+* {{tlc|Time ago|<nowiki>{{REVISIONTIMESTAMP}}</nowiki>}} → '''{{Time ago|{{REVISIONTIMESTAMP}}}}'''
+* {{tlc|Time ago| Jan 21, 2001 3:45 PM}} → '''{{Time ago|Jan 21 2001 3:45 PM}}'''
+* {{tlc|Time ago| Nov 6 2008}} → '''{{Time ago|Nov 6 2008}}'''
+* {{tlc|Time ago| Nov 6 2008|3=magnitude=weeks}} → '''{{Time ago| Nov 6 2008|magnitude=weeks}}'''
+* {{tlc|Time ago| Nov 6 2008|3=min_magnitude=days}} → '''{{Time ago|Nov 6 2008|min_magnitude=days}}'''
+* {{tlc|Time ago| Nov 6 2008|3=min_magnitude=years}} → '''{{Time ago|Nov 6 2008|min_magnitude=years}}'''
+* {{tlc|Time ago| Nov 6 2008|3=ago=in the past}} → '''{{Time ago|Nov 6 2008|ago=in the past}}'''
+* {{tlc|Time ago| Nov 6 2008|3=purge=yes}} → '''{{Time ago|Nov 6 2008|purge=yes}}'''
+* {{tlc|Time ago| 2008-11-06}} → '''{{Time ago|2008-11-06}}'''
+
+=== See also ===
+* {{tl|LastEditedBy}}
+
+<includeonly>
+<!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
+[[Category:Mathematical time and date function templates]]
+</includeonly>
