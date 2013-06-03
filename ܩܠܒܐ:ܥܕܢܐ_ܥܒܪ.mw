@@ -1,0 +1,29 @@
+{{#iferror: {{#time:U| {{{1|}}} }}
+ |{{error|Error: first parameter cannot be parsed as a date or time.}}
+ |{{Time ago/core
+  |ago = {{{ago|ago}}}
+  |time = {{{1|}}}
+  |auto_magnitude_num = {{#if:{{{magnitude|}}}
+   |0<!-- Make sure the specified {{{magnitude}}} is used -->
+   |{{#expr:{{#ifexpr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 120      ) | 1 | 0 }}+
+    {{#ifexpr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 7200     ) | 1 | 0 }}+
+    {{#ifexpr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 172800   ) | 1 | 0 }}+
+    {{#ifexpr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 5356800  ) | 2 | 0 }}+
+    {{#ifexpr: floor( abs( {{#time:U}} - {{#time:U| {{{1|}}} }} ) / 63115200 ) | 1 | 0 }}
+   }}
+  }}
+  |min_magnitude_num = {{#switch:{{#if:{{{magnitude|}}}
+    |{{{magnitude}}}
+    |{{{min_magnitude}}}
+   }}
+   |years   = 6
+   |months  = 5
+   |weeks   = 4
+   |days    = 3
+   |hours   = 2
+   |minutes = 1
+   |seconds
+   |#default= 0
+  }}
+ }}
+}}{{#ifeq:{{{purge|}}}|yes|&#32;<span class="plainlinks">([{{fullurl:{{FULLPAGENAME}}|action=purge}} purge])</span>|}}<noinclude>{{documentation}}</noinclude>
