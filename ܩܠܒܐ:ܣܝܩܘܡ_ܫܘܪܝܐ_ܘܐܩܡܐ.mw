@@ -1,0 +1,50 @@
+<includeonly><!--
+
+
+     IMPLEMENTATION OF DATE
+
+
+-->{{#if: {{{1|}}}<!--
+  -->|{{#if: {{{2|}}}<!--
+     -->|{{#if: {{{3|}}}<!--
+        -->|{{#ifeq: {{{df|}}}|yes<!--
+           -->|{{#expr:{{{3}}}}}&nbsp;{{MONTHNAME|{{{2}}}}}<!--
+           -->|{{MONTHNAME|{{{2}}}}}&nbsp;{{#expr:{{{3}}}}},<!--
+         -->}} {{{1}}}<!--
+        -->|{{MONTHNAME|{{{2}}}}}&nbsp;{{{1}}}<!--
+      -->}}<!--
+     -->|{{{1}}}<!--
+   -->}}<!--
+   --><span class="noprint">; <!--
+     -->{{#ifeq:{{{br|}}}|yes| <br/>|}}<!--
+     -->{{time ago<!--
+       -->|{{{1}}}<!--
+        -->-<!--
+        -->{{{2|{{CURRENTMONTH}}}}}<!--
+        -->-<!--
+        -->{{{3|{{CURRENTDAY}}}}}<!--
+       -->|min_magnitude=days<!--
+     -->}}<!--
+   --></span><!--
+  -->|'''{{color|red|Error: No parameters}}'''<!--
+-->}}<!--
+
+
+     IMPLEMENTATION OF microformat date classes
+
+
+--><span style="display:none">&#160;(<span class="bday dtstart published updated"><!--
+-->{{#if: {{{1|}}}<!--
+  -->|{{{1}}}<!--
+   -->{{#if: {{{2|}}}<!--
+     -->| -{{padleft:{{{2}}}|2|0}}<!--
+      -->{{#if: {{{3|}}}<!--
+        -->| -{{padleft:{{{3}}}|2|0}}<!--
+      -->}}<!--
+   -->}}<!--
+-->}}<!--
+--></span>)</span></includeonly><noinclude>
+
+{{documentation}}
+
+</noinclude>
