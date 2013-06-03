@@ -1,0 +1,20 @@
+{{#ifexpr:{{#time:U}}>={{#time:U|{{{time|}}}}}
+|{{#switch:{{max|{{{min_magnitude_num|-1}}}|{{{auto_magnitude_num|0}}}}}
+ |0 = {{plural|{{#expr:floor(abs({{#time:U}}-{{#time:U|{{{time|}}}}}))}}|second|seconds}}
+ |1 = {{plural|{{#expr:floor(abs({{#time:U}}-{{#time:U|{{{time|}}}}})/60)}}|minute|minutes}}
+ |2 = {{plural|{{#expr:floor(abs({{#time:U}}-{{#time:U|{{{time|}}}}})/3600)}}|hour|hours}}
+ |3 = {{plural|{{#expr:floor(abs({{#time:U}}-{{#time:U|{{{time|}}}}})/86400)}}|day|days}}
+ |4 = {{plural|{{#expr:floor(abs({{#time:U}}-{{#time:U|{{{time|}}}}})/604800)}}|week|weeks}}
+ |5 = {{plural|{{#expr:floor(abs({{#time:U}}-{{#time:U|{{{time|}}}}})/2678400)}}|month|months}}
+ |6 = {{plural|{{#expr:floor(abs({{#time:U}}-{{#time:U|{{{time|}}}}})/31557600)}}|year|years}}
+}} {{{ago|ago}}}
+|{{#switch:{{max|{{{min_magnitude_num|-1}}}|{{{auto_magnitude_num|0}}}}}
+ |0 = {{plural|{{#expr:floor(abs({{#time:U}}-{{#time:U|{{{time|}}}}}))}}|second's|seconds'}}
+ |1 = {{plural|{{#expr:floor(abs({{#time:U}}-{{#time:U|{{{time|}}}}})/60)}}|minute's|minutes'}}
+ |2 = {{plural|{{#expr:floor(abs({{#time:U}}-{{#time:U|{{{time|}}}}})/3600)}}|hour's|hours'}}
+ |3 = {{plural|{{#expr:floor(abs({{#time:U}}-{{#time:U|{{{time|}}}}})/86400)}}|day's|days'}}
+ |4 = {{plural|{{#expr:floor(abs({{#time:U}}-{{#time:U|{{{time|}}}}})/604800)}}|week's|weeks'}}
+ |5 = {{plural|{{#expr:floor(abs({{#time:U}}-{{#time:U|{{{time|}}}}})/2678400)}}|month's|months'}}
+ |6 = {{plural|{{#expr:floor(abs({{#time:U}}-{{#time:U|{{{time|}}}}})/31557600)}}|year's|years'}}
+}} time
+}}
