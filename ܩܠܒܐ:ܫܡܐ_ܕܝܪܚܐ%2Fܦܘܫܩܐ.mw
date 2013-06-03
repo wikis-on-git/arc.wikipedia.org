@@ -1,0 +1,96 @@
+{{Documentation subpage}}
+<!-- PLEASE ADD CATEGORIES AND INTERWIKIS AT THE BOTTOM OF THIS PAGE -->
+
+This template returns the name of the month whose number is in parameter. Alternatively, the English month name or abbreviation (with any letter case) can be given.
+
+; Syntax<nowiki>:</nowiki>
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|</nowiki></tt>''month''<tt>}}</tt>
+* The ''month'' value is interpreted modulo 12 (extra leading zeroes and decimals are ignored).
+
+; Compatibility synonym<nowiki>:</nowiki>
+: <tt><nowiki>{{</nowiki>month name|</tt>''month''<tt>}}</tt>
+
+; Examples for all standard month numbers<nowiki>:</nowiki>
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|1}}</nowiki></tt> returns {{MONTHNAME|1}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|2}}</nowiki></tt> returns {{MONTHNAME|2}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|3}}</nowiki></tt> returns {{MONTHNAME|3}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|4}}</nowiki></tt> returns {{MONTHNAME|4}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|5}}</nowiki></tt> returns {{MONTHNAME|5}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|6}}</nowiki></tt> returns {{MONTHNAME|6}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|7}}</nowiki></tt> returns {{MONTHNAME|7}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|8}}</nowiki></tt> returns {{MONTHNAME|8}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|9}}</nowiki></tt> returns {{MONTHNAME|9}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|10}}</nowiki></tt> returns {{MONTHNAME|10}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|11}}</nowiki></tt> returns {{MONTHNAME|11}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|12}}</nowiki></tt> returns {{MONTHNAME|12}}
+
+; Examples for month numbers with extra leading zero<nowiki>:</nowiki>
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|01}}</nowiki></tt> returns {{MONTHNAME|01}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|02}}</nowiki></tt> returns {{MONTHNAME|02}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|03}}</nowiki></tt> returns {{MONTHNAME|03}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|04}}</nowiki></tt> returns {{MONTHNAME|04}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|05}}</nowiki></tt> returns {{MONTHNAME|05}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|06}}</nowiki></tt> returns {{MONTHNAME|06}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|07}}</nowiki></tt> returns {{MONTHNAME|07}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|08}}</nowiki></tt> returns {{MONTHNAME|08}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|09}}</nowiki></tt> returns {{MONTHNAME|09}}
+
+; Examples for month number cyclic underflows and overflows, from computed values<nowiki>:</nowiki>
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|-12}}</nowiki></tt> returns {{MONTHNAME|-12}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|-11}}</nowiki></tt> returns {{MONTHNAME|-11}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|-10}}</nowiki></tt> returns {{MONTHNAME|-10}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|-9}}</nowiki></tt> returns {{MONTHNAME|-9}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|-3}}</nowiki></tt> returns {{MONTHNAME|-3}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|-2}}</nowiki></tt> returns {{MONTHNAME|-2}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|-1}}</nowiki></tt> returns {{MONTHNAME|-1}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|0}}</nowiki></tt> returns {{MONTHNAME|0}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|13}}</nowiki></tt> returns {{MONTHNAME|13}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|14}}</nowiki></tt> returns {{MONTHNAME|14}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|15}}</nowiki></tt> returns {{MONTHNAME|15}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|16}}</nowiki></tt> returns {{MONTHNAME|16}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|23}}</nowiki></tt> returns {{MONTHNAME|23}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|24}}</nowiki></tt> returns {{MONTHNAME|24}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|25}}</nowiki></tt> returns {{MONTHNAME|25}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|1200}}</nowiki></tt> returns {{MONTHNAME|1200}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|1201}}</nowiki></tt> returns {{MONTHNAME|1201}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|1212}}</nowiki></tt> returns {{MONTHNAME|1212}}
+
+; Examples for all standard English month names<nowiki>:</nowiki>
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|JANUARY}}</nowiki></tt> returns {{MONTHNAME|JANUARY}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|FEBRUARY}}</nowiki></tt> returns {{MONTHNAME|FEBRUARY}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|MARCH}}</nowiki></tt> returns {{MONTHNAME|MARCH}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|APRIL}}</nowiki></tt> returns {{MONTHNAME|APRIL}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|MAY}}</nowiki></tt> returns {{MONTHNAME|MAY}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|JUNE}}</nowiki></tt> returns {{MONTHNAME|JUNE}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|JULY}}</nowiki></tt> returns {{MONTHNAME|JULY}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|AUGUST}}</nowiki></tt> returns {{MONTHNAME|AUGUST}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|SEPTEMBER}}</nowiki></tt> returns {{MONTHNAME|SEPTEMBER}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|OCTOBER}}</nowiki></tt> returns {{MONTHNAME|OCTOBER}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|NOVEMBER}}</nowiki></tt> returns {{MONTHNAME|NOVEMBER}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|DECEMBER}}</nowiki></tt> returns {{MONTHNAME|DECEMBER}}
+
+; Examples for all abbreviated English month names<nowiki>:</nowiki>
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|jan}}</nowiki></tt> returns {{MONTHNAME|jan}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|feb}}</nowiki></tt> returns {{MONTHNAME|feb}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|mar}}</nowiki></tt> returns {{MONTHNAME|mar}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|apr}}</nowiki></tt> returns {{MONTHNAME|apr}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|may}}</nowiki></tt> returns {{MONTHNAME|may}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|jun}}</nowiki></tt> returns {{MONTHNAME|jun}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|jul}}</nowiki></tt> returns {{MONTHNAME|jul}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|aug}}</nowiki></tt> returns {{MONTHNAME|aug}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|sep}}</nowiki></tt> returns {{MONTHNAME|sep}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|oct}}</nowiki></tt> returns {{MONTHNAME|oct}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|nov}}</nowiki></tt> returns {{MONTHNAME|nov}}
+: <tt><nowiki>{{</nowiki>MONTHNAME<nowiki>|dec}}</nowiki></tt> returns {{MONTHNAME|dec}}
+
+=== See also ===
+
+* [[Template:MONTHNUMBER]]
+* [[Template:MONTHABBREV]]
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Date-computing templates|{{PAGENAME}}]]
+
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+</includeonly>
