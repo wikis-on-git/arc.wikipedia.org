@@ -1,4 +1,4 @@
-<includeonly>{{#if:{{{1|}}}|{{#switch:{{MONTHNUMBER|{{{1}}}}}|1=January|2=February|3=March|4=April|5=May|6=June|7=July|8=August|9=September|10=October|11=November|12=December|Incorrect required parameter 1=''month''!}}|Missing required parameter 1=''month''!}}</includeonly><noinclude>
+<includeonly>{{#if:{{{1|}}}|{{#switch:{{MONTHNUMBER|{{{1}}}}}|1=ܟܢܘܢ ܬܪܝܢܐ|2=ܫܒܛ|3=ܐܕܪ|4=ܢܝܣܢ|5=ܐܝܪ|6=ܚܙܝܪܢ|7=ܬܡܘܙ|8=ܐܒ|9=ܐܝܠܘܠ|10=ܬܫܪܝܢ ܩܕܡܝܐ|11=ܬܫܪܝܢ ܬܪܝܢܐ|12=ܟܢܘܢ ܩܕܡܝܐ|Incorrect required parameter 1=''month''!}}|Missing required parameter 1=''month''!}}</includeonly><noinclude>
 
 {{Documentation}}
 <!-- Add categories and interwikis to the /doc subpage, not here! -->
