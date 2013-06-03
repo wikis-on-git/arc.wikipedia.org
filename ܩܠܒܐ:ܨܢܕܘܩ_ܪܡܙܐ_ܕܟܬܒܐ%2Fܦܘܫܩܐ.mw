@@ -1,0 +1,193 @@
+{{Documentation subpage}}
+<includeonly>{{high-use|27,000+}}</includeonly>
+{{Auto italic title}}
+<!-- EDIT TEMPLATE DOCUMENTATION BELOW THIS LINE -->
+
+This template is used to present a consistently-formatted table for use in articles about [[book]]s.
+
+== Usage ==
+{{Infobox book
+| name             = ''name''
+| image            = [[File:Example.jpg]]
+| image_size       = 
+| caption          = ''caption''
+| alt              = 
+| author           = ''author''
+| title_orig       = '''title_orig'''
+| translator       = ''translator''
+| illustrator      = ''illustrator''
+| cover_artist     = ''cover_artist''
+| country          = ''country''
+| language         = ''language''
+| series           = ''series''
+| subject          = ''subject''
+| genre            = ''genre''
+| publisher        = ''publisher''
+| publisher2       = ''publisher2''
+| pub_date         = ''pub_date''
+| english_pub_date = ''english_pub_date''
+| media_type       = ''media_type''
+| pages            = ''pages''
+| awards           = ''awards''
+| isbn             = ''isbn''
+| oclc             = ''oclc''
+| dewey            = ''dewey''
+| congress         = ''congress''
+| preceded_by      = '''preceded_by'''
+| followed_by      = '''followed_by'''
+| wikisource       = Wikisource:About
+}}
+<pre style="overflow:auto;">
+{{Infobox book
+<!-- |italic title = (see above) -->
+| name             = 
+| image            = 
+| image_size       = 
+| caption          = 
+| alt              = 
+| author           = 
+| title_orig       = 
+| translator       = 
+| illustrator      = 
+| cover_artist     = 
+| country          = 
+| language         = 
+| series           = 
+| subject          = 
+| genre            = 
+| publisher        = 
+| publisher2       = 
+| pub_date         = <!-- {{Start date|YYYY|MM|DD|df=y}} -->
+| english_pub_date = 
+| media_type       = 
+| pages            = 
+| awards           = 
+| isbn             = 
+| oclc             = 
+| dewey            = 
+| congress         = 
+| preceded_by      = 
+| preceded_by_quotation_marks =
+| followed_by      = 
+| followed_by_quotation_marks =
+| wikisource       =
+}}</pre>
+
+== Parameters ==
+
+''Please see [[Wikipedia:WikiProject Books|WikiProject Books]] and/or [[Wikipedia:WikiProject Novels|WikiProject Novels]] for standards on presenting names and other data.''
+* Parameters can be safely left blank. Note that you may include an image with no caption, but a caption will not be shown if there is no image.
+* [[Wikipedia:Wikilinks|Wikilinks]] can be used in any of the infobox fields.
+
+; name: Book name. If parameter is left blank, ''name'' will be inherited from page title.
+; image: Image (prefer 1st edition – where permitted), use bare filename: <code><nowiki>Example.jpg</nowiki></code>
+; image_size: Default size is 200px. Use a number to change image size
+; caption: Image caption (should describe the edition used)
+; alt: Image alternate text
+; author: Author(s)
+; title_orig: Original title, if not in English
+; translator: Translator(s), if original not in English
+; illustrator: Illustrator (where used throughout and a major feature)
+; cover_artist: Cover artist
+; country: Country of original publication
+; language: Language of original book
+; series: Series (if any)
+; subject: (for non-fiction) ''See [[index term]] and [[library classification]]''
+; genre: (for fiction) ''See [[literary genre]]''
+; publisher: Publisher of main publication (prefer 1st edition)
+; publisher2: Compatibility parameter for particularly notable additional publishers
+; pub_date: Date published (1st edition). Use {{tl|Start date}}
+; english_pub_date: Date published in English (1st English edition), if originally published in another language
+; media_type: Print / On-line (then binding types etc., if relevant)
+; pages: Pages (prefer 1st edition)
+; awards: Awards(s) the book has won
+; isbn: Format: "ISBN 1-234-56789-0" (prefer 1st edition)
+; oclc: [[OCLC]] number (prefer 1st edition), use when book has no ISBN
+; dewey: [[Dewey Decimal System]] classification
+; congress: [[Library of Congress Classification]] ('''not''' to be confused with [[Library of Congress Control Number]])
+; preceded_by: Title of prior book {{em|in series}}; will be italicised by template code (do not use to connect separate books chronologically)
+; preceded_by_quotation_marks: Title of prior work {{em|in series}} if a [[MOS:TEXT#When not to use italics|minor work]]; will be surrounded with quotation marks by template code (do not use to connect separate books chronologically)
+; followed_by: Title of subsequent book {{em|in series or sequel}}; will be italicised by template code (do not use to connect separate books chronologically)
+; followed_by_quotation_marks: Title of subsequent work {{em|in series or sequel}} if a [[MOS:TEXT#When not to use italics|minor work]]; will be surrounded with quotation marks by template code (do not use to connect separate books chronologically)
+; wikisource: Title of work if in the public domain and hosted at English [[:Wikisource:]]. Tracked in [[:Category:Articles that link to Wikisource]]
+
+== Example ==
+
+{{Infobox book|italic title=no <!-- lest the title of this template gets italicised -->
+| name           = Anne of Green Gables
+| image          = FirstPageGreenGables.gif
+| caption        = First page of ''Anne of Green Gables''.
+| alt            = Cover
+| author         = [[Lucy Maud Montgomery]]
+| title_orig     = 
+| translator     = 
+| illustrator    = M. A. and W. A. J. Claus
+| cover_artist   = 
+| country        = United States
+| language       = English
+| series         = 
+| subject        = 
+| genre          = [[Children's literature|Children's novel]]
+| publisher      = [[L. C. Page & Co.]]
+| pub_date       = {{Start date|1908|04}}
+| media_type     = Print ([[hardcover]])
+| pages          = 429 pp ''(first edition)''
+| awards         = 
+| isbn           = N/A
+| oclc           = 367111
+| congress       = PR6025.O45 A53
+| preceded_by    = 
+| followed_by    = [[Anne of Avonlea]]
+| wikisource     = Anne of Green Gables
+}}
+
+<pre style="overflow:auto; margin:3em 0 0; padding-right:0">
+{{Infobox book
+| name           = Anne of Green Gables
+| image          = FirstPageGreenGables.gif
+| caption        = First page of ''Anne of Green Gables''.
+| alt            = Cover
+| author         = [[Lucy Maud Montgomery]]
+| title_orig     = 
+| translator     = 
+| illustrator    = M. A. and W. A. J. Claus
+| cover_artist   = 
+| country        = United States
+| language       = English
+| series         = 
+| subject        = 
+| genre          = [[Children's literature|Children's novel]]
+| publisher      = [[L. C. Page & Co.]]
+| pub_date       = {{Start date|1908|04}}
+| media_type     = Print ([[hardcover]])
+| pages          = 429 pp ''(first edition)''
+| awards         = 
+| isbn           = N/A
+| oclc           = 367111
+| congress       = PR6025.O45 A53
+| preceded_by    = 
+| followed_by    = [[Anne of Avonlea]]
+| wikisource     = Anne of Green Gables
+}}
+</pre>
+<!-- customize if needed to illustrate parameter use -->
+
+== Translated books ==
+About how to handle translated books, see the [[Template talk:Infobox book/Archive 4#Translated books case study|Translated books case study]].
+
+== COinS ==
+{{UF-COinS}}
+
+== Tracking ==
+Instances without images cause the article to be added to [[:Category:Books with missing cover]].
+
+== See also ==
+* {{tl|Infobox book series}}
+
+<includeonly>
+<!-- ADD CATEGORIES BELOW THIS LINE -->
+[[Category:Book infobox templates| ]]
+[[Category:WikiProject Books|*{{PAGENAME}}]]
+[[Category:WikiProject Novels|*{{PAGENAME}}]]
+<!-- ADD INTERWIKIS BELOW THIS LINE -->
+</includeonly>
