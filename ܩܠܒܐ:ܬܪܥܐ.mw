@@ -1,28 +1,11 @@
-
-{{#if:{{{2|}}}|{{Portal box|{{{1}}}|{{{2|}}}|{{{3|}}}|{{{4|}}}|{{{5|}}}|{{{6|}}}|{{{7|}}}|{{{8|}}}|{{{9|}}}|{{{10|}}}|{{{11|}}}|{{{12|}}}|{{{13|}}}|{{{14|}}}|{{{15|}}}|{{{16|}}}}}|
-<div class="noprint {{#ifeq:{{{left|}}}|yes|tleft|tright}} portal" style="border:solid #aaa 1px;margin:{{#if:{{{margin|}}}
- |{{{margin|}}}
- |{{#ifeq:{{{left|}}}|yes
-  |0.5em 0.5em 0.5em 0
-  |0.5em 0 0.5em 0.5em
- }}
-}};">
-<table style="background:#f9f9f9; font-size:85%; line-height:110%; max-width:175px; {{#if:{{{boxsize|}}}
- |width:{{{boxsize|}}}px;
-}}">
-<tr><td>[[Image:{{{image|{{#ifexist:Template:Portal/Images/{{ucfirst:{{lc:{{{name|{{{1|{{PAGENAME}} }}} }}} }} }}
- |{{Portal/Images/{{ucfirst:{{lc:{{{name|{{{1|{{PAGENAME}}}}}}}}}}}}}}
- |{{Portal/Images/Default}}
-}} }}}|{{#if:{{{size|}}}
- |{{{size|}}}px
- |x{{{height|28}}}px
-}}{{#ifeq:{{{link|File:}}}|File:||{{!}}link={{{link|}}}}}{{#ifeq:{{{alt|¬}}}|¬||{{!}}alt={{{alt|}}}}}]]
-</td><td style="padding:0 0.2em;">'''''[[ܬܪܥܐ:{{{name|{{{1|{{PAGENAME}}}}}}}}|{{{name|{{{1|{{PAGENAME}}}}}}}}{{#ifeq:{{{break|}}}|yes
- |<br />
- |&#32;
-}}ܬܪܥܐ]]'''''
-</td></tr>
-</table>
-</div>}}<noinclude>
-{{documentation}}
+<div style="margin: 0 0 0.5em 0.5em; border: solid #aaa 1px; float: left; background: #f9f9f9; padding: 0.5ex; font-size: 85%;" class="left">
+{| style="background: transparent;" width={{{4|0}}}}
+| <div style="position: relative; width: {{{3|36}}}px; height: 32px; overflow: hidden">
+<div style="position: absolute; top: 0px; left: 0px; z-index: 2"> [[File:{{{2|Portal.svg}}}|{{{3|36}}}x32px|ܬܪܥܐ:{{{1|{{PAGENAME}}}}}]]</div></div>
+|| '''''[[ܬܪܥܐ:{{{1|{{PAGENAME}}}}}|ܬܪܥܐ {{{1|{{PAGENAME}}}}}]]'''''
+|}</div></div><noinclude>
+</noinclude><noinclude>
+[[ܣܕܪܐ:ܩܠܒ̈ܐ|{{PAGENAME}}]]
+[[hi:साँचा:Portal/doc]]
+[[tl:Padron:Portal]]
 </noinclude>
