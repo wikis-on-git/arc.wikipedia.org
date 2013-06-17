@@ -1,7 +1,7 @@
-
 {{#time: l، [[j F]] [[Y]] [[ܫܢܬܐ ܡܪܢܝܬܐ]] - 
 ܫܘܝܐ،
 {{#expr:{{{year|<noinclude>{{CURRENTYEAR}}</noinclude><includeonly>{{PAGENAME}}</includeonly>}}}+4750 }} 
 [[ܫܢܬܐ ܐܫܘܪܝܬܐ]]
 }}
-<noinclude>[[ܣܕܪܐ:ܩܠܒܐ ܙܒܢܝܐ|{{ܫܡܐ_ܕܦܐܬܐ}}]]</noinclude>
+
+[[ܣܕܪܐ:ܩܠܒܐ ܙܒܢܝܐ|{{ܫܡܐ_ܕܦܐܬܐ}}]]
