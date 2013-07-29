@@ -1,3 +1,1 @@
-<div class="rellink{{#if:{{{extraclasses|}}}|<nowiki> </nowiki>{{{extraclasses}}}}}">{{{1}}}</div><noinclude>
-[[or:ଟେମ୍ପଲେଟ:Rellink]]
-</noinclude>
+<div class="rellink{{#if:{{{extraclasses|}}}|<nowiki> </nowiki>{{{extraclasses}}}}}">{{{1}}}</div>
