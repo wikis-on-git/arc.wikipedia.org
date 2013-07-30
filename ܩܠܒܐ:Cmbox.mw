@@ -45,6 +45,5 @@
 | notice     =    <!-- Do nothing, valid "type" -->
 | #default   = <div style="text-align: center;">This message box is using an invalid "type={{{type|}}}" parameter and needs fixing.</div>[[Category:Wikipedia message box parameter needs fixing|{{main other|Main:}}{{FULLPAGENAME}}]]<!-- Sort on namespace -->
 }}<noinclude>
-[[en:Template:Cmbox]]
 <!-- Add categories and interwikis to the /doc subpage, not here! -->
 </noinclude>
