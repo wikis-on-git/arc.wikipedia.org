@@ -39,10 +39,4 @@ For more documentation see {{tl|documentation}}.
 <includeonly>
 <!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
 [[Category:Template documentation]]
-</includeonly><noinclude>
-[[bn:টেমপ্লেট:Documentation/core/doc]]
-[[en:Template:Documentation/core/doc]]
-[[gu:ઢાંચો:Documentation/core/doc]]
-[[nso:Template:Documentation/core/doc]]
-[[zh:Template:Documentation/core/doc]]
-</noinclude>
+</includeonly>
