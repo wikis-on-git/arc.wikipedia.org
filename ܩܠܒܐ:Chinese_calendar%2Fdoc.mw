@@ -24,7 +24,6 @@ Convert Julian day to day in month. (1=初一, 2=初二, ..., 29=廿九, 30=三�
 # [http://sinocal.sinica.edu.tw/ 中央研究院計算中心 兩千年中西曆轉換]
 <includeonly>{{#ifeq:{{SUBJECTPAGENAME}}|Template:Chinese calendar
 |<!-- interwiki and other documentation for the Chinese calendar templates -->
-[[zh:Template:Chinese calendar]]
 [[zh-classical:Template:儒略日轉中國曆]]
 
 <!-- CATEGORIES AND INTERWIKIS HERE, THANKS -->
