@@ -21,15 +21,15 @@
 <!-- Respecting empty parameters on purpose -->
 | main        <!--"demospace=main" or {{SUBJECTSPACE}}={{ns:0}}=""-->
 |           = {{{main| {{{other|}}} }}}
-| ܡܡܠܠܐ     = {{{talk| {{{other|}}} }}}
-| ܡܦܠܚܢܐ    = {{{user| {{{other|}}} }}}
-| ܘܝܩܝܦܕܝܐ   = {{{wikipedia| {{{other|}}} }}}
-| ܠܦܦܐ
+| talk | ܡܡܠܠܐ     = {{{talk|{{{ܡܡܠܠܐ| {{{other|}}} }}}}}}
+| user | ܡܦܠܚܢܐ     = {{{user|{{{ܡܦܠܚܢܐ| {{{other|}}} }}}}}}
+| wikipedia | ܘܝܩܝܦܕܝܐ= {{{wikipedia|{{{ܘܝܩܝܦܕܝܐ| {{{other|}}} }}}}}}
+| file | ܠܦܦܐ
 | image     = {{{file| {{{image| {{{other|}}} }}} }}}
 | mediawiki = {{{mediawiki| {{{other|}}} }}}
-| ܩܠܒܐ      = {{{template| {{{other|}}} }}}
+| template | ܩܠܒܐ = {{{template|{{{ܩܠܒܐ| {{{other|}}} }}}}}}
 | help      = {{{help| {{{other|}}} }}}
-| ܣܕܪܐ      = {{{category| {{{other|}}} }}}
+| category  | ܣܕܪܐ= {{{category|{{{ܣܕܪܐ| {{{other|}}} }}}}}}
 | portal    = {{{portal| {{{other|}}} }}}
 | book      = {{{book| {{{other|}}} }}}
 | other
@@ -38,6 +38,6 @@
 }}<!--End switch--><noinclude>
 
 {{ܚܬܝܬܘܬܐ}}
-[[ܣܕܪܐ:ܩܠܒ̈ܐ]]
 <!-- Add categories and interwikis to the /doc subpage, not here! -->
+[[ܣܕܪܐ:ܩܠܒ̈ܐ]]
 </noinclude>
