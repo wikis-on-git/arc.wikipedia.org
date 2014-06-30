@@ -1,26 +1,10 @@
 <!--
   Start of green doc box
---><div id="template-documentation" class="template-documentation iezoomfix" style="background-color:#ECFCF4; border:1px solid #AAA; padding:5px;"><!--
+--><div class="template-documentation" style="background-color:#ecfcf4; border:1px solid #aaa; padding:12px;"><!--
   Add the heading at the top of the doc box:
 -->{{#ifeq: {{{heading|¬}}} | <!--Defined but empty-->
 | <!--"heading=", do nothing-->
-| <div style="padding-bottom: 3px; border-bottom: 1px solid #aaa; margin-bottom: 1ex;">{{
-  #if: {{{content|}}}
-  | 
-  | <!--Add the [edit][purge] or [create] links-->
-    <span class="editsection plainlinks" id="doc_editlinks" title="[ܫܚܠܦ] ܠܫܚܠܦܬܐ ܘܐܫܛܪܘܬܐ[ܡܚܕܬ] ܠܚܕܬܬܗ">{{
-    #if: {{{doc exist|yes}}}
-    | [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/ܦܘܫܩܐ}}}|action=edit}} ܫܚܠܦ]] [{{ܡܣܦܩ ܩܐܫ|ܡܚܕܬ}}] 
-    | <!--/doc doesn't exist-->
-      [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/ܦܘܫܩܐ}}}| action=edit&preload={{
-        #if: {{{preload|}}} 
-        | {{urlencode:{{{preload}}}}}
-        | {{#ifeq: {{SUBJECTSPACE}} | {{ns:File}}
-          | Template:Documentation/preload-filespace
-          | Template:Documentation/preload
-          }} }} }} ܒܪܝ]]
-    }}</span>
-  }} <span style="{{#if: {{{heading-style|}}}
+| <div style="padding-bottom: 3px; border-bottom: 1px solid #aaa; margin-bottom: 1ex;"><span style="{{#if: {{{heading-style|}}}
   | {{{heading-style|}}}
   | {{#ifeq: {{SUBJECTSPACE}} | {{ns:Template}}
     | font-weight: bold; font-size: 125%
@@ -30,13 +14,32 @@
   | ¬ =   
     <!--"heading" not defined in this or previous level-->
     {{#switch: {{SUBJECTSPACE}} 
-    | {{ns:Template}} ='' {{ [[Image:Aramaic alap.png|ܡܕܥ̈ܐ ܕܩܠܒܐ|20px|link=ܘܝܩܝܦܕܝܐ:ܐܫܛܪܘܬܐ ܕܩܠܒܐ]] }} ''ܐܫܛܪܘܬܐ ܕܩܠܒܐ
+    | {{ns:Template}} = '' {{ [[Image:Aramaic alap.png|ܡܕܥ̈ܐ ܕܩܠܒܐ|20px|link=ܘܝܩܝܦܕܝܐ:ܐܫܛܪܘܬܐ ܕܩܠܒܐ]] }} ''ܐܫܛܪܘܬܐ ܕܩܠܒܐ 
+    | {{ns:Module}} = [[File:Template-info.png|50px|link=|alt=Documentation icon]] Module documentation
     | {{ns:File}} = Summary
     | #default = ܐܫܛܪܘܬܐ
     }}
   | #default = 
     <!--"heading" has data or is empty but defined-->
     {{{heading|}}}
-  }}</span></div>
-}}<noinclude>
+  }}</span>{{
+  #if: {{{content|}}}
+  | 
+  | <!--Add the [view][edit][history][purge] or [create] links-->
+    <span class="mw-editsection-like plainlinks" id="doc_editlinks">{{
+    #if: {{{doc exist|yes}}}
+    | <noinclude>&#91;[[{{{docpage|{{FULLPAGENAME}}/ܦܘܫܩܐ}}}|view]]&#93;</noinclude> [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/ܦܘܫܩܐ}}}|action=edit}} ܫܚܠܦ]] <noinclude>[[{{fullurl:{{{docpage|{{FULLPAGENAME}}/ܦܘܫܩܐ}}}|action=history}} history]]</noinclude> [{{purge|ܡܚܕܬ}}] 
+    | <!--/doc doesn't exist-->
+      [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/ܦܘܫܩܐ}}}| action=edit&preload={{
+        #if: {{{preload|}}} 
+        | {{urlencode:{{{preload}}}}}
+        | {{#ifeq: {{SUBJECTSPACE}} | {{ns:File}}
+          | Template:Documentation/preload-filespace
+          | Template:Documentation/preload
+          }} }} }} ܒܪܝ]]
+    }}</span>
+  }}</div>
+}}<noinclude><!-- close the div --></div>
+
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
 </noinclude>
