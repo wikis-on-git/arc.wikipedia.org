@@ -1,15 +1,16 @@
 {{
   {{namespace detect 
   | demospace = {{{demospace|}}}
-  | ܪܝܫܝܬܐ      = ambox
-  | ܕܘܪܫܐ       = tmbox
-  | ܠܦܦܐ        = imbox
-  | ܨܘܢܦܐ      = cmbox
-  | ܐܚܪܢܐ        = ombox
+  | main      = ambox
+  | talk      = tmbox
+  | file      = imbox
+  | category  = cmbox
+  | other     = ombox
   }}
 | type       = {{{type|}}}
 | image      = {{{image|}}}
 | imageright = {{{imageright|}}}
+| class      = {{{class|}}}
 | style      = {{{style|}}}
 | textstyle  = {{{textstyle|}}}
 | text       = {{{text}}}
@@ -17,8 +18,11 @@
 | smallimage = {{{smallimage|}}}
 | smallimageright = {{{smallimageright|}}}
 | smalltext  = {{{smalltext|}}}
+| subst      = {{{subst|}}}
+| date       = {{{date|}}}
+| name       = {{{name|}}}
 }}<noinclude>
-
+{{documentation}}
 [[ܣܕܪܐ:ܩܠܒ̈ܐ]]
-
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
 </noinclude>
