@@ -6,12 +6,12 @@
     | {{#if:{{{page|}}} 
       | <!--Detect the namespace in the "page" parameter-->
         {{#ifeq:{{NAMESPACE:{{{page}}} }}|{{TALKSPACE:{{{page}}} }}
-        | talk
+        | talk | ܡܡܠܠܐ
         | {{SUBJECTSPACE:{{{page}}} }} 
         }}
       | <!--No "demospace" or "page" parameters, so detect actual namespace-->
         {{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}
-        | talk
+        | talk | ܡܡܠܠܐ
         | {{SUBJECTSPACE}} 
         }}
       }}
@@ -19,21 +19,21 @@
   }}
 <!-- Only one of the lines below will be executed -->
 <!-- Respecting empty parameters on purpose -->
-| main        <!--"demospace=main" or {{SUBJECTSPACE}}={{ns:0}}=""-->
-|           = {{{main| {{{other|}}} }}}
-| talk | ܡܡܠܠܐ     = {{{talk|{{{ܡܡܠܠܐ| {{{other|}}} }}}}}}
-| user | ܡܦܠܚܢܐ     = {{{user|{{{ܡܦܠܚܢܐ| {{{other|}}} }}}}}}
-| wikipedia | ܘܝܩܝܦܕܝܐ= {{{wikipedia|{{{ܘܝܩܝܦܕܝܐ| {{{other|}}} }}}}}}
+| main | ܪܝܫܝܬܐ        <!--"demospace=main" or {{SUBJECTSPACE}}={{ns:0}}=""-->
+|           = {{{main|{{{ܪܝܫܝܬܐ| {{{other|{{{ܐܚܪܢܐ|}}}}}} }}}}}}
+| talk | ܡܡܠܠܐ     = {{{talk|{{{ܡܡܠܠܐ| {{{other|{{{ܐܚܪܢܐ|}}}}}} }}}}}}
+| user | ܡܦܠܚܢܐ     = {{{user|{{{ܡܦܠܚܢܐ| {{{other|{{{ܐܚܪܢܐ|}}}}}} }}}}}}
+| wikipedia | ܘܝܩܝܦܕܝܐ= {{{wikipedia|{{{ܘܝܩܝܦܕܝܐ| {{{other|{{{ܐܚܪܢܐ|}}}}}} }}}}}}
 | file | ܠܦܦܐ
-| image     = {{{file| {{{image| {{{other|}}} }}} }}}
-| mediawiki = {{{mediawiki| {{{other|}}} }}}
-| template | ܩܠܒܐ = {{{template|{{{ܩܠܒܐ| {{{other|}}} }}}}}}
-| help      = {{{help| {{{other|}}} }}}
-| category  | ܣܕܪܐ= {{{category|{{{ܣܕܪܐ| {{{other|}}} }}}}}}
-| portal    = {{{portal| {{{other|}}} }}}
-| book      = {{{book| {{{other|}}} }}}
+| image     = {{{file|{{{ܠܦܦܐ| {{{image| {{{other|{{{ܐܚܪܢܐ|}}}}}} }}} }}}}}}
+| mediawiki = {{{mediawiki| {{{other|{{{ܐܚܪܢܐ|}}}}}} }}}
+| template | ܩܠܒܐ = {{{template|{{{ܩܠܒܐ| {{{other|{{{ܐܚܪܢܐ|}}}}}} }}}}}}
+| help      = {{{help| {{{other|{{{ܐܚܪܢܐ|}}}}}} }}}
+| category  | ܣܕܪܐ= {{{category|{{{ܣܕܪܐ| {{{other|{{{ܐܚܪܢܐ|}}}}}} }}}}}}
+| portal    = {{{portal| {{{other|{{{ܐܚܪܢܐ|}}}}}} }}}
+| book      = {{{book| {{{other|{{{ܐܚܪܢܐ|}}}}}} }}}
 | other
-| #default  = {{{other|}}}   <!--"demospace=other" or a new namespace-->
+| #default  = {{{other|{{{ܐܚܪܢܐ|}}}}}}   <!--"demospace=other" or a new namespace-->
 
 }}<!--End switch--><noinclude>
 
