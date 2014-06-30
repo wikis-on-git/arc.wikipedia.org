@@ -1,57 +1,66 @@
 {{#ifeq:{{{subst}}}|SUBST
  |{{#if:{{{name|}}}
-  |{{error|Template {{tlx|{{{name}}}}} has been incorrectly substituted.}}
+  |{{Error|Template {{tlx|{{{name}}}}} has been incorrectly substituted.}}
  }}[[Category:Pages with incorrectly substituted templates]]
-}}{{#ifeq:{{{small}}}|left
- |{{Ambox/core
-  |small      = left
-  |type       = {{{type|}}}
-  |image      = {{#if:{{{smallimage|}}}
-   |{{{smallimage}}}
-   |{{{image|}}}
-  }}
-  |imageright = {{#if:{{{smallimageright|}}}
-   |{{{smallimageright}}}
-   |{{{imageright|}}}
-  }}
-  |class      = {{{class|}}}
-  |style      = {{{style|}}}
-  |textstyle  = {{{textstyle|}}}
-  |text       = {{#if:{{{smalltext|}}}
-   |{{{smalltext}}} 
-   |{{{text}}} 
-  }}
+}}{{Ambox/{{#ifeq:{{{small}}}|left|small|core}}
+ |type = {{{type|}}}
+ |image = {{{image|}}}
+ |smallimage = {{#if:{{{smallimage|}}}|{{{smallimage}}}|{{{image|}}}}}
+ |imageright = {{{imageright|}}}
+ |smallimageright = {{#if:{{{smallimageright|}}}|{{{smallimageright}}}|{{{imageright|}}}}}
+ |class = ambox-{{#switch:{{{type|}}}
+  |speedy = speedy
+  |delete = delete
+  |content = content
+  |style = style
+  |move = move
+  |protection = protection
+  |notice|#default = notice
+ }} {{{class|}}}
+ |style = {{{style|}}}
+ |textstyle  = {{{textstyle|}}}
+ |smalltext  = {{{smalltext|}}}
+ |talk = {{#switch:{{{talk|¬}}}
+  |¬        = <!-- No talk link used -->
+  |         = {{#ifeq:{{FULLROOTPAGENAME}}|Template:{{PAGENAME:{{{name}}}}}|#}}
+  |#default = {{{talk}}}
  }}
- |{{Ambox/core
-  |type       = {{{type|}}}
-  |image      = {{{image|}}}
-  |imageright = {{{imageright|}}}
-  |class      = {{{class|}}}
-  |style      = {{{style|}}}
-  |textstyle  = {{{textstyle|}}}
-  |text       = {{{text}}}
-  |date       = {{#ifeq:{{FULLROOTPAGENAME}}|Template:{{PAGENAME:{{{name}}}}}
-   |{{#ifeq:{{{date|¬}}}|¬||{{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
-   |{{{date|}}}
-  }}
+ |issue = {{#switch:{{{sect|¬}}}
+  |¬ = <!-- No section parameter used -->
+  |  = This article
+  |This {{{sect}}}
+ }} {{{issue<includeonly>|</includeonly>}}} {{{text|}}}
+ |fix = {{{fix<includeonly>|</includeonly>}}}
+ |date = {{#switch:{{{date|¬}}}
+  |¬        = <!-- No date used -->
+  |         = {{#ifeq:{{FULLROOTPAGENAME}}|Template:{{PAGENAME:{{{name}}}}}|{{CURRENTMONTHNAME}} {{CURRENTYEAR}}}}
+  |#default = {{{date}}}
  }}
-}}{{cat handler
- |main={{ambox/category
+ |info = {{{info|}}}
+}}{{Category handler
+ |nocat={{{nocat|<noinclude>true</noinclude>}}}
+ |main={{Ambox/category
   |cat={{{cat|{{{category|}}}}}} 
-  |date={{{date|}}}
   |all={{{all|}}}
+  |date={{{date|}}}
+ }}{{Ambox/category
+  |cat={{{cat2|{{{category2|}}}}}} 
+  |all={{{all2|}}}
+  |date={{{date|}}}
+ }}{{Ambox/category
+  |cat={{{cat3|{{{category3|}}}}}} 
+  |all={{{all3|}}}
+  |date={{{date|}}}
  }}
- |template={{#ifeq:{{BASEPAGENAME}}|{{SUBPAGENAME}}|<!--We are on a rootpage, not a /doc or /sandbox page-->{{#ifeq:{{{nocat|}}}|true
-    | <!--Don't categorise-->
-    | [[Category:Article message boxes|{{BASEPAGENAME}}]]
-    }}
+ |template={{#switch:Template:{{{name|}}}
+  |{{FULLPAGENAME}} = [[Category:Article message templates]]{{#ifexpr:{{#ifeq:{{{issue|¬}}}|¬|1|0}}+{{#ifeq:{{{fix|¬}}}|¬|1|0}}+{{#ifeq:{{{subst|¬}}}|¬|1|0}}
+   |[[Category:Article message templates with missing parameters|{{#expr:{{#ifeq:{{{issue|¬}}}|¬|1|0}}+{{#ifeq:{{{fix|¬}}}|¬|1|0}}+{{#ifeq:{{{subst|¬}}}|¬|1|0}}}}]]
+  }}{{#if:{{{category|}}}{{{category2|}}}{{{category3|}}}
+   |[[Category:Article message templates with missing parameters|C]]
   }}
-}}{{#ifeq:{{FULLPAGENAME}}|Template:{{PAGENAME:{{{name}}}}}
- |{{#ifeq:{{{doc}}}|no|
-  |{{documentation}}<!-- Transclude documentation on template page -->
+  |Template:        = {{#ifeq:{{BASEPAGENAME}}|{{SUBPAGENAME}}|[[Category:Article message templates with missing parameters]]}}
  }}
 }}<noinclude>
-
 {{Documentation}}
 <!-- Add categories and interwikis to the /doc subpage, not here! -->
 </noinclude>
