@@ -7,11 +7,21 @@
 | protection = tmbox-protection
 | notice          <!-- notice = default -->
 | #default   = tmbox-notice
-}} {{{class|}}}" style="{{{style|}}}">
+}} {{{class|}}}" style="margin: 4px 10%; border-collapse: collapse; border: 1px solid #c0c090; background: #f8eaba;
+{{#switch:{{{type|}}}
+| speedy    = border: 2px solid #b22222; background: #fee
+| delete = border: 2px solid #b22222;
+| content = border: 2px solid #f28500;
+| style = border: 2px solid #f4c430;
+| move = border: 2px solid #9932cc;
+| protection = border: 1px solid #c0c090;
+| notice          <!-- notice = default -->
+| #default   = border: 1px solid #c0c090;
+}} {{{style|}}}" role="presentation">
 <tr>
 {{#ifeq:{{{image|}}}|none
 | <!-- No image. Cell with some width or padding necessary for text cell to have 100% width. --><td class="mbox-empty-cell" style="border: none; padding: 0px; width: 1px;"></td>
-| <td class="mbox-image">
+| <td class="mbox-image" style="border: none; padding: 2px 0 2px 0.9em; text-align: center;">
   {{#if:{{{image|}}}
   | {{{image}}}
   | [[Image:{{#switch:{{{type|}}}
@@ -26,11 +36,11 @@
     }} | {{#ifeq:{{{small|}}}|yes|30x30px|40x40px}}|link=|alt=]]
   }}</td>
 }}
-<td class="mbox-text" style="{{{textstyle|}}}"> {{{text}}} </td>
+<td class="mbox-text" style="padding: 0.25em 0.9em; border: none; width: 100%" "{{{textstyle|}}}"> {{{text}}} </td>
 {{#if:{{{imageright|}}}
 | {{#ifeq:{{{imageright|}}}|none
   | <!-- No image. -->
-  | <td class="mbox-imageright"> {{{imageright}}} </td>
+  | <td class="mbox-imageright" style="border: none; padding: 2px 0.9em 2px 0; text-align: center;"> {{{imageright}}} </td>
   }}
 }}
 </tr>
