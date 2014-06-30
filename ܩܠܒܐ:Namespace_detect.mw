@@ -6,12 +6,12 @@
     | {{#if:{{{page|}}} 
       | <!--Detect the namespace in the "page" parameter-->
         {{#ifeq:{{NAMESPACE:{{{page}}} }}|{{TALKSPACE:{{{page}}} }}
-        | talk | ܡܡܠܠܐ
+        | talk
         | {{SUBJECTSPACE:{{{page}}} }} 
         }}
       | <!--No "demospace" or "page" parameters, so detect actual namespace-->
         {{#ifeq:{{NAMESPACE}}|{{TALKSPACE}}
-        | talk | ܡܡܠܠܐ
+        | talk
         | {{SUBJECTSPACE}} 
         }}
       }}
