@@ -1,7 +1,7 @@
 <!--
   Automatically add {{template sandbox notice}} when on a /sandbox page.
 -->{{#ifeq: {{SUBPAGENAME}} | sandbox
-| <div style="clear: both;"></div>{{template sandbox notice}}
+| <div style="clear: both;"></div>{{template sandbox notice|{{{livepage|}}}}}
 }}<!--
   Automatically add {{pp-template}} to protected templates.
 -->{{template other
