@@ -32,7 +32,7 @@
 | category  | ܣܕܪܐ= {{{category|{{{ܣܕܪܐ| {{{other|{{{ܐܚܪܢܐ|}}}}}} }}}}}}
 | portal    = {{{portal| {{{other|{{{ܐܚܪܢܐ|}}}}}} }}}
 | book      = {{{book| {{{other|{{{ܐܚܪܢܐ|}}}}}} }}}
-| other
+| other | ܐܚܪܢܐ
 | #default  = {{{other|{{{ܐܚܪܢܐ|}}}}}}   <!--"demospace=other" or a new namespace-->
 
 }}<!--End switch--><noinclude>
