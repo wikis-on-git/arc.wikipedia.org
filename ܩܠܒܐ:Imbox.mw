@@ -1,4 +1,4 @@
-<table class="plainlinks imbox 
+<table class="{{#if:{{yesno|{{{plainlinks|yes}}}}}|plainlinks}} imbox 
 {{#switch:{{{type|}}}
 | speedy     = imbox-speedy
 | delete     = imbox-delete
@@ -10,11 +10,23 @@
 | featured   = imbox-featured
 | notice          <!-- notice = default -->
 | #default   = imbox-notice
-}} {{{class|}}}" style="{{{style|}}}">
+}} {{{class|}}}" style="margin: 4px 10%; border-collapse: collapse; border: 3px solid #1e90ff; background: #fbfbfb; 
+{{#switch:{{{type|}}}
+| speedy    = border: 3px solid #b22222;	background: #fee;
+| delete = border: 3px solid #b22222;
+| content = border: 3px solid #f28500;
+| style = border: 3px solid #f4c430;
+| move = border: 3px solid #9932cc;
+| protection = border: 3px solid #bba;
+| license = border: 3px solid #88a; background: #f7f8ff;
+| featured = border: 3px solid #cba135;
+| notice          <!-- notice = default -->
+| #default   = border: 3px solid #1e90ff;
+}} {{{style|}}}">
 <tr>
 {{#ifeq:{{{image|}}}|none
 | <!-- No image. Cell with some width or padding necessary for text cell to have 100% width. --><td class="mbox-empty-cell"></td>
-| <td class="mbox-image">
+| <td class="mbox-image" style="border: none; padding: 2px 0 2px 0.9em; text-align: center;">
   {{#if:{{{image|}}}
   | {{{image}}}
   | {{#switch:{{{type|}}}
@@ -31,13 +43,13 @@
     }}
   }}</td>
 }}
-<td class="mbox-text" style="{{{textstyle|}}}"> {{{text}}} </td>
+<td class="mbox-text" style="padding: 0.25em 0.9em; border: none; width: 100%; {{{textstyle|}}}"> {{{text}}} </td>
 {{#if:{{{imageright|}}}
-| <td class="mbox-imageright"> {{{imageright}}} </td>
+| <td class="mbox-imageright" style="padding: 2px  0.9em 2px 0; border: none; text-align: center;''> {{{imageright}}} </td>
 }}
 </tr>
 {{#if:{{{below|}}}
-| <tr><td colspan={{#if:{{{imageright|}}}|3|2}} class="mbox-text" style="{{{textstyle|}}}"> {{{below}}} </td></tr>
+| <tr><td colspan={{#if:{{{imageright|}}}|3|2}} class="mbox-text" style="padding: 0.25em 0.9em; border: none; width: 100%; {{{textstyle|}}}"> {{{below}}} </td></tr>
 }}
 </table><!-- Detect and report usage with faulty "type" parameter:
 -->{{#switch:{{{type|}}}
