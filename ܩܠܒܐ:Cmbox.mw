@@ -8,11 +8,21 @@
 | protection = cmbox-protection
 | notice          <!-- notice = default -->
 | #default   = cmbox-notice
-}}" style="{{{style|}}}">
+}} {{{class|}}}" style="margin: 3px 10%; border-collapse: collapse; border: 1px solid #aaa; background: #DFE8FF;
+{{#switch:{{{type|}}}
+| speedy    = margin-top: 4px; margin-bottom: 4px; border: 4px solid #b22222; background: #FFDBDB;
+| delete = background: #FFDBDB;
+| content = background: #FFE7CE;
+| style = background: #FFF9DB;
+| move = background: #E4D8FF;
+| protection = background: #EFEFE1;
+| notice          <!-- notice = default -->
+| #default   = background: #D8E8FF;
+}} {{{style|}}}">
 <tr>
 {{#ifeq:{{{image|}}}|none
 | <!-- No image. Cell with some width or padding necessary for text cell to have 100% width. --><td class="mbox-empty-cell"></td>
-| <td class="mbox-image">
+| <td class="mbox-image" style="border: none; padding: 2px 0 2px 0.9em; text-align: center;">
   {{#if:{{{image|}}}
   | {{{image}}}
   | [[File:{{#switch:{{{type|}}}
@@ -27,9 +37,9 @@
     }}|40x40px|link=|alt=]]
   }}</td>
 }}
-<td class="mbox-text" style="{{{textstyle|}}}"> {{{text}}} </td>
+<td class="mbox-text" style="border: none; padding: 0.25em 0.9em; width: 100%; {{{textstyle|}}}"> {{{text}}} </td>
 {{#if:{{{imageright|}}}
-| <td class="mbox-imageright"> {{{imageright}}} </td>
+| <td class="mbox-imageright" style="border: none; padding: 2px 0.9em 2px 0; text-align: center;"> {{{imageright}}} </td>
 }}
 </tr>
 </table><!-- 
@@ -45,5 +55,6 @@
 | notice     =    <!-- Do nothing, valid "type" -->
 | #default   = <div style="text-align: center;">This message box is using an invalid "type={{{type|}}}" parameter and needs fixing.</div>[[Category:Wikipedia message box parameter needs fixing|{{main other|Main:}}{{FULLPAGENAME}}]]<!-- Sort on namespace -->
 }}<noinclude>
+{{documentation}}
 <!-- Add categories and interwikis to the /doc subpage, not here! -->
 </noinclude>
