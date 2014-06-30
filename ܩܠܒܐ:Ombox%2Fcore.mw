@@ -8,11 +8,21 @@
 | protection = ombox-protection
 | notice          <!-- notice = default -->
 | #default   = ombox-notice
-}}" style="{{{style|}}}">
+}} {{{class|}}}" style="margin: 4px 10%; border-collapse: collapse; border: 1px solid #aaa; background: #f9f9f9; 
+{{#switch:{{{type|}}} 
+| speedy = border: 2px solid; background: #fee;
+| delete = border: 2px solid #b22222;
+| content = border: 1px solid #f28500;
+| style = border: 1px solid #f4c430;
+| move = border: 1px solid #9932cc;
+| protection = border: 2px solid #bba;
+| notice          <!-- notice = default -->
+| #default = border: 1px solid #aaa;
+}} {{{style|}}}" role="presentation">
 <tr>
 {{#ifeq:{{{image|}}}|none
-| <!-- No image. Cell with some width or padding necessary for text cell to have 100% width. --><td class="mbox-empty-cell"></td>
-| <td class="mbox-image">
+| <!-- No image. Cell with some width or padding necessary for text cell to have 100% width. --><td class="mbox-empty-cell" style="border: none; padding: 0px; width: 1px;"></td>
+| <td class="mbox-image" style="border: none; padding: 2px 0px 2px 0.9em; text-align: center;">
   {{#if:{{{image|}}}
   | {{{image}}}
   | [[Image:{{#switch:{{{type|}}}
@@ -30,11 +40,11 @@
     }}|link=|alt=]]
   }}</td>
 }}
-<td class="mbox-text" style="{{{textstyle|}}}"> {{{text}}} </td>
+<td class="mbox-text" style="border: none; padding: 0.25em 0.9em; width: 100%; {{{textstyle|}}}"> {{{text}}} </td>
 {{#if:{{{imageright|}}}
 | {{#ifeq:{{{imageright|}}}|none
   | <!-- No image. -->
-  | <td class="mbox-imageright"> {{{imageright}}} </td>
+  | <td class="mbox-imageright" style="border: none; padding: 2px 0.9em 2px 0px; text-align: center;"> {{{imageright}}} </td>
   }}
 }}
 </tr>
@@ -51,5 +61,6 @@
 | #default   = <div style="text-align: center;">This message box is using an invalid "type={{{type|}}}" parameter and needs fixing.</div>[[Category:Wikipedia message box parameter needs fixing|{{main other|Main:}}{{FULLPAGENAME}}]]<!-- Sort on namespace -->
 }}<noinclude>
 
+{{documentation}}
 <!-- Add categories and interwikis to the /doc subpage, not here! -->
 </noinclude>
