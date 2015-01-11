@@ -60,8 +60,8 @@
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܦܢܝܬܐ ܕܙܒܢܐ]]'''
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܦܢܝܬܐ ܕܙܒܢܐ}}}
 |- valign="top"
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''ܢܕܒܪܘܢ ܒܓܢܒ'''
-| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܢܕܒܪܘܢ ܒܓܢܒ}}}
+{{#if:{{{ܡܐ ܐܘܡܬܢܝܐ|}}}|{{!}} style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" {{!}} '''ܢܕܒܪܘܢ ܒܓܢܒ'''
+{{!}} style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" {{!}} {{{ܢܕܒܪܘܢ ܒܓܢܒ}}}}}
 |- valign="top"
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܪܡܙܐ ܕܐܢܛܪܢܛ]]'''
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܪܡܙܐ ܕܐܢܛܪܢܛ}}}
