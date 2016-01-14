@@ -35,3 +35,7 @@ What font should I use to view Syriac script? [[ܡܦܠܚܢܐ:IllogicMink|Illogic
 
 :Hello IllogicMink, the [http://www.bethmardutho.org/index.php/resources/fonts.html Meltho fonts] would be a good place to start. :) --[[ܡܦܠܚܢܐ:334a|334a]] ([[ܡܡܠܠܐ ܕܡܦܠܚܢܐ:334a|ܡܡܠܠܐ]]) 14:19, 23 ܒܐܝܪ 2015 (UTC)
 :Thanks. [[ܡܦܠܚܢܐ:IllogicMink|IllogicMink]] ([[ܡܡܠܠܐ ܕܡܦܠܚܢܐ:IllogicMink|ܡܡܠܠܐ]]) 11:09, 23 ܒܚܙܝܪܢ 2015 (UTC)
+
+== Wrong style ==
+
+Please remove the fonts <code>Verdana, Arial, Helvetica</code> because they are breaking the style and make titles such as<br>ܡܓܠ̈ܐ ܚܘܝܚ̈ܬܐ<br>to appear as square. Therefore the line<br><code>font-family:Verdana, Arial, Helvetica, sans-serif</code><br>should be<br><code>font-family: sans-serif</code><br>or be entirely removed. <small>--[[ܡܦܠܚܢܐ:Mahmudmasri|Mahmudmasri]] ([[ܡܡܠܠܐ ܕܡܦܠܚܢܐ:Mahmudmasri|ܡܡܠܠܐ]])</small>
