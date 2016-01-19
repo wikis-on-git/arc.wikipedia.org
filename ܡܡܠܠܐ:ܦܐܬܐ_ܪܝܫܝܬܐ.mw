@@ -39,3 +39,9 @@ What font should I use to view Syriac script? [[ܡܦܠܚܢܐ:IllogicMink|Illogic
 == Wrong style ==
 
 Please remove the fonts <code>Verdana, Arial, Helvetica</code> because they are breaking the style and make titles such as<br>ܡܓܠ̈ܐ ܚܘܝܚ̈ܬܐ<br>to appear as square. Therefore the line<br><code>font-family:Verdana, Arial, Helvetica, sans-serif</code><br>should be<br><code>font-family: sans-serif</code><br>or be entirely removed. <small>--[[ܡܦܠܚܢܐ:Mahmudmasri|Mahmudmasri]] ([[ܡܡܠܠܐ ܕܡܦܠܚܢܐ:Mahmudmasri|ܡܡܠܠܐ]])</small>
+
+== Aramaic is missing ==
+
+Aramaic is missing from this page:<br />
+https://meta.wikimedia.org/wiki/There_is_also_a_Wikipedia_in_your_language<br />
+Thank you, [[ܡܦܠܚܢܐ:Varlaam|Varlaam]] ([[ܡܡܠܠܐ ܕܡܦܠܚܢܐ:Varlaam|ܡܡܠܠܐ]]) 08:07, 19 ܒܟܢܘܢ ܐܚܪܝ 2016 (UTC)
