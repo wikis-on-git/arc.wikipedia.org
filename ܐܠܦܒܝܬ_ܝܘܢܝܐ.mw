@@ -5,7 +5,7 @@
 == ܐܬܘ̈ܬܐ ==
 ܐܝܬ ܥܣܪܝܢ ܘܐܪܒܥ ܐܬܘ̈ܢ ܠܐܠܦܒܝܬ ܝܘܢܝܐ (ܫܒܥܐ [[ܙܘܥܐ|ܙܘܥ̈ܝܢ]]):
 
-{| border="1" align="right" cellspacing="0"
+{| border="1" cellspacing="0"
 |-
 ! align="center" | ܫܡܐ ܣܘܪܝܝܐ
 ! align="center" | ܫܡܐ ܝܘܢܝܐ 
@@ -183,10 +183,79 @@
 | align="center" | ܘ
 |-
 |}
-<!--
+
+ܐܬܘ̈ܬܐ ܥܬܝܩ̈ܬܐ:
+
+{| border="1" cellspacing="0"
+|-
+! align="center" | ܫܡܐ ܣܘܪܝܝܐ
+! align="center" | ܫܡܐ ܝܘܢܝܐ 
+! align="center" | ܪܒܬܐ 
+! align="center" | ܙܥܘܪܬܐ
+! align="center" | ܩܠܐ ܫܪܝܪܐ
+! align="center" | ܩܠܐ ܟܬܝܒܐ
+|-
+! align="center" | 
+! align="center" | Δίγαμμα
+| align="center" | [[Ϝ]]
+| align="center" | ϝ
+| align="center" |
+| align="center" |
+|-
+! align="center" | 
+! align="center" | Στίγμα
+| align="center" | [[Ϛ]]
+| align="center" | ϛ
+| align="center" |
+| align="center" |
+|-
+! align="center" | 
+! align="center" | Ἧτα
+| align="center" | [[Ͱ]]
+| align="center" | ͱ
+| align="center" |
+| align="center" |
+|-
+! align="center" | 
+! align="center" | Σάν
+| align="center" | [[Ϻ]]
+| align="center" | ϻ
+| align="center" |
+| align="center" |
+|-
+! align="center" | 
+! align="center" | Κόππα
+| align="center" | [[Ϙ]]
+| align="center" | ϙ
+| align="center" |
+| align="center" |
+|-
+! align="center" | 
+! align="center" | Σαμπῖ
+| align="center" | [[Ͳ]]
+| align="center" | ͳ
+| align="center" |
+| align="center" |
+|-
+! align="center" | 
+! align="center" | –
+| align="center" | [[Ϸ]]
+| align="center" | ϸ
+| align="center" |
+| align="center" |
+|}
+
 == ܐܦ ܚܙܝ ==
 * [[ܐܠܦܒܝܬ ܝܘܢܝܐ ܥܬܝܩܐ]]
 
 == ܐܣܘܪ̈ܐ ܒܪ̈ܝܐ ==
 * [http://unicode.org/charts/PDF/U0370.pdf ܐܠܦܒܝܬ ܝܘܢܝܐ]
--->
+
+== ܐܦ ܚܙܝ ==
+* [http://www.opoudjis.net/unicode/nonattic.html#digamma Digamma]
+* [http://www.opoudjis.net/unicode/other_ligatures.html#stigma Stigma]
+* [http://www.opoudjis.net/unicode/unicode_aitch.html#tackheta Heta]
+* [http://www.opoudjis.net/unicode/nonattic.html#san San]
+* [http://www.opoudjis.net/unicode/nonattic.html#koppa Koppa]
+* [http://www.opoudjis.net/unicode/other_nonattic.html#sampi Sampi]
+* [http://www.opoudjis.net/unicode/nonattic.html#sho Sho]
