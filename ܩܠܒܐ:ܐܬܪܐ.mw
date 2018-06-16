@@ -37,6 +37,9 @@
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܥܡܡܐ ܐܘܡܬܢܝܐ ܕ{{{ܫܡܐ}}}|ܥܡܡ̈ܐ ܐܘܡܬܢܝ̈ܐ]]'''
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܥܡܡܐ ܐܘܡܬܢܝܐ}}}
 |- valign="top"
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܬܘܕܝܬܐ ܕ{{{ܫܡܐ}}}|ܬܘܕܝܬܐ]]'''
+| style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܬܘܕܝܬܐ}}}
+|- valign="top"
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | '''[[ܡܕܒܪܢܘܬܐ]]'''
 | style="border-top: solid 1px #ccd2d9; padding: 0.4em 1em 0.4em 0;" | {{{ܡܕܒܪܢܘܬܐ}}}
 |- valign="top"
@@ -90,6 +93,7 @@
 | ܛܘܟܣܐ ܕܐܪܫܟܝܬܐ = <br>
 | ܡܕܝܢܬܐ ܪܒܬܐ = <br>
 | ܥܡܡܐ ܐܘܡܬܢܝܐ = <br>
+| ܬܘܕܝܬܐ = <br>
 | ܡܕܒܪܢܘܬܐ = <br>
 | ܡܕܒܪܢܐ = <br>
 | ܫܡܐ ܕܡܕܒܪܢܐ = <br>
