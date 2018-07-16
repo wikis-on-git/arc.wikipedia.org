@@ -72,15 +72,14 @@ The default images shown above are mostly for testing and demonstration. In most
 | text  = image = <nowiki>[[Image:Commons-logo.svg|40x40px]]</nowiki> <br> Note the use of "40x40px" to also limit the height of the image. This image is used for [[MediaWiki:Sharedupload-desc-here]].
 }}
 
-=== Special ===
+=== Special ===1
 
-Some other parameter combinations.
+Some other parameter combinations.2
 
 {{fmbox
 | text  = Default image given (no '''image=''' specified)
 }}
-{{fmbox
-| image = none
+{{image =none
 | text  = '''image=none''' – No image is used and the '''text''' uses the whole message box area.
 }}
 {{fmbox
