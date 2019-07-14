@@ -1,0 +1,75 @@
+Anyone, including you, can write for {{SITENAME}}! Just type a title in the box below, click "Create page", and start writing:
+{| width="60%"
+|
+<inputbox>
+type=create
+width=45
+</inputbox>
+|}
+
+'Create page' takes you to an edit page to enter the new text. Of course, names are important, meaning the title of the page, and un-doing mistakes can take time, so it's always a good idea to do a little homework first. (See [[#General principles|General principles]] below.) 
+
+The edit page has a link for ''Editing help'', so you won't be lost. For general editing matters and details on the [[w:markup language|markup language]] of the [[Help:Filling the page|wikitext]], see [[Help:Editing]]. ''If you want to experiment, use the [[{{ns:4}}:Sandbox|sandbox]] first.''
+
+New pages can also be started by following a link to a non-existent page, which  likewise launches the edit page.  See [[#Starting a page through the URL|Starting a page through the URL]] below.
+
+== General principles ==
+
+* '''[[Help:Searching|Search]]''' to see whether someone has written a similar page before you start one yourself. Choose the title carefully.
+* Review conventions of the project you are working in regarding e.g.: 
+**naming conventions; see also [[Help:Page name]]. 
+**whether a separate page is justified; perhaps it is better to add the text to a related page (especially if the text is not very long); that page can always be split later, after it has grown.
+**how-to guidance for writing regarding style, content and formatting.  E.g. for the Wikipedia project see [[w:Wikipedia:How to write a great article|How to write a great article]].
+<!--If there is an appropriate meta HowTo article, please update above ~~~~ -->
+* While creating the page and '''before''' saving it, check the <u>''What links here''</u> link on the creation page. Align the new content with existing links, or change the new title, or fix the other links.
+* If nothing points here, the page is isolated.  Links to it will need to be added on other pages.
+<!-- There is long list of Guiding Principles which could be sited,  I think this is the essential few.  LarryLACa-->
+
+== Starting a page from an existing link, after creating one, or after a search ==
+<!-- The usage of 'one' in the section title is not clear.  But can't be changed without danger breaking links to this section.  LarryLACa 11/8/05 -->
+
+To start a new page, you can click a link to the new page.  This takes you to [[Help:Editing|edit]] mode of the non-existing blank page, which allows creation.
+<!--
+Before following the link, or saving the page, decide whether you want to use the suggested name. If not, check the <u>''What links here''</u> option on the [[Help:Editing|edit]] mode page.  If changing the name will not break any other links (inappropriately), update the link on the referring page.
+
+This text is a repetition of the General principals about choosing names.
+Omit.  LarryLACa 10/8/05
+-->
+
+Another way to start a new page, on the English Wikipedia, which uses the [[w:MediaWiki:Nogomatch]] option, is to perform a search for the new title with the Go button (as you should have done before).  When the search finds nothing, press "create the article". 
+
+Links to non-existing pages are common.  They are typically created in preparation for creating the page, and/or to encourage other people to do so. 
+Links are not only convenient for navigation, but also make people aware of the new page (those who read a related page and also those who [[Help:Watching pages|watch]] the related page).
+New page links are not really broken, as long as the name correctly identifies the intended content.  (A new page link with a "wrong" or misspelled name, or that duplicates content found under another name is "broken". but in a different sense.) 
+
+New page links typically look different from links to existing pages. Depending on [[Help:Preferences|settings]], a different color or a question mark is used. (Sometimes links to new pages are called "red links", the display option of one of the settings).  Links to non-existent pages are created with <nowiki>[[New page name]]</nowiki> from the wiki editor. (In this case, the empty page "New page name" would be created).
+
+Of course, you can also create the link yourself, in a related page, index page or your user page. However, it may be better to wait with creating links until after creating the new page, especially if the new link replaces one to an existing page. In this case, create the link but press Preview, instead of Save.  From preview area, clicking the new link will create the new page (without updating the referring page).
+
+== Starting a page through the URL ==
+
+<!-- if you edit only the pagename of an existing URL, is has to be in the same project. Omit 'in the same project'-->
+Using the browser address bar to enter a URL to a new page is an easy way to start the new page process.  Easier still is 
+editing the pagename part of a URL for an existing page. Using the URL for the new page displays the default 'no article' message (see [[MediaWiki:Noarticletext]]). The default page has the usual <u>''Edit this page''</u> link, which can be used to begin adding content.  
+
+<!-- Can someone add a few words about why this is not recommended? ~~~~ -->
+An [[Help:Interwiki linking|interwiki link]] to a non-existent page gives the same result, but is not recommended. 
+
+To get access to a MediaWiki project page, with the links at the edges but without the superfluous loading of a page, use a bookmark to a non-existing page. The default 'no article' page will display the edge links.
+
+== Creating an empty page ==
+A '''new page''' is distinguished from a blank page: the latter has a [[Help:Page history|page history]]. However, creating a new page is just like editing a blank page, except that a new page displays the text from [[MediaWiki:Newarticletext]] (which may vary by project).
+
+Occasionally it is useful to create an empty page - For example a template can be made such that, depending on a parameter, it produces either just a standard text or also an additional text. This is done by having it call another template, of which the name is a parameter; one version of the other template contains the additional text, the other version is blank. See [[Help:Template names%2C variable names and parameters depending on a variable or parameter#Optional_text|optional text]].
+
+To create an empty page, save a page with the wikitext <nowiki>__END__</nowiki>. This code will not be saved, it just prevents refusal by the system to create an empty page. Alternatively, first create a non-empty page, e.g. with just one character, then edit the page to make it empty. A page with one or more blank spaces at the end, including a page only contating one or more blank spaces, is not possible.
+
+==Using the sandbox and user sub-pages==
+The [[{{ns:4}}:Sandbox|sandbox]] can be used for temporary experimentation, but is emptied on a regular basis.  For persistent draft material, you can use your user account sub-pages, and move the sub-page to the main article namespace when ready.  (Requires a user account).  To create a user sub-page, use a reference (title) like: 'User:UserName/New sub page'.  User sub-pages can also be used for testing new template material with the syntax <nowiki>{{User:UserName/Sub page name}}</nowiki>.
+
+== Using text from some other editing environment ==
+
+Although pasting existing text into the wiki is often the simplest way to start, you may want to [[Help:WordToWiki|try converting from Word or HTML to wiki markup]].
+
+==Protecting a page from being created== 
+It is not really possible to protect a page from being created, but one can create a page with a standard text such as in [[w:en:Template:Deletedpage]] and [[Help:Editing#Page_protection|protect]] that page. Note that sometimes a terminology like "This page should not be created." is used even though for the system the page exists. Therefore it is not suitable for demonstrating a link to a non-existing page.
