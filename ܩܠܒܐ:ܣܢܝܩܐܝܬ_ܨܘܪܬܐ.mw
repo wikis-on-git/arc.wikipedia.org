@@ -1,6 +1,6 @@
-<includeonly><font color="silver">
+<includeonly><div style="color:silver;">
 
-<span class="plainlinks">[http://commons.wikimedia.org/wiki/Commons:Upload/en?uselang=arc ܣܢܝܩܐܝܬ ܨܘܪܬܐ]</span></font>
+<span class="plainlinks">[http://commons.wikimedia.org/wiki/Commons:Upload/en?uselang=arc ܣܢܝܩܐܝܬ ܨܘܪܬܐ]</span></div>
 
 {{#ifeq: {{NAMESPACE}} | Sjabloon | | [[ܣܕܪܐ:ܘܝܩܝܦܕܝܐ:ܣܢܝܩܐܝܬ ܨܘܪܬܐ]] }}
 </includeonly>
